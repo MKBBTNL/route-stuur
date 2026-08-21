@@ -1,0 +1,848 @@
+{
+  "gpx": "Treis-Karden_-_Zell_48km_ENG_2026.gpx",
+  "distance_km": 47.5,
+  "backbone_coverage_pct": 100.0,
+  "named_routes": [
+    {
+      "name": "Mosel-Radweg",
+      "ref": "Mosel",
+      "network": "ncn"
+    },
+    {
+      "name": "Moselradweg (rechts)",
+      "ref": "",
+      "network": "rcn"
+    },
+    {
+      "name": "Hunsrück-Mosel-Radweg",
+      "ref": "Hunsrück-Mosel",
+      "network": "rcn"
+    },
+    {
+      "name": "Vulkan-Rad-Route Eifel",
+      "ref": "Vulkan",
+      "network": "lcn"
+    },
+    {
+      "name": "Saar-Mosel-Main [Trier - Koblenz]",
+      "ref": "D5",
+      "network": "ncn"
+    }
+  ],
+  "deviations": [],
+  "ferries": [
+    {
+      "name": "Klotten",
+      "km": 8.1,
+      "dist_m": 20
+    },
+    {
+      "name": "Cochem Freizeitzentrum",
+      "km": 8.1,
+      "dist_m": 144
+    },
+    {
+      "name": "Fähre Klotten",
+      "km": 8.1,
+      "dist_m": 83
+    },
+    {
+      "name": "ferry",
+      "km": 13.4,
+      "dist_m": 23
+    },
+    {
+      "name": "Schiffs-Mosel-Fahrten",
+      "km": 18.5,
+      "dist_m": 95
+    },
+    {
+      "name": "Fähre Beilstein",
+      "km": 21.6,
+      "dist_m": 15
+    },
+    {
+      "name": "Fähre Beilstein",
+      "km": 21.6,
+      "dist_m": 157
+    },
+    {
+      "name": "Fähre Beilstein",
+      "km": 21.6,
+      "dist_m": 86
+    },
+    {
+      "name": "Personenschifffahrt Gebr. Kolb",
+      "km": 22.6,
+      "dist_m": 161
+    },
+    {
+      "name": "Briedern",
+      "km": 23.7,
+      "dist_m": 114
+    },
+    {
+      "name": "Mesenich",
+      "km": 26.9,
+      "dist_m": 162
+    },
+    {
+      "name": "Personenschifffahrt Gebr. Kolb",
+      "km": 27.8,
+      "dist_m": 280
+    },
+    {
+      "name": "Personenschifffahrt Gebr. Kolb",
+      "km": 30.1,
+      "dist_m": 251
+    },
+    {
+      "name": "Ediger",
+      "km": 32.1,
+      "dist_m": 20
+    },
+    {
+      "name": "Personenschifffahrt Gebr. Kolb",
+      "km": 39.3,
+      "dist_m": 270
+    },
+    {
+      "name": "Anlegestelle Sankt Aldegund",
+      "km": 39.8,
+      "dist_m": 213
+    },
+    {
+      "name": "Fähranleger Alf",
+      "km": 42.1,
+      "dist_m": 136
+    },
+    {
+      "name": "Fähranleger Bullay",
+      "km": 42.1,
+      "dist_m": 14
+    },
+    {
+      "name": "Anlegestelle Alf",
+      "km": 42.1,
+      "dist_m": 127
+    },
+    {
+      "name": "Fähre Alf-Bullay",
+      "km": 42.1,
+      "dist_m": 75
+    },
+    {
+      "name": "Anlegestelle Bullay",
+      "km": 42.2,
+      "dist_m": 13
+    }
+  ],
+  "guideposts_count": 51,
+  "knooppunten": [],
+  "landmarks": [
+    {
+      "name": "Pfarrkirche St. Castor",
+      "type": "church",
+      "km": 0.0,
+      "dist_m": 198,
+      "lat": 50.18367,
+      "lon": 7.30125
+    },
+    {
+      "name": "Familie Abraham",
+      "type": "monument",
+      "km": 0.1,
+      "dist_m": 79,
+      "lat": 50.18122,
+      "lon": 7.29991
+    },
+    {
+      "name": "Georgskapelle",
+      "type": "church",
+      "km": 0.1,
+      "dist_m": 22,
+      "lat": 50.18148,
+      "lon": 7.30085
+    },
+    {
+      "name": "Zilleskapelle",
+      "type": "church",
+      "km": 0.3,
+      "dist_m": 255,
+      "lat": 50.17893,
+      "lon": 7.30369
+    },
+    {
+      "name": "Hoch-Kreuz-Kapelle",
+      "type": "church",
+      "km": 0.6,
+      "dist_m": 164,
+      "lat": 50.17756,
+      "lon": 7.29617
+    },
+    {
+      "name": "Fahrlei",
+      "type": "viewpoint",
+      "km": 1.3,
+      "dist_m": 253,
+      "lat": 50.1745,
+      "lon": 7.28961
+    },
+    {
+      "name": "Olligs - Heiligenhäuschen",
+      "type": "church",
+      "km": 2.1,
+      "dist_m": 13,
+      "lat": 50.16985,
+      "lon": 7.28124
+    },
+    {
+      "name": "St. Stephanus Kirche",
+      "type": "church",
+      "km": 2.7,
+      "dist_m": 51,
+      "lat": 50.16943,
+      "lon": 7.27287
+    },
+    {
+      "name": "Off'm Kasteschkopp",
+      "type": "viewpoint",
+      "km": 6.8,
+      "dist_m": 194,
+      "lat": 50.17037,
+      "lon": 7.21518
+    },
+    {
+      "name": "Moselschieferblick",
+      "type": "viewpoint",
+      "km": 7.7,
+      "dist_m": 248,
+      "lat": 50.16701,
+      "lon": 7.20183
+    },
+    {
+      "name": "Maximinus-Heiligenhäuschen",
+      "type": "church",
+      "km": 7.8,
+      "dist_m": 22,
+      "lat": 50.16502,
+      "lon": 7.20342
+    },
+    {
+      "name": "St. Maximinus",
+      "type": "church",
+      "km": 8.0,
+      "dist_m": 253,
+      "lat": 50.16543,
+      "lon": 7.19951
+    },
+    {
+      "name": "Seits-Kapelle",
+      "type": "church",
+      "km": 9.2,
+      "dist_m": 237,
+      "lat": 50.16394,
+      "lon": 7.18687
+    },
+    {
+      "name": "Nordbrücke",
+      "type": "bridge",
+      "km": 10.8,
+      "dist_m": 94,
+      "lat": 50.155,
+      "lon": 7.17022
+    },
+    {
+      "name": "Pinnerkreuz;Aussicht Pinnerkreuz",
+      "type": "viewpoint",
+      "km": 11.5,
+      "dist_m": 286,
+      "lat": 50.14997,
+      "lon": 7.16341
+    },
+    {
+      "name": "Pinnerkreuz",
+      "type": "viewpoint",
+      "km": 11.5,
+      "dist_m": 288,
+      "lat": 50.14998,
+      "lon": 7.16339
+    },
+    {
+      "name": "Skagerrak-Brücke",
+      "type": "bridge",
+      "km": 11.7,
+      "dist_m": 77,
+      "lat": 50.14735,
+      "lon": 7.1681
+    },
+    {
+      "name": "St. Remaclus",
+      "type": "church",
+      "km": 11.7,
+      "dist_m": 252,
+      "lat": 50.14717,
+      "lon": 7.1706
+    },
+    {
+      "name": "Enderttor",
+      "type": "city_gate",
+      "km": 11.8,
+      "dist_m": 123,
+      "lat": 50.14709,
+      "lon": 7.16522
+    },
+    {
+      "name": "Pfarrkirche St. Martin",
+      "type": "church",
+      "km": 11.9,
+      "dist_m": 55,
+      "lat": 50.14607,
+      "lon": 7.16625
+    },
+    {
+      "name": "Balduinstor",
+      "type": "city_gate",
+      "km": 11.9,
+      "dist_m": 210,
+      "lat": 50.14546,
+      "lon": 7.16416
+    },
+    {
+      "name": "St. Lucia",
+      "type": "church",
+      "km": 12.1,
+      "dist_m": 282,
+      "lat": 50.14331,
+      "lon": 7.16387
+    },
+    {
+      "name": "Turm der alten Pfarrkirche",
+      "type": "tower",
+      "km": 12.2,
+      "dist_m": 216,
+      "lat": 50.144,
+      "lon": 7.17102
+    },
+    {
+      "name": "2. Burgtor",
+      "type": "city_gate",
+      "km": 12.3,
+      "dist_m": 147,
+      "lat": 50.14254,
+      "lon": 7.16641
+    },
+    {
+      "name": "3. Burgtor",
+      "type": "city_gate",
+      "km": 12.3,
+      "dist_m": 97,
+      "lat": 50.14255,
+      "lon": 7.16714
+    },
+    {
+      "name": "1. Burgtor",
+      "type": "city_gate",
+      "km": 12.3,
+      "dist_m": 169,
+      "lat": 50.1424,
+      "lon": 7.16616
+    },
+    {
+      "name": "Reichsburg Cochem",
+      "type": "castle",
+      "km": 12.3,
+      "dist_m": 119,
+      "lat": 50.14223,
+      "lon": 7.16694
+    },
+    {
+      "name": "Martinstor",
+      "type": "city_gate",
+      "km": 12.3,
+      "dist_m": 22,
+      "lat": 50.14261,
+      "lon": 7.1682
+    },
+    {
+      "name": "Marienkapelle",
+      "type": "church",
+      "km": 12.4,
+      "dist_m": 97,
+      "lat": 50.14086,
+      "lon": 7.16797
+    },
+    {
+      "name": "Pestkapelle St. Rochus",
+      "type": "church",
+      "km": 12.4,
+      "dist_m": 43,
+      "lat": 50.14125,
+      "lon": 7.16849
+    },
+    {
+      "name": "Kapelle",
+      "type": "church",
+      "km": 12.4,
+      "dist_m": 86,
+      "lat": 50.14178,
+      "lon": 7.16758
+    },
+    {
+      "name": "Drei Kreuze",
+      "type": "church",
+      "km": 12.6,
+      "dist_m": 216,
+      "lat": 50.13874,
+      "lon": 7.1685
+    },
+    {
+      "name": "St Antonius",
+      "type": "church",
+      "km": 13.1,
+      "dist_m": 195,
+      "lat": 50.13677,
+      "lon": 7.17783
+    },
+    {
+      "name": "Sankt Antonius-Kapelle",
+      "type": "church",
+      "km": 13.2,
+      "dist_m": 19,
+      "lat": 50.13844,
+      "lon": 7.17848
+    },
+    {
+      "name": "Brauselay",
+      "type": "viewpoint",
+      "km": 13.3,
+      "dist_m": 249,
+      "lat": 50.14087,
+      "lon": 7.1783
+    },
+    {
+      "name": "Klosterkirche Maria Himmelfahrt",
+      "type": "church",
+      "km": 13.9,
+      "dist_m": 78,
+      "lat": 50.13925,
+      "lon": 7.18814
+    },
+    {
+      "name": "Schöne Aussicht auf Ernst/Mosel",
+      "type": "viewpoint",
+      "km": 15.5,
+      "dist_m": 242,
+      "lat": 50.13805,
+      "lon": 7.21022
+    },
+    {
+      "name": "Sankt Salvator",
+      "type": "church",
+      "km": 16.7,
+      "dist_m": 49,
+      "lat": 50.14491,
+      "lon": 7.22508
+    },
+    {
+      "name": "Peter-Altmeier-Brücke",
+      "type": "bridge",
+      "km": 18.0,
+      "dist_m": 110,
+      "lat": 50.13831,
+      "lon": 7.23577
+    },
+    {
+      "name": "St. Sebastianus Kapelle",
+      "type": "church",
+      "km": 20.9,
+      "dist_m": 39,
+      "lat": 50.11691,
+      "lon": 7.23282
+    },
+    {
+      "name": "Alt St. Martin",
+      "type": "church",
+      "km": 21.0,
+      "dist_m": 277,
+      "lat": 50.11443,
+      "lon": 7.23149
+    },
+    {
+      "name": "Neu St. Martin",
+      "type": "church",
+      "km": 21.3,
+      "dist_m": 136,
+      "lat": 50.11373,
+      "lon": 7.23439
+    },
+    {
+      "name": "Karmeliterkirche St. Josef",
+      "type": "church",
+      "km": 21.6,
+      "dist_m": 288,
+      "lat": 50.11023,
+      "lon": 7.2403
+    },
+    {
+      "name": "Burg Metternich",
+      "type": "castle",
+      "km": 21.7,
+      "dist_m": 288,
+      "lat": 50.10894,
+      "lon": 7.23936
+    },
+    {
+      "name": "hl. Andreas",
+      "type": "church",
+      "km": 22.7,
+      "dist_m": 141,
+      "lat": 50.10817,
+      "lon": 7.22363
+    },
+    {
+      "name": "historische Glockenturm",
+      "type": "tower",
+      "km": 22.7,
+      "dist_m": 140,
+      "lat": 50.10817,
+      "lon": 7.22348
+    },
+    {
+      "name": "Sankt Servatius",
+      "type": "church",
+      "km": 23.5,
+      "dist_m": 196,
+      "lat": 50.10875,
+      "lon": 7.21142
+    },
+    {
+      "name": "Sieben-Dörfer-Blick",
+      "type": "viewpoint",
+      "km": 25.9,
+      "dist_m": 279,
+      "lat": 50.10547,
+      "lon": 7.1856
+    },
+    {
+      "name": "Kapelle Heilige Magdalena",
+      "type": "church",
+      "km": 28.2,
+      "dist_m": 110,
+      "lat": 50.08642,
+      "lon": 7.20351
+    },
+    {
+      "name": "Moselbrücke Senheim",
+      "type": "bridge",
+      "km": 28.5,
+      "dist_m": 253,
+      "lat": 50.08251,
+      "lon": 7.20454
+    },
+    {
+      "name": "Sankt Agatha",
+      "type": "church",
+      "km": 29.1,
+      "dist_m": 48,
+      "lat": 50.08173,
+      "lon": 7.195
+    },
+    {
+      "name": "Wohnturm Hofgut Lehmen",
+      "type": "tower",
+      "km": 30.4,
+      "dist_m": 96,
+      "lat": 50.08615,
+      "lon": 7.17854
+    },
+    {
+      "name": "Meinradskapelle",
+      "type": "church",
+      "km": 32.0,
+      "dist_m": 30,
+      "lat": 50.09332,
+      "lon": 7.15996
+    },
+    {
+      "name": "Unterer Turm",
+      "type": "tower",
+      "km": 32.0,
+      "dist_m": 6,
+      "lat": 50.09308,
+      "lon": 7.15991
+    },
+    {
+      "name": "Pavillion",
+      "type": "viewpoint",
+      "km": 32.2,
+      "dist_m": 267,
+      "lat": 50.09171,
+      "lon": 7.15607
+    },
+    {
+      "name": "Kirchpforte",
+      "type": "city_gate",
+      "km": 32.5,
+      "dist_m": 195,
+      "lat": 50.09673,
+      "lon": 7.15683
+    },
+    {
+      "name": "St. Martin",
+      "type": "church",
+      "km": 32.5,
+      "dist_m": 181,
+      "lat": 50.09669,
+      "lon": 7.15662
+    },
+    {
+      "name": "Oberer Turm",
+      "type": "tower",
+      "km": 32.5,
+      "dist_m": 21,
+      "lat": 50.09553,
+      "lon": 7.15522
+    },
+    {
+      "name": "St. Hilarius",
+      "type": "church",
+      "km": 33.4,
+      "dist_m": 239,
+      "lat": 50.10097,
+      "lon": 7.14517
+    },
+    {
+      "name": "Eisenbahnbrücke Ediger-Eller",
+      "type": "bridge",
+      "km": 33.8,
+      "dist_m": 19,
+      "lat": 50.10131,
+      "lon": 7.13788
+    },
+    {
+      "name": "Eller Todesangst",
+      "type": "viewpoint",
+      "km": 34.3,
+      "dist_m": 214,
+      "lat": 50.10578,
+      "lon": 7.1355
+    },
+    {
+      "name": "Amphitrion-Aussichtspunkt",
+      "type": "viewpoint",
+      "km": 34.5,
+      "dist_m": 98,
+      "lat": 50.10602,
+      "lon": 7.13163
+    },
+    {
+      "name": "Sankt Laurentius",
+      "type": "church",
+      "km": 35.8,
+      "dist_m": 94,
+      "lat": 50.10211,
+      "lon": 7.11599
+    },
+    {
+      "name": "Storchenhaus",
+      "type": "castle",
+      "km": 35.9,
+      "dist_m": 30,
+      "lat": 50.10148,
+      "lon": 7.11732
+    },
+    {
+      "name": "Zehnthaus",
+      "type": "castle",
+      "km": 36.0,
+      "dist_m": 53,
+      "lat": 50.10046,
+      "lon": 7.11795
+    },
+    {
+      "name": "Michelskapelle",
+      "type": "church",
+      "km": 36.4,
+      "dist_m": 64,
+      "lat": 50.09823,
+      "lon": 7.12294
+    },
+    {
+      "name": "Eulenköpfchen",
+      "type": "viewpoint",
+      "km": 37.1,
+      "dist_m": 260,
+      "lat": 50.09819,
+      "lon": 7.13491
+    },
+    {
+      "name": "Moselbrücke Neef",
+      "type": "bridge",
+      "km": 37.6,
+      "dist_m": 1,
+      "lat": 50.09433,
+      "lon": 7.13621
+    },
+    {
+      "name": "Aussichtspunkt Gipfelkreuz",
+      "type": "viewpoint",
+      "km": 37.7,
+      "dist_m": 257,
+      "lat": 50.09611,
+      "lon": 7.14064
+    },
+    {
+      "name": "Kreuzerhöhung",
+      "type": "church",
+      "km": 38.1,
+      "dist_m": 63,
+      "lat": 50.0904,
+      "lon": 7.13782
+    },
+    {
+      "name": "Heiligenhäuschen",
+      "type": "church",
+      "km": 38.5,
+      "dist_m": 177,
+      "lat": 50.0867,
+      "lon": 7.13901
+    },
+    {
+      "name": "St. Remigius",
+      "type": "church",
+      "km": 41.9,
+      "dist_m": 241,
+      "lat": 50.05833,
+      "lon": 7.12774
+    },
+    {
+      "name": "St. Maria Magdalena",
+      "type": "church",
+      "km": 42.0,
+      "dist_m": 110,
+      "lat": 50.05681,
+      "lon": 7.13213
+    },
+    {
+      "name": "Margarethenhöhe",
+      "type": "viewpoint",
+      "km": 42.4,
+      "dist_m": 281,
+      "lat": 50.05319,
+      "lon": 7.12642
+    },
+    {
+      "name": "Magdalenenkapelle",
+      "type": "church",
+      "km": 42.4,
+      "dist_m": 124,
+      "lat": 50.05413,
+      "lon": 7.13191
+    },
+    {
+      "name": "Doppelstockbrücke Alf-Bullay",
+      "type": "bridge",
+      "km": 42.9,
+      "dist_m": 126,
+      "lat": 50.04892,
+      "lon": 7.1333
+    },
+    {
+      "name": "Prinzenkopftunnel (459 m)",
+      "type": "viewpoint",
+      "km": 43.0,
+      "dist_m": 284,
+      "lat": 50.04778,
+      "lon": 7.13174
+    },
+    {
+      "name": "Sankt Michael",
+      "type": "church",
+      "km": 45.8,
+      "dist_m": 93,
+      "lat": 50.04009,
+      "lon": 7.17021
+    },
+    {
+      "name": "Evang. Kirche Zell",
+      "type": "church",
+      "km": 47.2,
+      "dist_m": 80,
+      "lat": 50.02959,
+      "lon": 7.18152
+    },
+    {
+      "name": "Sankt Petrus",
+      "type": "church",
+      "km": 47.4,
+      "dist_m": 55,
+      "lat": 50.02754,
+      "lon": 7.18194
+    },
+    {
+      "name": "Fußgängerbrücke Zell",
+      "type": "bridge",
+      "km": 47.4,
+      "dist_m": 95,
+      "lat": 50.02744,
+      "lon": 7.17951
+    },
+    {
+      "name": "Schloss Zell",
+      "type": "castle",
+      "km": 47.4,
+      "dist_m": 81,
+      "lat": 50.02812,
+      "lon": 7.18188
+    },
+    {
+      "name": "Jakob Koch",
+      "type": "monument",
+      "km": 47.5,
+      "dist_m": 221,
+      "lat": 50.02482,
+      "lon": 7.18209
+    },
+    {
+      "name": "Jenny Bermann",
+      "type": "monument",
+      "km": 47.5,
+      "dist_m": 156,
+      "lat": 50.02539,
+      "lon": 7.1819
+    },
+    {
+      "name": "Louise Frank geb. Bermann",
+      "type": "monument",
+      "km": 47.5,
+      "dist_m": 156,
+      "lat": 50.02539,
+      "lon": 7.1819
+    },
+    {
+      "name": "ehem. Schlupftor",
+      "type": "city_gate",
+      "km": 47.5,
+      "dist_m": 178,
+      "lat": 50.02516,
+      "lon": 7.18175
+    },
+    {
+      "name": "Runder Turm",
+      "type": "tower",
+      "km": 47.5,
+      "dist_m": 270,
+      "lat": 50.02503,
+      "lon": 7.18399
+    },
+    {
+      "name": "Viereckiger Turm",
+      "type": "tower",
+      "km": 47.5,
+      "dist_m": 280,
+      "lat": 50.0257,
+      "lon": 7.18489
+    }
+  ]
+}

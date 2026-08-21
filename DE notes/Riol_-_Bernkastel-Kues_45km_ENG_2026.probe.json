@@ -1,0 +1,557 @@
+{
+  "gpx": "Riol_-_Bernkastel-Kues_45km_ENG_2026.gpx",
+  "distance_km": 45.6,
+  "backbone_coverage_pct": 98.7,
+  "named_routes": [
+    {
+      "name": "Mosel-Radweg",
+      "ref": "Mosel",
+      "network": "ncn"
+    },
+    {
+      "name": "Maare-Mosel-Radweg",
+      "ref": "MMR",
+      "network": "rcn"
+    },
+    {
+      "name": "Salm-Radweg",
+      "ref": "Salm",
+      "network": "lcn"
+    },
+    {
+      "name": "Wittlicher Senke Radweg",
+      "ref": "Wittlicher Senke",
+      "network": "rcn"
+    },
+    {
+      "name": "Nahe-Hunsrück-Mosel Radweg (Hunsrückabschnitt)",
+      "ref": "NHM",
+      "network": "rcn"
+    },
+    {
+      "name": "Saar-Mosel-Main [Trier - Koblenz]",
+      "ref": "D5",
+      "network": "ncn"
+    },
+    {
+      "name": "Radweg Esch - Maring-Noviand",
+      "ref": "EMN",
+      "network": "lcn"
+    },
+    {
+      "name": "Eifel Pilger Radweg",
+      "ref": "",
+      "network": "rcn"
+    }
+  ],
+  "deviations": [
+    {
+      "leave_km": 19.8,
+      "rejoin_km": 20.5,
+      "span_km": 0.7
+    }
+  ],
+  "ferries": [
+    {
+      "name": "ferry",
+      "km": 0.0,
+      "dist_m": 21
+    },
+    {
+      "name": "Mosel-Schiffs-Touristik",
+      "km": 38.9,
+      "dist_m": 37
+    },
+    {
+      "name": "ferry",
+      "km": 40.2,
+      "dist_m": 74
+    },
+    {
+      "name": "Mosel-Schiffs-Touristik",
+      "km": 42.5,
+      "dist_m": 127
+    },
+    {
+      "name": "ferry",
+      "km": 45.5,
+      "dist_m": 149
+    }
+  ],
+  "guideposts_count": 47,
+  "knooppunten": [],
+  "landmarks": [
+    {
+      "name": "St. Medardus",
+      "type": "church",
+      "km": 1.7,
+      "dist_m": 269,
+      "lat": 49.79561,
+      "lon": 6.82451
+    },
+    {
+      "name": "Anjas Ruh",
+      "type": "viewpoint",
+      "km": 1.8,
+      "dist_m": 34,
+      "lat": 49.79439,
+      "lon": 6.82849
+    },
+    {
+      "name": "Ehemaliger Fährturm",
+      "type": "tower",
+      "km": 1.9,
+      "dist_m": 175,
+      "lat": 49.79652,
+      "lon": 6.82782
+    },
+    {
+      "name": "Leugenstein des Caracalla",
+      "type": "monument",
+      "km": 4.8,
+      "dist_m": 4,
+      "lat": 49.79534,
+      "lon": 6.85497
+    },
+    {
+      "name": "Römerstraße",
+      "type": "archaeo",
+      "km": 4.8,
+      "dist_m": 4,
+      "lat": 49.79532,
+      "lon": 6.85496
+    },
+    {
+      "name": "St. Agritius",
+      "type": "church",
+      "km": 7.9,
+      "dist_m": 19,
+      "lat": 49.82188,
+      "lon": 6.84394
+    },
+    {
+      "name": "Kriegerdenkmal",
+      "type": "monument",
+      "km": 8.4,
+      "dist_m": 20,
+      "lat": 49.82551,
+      "lon": 6.84108
+    },
+    {
+      "name": "St. Maternus",
+      "type": "church",
+      "km": 9.6,
+      "dist_m": 80,
+      "lat": 49.83424,
+      "lon": 6.8376
+    },
+    {
+      "name": "St. Kunibert",
+      "type": "church",
+      "km": 12.8,
+      "dist_m": 29,
+      "lat": 49.84078,
+      "lon": 6.87188
+    },
+    {
+      "name": "St. Stephanus",
+      "type": "church",
+      "km": 15.2,
+      "dist_m": 295,
+      "lat": 49.82152,
+      "lon": 6.87992
+    },
+    {
+      "name": "Fährturm",
+      "type": "tower",
+      "km": 17.9,
+      "dist_m": 157,
+      "lat": 49.82207,
+      "lon": 6.90357
+    },
+    {
+      "name": "Fährturm",
+      "type": "tower",
+      "km": 17.9,
+      "dist_m": 8,
+      "lat": 49.82227,
+      "lon": 6.90571
+    },
+    {
+      "name": "Fährfels-Plateau",
+      "type": "viewpoint",
+      "km": 18.0,
+      "dist_m": 35,
+      "lat": 49.82312,
+      "lon": 6.90642
+    },
+    {
+      "name": "Sarkophage Trittenheim",
+      "type": "archaeo",
+      "km": 18.4,
+      "dist_m": 103,
+      "lat": 49.82668,
+      "lon": 6.90636
+    },
+    {
+      "name": "Konstantinhöhe",
+      "type": "viewpoint",
+      "km": 18.7,
+      "dist_m": 282,
+      "lat": 49.83022,
+      "lon": 6.9077
+    },
+    {
+      "name": "Märtyrerkapelle",
+      "type": "church",
+      "km": 19.9,
+      "dist_m": 17,
+      "lat": 49.83932,
+      "lon": 6.89744
+    },
+    {
+      "name": "Leugenstein",
+      "type": "monument",
+      "km": 21.3,
+      "dist_m": 5,
+      "lat": 49.85098,
+      "lon": 6.89414
+    },
+    {
+      "name": "Sankt Maria Himmelfahrt",
+      "type": "church",
+      "km": 21.3,
+      "dist_m": 23,
+      "lat": 49.85103,
+      "lon": 6.8939
+    },
+    {
+      "name": "Neumagener Weinschiff",
+      "type": "monument",
+      "km": 21.4,
+      "dist_m": 1,
+      "lat": 49.85219,
+      "lon": 6.89449
+    },
+    {
+      "name": "Peterskapelle",
+      "type": "church",
+      "km": 21.4,
+      "dist_m": 22,
+      "lat": 49.85218,
+      "lon": 6.8942
+    },
+    {
+      "name": "Römische Großkelteranlage Piesport",
+      "type": "archaeo",
+      "km": 26.1,
+      "dist_m": 293,
+      "lat": 49.88586,
+      "lon": 6.91134
+    },
+    {
+      "name": "St. Michael",
+      "type": "church",
+      "km": 26.6,
+      "dist_m": 202,
+      "lat": 49.88635,
+      "lon": 6.91751
+    },
+    {
+      "name": "Katholische Allerheiligenkapelle",
+      "type": "church",
+      "km": 27.4,
+      "dist_m": 33,
+      "lat": 49.88391,
+      "lon": 6.92728
+    },
+    {
+      "name": "Moselloreley",
+      "type": "viewpoint",
+      "km": 28.3,
+      "dist_m": 257,
+      "lat": 49.87609,
+      "lon": 6.93456
+    },
+    {
+      "name": "Nikolauskapelle",
+      "type": "church",
+      "km": 28.5,
+      "dist_m": 59,
+      "lat": 49.87537,
+      "lon": 6.92875
+    },
+    {
+      "name": "Moselbrücke Minheim",
+      "type": "bridge",
+      "km": 29.4,
+      "dist_m": 156,
+      "lat": 49.86851,
+      "lon": 6.92731
+    },
+    {
+      "name": "Blick auf die Moselloreley",
+      "type": "viewpoint",
+      "km": 29.9,
+      "dist_m": 234,
+      "lat": 49.86285,
+      "lon": 6.92435
+    },
+    {
+      "name": "Minheimer Kreuz",
+      "type": "monument",
+      "km": 30.6,
+      "dist_m": 108,
+      "lat": 49.86048,
+      "lon": 6.93621
+    },
+    {
+      "name": "Wintricher Großer Herrgott",
+      "type": "viewpoint",
+      "km": 32.4,
+      "dist_m": 104,
+      "lat": 49.87325,
+      "lon": 6.95059
+    },
+    {
+      "name": "Sankt Stephanus",
+      "type": "church",
+      "km": 33.4,
+      "dist_m": 19,
+      "lat": 49.88154,
+      "lon": 6.95146
+    },
+    {
+      "name": "Sankt Georg",
+      "type": "church",
+      "km": 35.6,
+      "dist_m": 240,
+      "lat": 49.8995,
+      "lon": 6.9543
+    },
+    {
+      "name": "Sankt Josef",
+      "type": "church",
+      "km": 36.8,
+      "dist_m": 157,
+      "lat": 49.90278,
+      "lon": 6.97211
+    },
+    {
+      "name": "Johanna Maier geb. Blum",
+      "type": "monument",
+      "km": 37.8,
+      "dist_m": 32,
+      "lat": 49.90816,
+      "lon": 6.98231
+    },
+    {
+      "name": "Max Maier",
+      "type": "monument",
+      "km": 37.8,
+      "dist_m": 32,
+      "lat": 49.90816,
+      "lon": 6.98231
+    },
+    {
+      "name": "Regina Braun",
+      "type": "monument",
+      "km": 37.9,
+      "dist_m": 38,
+      "lat": 49.90847,
+      "lon": 6.98376
+    },
+    {
+      "name": "Maxel Mayer",
+      "type": "monument",
+      "km": 37.9,
+      "dist_m": 33,
+      "lat": 49.90831,
+      "lon": 6.98303
+    },
+    {
+      "name": "Regina Mayer geb. Marx",
+      "type": "monument",
+      "km": 37.9,
+      "dist_m": 33,
+      "lat": 49.90831,
+      "lon": 6.98303
+    },
+    {
+      "name": "Ernst Mayer",
+      "type": "monument",
+      "km": 37.9,
+      "dist_m": 33,
+      "lat": 49.90831,
+      "lon": 6.98302
+    },
+    {
+      "name": "Inge Lore Meyer",
+      "type": "monument",
+      "km": 38.3,
+      "dist_m": 49,
+      "lat": 49.90962,
+      "lon": 6.98883
+    },
+    {
+      "name": "Horst Dieter Meyer",
+      "type": "monument",
+      "km": 38.3,
+      "dist_m": 49,
+      "lat": 49.90962,
+      "lon": 6.98884
+    },
+    {
+      "name": "Hedwig Meyer geb. Kahn",
+      "type": "monument",
+      "km": 38.3,
+      "dist_m": 49,
+      "lat": 49.90962,
+      "lon": 6.98884
+    },
+    {
+      "name": "Ludwig Meyer",
+      "type": "monument",
+      "km": 38.3,
+      "dist_m": 49,
+      "lat": 49.90962,
+      "lon": 6.98884
+    },
+    {
+      "name": "Simultankirche St. Remigius",
+      "type": "church",
+      "km": 38.3,
+      "dist_m": 31,
+      "lat": 49.90981,
+      "lon": 6.98903
+    },
+    {
+      "name": "Römische Kelteranlage Brauneberg",
+      "type": "archaeo",
+      "km": 38.9,
+      "dist_m": 259,
+      "lat": 49.91404,
+      "lon": 6.99585
+    },
+    {
+      "name": "St. Maria",
+      "type": "church",
+      "km": 39.6,
+      "dist_m": 168,
+      "lat": 49.9115,
+      "lon": 7.00691
+    },
+    {
+      "name": "Evangelische Kirche",
+      "type": "church",
+      "km": 39.7,
+      "dist_m": 118,
+      "lat": 49.91218,
+      "lon": 7.0075
+    },
+    {
+      "name": "Andeler Dom",
+      "type": "church",
+      "km": 42.7,
+      "dist_m": 144,
+      "lat": 49.90909,
+      "lon": 7.0424
+    },
+    {
+      "name": "St. Anna-Kapelle",
+      "type": "church",
+      "km": 44.7,
+      "dist_m": 164,
+      "lat": 49.90848,
+      "lon": 7.06989
+    },
+    {
+      "name": "Robert Politz",
+      "type": "monument",
+      "km": 45.1,
+      "dist_m": 210,
+      "lat": 49.91139,
+      "lon": 7.07464
+    },
+    {
+      "name": "Burg Landshut",
+      "type": "castle",
+      "km": 45.1,
+      "dist_m": 219,
+      "lat": 49.91123,
+      "lon": 7.07466
+    },
+    {
+      "name": "Evangelische Kirche Bernkastel-Kues",
+      "type": "church",
+      "km": 45.2,
+      "dist_m": 218,
+      "lat": 49.91353,
+      "lon": 7.06963
+    },
+    {
+      "name": "Balkon von Bernkastel",
+      "type": "viewpoint",
+      "km": 45.4,
+      "dist_m": 185,
+      "lat": 49.91382,
+      "lon": 7.07627
+    },
+    {
+      "name": "St. Nikolaus-Hospitalkapelle",
+      "type": "church",
+      "km": 45.5,
+      "dist_m": 199,
+      "lat": 49.91584,
+      "lon": 7.07147
+    },
+    {
+      "name": "Cusanus Denkmal",
+      "type": "monument",
+      "km": 45.6,
+      "dist_m": 250,
+      "lat": 49.91691,
+      "lon": 7.07127
+    },
+    {
+      "name": "Angelika Doeblin",
+      "type": "monument",
+      "km": 45.6,
+      "dist_m": 138,
+      "lat": 49.91661,
+      "lon": 7.076
+    },
+    {
+      "name": "Dr. Salomon Doeblin",
+      "type": "monument",
+      "km": 45.6,
+      "dist_m": 138,
+      "lat": 49.91661,
+      "lon": 7.076
+    },
+    {
+      "name": "Spass auf der Gass",
+      "type": "monument",
+      "km": 45.6,
+      "dist_m": 90,
+      "lat": 49.91553,
+      "lon": 7.07566
+    },
+    {
+      "name": "St.Michael",
+      "type": "church",
+      "km": 45.6,
+      "dist_m": 49,
+      "lat": 49.91571,
+      "lon": 7.07514
+    },
+    {
+      "name": "Graacher Tor",
+      "type": "city_gate",
+      "km": 45.6,
+      "dist_m": 157,
+      "lat": 49.91695,
+      "lon": 7.07584
+    }
+  ]
+}

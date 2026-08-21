@@ -1,0 +1,4 @@
+# Presentation/media reference material, not part of the route-stuur toolset --
+# these files are large (well past GitHub's 100MB limit) and don't need version
+# history. Added 2026-08-21 so the first commit doesn't try to track them.
+draaiboek test/

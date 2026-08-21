@@ -1,0 +1,96 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>day 4</title>
+<style>
+  :root { --red:#c0101d; --ink:#1b1b1b; --gray:#8a8a8a; --line:#e6e2d8; --paper:#faf9f6; }
+  * { box-sizing:border-box; }
+  body { font-family:-apple-system,Segoe UI,Arial,sans-serif; color:var(--ink);
+         background:var(--paper); margin:0; padding:28px; line-height:1.5; }
+  .sheet { max-width:760px; margin:0 auto; }
+  header { border-bottom:3px solid var(--red); padding-bottom:10px; margin-bottom:6px; }
+  h1 { font-size:23px; margin:0; color:var(--red); text-transform:uppercase; letter-spacing:.4px; }
+  .meta { color:var(--gray); font-size:13px; margin-top:3px; }
+  .nodes { font-size:14px; margin:14px 0; padding:8px 10px; background:#fff;
+            border:1px solid var(--line); border-radius:6px; }
+  h2 { font-size:13px; text-transform:uppercase; letter-spacing:.6px; color:var(--gray);
+        margin:22px 0 8px; }
+  .row { display:flex; gap:12px; padding:5px 0; border-bottom:1px solid var(--line); }
+  .km { flex:0 0 88px; color:var(--red); font-variant-numeric:tabular-nums; font-weight:600; font-size:13px; }
+  .cue { flex:1; }
+  .poi { background:#fff; border:1px solid var(--line); border-left:3px solid var(--red);
+          border-radius:6px; padding:9px 12px; margin:8px 0; }
+  .poi-h { display:flex; align-items:baseline; gap:8px; }
+  .tag { font-size:11px; text-transform:uppercase; letter-spacing:.5px; color:#fff;
+          background:var(--red); border-radius:3px; padding:1px 6px; }
+  .poi-n { font-weight:600; }
+  .poi-km { margin-left:auto; color:var(--gray); font-size:13px; font-variant-numeric:tabular-nums; }
+  .poi-d { color:#444; font-size:14px; margin-top:4px; }
+  @media print { body { background:#fff; padding:0; } .poi, .nodes { break-inside:avoid; } }
+</style></head>
+<body><div class="sheet">
+  <header><h1>day 4</h1><div class="meta">42.8 km &nbsp;·&nbsp; signs &amp; notes only</div></header>
+  
+  <h2>Directions &amp; highlights</h2>
+  <div class="row"><span class="km">0.0 km</span><span class="cue">Turn right to stay on Bregefinne</span></div>
+<div class="row"><span class="km">0.5 km</span><span class="cue">Bregefinne turns left and becomes Bregesleatswei</span></div>
+<div class="row"><span class="km">0.9 km</span><span class="cue">Turn slight left onto Buorren (follow 1.6 km)</span></div>
+<div class="row"><span class="km">2.5 km</span><span class="cue">Turn right onto Noardein</span></div>
+<div class="row"><span class="km">3.1 km</span><span class="cue">Turn left onto Edisonstraat</span></div>
+<div class="row"><span class="km">3.7 km</span><span class="cue">Turn right</span></div>
+<div class="row"><span class="km">4.4 km</span><span class="cue">Turn right</span></div>
+<div class="row"><span class="km">4.6 km</span><span class="cue">Turn left</span></div>
+<div class="row"><span class="km">5.4 km</span><span class="cue">Turn slight right onto Oppenhuizerweg</span></div>
+<div class="row"><span class="km">5.9 km</span><span class="cue">Turn slight right onto Jousterkade</span></div>
+<div class="row"><span class="km">6.0 km</span><span class="cue">At roundabout, take exit 4 onto Prins Hendrikkade</span></div>
+<div class="row"><span class="km">6.4 km</span><span class="cue">At roundabout, take exit 2 onto Prins Hendrikkade</span></div>
+<div class="row"><span class="km">6.5 km</span><span class="cue">Turn left onto Muntstraat</span></div>
+<div class="row"><span class="km">6.5 km</span><span class="cue">Turn slight left onto Kruizebroederstraat</span></div>
+<div class="row"><span class="km">6.7 km</span><span class="cue">Turn right onto Marktstraat</span></div>
+<div class="row"><span class="km">6.7 km</span><span class="cue">Turn left onto Grote Kerkstraat</span></div>
+<div class="row"><span class="km">6.8 km</span><span class="cue">Turn right onto Oud Kerkhof</span></div>
+<div class="row"><span class="km">6.9 km</span><span class="cue">Turn right onto Martiniplein</span></div>
+<div class="row"><span class="km">6.9 km</span><span class="cue">Turn right onto Kerkgracht</span></div>
+<div class="row"><span class="km">7.2 km</span><span class="cue">Turn left onto Prins Hendrikkade (follow 1.9 km)</span></div>
+<div class="row"><span class="km">9.1 km</span><span class="cue">Turn right onto Kleasterwei (follow 1.4 km)</span></div>
+<div class="row"><span class="km">10.6 km</span><span class="cue">Keep left onto Thaborwei</span></div>
+<div class="row"><span class="km">10.6 km</span><span class="cue">Turn left onto Thaborwei (follow 2.6 km)</span></div>
+<div class="row"><span class="km">13.2 km</span><span class="cue">Turn right onto Huniadyk (follow 2.3 km)</span></div>
+<div class="row"><span class="km">15.5 km</span><span class="cue">Turn slight right onto Tjebbingadyk</span></div>
+<div class="row"><span class="km">15.6 km</span><span class="cue">Turn right onto Doniadyk (follow 2.4 km)</span></div>
+<div class="row"><span class="km">18.0 km</span><span class="cue">Turn right onto Bongapaed (follow 1.6 km)</span></div>
+<div class="row"><span class="km">19.6 km</span><span class="cue">Turn right</span></div>
+<div class="row"><span class="km">19.9 km</span><span class="cue">Turn left</span></div>
+<div class="row"><span class="km">20.5 km</span><span class="cue">Continue onto Skippersbuorren</span></div>
+<div class="row"><span class="km">21.1 km</span><span class="cue">Continue onto &#x27;t Heechhiem</span></div>
+<div class="row"><span class="km">21.4 km</span><span class="cue">Turn sharp right onto Wynserdyk</span></div>
+<div class="row"><span class="km">21.4 km</span><span class="cue">Turn left onto Van Eysingaleane</span></div>
+<div class="row"><span class="km">21.7 km</span><span class="cue">Turn left onto Populiereleane (follow 1.7 km)</span></div>
+<div class="row"><span class="km">23.4 km</span><span class="cue">Keep right onto &#x27;t Bosk</span></div>
+<div class="row"><span class="km">23.5 km</span><span class="cue">Turn right onto Sybren de Vlasstrjitte</span></div>
+<div class="row"><span class="km">23.6 km</span><span class="cue">Turn left onto Van Sminialeane</span></div>
+<div class="row"><span class="km">23.9 km</span><span class="cue">Turn slight left onto &#x27;t Noard</span></div>
+<div class="row"><span class="km">24.0 km</span><span class="cue">Turn right onto Terp</span></div>
+<div class="row"><span class="km">24.1 km</span><span class="cue">Turn left onto Molewâl</span></div>
+<div class="row"><span class="km">24.4 km</span><span class="cue">Turn right onto De Tsjerne</span></div>
+<div class="row"><span class="km">24.5 km</span><span class="cue">Turn sharp left onto Rolpeal</span></div>
+<div class="row"><span class="km">24.7 km</span><span class="cue">Turn left onto Freuleleane</span></div>
+<div class="row"><span class="km">24.7 km</span><span class="cue">Turn left (follow 1.2 km)</span></div>
+<div class="row"><span class="km">25.9 km</span><span class="cue">Turn sharp right onto Slachte</span></div>
+<div class="row"><span class="km">26.6 km</span><span class="cue">Turn left onto Littenserbuorren</span></div>
+<div class="row"><span class="km">27.1 km</span><span class="cue">Turn right onto Slachte (follow 3.3 km)</span></div>
+<div class="row"><span class="km">30.4 km</span><span class="cue">Turn right onto Jopie Jorna Paed (follow 1.8 km)</span></div>
+<div class="row"><span class="km">32.2 km</span><span class="cue">Turn right onto Slinkepaad</span></div>
+<div class="row"><span class="km">32.7 km</span><span class="cue">Turn left onto Tritzum (follow 2.6 km)</span></div>
+<div class="row"><span class="km">35.3 km</span><span class="cue">Turn left onto Wommelserweg</span></div>
+<div class="row"><span class="km">36.3 km</span><span class="cue">Turn left onto Franekerweg</span></div>
+<div class="row"><span class="km">36.5 km</span><span class="cue">Turn left onto Holprijp (follow 1.6 km)</span></div>
+<div class="row"><span class="km">38.1 km</span><span class="cue">Turn right onto Lollumerweg</span></div>
+<div class="row"><span class="km">38.3 km</span><span class="cue">Turn left onto Hitzumerweg (follow 1.2 km)</span></div>
+<div class="row"><span class="km">39.6 km</span><span class="cue">Turn right onto Binnenpad</span></div>
+<div class="row"><span class="km">40.4 km</span><span class="cue">Turn right onto Hitzumer Binnenpad (follow 1.9 km)</span></div>
+<div class="row"><span class="km">42.2 km</span><span class="cue">Turn sharp left</span></div>
+<div class="row"><span class="km">42.4 km</span><span class="cue">Turn slight right</span></div>
+<div class="row"><span class="km">42.4 km</span><span class="cue">Turn left onto Anna Maria van Schurmansingel</span></div>
+<div class="row"><span class="km">42.8 km</span><span class="cue">Turn left onto Leeuwarderend</span></div>
+
+</div></body></html>

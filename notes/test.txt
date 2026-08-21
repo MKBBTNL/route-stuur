@@ -1,0 +1,56 @@
+TEST    20.2 km    · signs & notes only ·
+
+DIRECTIONS
+  ★ 0.0 km  [finish] SHIP
+    0.3 km   Turn left onto Rooseveltlaan
+    0.5 km   Turn right
+    0.6 km   Turn left onto Kennedylaan (follow 1.0 km)
+    1.7 km   Continue onto Muntbrug
+    1.7 km   Continue onto Leidseweg
+    2.5 km   Turn left onto Westplein
+    2.5 km   Turn right
+    2.6 km   Turn left
+    2.6 km   Keep right onto Van Sijpesteijnkade
+    3.3 km   Turn slight left onto Lange Viestraat
+    3.4 km   Turn left onto Oudegracht
+    3.4 km   Turn left onto Lange Viestraat
+    3.5 km   Turn right onto Oudegracht
+    3.5 km   Turn left onto Lange Viestraat
+    3.6 km   Make a U-turn onto Potterstraat
+  ★ 3.6 km  [bike_parking] Next to Libary
+    3.6 km   Turn left
+    3.6 km   Turn left onto Potterstraat
+    3.7 km   Turn right onto Oudegracht
+    4.1 km   Turn slight left onto Bemuurde Weerd Oostzijde (follow 1.3 km)
+    5.3 km   Turn left onto Loevenhoutsedijk
+    5.4 km   Turn right onto Jagerskade (follow 1.8 km)
+  ★ 6.4 km  [note] Generic
+    7.2 km   Turn left onto Vechtdijk
+  ★ 7.4 km  [bar] Fort aan de Klop
+    7.6 km   Turn right onto Franciscusdreef
+    7.8 km   Turn left onto 2e Polderweg (follow 1.2 km)
+    9.0 km   Turn left onto Slotlaan
+    9.2 km   Turn right onto Dorpsstraat
+    9.5 km   Turn right onto Dorpsstraat (follow 3.5 km)
+  ★ 9.5 km  [see] Castle Oud-Zuylen
+   13.0 km   Turn left onto Huis ten Boschstraat
+   13.1 km   Turn right onto Parkweg
+   13.4 km   Turn right onto Breedstraat
+   13.6 km   Turn left onto Diependaalsedijk
+   14.5 km   Turn left onto Diependaalsedijk (follow 4.0 km)
+   18.5 km   Turn left onto Brugstraat
+   18.6 km   Turn right onto Dannestraat
+   18.7 km   Turn left onto Waterdragerssteeg
+  ★ 18.7 km  [coffee] Café's Breukelen
+   18.8 km   Turn right onto Kerkbrink
+   18.8 km   Keep left onto Straatweg
+   19.1 km   Turn left onto Eendrachtlaan
+   19.5 km   Turn right onto Ameland
+   19.5 km   Turn left onto Eendrachtlaan
+   19.7 km   Turn left onto Zonswaert
+   19.7 km   Turn left onto Looijersdijk
+   19.9 km   Turn left onto 't Heycop
+   20.0 km   Turn right onto Looijersdijk
+   20.0 km   Turn right onto Kanaaldijk Oost
+  ★ 20.2 km  [dock/stay] SHIP
+  ★ 20.2 km  [note] You are at the NODE-ROUTE

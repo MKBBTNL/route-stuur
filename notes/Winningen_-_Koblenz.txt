@@ -1,0 +1,45 @@
+WINNINGEN - KOBLENZ    10.9 km    · signs & notes only ·
+
+DIRECTIONS
+  ★ 0.0 km  [note] Docking Winningen — Start anchor for the short Winningen to Koblenz ride. Source: Uploaded route GPX
+    0.0 km   Turn right onto August-Horch-Straße
+    0.1 km   Turn right onto Bahnhofstraße
+  ★ 0.1 km  [note] Winningen Wine Village — Historic Mosel wine village; useful pre-ride stroll or cafe/wine context. Source: Official Winningen tourism page
+  ★ 0.1 km  [note] Winningen Bahnhof — Rail backup near Winningen if guests need a self-managed shortcut or return option. Source: Public railway station reference; coordinate approximate
+    0.3 km   Turn left onto Röttgenweg (follow 4.0 km)
+  ★ 1.8 km  [note] Mosel River Path Photo Stop — Open Mosel-side stretch between Winningen and Koblenz; good simple river photo stop. Source: Placed on uploaded route geometry
+    4.2 km   Turn slight left onto Gulisastraße
+    4.5 km   Turn right
+  ★ 4.5 km  [note] Koblenz-Güls Wine Village — Mosel-side district with wine-village feel; possible independent cafe or short pause. Source: Route-adjacent public place reference
+    4.6 km   Turn right onto Am Mühlbach
+    4.6 km   Turn left onto Planstraße
+    4.7 km   Turn right onto Stauseestraße
+    4.8 km   Turn slight left onto Stauseestraße
+    5.0 km   Turn left onto Moselweinstraße (follow 1.9 km)
+  ★ 5.4 km  [note] Güls Mosel Bridge View — Bridge/river landmark on the approach into Koblenz; useful orientation point. Source: Placed near uploaded route geometry
+    6.8 km   Turn sharp right
+    7.5 km   Turn left
+    7.6 km   Turn left
+    7.6 km   Turn right
+    7.7 km   Turn left
+    7.8 km   Turn slight right onto Schlachthofstraße
+    8.1 km   Turn left onto Schlachthofstraße
+  ★ 8.1 km  [note] Moselweiß Riverfront — Quiet riverfront pause before entering central Koblenz. Source: Placed near uploaded route geometry
+    8.1 km   Turn left onto Schlachthofstraße
+    8.2 km   Turn left onto Am Moselstausee (follow 1.3 km)
+    9.5 km   Turn left onto Pastor-Klein-Straße
+   10.1 km   Turn slight left onto Peter-Altmeier-Ufer
+  ★ 10.3 km  [note] Koblenz Hauptbahnhof — Main railway station backup for independent riders. Source: Public station reference; off-route city backup
+  ★ 10.7 km  [note] Balduin Bridge / Alte Burg — Old Mosel crossing and castle area; good gateway into the old town. Source: Koblenz old-town landmark reference
+  ★ 10.8 km  [note] Koblenz Altstadt Pubs — Old-town food and pub area for self-guided evening choices. Source: Uploaded route GPX
+  ★ 10.9 km  [note] Jesuitenplatz — Historic old-town square with Baroque façades and town-hall setting. Source: Visit Mosel / Koblenz tourism reference
+  ★ 10.9 km  [note] Liebfrauenkirche — Old-town church with distinctive towers; good short cultural stop. Source: Visit Mosel official POI page
+  ★ 10.9 km  [note] Florinsmarkt — Historic square ensemble in the Koblenz old town. Source: Stadt Koblenz / Visit Koblenz reference
+  ★ 10.9 km  [note] Docking Koblenz — Koblenz docking/ship anchor from the route file. Source: Uploaded route GPX
+  ★ 10.9 km  [note] Basilika Sankt Kastor — Historic basilica close to the confluence area. Source: Uploaded route GPX; public landmark reference
+  ★ 10.9 km  [note] Museum Ludwig Koblenz — Contemporary art option near Deutsches Eck for guests who want an indoor stop. Source: Germany Travel Koblenz reference; coordinate approximate
+  ★ 10.9 km  [note] Deutsches Eck — Confluence of the Mosel and Rhine; main Koblenz self-guided stop. Source: Uploaded route GPX; Germany Travel and Koblenz tourism references
+  ★ 10.9 km  [note] Cable Car Valley Station — Optional cable-car access toward Ehrenbreitstein; check operating times before relying on it. Source: Rheinland-Pfalz Tourism cable-car reference; coordinate approximate
+  ★ 10.9 km  [note] Ehrenbreitstein Fortress — Major fortress viewpoint above the Rhine; best as a longer optional self-guided visit. Source: Uploaded route GPX; public landmark reference
+  ★ 10.9 km  [note] Rheinanlagen Promenade — Rhine-side promenade for a relaxed walk or bench stop after the ride. Source: Koblenz riverfront tourism context; coordinate approximate
+  ★ 10.9 km  [note] Kurfürstliches Schloss Koblenz — Electoral Palace and garden area on the Rhine side. Source: Uploaded route GPX; public landmark reference

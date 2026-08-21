@@ -1,0 +1,310 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Briefje Builder — skeleton</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Albert+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --blue:#0E55A6; --navy:#043D7D; --green:#146A51; --mint:#40D9AB; --red:#BF3B26;
+    --ink:#303038; --grey:#6B7280; --line:#E3E7EC; --bg:#EEF1F5; --card:#F6F8FA;
+    --tGreen:#E7F3EE; --tBlue:#EAF1FA; --tRed:#FBEDEA; --tGrey:#F1F3F6;
+    --display:"Outfit", system-ui, sans-serif; --body:"Albert Sans", system-ui, sans-serif;
+  }
+  *{box-sizing:border-box}
+  body{margin:0; font-family:var(--body); color:var(--ink); background:var(--bg);}
+  .app{display:grid; grid-template-columns:minmax(360px,420px) 1fr; min-height:100vh;}
+  /* ---------- wizard (left) ---------- */
+  .wiz{background:#fff; border-right:1px solid var(--line); padding:22px 24px 28px; display:flex; flex-direction:column;}
+  .brand{display:flex; align-items:center; gap:9px; margin-bottom:18px;}
+  .brand .dot{width:26px; height:26px; border-radius:50%; background:var(--green); position:relative;}
+  .brand .dot::after{content:""; position:absolute; inset:7px 6px auto 6px; height:0; border-top:2.4px solid var(--mint); border-radius:2px;}
+  .brand b{font-family:var(--display); font-size:18px; color:var(--navy); font-weight:700;}
+  .brand span{font-size:12.5px; color:var(--grey);}
+  .steps{display:flex; gap:6px; margin-bottom:20px;}
+  .steps button{flex:1; border:none; background:var(--tGrey); color:var(--grey); font-family:var(--display); font-weight:600;
+    font-size:11px; padding:7px 4px; border-radius:7px; cursor:pointer; letter-spacing:.3px;}
+  .steps button.on{background:var(--navy); color:#fff;}
+  .steps button.done{background:var(--tGreen); color:var(--green);}
+  .panel{flex:1;}
+  .panel h2{font-family:var(--display); font-size:20px; color:var(--navy); margin:0 0 4px;}
+  .panel .sub{font-size:13px; color:var(--grey); margin:0 0 18px;}
+  label{display:block; font-size:12px; font-weight:600; color:var(--grey); margin:14px 0 5px; letter-spacing:.2px;}
+  input[type=text], select, textarea{width:100%; font-family:var(--body); font-size:14px; color:var(--ink);
+    border:1px solid var(--line); border-radius:8px; padding:9px 11px; background:#fff;}
+  textarea{min-height:200px; resize:vertical; line-height:1.5;}
+  .row{display:flex; gap:10px;} .row>*{flex:1;}
+  .hint{font-size:12px; color:var(--grey); margin-top:6px; line-height:1.45;}
+  .nav{display:flex; justify-content:space-between; gap:10px; margin-top:22px;}
+  .btn{font-family:var(--display); font-weight:600; font-size:14px; border-radius:9px; padding:10px 16px; cursor:pointer; border:1px solid var(--line); background:#fff; color:var(--navy);}
+  .btn.primary{background:var(--navy); color:#fff; border-color:var(--navy);}
+  .btn.ghost{background:transparent; color:var(--grey);}
+  .btn:disabled{opacity:.4; cursor:not-allowed;}
+  /* suggestions */
+  .poi-row{display:flex; align-items:center; gap:10px; padding:9px 11px; border:1px solid var(--line); border-radius:9px; margin-bottom:7px;}
+  .poi-row .nm{flex:1; font-size:13.5px;} .poi-row .nm small{display:block; color:var(--grey); font-size:11.5px;}
+  .chip{font-size:10.5px; font-weight:600; padding:3px 8px; border-radius:10px;}
+  .chip.v{background:var(--tGreen); color:var(--green);} .chip.u{background:var(--tGrey); color:var(--grey);}
+  .add{border:none; background:var(--blue); color:#fff; font-weight:600; font-size:12px; border-radius:8px; padding:6px 11px; cursor:pointer;}
+  .added{border:none; background:var(--tGreen); color:var(--green); font-weight:600; font-size:12px; border-radius:8px; padding:6px 11px;}
+  .seam{margin-top:16px; font-size:11.5px; color:#9AA3B0; border-top:1px dashed var(--line); padding-top:10px; line-height:1.5;}
+  /* ---------- stage (right) ---------- */
+  .stage{padding:30px; overflow:auto; display:flex; flex-direction:column; align-items:center; gap:14px;}
+  .stagebar{width:210mm; max-width:100%; display:flex; justify-content:space-between; align-items:center;}
+  .stagebar .lbl{font-family:var(--display); font-weight:600; color:var(--grey); font-size:13px;}
+  /* ======== A4 house style (also used for download) ======== */
+  .page{width:210mm; min-height:297mm; background:#fff; padding:16mm 15mm; box-shadow:0 6px 30px rgba(20,40,70,.14);
+    font-family:var(--body); color:var(--ink);}
+  .page header{display:flex; gap:14px; align-items:flex-start;}
+  .logo{width:52px; height:52px; border-radius:50%; background:var(--green); position:relative; flex:none;}
+  .logo::after{content:""; position:absolute; inset:15px 12px auto 12px; height:0; border-top:4px solid var(--mint); border-radius:3px;}
+  .head-mid{flex:1;}
+  .day-row{display:flex; align-items:center; gap:10px;}
+  .day{font-family:var(--display); font-weight:700; color:var(--navy); font-size:15px; letter-spacing:1px;}
+  .route-pill{font-family:var(--display); font-weight:600; font-size:12.5px; padding:3px 11px; border-radius:12px; color:#fff;}
+  .route-pill.blue{background:var(--blue);} .route-pill.red{background:var(--red);} .route-pill.green{background:var(--green);}
+  .page h1{font-family:var(--display); font-weight:700; color:var(--navy); font-size:27px; margin:6px 0 2px;}
+  .dist{font-family:var(--display); font-weight:600; color:var(--green); font-size:16px;}
+  .callship{font-size:12px; color:var(--grey); margin-top:4px;}
+  .qr{width:66px; height:66px; flex:none; border:1px solid var(--line); border-radius:8px; display:flex; flex-direction:column; align-items:center; justify-content:center; text-align:center;}
+  .qr b{font-family:var(--display); font-size:11px; color:var(--navy);} .qr small{font-size:9px; color:var(--grey);}
+  .timeline{margin:20px 0 6px; border-top:1px solid var(--line); border-bottom:1px solid var(--line); padding:12px 0;}
+  .tl-track{display:flex; flex-wrap:wrap; gap:14px;}
+  .node{position:relative; text-align:center; min-width:46px;}
+  .node .dot{display:inline-flex; align-items:center; justify-content:center; width:30px; height:30px; border-radius:50%;
+    background:var(--blue); color:#fff; font-family:var(--display); font-weight:700; font-size:13px;}
+  .node .dot.end{background:var(--navy);}
+  .node .km{display:block; font-size:10px; color:var(--grey); margin-top:3px;}
+  .node .town{display:block; font-size:10px; color:var(--navy); font-weight:600;}
+  .page h2{font-family:var(--display); font-weight:700; color:var(--navy); font-size:16px; margin:20px 0 8px;}
+  .route{font-size:13.5px; line-height:1.6; white-space:pre-wrap;}
+  .route .ph{color:#9AA3B0; font-style:italic;}
+  .info{display:grid; grid-template-columns:1fr 1fr; gap:12px;}
+  .block{background:var(--card); border-radius:10px; padding:11px 13px;}
+  .block h3{font-family:var(--display); font-size:13.5px; margin:0 0 6px;}
+  .block.lunch h3{color:var(--green);} .block.high h3{color:var(--blue);} .block.safe h3{color:var(--red);} .block.know h3{color:var(--ink);}
+  .block ul{margin:0; padding-left:16px;} .block li{font-size:12.5px; line-height:1.5; margin-bottom:3px;}
+  footer{display:flex; gap:30px; margin-top:20px; border-top:1px solid var(--line); padding-top:10px;}
+  footer .t b{display:block; font-family:var(--display); font-size:11px; color:var(--green); letter-spacing:.5px;}
+  footer .t{font-size:12.5px; color:var(--ink);}
+  /* builder-only affordances (stripped on download) */
+  .x{border:none; background:#fff; color:var(--red); border:1px solid var(--line); border-radius:50%; width:16px; height:16px;
+    font-size:11px; line-height:1; cursor:pointer; position:absolute; top:-6px; right:-4px; display:none;}
+  .node:hover .x, .block li:hover .x{display:inline-block;}
+  .block li{position:relative;} .block li .x{top:0; right:-2px;}
+  [contenteditable]:focus{outline:2px solid var(--mint); outline-offset:2px; border-radius:3px;}
+  @media (max-width:900px){ .app{grid-template-columns:1fr;} .wiz{border-right:none; border-bottom:1px solid var(--line);} .page{width:100%; padding:8mm;} .stagebar{width:100%;} }
+</style>
+</head>
+<body>
+<div class="app">
+  <!-- ===================== WIZARD ===================== -->
+  <aside class="wiz">
+    <div class="brand"><span class="dot"></span><b>Briefje Builder</b><span>· skeleton</span></div>
+    <div class="steps" id="steps"></div>
+    <div class="panel" id="panel"></div>
+    <div class="nav">
+      <button class="btn ghost" id="back">← Back</button>
+      <button class="btn primary" id="next">Next →</button>
+    </div>
+  </aside>
+  <!-- ===================== STAGE ===================== -->
+  <main class="stage">
+    <div class="stagebar">
+      <span class="lbl">Live preview — click any text to edit</span>
+      <button class="btn primary" id="download">Download HTML</button>
+    </div>
+    <div id="preview"></div>
+  </main>
+</div>
+
+<script>
+/* =========================================================================
+   SEAMS — swap the insides of these when the real systems land; callers
+   above never change. (POI master + freshness, QR generator, house tokens.)
+   ========================================================================= */
+const HOUSE = {  // house style tokens live in one place
+  labels: { nl:{route:"Route van vandaag", onderweg:"Onderweg", lunch:"Koffie & lunch", high:"Hoogtepunten", safe:"Let op", know:"Goed om te weten", start:"START", arrival:"AANKOMST"},
+            en:{route:"Today's route", onderweg:"Along the way", lunch:"Coffee & lunch", high:"Highlights", safe:"Take care", know:"Good to know", start:"START", arrival:"ARRIVAL"},
+            de:{route:"Route von heute", onderweg:"Unterwegs", lunch:"Kaffee & Mittag", high:"Höhepunkte", safe:"Achtung", know:"Gut zu wissen", start:"START", arrival:"ANKUNFT"} }
+};
+function resolveQR(codeOrLang){          // SEAM: real QR generator plugs in here
+  return '<b>QR</b><small>'+(codeOrLang||'—')+'</small>';  // v0: placeholder box
+}
+// SEAM: today filters the deliverables handed in; future -> verified, in-date master.
+function getPOIs({query}){
+  let list = SAMPLE.pois.slice().sort((a,b)=>a.km-b.km);
+  if(query){ const q=query.toLowerCase(); list = list.filter(p=>p.name.toLowerCase().includes(q)); }
+  return list.map(p=>({ id:p.id, name:p.name, type:p.type, km:p.km, verified:!!p.verified }));
+}
+
+/* =========================================================================
+   SAMPLE Build-tab output (stands in for GPX -> cockpit Build tab).
+   ========================================================================= */
+const SAMPLE = {
+  nodes: [ {kp:'33',km:0.1,town:'Lelystad'},{kp:'35',km:1.8},{kp:'36',km:2.5},{kp:'39',km:3.1},{kp:'90',km:3.9},
+           {kp:'51',km:5.6},{kp:'65',km:6.7},{kp:'21',km:10.7},{kp:'22',km:11.8},{kp:'68',km:16.6},
+           {kp:'14',km:20.0},{kp:'13',km:21.0},{kp:'16',km:24.4},{kp:'97',km:35.4},{kp:'41',km:45.3,town:'Kampen'} ],
+  pois: [ {id:'a',name:'Café de Vissersbrug',type:'Coffee',km:6.7,verified:true},
+          {id:'b',name:'Uitkijkpunt Oostvaardersplassen',type:'Viewpoint',km:11.8,verified:true},
+          {id:'c',name:'Pont over het Zwarte Water',type:'Ferry',km:20.0,verified:false},
+          {id:'d',name:'Openbaar toilet (haven)',type:'Toilet',km:21.0,verified:false},
+          {id:'e',name:'Drinkwaterpunt',type:'Water',km:35.4,verified:false},
+          {id:'f',name:'Bakkerij Kampen',type:'Coffee',km:44.0,verified:true},
+          {id:'g',name:'Molen d\u2019Olde Zwarver',type:'Viewpoint',km:45.0,verified:true} ]
+};
+const POI_CARD = { Coffee:'lunch', Food:'lunch', Bar:'lunch', Viewpoint:'high', Ferry:'safe', Caution:'safe',
+                   Toilet:'know', Water:'know', ATM:'know', 'Bike':'know', 'Bike Parking':'know' };
+
+/* ============================== STATE ============================== */
+const state = {
+  step:0,
+  title:'Lelystad \u2192 Kampen', day:'DAG 04', dist:'46 km',
+  pillClass:'blue', pillText:'Blauw \u00b7 korte route',
+  qrCode:'LY5L5', lang:'nl', ship:'De Nassau', phone:'+31 657 554 371',
+  start:'Lelystad, kade', arrival:'Kampen, haven',
+  nodes: SAMPLE.nodes.map(n=>({...n})),
+  pois: [],
+  prose: ''
+};
+const STEP_NAMES = ['Header','Footer','Content','Route text','Finish'];
+
+/* ============================== WIZARD ============================== */
+const $ = s=>document.querySelector(s);
+function renderSteps(){
+  $('#steps').innerHTML = STEP_NAMES.map((n,i)=>
+    `<button data-s="${i}" class="${i===state.step?'on':(i<state.step?'done':'')}">${i+1}. ${n}</button>`).join('');
+}
+function field(label,key,ph){ return `<label>${label}</label><input type="text" data-k="${key}" value="${(state[key]||'').replace(/"/g,'&quot;')}" placeholder="${ph||''}">`; }
+
+function renderPanel(){
+  const p=$('#panel'); const s=state.step;
+  if(s===0){
+    p.innerHTML=`<h2>Header</h2><p class="sub">The fixed frame. Set the certain things first.</p>
+      ${field('Title (from → to)','title')}
+      <div class="row">${field('Day','day')}${field('Distance','dist')}</div>
+      <label>Route pill</label>
+      <div class="row">
+        <select data-k="pillClass">
+          <option value="blue">Blue</option><option value="red">Red</option><option value="green">Green</option>
+        </select>
+        ${'<input type="text" data-k="pillText" value="'+state.pillText.replace(/"/g,'&quot;')+'">'}
+      </div>
+      <label>QR</label>
+      <div class="row">
+        <input type="text" data-k="qrCode" placeholder="RWGPS code">
+        <select data-k="lang"><option value="nl">NL</option><option value="en">EN</option><option value="de">DE</option></select>
+      </div>
+      <div class="row">${field('Ship','ship')}${field('Phone','phone')}</div>`;
+  } else if(s===1){
+    p.innerHTML=`<h2>Footer</h2><p class="sub">Where the day starts and ends.</p>
+      ${field('Start','start')} ${field('Arrival','arrival')}`;
+  } else if(s===2){
+    p.innerHTML=`<h2>Content</h2><p class="sub">The timeline came from the Build tab. Add the points you want — nearest first. No cues here; you write those next.</p>
+      <label>Search a place to add</label>
+      <input type="text" id="poiSearch" placeholder="type a name…">
+      <div id="suggest" style="margin-top:10px"></div>
+      <div class="seam">POIs come through <code>getPOIs()</code> — today the sample deliverables, later the verified, in-date master. The <b>verified</b> flag is already shown.</div>`;
+    renderSuggest('');
+  } else if(s===3){
+    p.innerHTML=`<h2>Route text</h2><p class="sub">Type “${HOUSE.labels[state.lang].route}” in your own words. This is the hand-authored middle.</p>
+      <textarea data-k="prose" placeholder="Volg de knooppunten…">${state.prose}</textarea>
+      <div class="hint">The knooppunten in the timeline are your reference. Copy-paste is fine.</div>`;
+  } else {
+    p.innerHTML=`<h2>Finish</h2><p class="sub">Everything's on the sheet. Final polish happens on the preview itself.</p>
+      <div class="hint">On the right: <b>click any text</b> to edit it, <b>hover a node or POI</b> to remove it (small ×). When it looks right, hit <b>Download HTML</b> — the edit controls are stripped and you get a clean, print-ready A4 (Ctrl/Cmd-P → Save as PDF).</div>
+      <div class="seam">This downloaded HTML is exactly what the future <b>combiner</b> will stitch into a multi-page tour PDF.</div>`;
+  }
+  // reflect select values
+  ['pillClass','lang'].forEach(k=>{ const el=p.querySelector(`[data-k="${k}"]`); if(el) el.value=state[k]; });
+  $('#back').disabled = s===0;
+  $('#next').textContent = s===STEP_NAMES.length-1 ? 'Done' : 'Next →';
+}
+function renderSuggest(q){
+  const added=new Set(state.pois.map(p=>p.id));
+  const rows=getPOIs({query:q}).map(p=>{
+    const isAdded=added.has(p.id);
+    return `<div class="poi-row">
+      <span class="nm">${p.name}<small>${p.type} · ~${p.km} km</small></span>
+      <span class="chip ${p.verified?'v':'u'}">${p.verified?'verified':'unverified'}</span>
+      <button class="${isAdded?'added':'add'}" data-add="${p.id}" ${isAdded?'disabled':''}>${isAdded?'added':'add'}</button>
+    </div>`;}).join('');
+  const box=$('#suggest'); if(box) box.innerHTML = rows || '<p class="hint">No match. (Manual search would query the master here.)</p>';
+}
+
+/* ============================== PREVIEW ============================== */
+function cardBuckets(){
+  const b={lunch:[],high:[],safe:[],know:[]};
+  state.pois.forEach((p,i)=>{ const c=POI_CARD[p.type]||'know'; b[c].push({...p,i}); });
+  return b;
+}
+function renderPreview(){
+  const L=HOUSE.labels[state.lang]; const b=cardBuckets();
+  const nodes=state.nodes.map((n,i)=>`<div class="node"><span class="dot ${i===state.nodes.length-1?'end':''}">${n.kp}</span><span class="km">${n.km.toFixed?n.km.toFixed(1):n.km}</span>${n.town?`<span class="town">${n.town}</span>`:''}<button class="x" data-rm-node="${i}">×</button></div>`).join('');
+  const blk=(key,cls)=> b[key].length?`<div class="block ${cls}"><h3>${L[key]}</h3><ul>${b[key].map(p=>`<li>${p.name}${p.type==='Ferry'?' — board the ferry':''}<button class="x" data-rm-poi="${p.i}">×</button></li>`).join('')}</ul></div>`:'';
+  const info=[blk('lunch','lunch'),blk('high','high'),blk('safe','safe'),blk('know','know')].filter(Boolean).join('');
+  $('#preview').innerHTML=`
+  <div class="page">
+    <header>
+      <div class="logo"></div>
+      <div class="head-mid">
+        <div class="day-row"><span class="day" contenteditable>${state.day}</span><span class="route-pill ${state.pillClass}" contenteditable>${state.pillText}</span></div>
+        <h1 contenteditable>${state.title}</h1>
+        <div class="dist" contenteditable>${state.dist}</div>
+        <div class="callship">Bel je schip: <b contenteditable>${state.ship}</b> · <span contenteditable>${state.phone}</span></div>
+      </div>
+      <div class="qr">${resolveQR(state.qrCode||state.lang)}</div>
+    </header>
+    <div class="timeline"><div class="tl-track">${nodes}</div></div>
+    <h2>${L.route}</h2>
+    <div class="route" contenteditable>${state.prose ? escapeHtml(state.prose) : '<span class="ph">‹ type the route in step 4 ›</span>'}</div>
+    ${info?`<h2>${L.onderweg}</h2><div class="info">${info}</div>`:''}
+    <footer>
+      <div class="t"><b>${L.start}</b><span contenteditable>${state.start}</span></div>
+      <div class="t"><b>${L.arrival}</b><span contenteditable>${state.arrival}</span></div>
+    </footer>
+  </div>`;
+}
+function escapeHtml(s){return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');}
+
+/* ============================== EVENTS ============================== */
+document.addEventListener('input', e=>{
+  const k=e.target.dataset.k;
+  if(k){ state[k]=e.target.value; renderPreview(); }
+  if(e.target.id==='poiSearch'){ renderSuggest(e.target.value); }
+});
+document.addEventListener('click', e=>{
+  if(e.target.dataset.s!==undefined){ state.step=+e.target.dataset.s; renderSteps(); renderPanel(); }
+  if(e.target.dataset.add){ const p=SAMPLE.pois.find(x=>x.id===e.target.dataset.add); if(p){ state.pois.push({...p}); renderSuggest($('#poiSearch')?.value||''); renderPreview(); } }
+  if(e.target.dataset.rmNode!==undefined){ state.nodes.splice(+e.target.dataset.rmNode,1); renderPreview(); }
+  if(e.target.dataset.rmPoi!==undefined){ state.pois.splice(+e.target.dataset.rmPoi,1); renderPreview(); }
+  if(e.target.id==='back'){ if(state.step>0){state.step--; renderSteps(); renderPanel();} }
+  if(e.target.id==='next'){ if(state.step<STEP_NAMES.length-1){state.step++; renderSteps(); renderPanel();} }
+  if(e.target.id==='download'){ downloadHtml(); }
+});
+
+/* ============================== DOWNLOAD ============================== */
+function downloadHtml(){
+  const page=$('#preview .page').cloneNode(true);
+  page.querySelectorAll('.x').forEach(x=>x.remove());
+  page.querySelectorAll('[contenteditable]').forEach(el=>el.removeAttribute('contenteditable'));
+  const css=document.querySelector('style').textContent
+      .split('/* ======== A4 house style')[1];      // keep only the A4 styles
+  const doc=`<!doctype html><html><head><meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Albert+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>:root{--blue:#0E55A6;--navy:#043D7D;--green:#146A51;--mint:#40D9AB;--red:#BF3B26;--ink:#303038;--grey:#6B7280;--line:#E3E7EC;--card:#F6F8FA;--display:"Outfit",sans-serif;--body:"Albert Sans",sans-serif}
+@page{size:A4;margin:0} body{margin:0}
+.page{width:210mm;min-height:297mm;padding:16mm 15mm}
+/* ======== A4 house style${css}</style></head><body>${page.outerHTML}</body></html>`;
+  const blob=new Blob([doc],{type:'text/html'});
+  const a=document.createElement('a'); a.href=URL.createObjectURL(blob);
+  a.download=(state.title.replace(/[^\w]+/g,'_')||'briefje')+'.html'; a.click();
+}
+
+/* ============================== INIT ============================== */
+renderSteps(); renderPanel(); renderPreview();
+</script>
+</body>
+</html>

@@ -1,0 +1,219 @@
+route_id,name,dist_km,cue_type,cue_note,measured_angle_deg,cue_lang,also_retrace,action,status
+18687306,Neronville - Nemours 45 km ENG 2026,11.7,Uturn,Turn around to continue ride,0.3,EN,,Delete spurious U-turn cue,TODO
+19355087,Wesel - Duisburg 40 km ENG 2026,35.34,Uturn,Sharp right then left under hightway and rail track,0.1,EN,yes,Delete spurious U-turn cue,TODO
+19578005,Makkum - Stavoren 30 km ENG 2026,12.4,Uturn,Make a U-turn onto Begine,3.9,EN,,Delete spurious U-turn cue,TODO
+26525090,Rüdesheim - Mainz (via river) 32 km ENG 2026,24.19,Uturn,Make a U-turn,2.0,EN,yes,Delete spurious U-turn cue,TODO
+26528912,Haarlem Haarlem (Spaarndamseweg) - North Sea (loop) 41 km / 25 mi ENG 2026,27.85,Uturn,Make a U-turn onto Doctor C.A. Gerkestraat,10.0,EN,,Delete spurious U-turn cue,TODO
+26528912,Haarlem Haarlem (Spaarndamseweg) - North Sea (loop) 41 km / 25 mi ENG 2026,29.24,Uturn,Make a U-turn,0.5,EN,,Delete spurious U-turn cue,TODO
+26544361,Breukelen - Utrecht (centrum) 36km / 22mi ENG 2026,26.57,Uturn,Make a U-turn onto Oostwaard,1.6,EN,,Delete spurious U-turn cue,TODO
+26575876,Compiègne - Pont-Sainte-Maxence 54 km ENG 2026,51.02,Uturn,Make a U-turn,0.6,EN,,Delete spurious U-turn cue,TODO
+26575876,Compiègne - Pont-Sainte-Maxence 54 km ENG 2026,52.05,Uturn,Make a U-turn,0.2,EN,,Delete spurious U-turn cue,TODO
+26606503,Saarburg - Remich (via Mannebach) 44 km ENG 2026,6.58,Uturn,Make a U-turn onto Schulstraße,6.0,EN,,Delete spurious U-turn cue,TODO
+26609808,Richemont - Remich 52 km ENG 2026,40.38,Uturn,Make a U-turn onto Chemin de la Moselle,1.8,EN,yes,Delete spurious U-turn cue,TODO
+26613278,Zell - Bernkastel-Kues 44 km ENG 2026,20.47,Uturn,"Make a U-turn onto Bahnstraße, L 187",13.1,EN,yes,Delete spurious U-turn cue,TODO
+26613278,Zell - Bernkastel-Kues 44 km ENG 2026,36.49,Uturn,Make a U-turn,2.3,EN,yes,Delete spurious U-turn cue,TODO
+26632225,Wertheim - Lohr 44 km ENG 2026,24.07,Uturn,Keer om naar Marktplatz,9.8,NL,yes,Delete spurious U-turn cue,TODO
+26632242,Karlstadt - Würzburg - 34 km ENG 2026,32.9,Uturn,Make a U-turn onto Kärrnergasse,13.5,EN,yes,Delete spurious U-turn cue,TODO
+26632317,Hassfurt - Bamberg 39 km ENG 2026,37.49,Straight,Keer om bij Friedensbrücke,13.0,NL,yes,Delete spurious U-turn cue,TODO
+26632317,Hassfurt - Bamberg 39 km ENG 2026,42.56,Straight,Keer om bij Holzmarkt,14.2,NL,yes,Delete spurious U-turn cue,TODO
+26660826,Cuijk - Lith  54 km ENG 2026 (deviations 2026),33.7,Uturn,Make a U-turn onto Elzenbosstraat,1.0,EN,yes,Delete spurious U-turn cue,TODO
+26884023,Kreekrak (west) - Tholen 34 km ENG 2026,23.42,Uturn,Make a U-turn,11.7,EN,,Delete spurious U-turn cue,TODO
+26884027,Tholen - Willemstad (via Oud Vossemeer) 46 km ENG 2026,45.03,Uturn,Make a U-turn onto Achterstraat,1.3,EN,,Delete spurious U-turn cue,TODO
+26884038,Tholen - Willemstad (via Steenbergen) 42 km ENG 2026,41.92,Uturn,Make a U-turn onto Achterstraat,0.4,EN,,Delete spurious U-turn cue,TODO
+26933436,Pont-l'Évêque - Péronne 52 km ENG 2026,38.6,Uturn,Make a U-turn,0.3,EN,,Delete spurious U-turn cue,TODO
+28073200,Neronville - Montargis 31 km ENG 2026,11.57,Uturn,Wenden auf Route de Fontenay,12.9,DE,yes,Delete spurious U-turn cue,TODO
+29122747,Hoorn - Enkhuizen (via Midwoud) 44 km ENG 2026,9.94,Uturn,Make a U-turn onto Noorderdracht,0.6,EN,,Delete spurious U-turn cue,TODO
+29495469,Alken - Cochem (via Eltz) 33 km ENG 2026,22.79,Uturn,Make a U-turn onto B 49,2.6,EN,,Delete spurious U-turn cue,TODO
+30195085,Péronne - Pont-l'Évêque 52 km ENG 2026,17.03,Uturn,Make a U-turn onto Rue de l'Église,0.7,EN,,Delete spurious U-turn cue,TODO
+30877904,Melun - Evry 29 km ENG 2026,22.07,Uturn,Turning onto Chemin des Jardins,13.2,EN,,Delete spurious U-turn cue,TODO
+31460434,Tholen - Kreekrak (east) 33 km ENG 2026,11.21,Uturn,Turn around to continue ride,1.2,EN,,Delete spurious U-turn cue,TODO
+31571004,Château-Thierry - La Ferté 40 km ENG 2026,12.57,Uturn,Turn around to continue ride,0.0,EN,yes,Delete spurious U-turn cue,TODO
+31594931,Ghent (Merelbeke) - Ghent  Centre - Oudenaarde 52 km ENG 2025,7.86,Uturn,Make a U-turn onto Korenmarkt,22.9,EN,yes,Delete spurious U-turn cue,TODO
+31600403,Péronne - Ytres 53 km ENG 2026,17.57,Uturn,Make a U-turn onto Chaussée Léon Blum,2.9,EN,,Delete spurious U-turn cue,TODO
+32188339,Huizen - Amsterdam (Minerva) (via Crailoo) 53 km ENG 2026,5.91,Uturn,Make a U-turn,6.4,EN,,Delete spurious U-turn cue,TODO
+32188339,Huizen - Amsterdam (Minerva) (via Crailoo) 53 km ENG 2026,45.38,Uturn,Make a U-turn,16.7,EN,,Delete spurious U-turn cue,TODO
+32288316,Texel (loop ferry) 49 km ENG 2026,40.3,Uturn,Make a U-turn onto Rozendijk,2.2,EN,,Delete spurious U-turn cue,TODO
+34468017,Werkendam - Biesbosch - Heusden kort 53 km NLD 2026,6.64,Uturn,Make a U-turn onto Nieuwe Merwedepad,0.5,EN,yes,Delete spurious U-turn cue,TODO
+34482223,Doesburg - Westervoort - Arnhem 22km NLD 2026,20.41,Uturn,Make a U-turn onto Nieuwe Kade,11.5,EN,yes,Delete spurious U-turn cue,TODO
+38685281,Compiègne - Soissons 46 km ENG 2026,17.74,Uturn,Make a U-turn,0.8,EN,yes,Delete spurious U-turn cue,TODO
+39609937,Auxerre - Joigny 37 km ENG 2026,20.92,Uturn,Make a U-turn,16.1,EN,,Delete spurious U-turn cue,TODO
+39609937,Auxerre - Joigny 37 km ENG 2026,26.39,Uturn,Make a U-turn onto Place François Mitterrand,19.9,EN,,Delete spurious U-turn cue,TODO
+42684471,Bergen op Zoom - Kreekrak (east) 29 km ENG 2026,7.64,Uturn,Castle; Turn back,1.2,,yes,Delete spurious U-turn cue,TODO
+43051811,Tholen - Bergen op Zoom - Antwerpen ENG 2025,35.4,Uturn,Make a U-turn,0.4,EN,,Delete spurious U-turn cue,TODO
+43196120,Mont-St-Pierre - Epernay (high) 54 km ENG 2026,5.61,Uturn,"Make a U-turn onto Rue des Forges, D 320",3.3,EN,,Delete spurious U-turn cue,TODO
+43310476,Rüdesheim - Sankt Goar 33 km ENG 2026,5.12,Uturn,Make a U-turn,0.1,EN,yes,Delete spurious U-turn cue,TODO
+43310487,Mainz - Rüdesheim (via river) 34 km ENG 2026,10.51,Uturn,Make a U-turn,2.3,EN,,Delete spurious U-turn cue,TODO
+43310501,Mainz - Rüdesheim (via monastery) 41 km ENG 2026,3.14,Uturn,Make a U-turn onto Schiffbauerweg,0.5,EN,,Delete spurious U-turn cue,TODO
+43310501,Mainz - Rüdesheim (via monastery) 41 km ENG 2026,39.31,Uturn,Make a U-turn,2.1,EN,,Delete spurious U-turn cue,TODO
+44935634,Epernay (loop via winelands & Ay) 21 km ENG 2026,16.12,Uturn,Make a U-turn,0.3,EN,,Delete spurious U-turn cue,TODO
+44936014,Château-Thierry - La Ferté 58 km ENG 2026,14.1,Uturn,Turn around to continue ride,0.1,EN,,Delete spurious U-turn cue,TODO
+44936014,Château-Thierry - La Ferté 58 km ENG 2026,42.81,Uturn,Make a U-turn onto D 23,1.9,EN,,Delete spurious U-turn cue,TODO
+44991960,Schoonhoven - Alblasserdam 32 km ENG 2026 (RS),0.49,Uturn,"Make a U-turn onto Schoonhoven - Gelkenes, N216",6.0,EN,yes,Delete spurious U-turn cue,TODO
+45028842,Maastricht-Margraten/Valkenburg-Maastricht  46 km NLD 2026,27.45,Uturn,Keer om naar Ravensbos,0.2,NL,yes,Delete spurious U-turn cue,TODO
+45154200,Saarburg - Remich (via Saarschleife) 35 km ENG 2026,18.75,Uturn,Make a U-turn,0.3,EN,,Delete spurious U-turn cue,TODO
+46008749,Kampen - Zwolle - Hattem - Kampen 51 km NLD 2026,33.12,Uturn,Keer om naar Noordwal,12.9,NL,yes,Delete spurious U-turn cue,TODO
+46285906,Haarlem (city) - Leiden (via dunes) 46 km ENG 2026,0.67,Uturn,Make a U-turn onto Zijlstraat,17.4,EN,yes,Delete spurious U-turn cue,TODO
+49142143,Pont-Ste-Maxence - Chantilly - Auvers-sur-Oise 59 km ENG 2026,6.08,Uturn,Make a U-turn onto Chaussée de Pontpoint,1.1,EN,,Delete spurious U-turn cue,TODO
+49142143,Pont-Ste-Maxence - Chantilly - Auvers-sur-Oise 59 km ENG 2026,8.6,Uturn,Make a U-turn onto Chaussée Pontpoint,0.3,EN,,Delete spurious U-turn cue,TODO
+49142143,Pont-Ste-Maxence - Chantilly - Auvers-sur-Oise 59 km ENG 2026,19.61,Uturn,Make a U-turn onto Rue de la Porte Vaillant,5.6,EN,,Delete spurious U-turn cue,TODO
+49172310,Alkmaar - Zaandam (via Egmond) 52 km ENG 2026,15.76,Uturn,Make a U-turn onto Zeeweg,8.8,EN,,Delete spurious U-turn cue,TODO
+49172310,Alkmaar - Zaandam (via Egmond) 52 km ENG 2026,26.86,Uturn,Make a U-turn onto Voorterpad,1.9,EN,,Delete spurious U-turn cue,TODO
+49227765,Zaandam - Alkmaar 45 km ENG 2026 (N),9.22,Uturn,Make a U-turn onto De Pijl,12.1,EN,,Delete spurious U-turn cue,TODO
+49227975,Alkmaar - Dunes (loop via Bergen) 34 km ENG 2026 (N),10.16,Uturn,Make a U-turn onto Julianalaan,2.6,EN,,Delete spurious U-turn cue,TODO
+49290474,Ytres - Péronne - Cappy 46 km ENG 2026,21.74,Uturn,Make a U-turn onto D 43,4.9,EN,,Delete spurious U-turn cue,TODO
+49290730,Waregem - Kortrijk - Menen (via Flanders Field) 49 km ENG 2026,11.83,Uturn,Make a U-turn onto Hippodroomstraat,8.0,EN,,Delete spurious U-turn cue,TODO
+49322980,Rødvig - Køge 44 km ENG 2026,15.75,Uturn,Make a U-turn onto Trommeslagervej,0.8,EN,,Delete spurious U-turn cue,TODO
+49440887,Harelbeke - Oudenaarde - Deinze 57 km ENG 2026,32.67,Uturn,Make a U-turn onto Gentstraat,0.9,EN,,Delete spurious U-turn cue,TODO
+49499230,Huizen - Amsterdam (Tolhuis-Buiksloterweg) (via Crailoo) 50 km ENG 2025,5.91,Uturn,Make a U-turn,6.4,EN,,Delete spurious U-turn cue,TODO
+49523229,Breukelen - Utrecht (Neude) 36 km NLD 2026,20.66,Uturn,Maak een U-bocht naar Zandpad,2.0,,yes,Delete spurious U-turn cue,TODO
+49812023,Hoorn - Enkhuizen (via Midwoud) 44 km NLD 2026,9.93,Uturn,Maak een U-bocht op Noorderdracht,0.6,,yes,Delete spurious U-turn cue,TODO
+50031384,Douai - Lille (via Lens) 65 km ENG 2026,1.72,Uturn,Make a U-turn,0.8,EN,,Delete spurious U-turn cue,TODO
+50040474,Comines - Kortrijk - Harelbeke 39 km ENG 2026,22.84,Uturn,Make a U-turn onto Ter Kommerenweg,7.4,EN,yes,Delete spurious U-turn cue,TODO
+50264946,Akersloot - Amsterdam (Oosterdok) (before 15 April) 36 km ENG 2026,25.84,Uturn,Make a U-turn onto Het Luijendijkje,15.8,EN,yes,Delete spurious U-turn cue,TODO
+50553936,Danube Island - Tulln 34 km/21 mi ENG 2026,0.37,Uturn,Make a U-turn,7.6,EN,,Delete spurious U-turn cue,TODO
+50755585,Trier (centre) - Saarburg (via Igel) 35 km ENG 2026,14.87,Uturn,Make a U-turn,20.1,EN,yes,Delete spurious U-turn cue,TODO
+51406196,Mainz - Rüdesheim (via winelands) 35 km ENG 2026,10.62,Uturn,Make a U-turn,2.3,EN,yes,Delete spurious U-turn cue,TODO
+51552649,Test ride: Auxerre 13 km ENG 2026,10.04,Uturn,Make a U-turn onto La Coulée Verte,12.2,EN,,Delete spurious U-turn cue,TODO
+51853957,Huizen - Utrecht 54 km ENG 2025 ALT,34.94,Uturn,Make a U-turn onto Zandpad,2.0,EN,,Delete spurious U-turn cue,TODO
+52509702,Amsterdam (Minerva) - Haarlem (loop) 40 km ENG 2026,18.96,Uturn,Make a U-turn,0.9,EN,,Delete spurious U-turn cue,TODO
+53384736,Rüdesheim - Mainz (via winelands) 33 km ENG 2026,7.91,Uturn,Make a U-turn onto Kapellenstraße,0.5,EN,yes,Delete spurious U-turn cue,TODO
+53384736,Rüdesheim - Mainz (via winelands) 33 km ENG 2026,25.18,Uturn,Make a U-turn,2.0,EN,yes,Delete spurious U-turn cue,TODO
+53469343,Compiègne - Pont-Ste-Maxence 42 km ENG 2026,39.61,Uturn,Make a U-turn,0.6,EN,,Delete spurious U-turn cue,TODO
+53469343,Compiègne - Pont-Ste-Maxence 42 km ENG 2026,40.63,Uturn,Make a U-turn,0.2,EN,,Delete spurious U-turn cue,TODO
+53470002,Dormans - Epernay (high - challenging) 44 km ENG 2026,14.15,Uturn,Make a U-turn onto Rue de Pareuil,0.9,EN,,Delete spurious U-turn cue,TODO
+53517876,Alkmaar - Zaanse Schans - Zaandam (via Egmond Binnen) 46 km ENG 2026 ,15.61,Uturn,Make a U-turn onto Van Speijklaan,1.0,EN,,Delete spurious U-turn cue,TODO
+53518450,Wormerveer - Zaanse Schans - Amsterdam 40 km ENG 2026,15.42,Uturn,Make a U-turn,3.3,EN,,Delete spurious U-turn cue,TODO
+53518570,Wormerveer - Zaanse Schans - Amsterdam 46 km ENG 2026,21.16,Uturn,Make a U-turn,3.3,EN,,Delete spurious U-turn cue,TODO
+53535791,Alkmaar - Zaandam (via Egmond Binnen) 47 km ENG 2026,18.61,Uturn,Make a U-turn onto Van Speijklaan,1.0,EN,,Delete spurious U-turn cue,TODO
+53538533,Haarlem (Spaarndamseweg) - Alkmaar (via dunes) 51 km ENG 2026,27.64,Uturn,Make a U-turn onto Van Oldenborghweg,1.6,EN,yes,Delete spurious U-turn cue,TODO
+53546106,Moret - Melun (via Barbizon) 47km ENG 2026,45.11,Uturn,Make a U-turn onto Quai du Maréchal Joffre,8.8,EN,yes,Delete spurious U-turn cue,TODO
+53564093,Rüdesheim - Mainz 40km ENG 2026,3.24,Uturn,Wenden auf Eibinger Weg,15.3,DE,yes,Delete spurious U-turn cue,TODO
+53564093,Rüdesheim - Mainz 40km ENG 2026,5.66,Uturn,Wenden,1.3,DE,yes,Delete spurious U-turn cue,TODO
+53564093,Rüdesheim - Mainz 40km ENG 2026,18.81,Straight,Make a U-turn,1.8,EN,yes,Delete spurious U-turn cue,TODO
+53576317,Sankt Goar - Rüdesheim (via Bacharach & Bingen) 31 km ENG 2026,32.61,Uturn,Make a U-turn onto Oberstraße,5.3,EN,yes,Delete spurious U-turn cue,TODO
+53665211,Zaandam - Zaanse Schans - Haarlem (Stadt) (über IJmuiden) 51 km DEU 2026,1.12,Uturn,Wenden,0.2,DE,,Delete spurious U-turn cue,TODO
+53665211,Zaandam - Zaanse Schans - Haarlem (Stadt) (über IJmuiden) 51 km DEU 2026,9.6,Uturn,Wenden auf Engewormer,1.7,DE,,Delete spurious U-turn cue,TODO
+53665222,Haarlem (Stadt) - Leiden (durch Dünen) 46 km DEU 2026,11.26,Uturn,Wenden auf Boulevard Paulus Loot,2.3,DE,,Delete spurious U-turn cue,TODO
+53665224,Leiden - Delft (über Zoetermeer) 32 km DEU 2026,30.77,Uturn,Wenden auf Ham,3.0,DE,yes,Delete spurious U-turn cue,TODO
+53665450,Leiden - Gouda 46 km DEU 2026,28.12,Uturn,Wenden auf Reijerskoop,13.0,DE,,Delete spurious U-turn cue,TODO
+53665469,Amsterdam (Buiksloterweg) - Zaanse Schans 37 km DEU 2026,19.44,Uturn,Wenden auf Kanaaldijk,28.2,DE,,Delete spurious U-turn cue,TODO
+53665480,Zaanse Schans - Alkmaar (über Heiloo) 34 km DEU 2026,19.52,Uturn,Wenden auf Rijksweg,26.5,DE,,Delete spurious U-turn cue,TODO
+53665486,Purmerend - Alkmaar (über Heiloo) 37 km DEU 2026,27.36,Uturn,Wenden auf Rijksweg,26.5,DE,,Delete spurious U-turn cue,TODO
+53665491,Alkmaar - Dünen (Schleife über Bergen & Schoorl) 39 km DEU 2026 (N),5.85,Uturn,Wenden auf Dorpsstraat,1.4,DE,yes,Delete spurious U-turn cue,TODO
+53665553,Zaandam - Zaanse Schans - Alkmaar (über Schermer) 45 km DEU 2026,14.97,Uturn,Wenden auf Oudelandsdijk,0.5,DE,,Delete spurious U-turn cue,TODO
+53665617,Zaandam - Zaanse Schans - Alkmaar (über Heiloo) 39 km DEU 2026,25.54,Uturn,Wenden auf Rijksweg,28.6,DE,,Delete spurious U-turn cue,TODO
+53665636,Haarlem - Keukenhof (Schleife) 48 km DEU 2026,20.65,Uturn,Wenden auf Leidsevaart,0.3,DE,yes,Delete spurious U-turn cue,TODO
+53665636,Haarlem - Keukenhof (Schleife) 48 km DEU 2026,43.92,Uturn,Wenden auf Antoniestraat,3.6,DE,yes,Delete spurious U-turn cue,TODO
+53668162,Zaandam - Haarlem (Spaarndamseweg) 33 km DEU 2026,9.54,Uturn,Wenden auf Provincialeweg,0.8,DE,,Delete spurious U-turn cue,TODO
+53668174,Haarlem (Spaarndamseweg) - Keukenhof - Oude Wetering 55 km DEU 2026 POI-DEU,31.3,Uturn,"Wenden auf Rijwielpad Boswachterij Noordwijk, Provinciaal Fietspad 1",0.0,DE,,Delete spurious U-turn cue,TODO
+53668200,Alkmaar - Zaanse Schans - Zaandam (über Schermer) 45 km DEU 2026,18.92,Uturn,Wenden auf Noordeinde,0.8,DE,,Delete spurious U-turn cue,TODO
+53668265,Haarlem - Amsterdam 39 km DEU 2026,33.67,Uturn,Wenden auf Brettenpad,3.1,DE,yes,Delete spurious U-turn cue,TODO
+53668290,Breukelen - Amsterdam (Oosterdok) 47 km DEU 2026,45.05,Uturn,Wenden,1.0,DE,,Delete spurious U-turn cue,TODO
+53668484,Testfahrt: Maastricht 12 km DEU 2026,8.61,Uturn,Wenden auf Cannerweg,2.2,DE,yes,Delete spurious U-turn cue,TODO
+53668739,Huizen - Amsterdam (Minerva) 38 km DEU 2026,29.38,Uturn,Wenden auf Flevoparkweg,0.1,DE,yes,Delete spurious U-turn cue,TODO
+53677032,Vreeswijk - Kinderdijk - Alblasserdam // Dordrecht 57 km DEU 2026,20.14,Uturn,Wenden auf Cabauwsekade,0.5,DE,,Delete spurious U-turn cue,TODO
+53677057,Tholen - Kreekrak (Ost) 32 km DEU 2026,15.86,Uturn,Wenden auf Bemmelenberg,3.2,DE,,Delete spurious U-turn cue,TODO
+53677087,Bruges - De Haan (Schleife) 51 km DEU 2026,47.97,Uturn,Wenden auf Waggelwater,0.4,DE,yes,Delete spurious U-turn cue,TODO
+53677141,Tholen - Kreekrak (West) 34 km DEU 2026,4.56,Uturn,Wenden auf Noorder Kreekweg,9.1,DE,yes,Delete spurious U-turn cue,TODO
+53677165,Moerbrugge - Bruges 41 km DEU 2026,36.94,Uturn,Wenden auf Sint-Michielsestraat,2.2,DE,,Delete spurious U-turn cue,TODO
+53677193,Dendermonde - Antwerp 53 km DEU 2026,28.5,Uturn,Wenden,5.1,DE,,Delete spurious U-turn cue,TODO
+53677232,Breukelen - Amsterdam (Oosterdok) 38 km DEU 2026,1.44,Uturn,Wenden auf Kerkbrink,3.1,DE,,Delete spurious U-turn cue,TODO
+53680512,Alkmaar - Zaandam (über Schermer) 43 km DEU 2026,29.87,Uturn,Wenden auf Dorpsstraat,0.4,DE,,Delete spurious U-turn cue,TODO
+53680658,Den Helder - Alkmaar 53 km DEU 2026,18.94,Uturn,Wenden auf Dorpsweg,5.6,DE,yes,Delete spurious U-turn cue,TODO
+53684118,Stavoren - Makkum (über Bolsward) 49 km DEU 2026 Self Guided,39.19,Uturn,Wenden auf Harlingerstraat,11.9,DE,,Delete spurious U-turn cue,TODO
+53684119,Stavoren - Lemmer 33 km DEU 2025,15.67,Uturn,Wenden,8.5,DE,yes,Delete spurious U-turn cue,TODO
+53684155,Grou - Sneek 47 km DEU 2026,44.72,Uturn,Wenden,0.3,DE,,Delete spurious U-turn cue,TODO
+53684155,Grou - Sneek 47 km DEU 2026,44.72,Uturn,Wenden,0.5,DE,,Delete spurious U-turn cue,TODO
+53684515,Malmö - Lund (Schleife) 43 km DEU 2026,3.66,Uturn,Make a U-turn,1.0,EN,yes,Delete spurious U-turn cue,TODO
+53684531,Helsingborg - Landskrona 27 km DEU 2026,22.92,Uturn,Make a U-turn,8.3,EN,yes,Delete spurious U-turn cue,TODO
+53702374,Terneuzen - Antwerp 64 km ENG 2026,54.25,Uturn,Make a U-turn onto Heirbaan,2.1,EN,,Delete spurious U-turn cue,TODO
+53702374,Terneuzen - Antwerp 64 km ENG 2026,60.45,Uturn,Make a U-turn,10.9,EN,,Delete spurious U-turn cue,TODO
+53782087,Wormerveer - Zaanse Schans - Amsterdam 46 km DEU 2026,9.06,Uturn,Wenden auf Kanaaldijk,4.9,DE,,Delete spurious U-turn cue,TODO
+53805747,Zell - Cochem 38 km DEU 2026,11.21,Uturn,Make a U-turn,0.0,EN,yes,Delete spurious U-turn cue,TODO
+53805796,Remich - Thionville 44 km DEU 2026,13.69,Uturn,Wenden auf Grand Rue,2.7,DE,yes,Delete spurious U-turn cue,TODO
+53805800,Saarburg - Remich (über Mannebach) 44 km DEU 2026,12.1,Uturn,Wenden auf Spanische Ecke,3.4,DE,,Delete spurious U-turn cue,TODO
+53805809,Bernkastel-Kues - Schweich 54 km DEU 2026,42.26,Uturn,Wenden,0.3,DE,yes,Delete spurious U-turn cue,TODO
+53814347,Mainz - Rüdesheim (über Weinregionen) 35 km DEU 2026,32.72,Uturn,Wenden auf Im Laubfrosch,12.8,DE,yes,Delete spurious U-turn cue,TODO
+53844939,Tholen - Bergen op Zoom - Antwerpen ENG 2025,35.4,Uturn,Make a U-turn,0.4,EN,,Delete spurious U-turn cue,TODO
+53844943,Gent (Evergem) - Bruges (via Bulskampveld) 52 km ENG 2026,7.74,Uturn,Make a U-turn onto Lovaart,3.1,EN,yes,Delete spurious U-turn cue,TODO
+53851578,St. Amands - Antwerp 40 km DEU 2026,29.72,Uturn,Make a U-turn onto Hollestraat,22.7,EN,yes,Delete spurious U-turn cue,TODO
+53899218,Douai - Lille (via Lens) 65 km ENG 2026,1.72,Uturn,Make a U-turn,0.8,EN,,Delete spurious U-turn cue,TODO
+53899219,Comines - Kortrijk - Harelbeke 39 km ENG 2026,22.84,Uturn,Make a U-turn onto Ter Kommerenweg,7.4,EN,yes,Delete spurious U-turn cue,TODO
+53899222,Harelbeke - Oudenaarde - Deinze 57 km ENG 2026,32.67,Uturn,Make a U-turn onto Gentstraat,0.9,EN,,Delete spurious U-turn cue,TODO
+53899232,Waregem - Kortrijk - Menen (via Flanders Field) 48 km ENG 2026,11.83,Uturn,Make a U-turn onto Hippodroomstraat,8.0,EN,,Delete spurious U-turn cue,TODO
+53899241,Ytres - Péronne - Cappy 46 km ENG 2026,21.74,Uturn,Make a U-turn onto D 43,4.9,EN,,Delete spurious U-turn cue,TODO
+53994178,Amsterdam (Buiksloterweg) - Zaanse Schans - Zaandam 28 km DEU 2026,23.06,Uturn,Wenden auf Leeghwaterweg,0.0,DE,,Delete spurious U-turn cue,TODO
+53994474,RS tulip day 3 Haarlem - Cruiquis - Haarlem,0.02,Uturn,Make a U-turn onto Jan Gijzenkade,25.1,EN,,Delete spurious U-turn cue,TODO
+53994827,RS Tulip Day 7 - Alkmaar - De Rijp - Wormerveer - Amsterdam,18.06,Uturn,Make a U-turn onto Westdijk,0.2,EN,,Delete spurious U-turn cue,TODO
+54082601,Dag 3 Haarlem - Amsterdam,1.86,Uturn,Make a U-turn onto Zomerkade,8.7,EN,,Delete spurious U-turn cue,TODO
+54221011,Huizen - Zaandam 48 km NLD 2026,18.11,Uturn,Keer om naar Naarderstraat,27.1,NL,yes,Delete spurious U-turn cue,TODO
+54221011,Huizen - Zaandam 48 km NLD 2026,18.85,Uturn,Keer om naar Zeestraat,10.0,NL,yes,Delete spurious U-turn cue,TODO
+54221011,Huizen - Zaandam 48 km NLD 2026,33.97,Uturn,Keer om naar De Ruijterkade,0.5,NL,yes,Delete spurious U-turn cue,TODO
+54221048,Volendam - Zaanse Schans 48 km NLD 2026,34.56,Uturn,Keer om naar Het Luijendijkje,17.7,NL,,Delete spurious U-turn cue,TODO
+54221058,Zaandam - Waterland (rondrit) 47 km NLD 2026,3.89,Uturn,Keer om naar Kalf,3.1,NL,,Delete spurious U-turn cue,TODO
+54221088,Volendam - Amsterdam (Minerva) 29 km NLD 2026,25.7,Uturn,Keer om naar De Ruijterkade,0.1,NL,,Delete spurious U-turn cue,TODO
+54221148,Alkmaar - Dunes (rondrit via Bergen) 34 km NLD 2026 Q,10.16,Uturn,Make a U-turn onto Julianalaan,2.6,EN,,Delete spurious U-turn cue,TODO
+54311578,Breukelen - Zaandam 46 km ENG 2026,33.63,Uturn,Make a U-turn onto Veer F9,2.5,EN,,Delete spurious U-turn cue,TODO
+54313954,Grou-Heeg 46km ENG,4.27,Uturn,Make a U-turn onto Birstum,1.2,EN,,Delete spurious U-turn cue,TODO
+54337874,Breukelen - Amsterdam (Buiksloterweg) 47 km DEU 2026,22.73,Uturn,Wenden,3.3,DE,,Delete spurious U-turn cue,TODO
+54337874,Breukelen - Amsterdam (Buiksloterweg) 47 km DEU 2026,45.02,Uturn,Wenden,1.0,DE,,Delete spurious U-turn cue,TODO
+54360761,Akersloot - Amsterdam (Oosterdok) (before 15 April) 36 km ENG 2026 (white label),25.84,Uturn,Make a U-turn onto Het Luijendijkje,15.8,EN,yes,Delete spurious U-turn cue,TODO
+54413902,Nijmegen  - Arnhem 31km NL 2026,22.32,Uturn,Make a U-turn onto Lingeweg,19.5,EN,yes,Delete spurious U-turn cue,TODO
+54473490,Beverwijk - Alkmaar 36 km ENG 2026,12.82,Uturn,Make a U-turn onto Van Oldenborghweg,1.6,EN,yes,Delete spurious U-turn cue,TODO
+54476690,Cuijk - Kranenburg (D) - Nijmegen - Arnhem 63km NLD 2026 Michiel,19.71,Uturn,Make a U-turn onto Genneper Weg,0.4,EN,yes,Delete spurious U-turn cue,TODO
+54646664,Rotterdam - Kinderdijk - Nieuwpoort 42 km NLD 2025,42.62,Uturn,Maak een U-bocht naar de Buitenhaven,10.5,,yes,Delete spurious U-turn cue,TODO
+54655609,Haarlem (Spaarndamseweg) - Alkmaar 45 km ENG 2026 peter-niels,39.35,Uturn,Make a U-turn onto Zomerdijkje,0.2,EN,,Delete spurious U-turn cue,TODO
+54667144,Haarlem (Spaarndamseweg) - Alkmaar 43 km ENG 2026 peter-niels,31.24,Uturn,Make a U-turn onto Staringweg,1.8,EN,,Delete spurious U-turn cue,TODO
+54738551,Day 5: Lübeck - Travemünde (Coastal),23.06,Uturn,Make a U-turn onto Niendorfer Balkon,21.8,EN,,Delete spurious U-turn cue,TODO
+54861226,Lübeck -  Mölln,4.66,Uturn,Make a U-turn onto Brandenbaumer Landstraße,20.2,EN,,Delete spurious U-turn cue,TODO
+54906252,Maastricht-Margraten/Valkenburg-Maastricht  46 km NLD 2026,27.45,Uturn,Keer om naar Ravensbos,0.2,NL,yes,Delete spurious U-turn cue,TODO
+54906280,Maastricht-Margraten/Valkenburg-Maastricht  46 km NLD 2026,27.45,Uturn,Keer om naar Ravensbos,0.2,NL,yes,Delete spurious U-turn cue,TODO
+54906657,Cuijk - Kranenburg (D) - Nijmegen - Arnhem 53 km DEU 2026,29.77,Uturn,Make a U-turn onto Ubbergseweg,2.7,EN,yes,Delete spurious U-turn cue,TODO
+54976438,Arnhem - Tolkamer - Nijmegen - Arnhem 69km ENG,24.7,Uturn,Make a U-turn onto Schipperspoort,4.7,EN,,Delete spurious U-turn cue,TODO
+55025129,Cuijk - Groesbeek - Arnhem 47km ENG 2026LL,16.25,Uturn,Make a U-turn onto Groesbeekseweg,0.5,EN,,Delete spurious U-turn cue,TODO
+55025415,Mook - Arnhem 40km NLD 2026,34.97,Uturn,Make a U-turn onto Oude Huissenseweg,0.0,EN,,Delete spurious U-turn cue,TODO
+55061542,Arnhem-Mijmegen Nassau,17.79,Uturn,Make a U-turn onto Klaverland,5.5,EN,,Delete spurious U-turn cue,TODO
+55061542,Arnhem-Mijmegen Nassau,17.79,Uturn,Make a U-turn onto Klaverland,5.5,EN,,Delete spurious U-turn cue,TODO
+55061542,Arnhem-Mijmegen Nassau,17.93,Uturn,Make a U-turn onto Klaverland,0.1,EN,,Delete spurious U-turn cue,TODO
+55061542,Arnhem-Mijmegen Nassau,17.93,Uturn,Make a U-turn onto Klaverland,0.1,EN,,Delete spurious U-turn cue,TODO
+55102427,Treis-Karden - Koblenz (via Burg Eltz) 44 km ENG 2026,3.61,Uturn,Make a U-turn onto Hauptstraße,7.3,EN,yes,Delete spurious U-turn cue,TODO
+55135334,Huizen - Amsterdam (Tolhuis-Buikslotermeer) 35 km DEU 2026,33.68,Uturn,Make a U-turn onto De Ruijterkade,8.9,EN,yes,Delete spurious U-turn cue,TODO
+55135334,Huizen - Amsterdam (Tolhuis-Buikslotermeer) 35 km DEU 2026,33.68,Uturn,Make a U-turn onto De Ruijterkade,8.9,EN,yes,Delete spurious U-turn cue,TODO
+55140588,Amsterdam (Hoxton) - Breukelen 35 km ENG 2026,33.78,Uturn,Make a U-turn onto Kerkbrink,3.3,EN,,Delete spurious U-turn cue,TODO
+55140588,Amsterdam (Hoxton) - Breukelen 35 km ENG 2026,33.78,Uturn,Make a U-turn onto Kerkbrink,3.3,EN,,Delete spurious U-turn cue,TODO
+55174994,Cuijk - Arnhem 43km ENG 2026,37.79,Uturn,Make a U-turn onto Oude Huissenseweg,0.0,EN,,Delete spurious U-turn cue,TODO
+55175043,Cuijk - Arnhem 43km DEU2026,37.79,Uturn,Make a U-turn onto Oude Huissenseweg,0.0,EN,,Delete spurious U-turn cue,TODO
+55191934,Amsterdam (Hoxton) - Breukelen 38km ENG 2026,18.48,Uturn,Make a U-turn onto De Kleine Weer,5.1,EN,yes,Delete spurious U-turn cue,TODO
+55204231,Werkendam - Biesbosch - Heusden kort 53 km NLD 2026,6.57,Uturn,Make a U-turn onto Nieuwe Merwedepad,0.5,EN,yes,Delete spurious U-turn cue,TODO
+55204242,Werkendam - Biesbosch - (following the Dijk)  Heusden kort 55 km NLD 2025 (ALT),6.57,Uturn,Make a U-turn onto Nieuwe Merwedepad,0.5,EN,yes,Delete spurious U-turn cue,TODO
+55204242,Werkendam - Biesbosch - (following the Dijk)  Heusden kort 55 km NLD 2025 (ALT),47.05,Uturn,Make a U-turn onto Maasdijk,1.6,EN,yes,Delete spurious U-turn cue,TODO
+55204254,Arnhem - Tolkamer - Nijmegen - Arnhem 69km ENG,24.7,Uturn,Make a U-turn onto Schipperspoort,4.7,EN,,Delete spurious U-turn cue,TODO
+55204255,Mook - Arnhem 40km NLD 2026,34.97,Uturn,Make a U-turn onto Oude Huissenseweg,0.0,EN,,Delete spurious U-turn cue,TODO
+55204280,Amsterdam (Oosterdok) - Zaanse Schans - Haarlem (city) 47 km ENG 2026,1.69,Uturn,Make a U-turn,23.3,EN,,Delete spurious U-turn cue,TODO
+55342262,Ytres - Péronne 53 km ENG 2026,34.17,Uturn,Make a U-turn onto D 197,0.8,EN,,Delete spurious U-turn cue,TODO
+55465649,"Moret - Nemours  40 km ENG 2026 (via Rochess, gravel)",4.6,Uturn,Make a U-turn onto Route de la Plaine du Rosoir,0.8,EN,yes,Delete spurious U-turn cue,TODO
+55551836,Aschaffenburg - Freudenberg 54km ENG 2026,6.44,Uturn,Wenden,7.4,DE,yes,Delete spurious U-turn cue,TODO
+55551836,Aschaffenburg - Freudenberg 54km ENG 2026,42.1,Uturn,Wenden,6.1,DE,yes,Delete spurious U-turn cue,TODO
+55599973,Alf - Bernkastel Kues 49km ENG 2026,25.27,Uturn,"Make a U-turn onto Bahnstraße, L 187",13.1,EN,yes,Delete spurious U-turn cue,TODO
+55599973,Alf - Bernkastel Kues 49km ENG 2026,41.29,Uturn,Make a U-turn,2.3,EN,yes,Delete spurious U-turn cue,TODO
+55617525,Tarascon – Pont du Gard – Avignon 57km ENG 2026,49.6,Uturn,Make a U-turn onto Chemin de la Grenouillère,1.8,EN,,Delete spurious U-turn cue,TODO
+55617525,Tarascon – Pont du Gard – Avignon 57km ENG 2026,50.01,Uturn,Make a U-turn onto Chemin des Sages,9.2,EN,,Delete spurious U-turn cue,TODO
+55805083,Paris (Bougival) - Auvers-sur-Oise (via Ax Majeur) 45 km ENG 2026 rain route,19.81,Uturn,"Make a U-turn onto Chemin du Touage and drive toward Herblay, Paris",0.6,EN,yes,Delete spurious U-turn cue,TODO
+55805083,Paris (Bougival) - Auvers-sur-Oise (via Ax Majeur) 45 km ENG 2026 rain route,30.02,Uturn,Make a U-turn onto Chemin de la Voirie,9.9,EN,yes,Delete spurious U-turn cue,TODO
+55806616,Breukelen - Utrecht (centrum)(EPR) 37km / 22mi ENG 2026,28.11,Uturn,Make a U-turn onto Oostwaard,1.6,EN,yes,Delete spurious U-turn cue,TODO
+55820434,Amsterdam (Veemkade) - Zaanse Schans - Haarlem (city) 47 km ENG 2026,2.09,Uturn,Make a U-turn,23.3,EN,yes,Delete spurious U-turn cue,TODO
+55834573,Dordrecht // Alblasserdam - Urecht [ALT] (centrum) (via Kinderdijk - Roosevelt) 65km,6.38,Uturn,Make a U-turn onto Nederwaard,0.1,EN,,Delete spurious U-turn cue,TODO
+55889010,Grou - Sneek 56 km ENG 2026,25.23,Uturn,Make a U-turn onto Slachtedyk,0.8,EN,,Delete spurious U-turn cue,TODO
+55889010,Grou - Sneek 56 km ENG 2026,51.28,Uturn,Make a U-turn,9.2,EN,,Delete spurious U-turn cue,TODO
+55992071,Alf - Bernkastel-Kues 48 km ENG 2026,24.78,Uturn,"Make a U-turn onto Bahnstraße, L 187",13.1,EN,yes,Delete spurious U-turn cue,TODO
+55992071,Alf - Bernkastel-Kues 48 km ENG 2026,40.8,Uturn,Make a U-turn,2.3,EN,yes,Delete spurious U-turn cue,TODO
+55992660,Alf - Cochem 37 km ENG 2026,22.86,Uturn,Keer hier om,3.4,,yes,Delete spurious U-turn cue,TODO
+55992748,Zell - Cochem 39 km ENG 2026,28.84,Uturn,Keer hier om,3.4,,yes,Delete spurious U-turn cue,TODO
+55992873,Alf  - Cochem 31 km DEU 2026,4.73,Uturn,Make a U-turn,0.0,EN,yes,Delete spurious U-turn cue,TODO
+56111478,Grou - Sneek 56 km DEU 2026,25.23,Uturn,Make a U-turn onto Slachtedyk,0.8,EN,,Delete spurious U-turn cue,TODO
+56111478,Grou - Sneek 56 km DEU 2026,51.28,Uturn,Make a U-turn,9.2,EN,,Delete spurious U-turn cue,TODO
+56125488,Andernach - Boppard 54km ENG 2026,26.46,Uturn,Make a U-turn,12.1,EN,,Delete spurious U-turn cue,TODO
+56125488,Andernach - Boppard 54km ENG 2026,31.6,Uturn,Make a U-turn onto Didierstraße,2.3,EN,,Delete spurious U-turn cue,TODO
+56136438,Grou - Sneek 56 km DEU 2026,25.23,Uturn,Make a U-turn onto Slachtedyk,0.8,EN,,Delete spurious U-turn cue,TODO
+56136438,Grou - Sneek 56 km DEU 2026,51.28,Uturn,Make a U-turn,9.2,EN,,Delete spurious U-turn cue,TODO
+56145712,Wageningen - Arnhem Wageningen 58 km NED 2026,2.8,Uturn,Make a U-turn onto Westbergweg,16.4,EN,,Delete spurious U-turn cue,TODO

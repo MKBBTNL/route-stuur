@@ -1,0 +1,128 @@
+ALPSVR 1. SILANDRO LOOP    153.0 km    · signs & notes only ·
+
+DIRECTIONS
+  ★ 0.0 km  [dock/stay] Parkhotel Zur Linde Silandro
+  ★ 5.6 km  [note] Steep + Gravel
+  ★ 6.7 km  [note] Bakery Lasa
+  ★ 7.1 km  [note] 1272
+  ★ 7.1 km  [note] 1283
+  ★ 7.1 km  [note] 1293
+  ★ 7.1 km  [note] 1302
+  ★ 7.1 km  [note] 1312
+  ★ 7.1 km  [note] 1323
+  ★ 7.1 km  [note] Glorenza
+  ★ 7.1 km  [dock/stay] Hotel Stocker S. Valentino Muta
+  ★ 7.1 km  [bike_shop] Park Bikes Glorenza
+  ★ 7.1 km  [bike_shop] Park Bikes Lasa — Bahnhofstrasse - Via Stazione
+  ★ 7.1 km  [note] Station Laas/Lasa
+  ★ 12.7 km  [note] 1333
+  ★ 14.2 km  [note] Under the road
+  ★ 18.5 km  [note] Kiosk Appels
+  ★ 20.1 km  [note] 1402
+  ★ 25.8 km  [note] Detour to Strudel!
+  ★ 26.3 km  [food] Strudel!!! Maragno
+  ★ 31.9 km  [note] Castle Messner
+  ★ 32.2 km  [food] Radbar Venosta — 07-MEI-13 16:03:24
+  ★ 35.5 km  [bike_shop] Park Bikes Naturno
+  ★ 36.0 km  [note] San Procolo Chapel
+  ★ 36.9 km  [note] 1412
+  ★ 44.8 km  [note] Waterdam Zoll
+  ★ 45.8 km  [note] Big Bench
+  ★ 51.7 km  [note] Station Merano
+  ★ 52.0 km  [dock/stay] City Hotel Merano
+  ★ 52.4 km  [note] Piazza del Teatro Merano
+  ★ 64.8 km  [note] Station Gargazzone
+  ★ 68.5 km  [note] Radrest Vilpiano
+  ★ 70.4 km  [note] 1432
+  ★ 71.6 km  [note] 1461
+  ★ 72.1 km  [note] Café Terlano
+  ★ 72.1 km  [note] WC Terlano
+  ★ 79.1 km  [note] 1943
+  ★ 79.1 km  [note] 0021
+  ★ 79.4 km  [note] Castle Sigmundskron
+  ★ 80.5 km  [note] 0011
+  ★ 85.2 km  [note] Otzi
+  ★ 85.5 km  [note] EuroSpar BZ
+  ★ 85.9 km  [note] Piazza Walther Bolzano
+  ★ 86.0 km  [note] DeSpar BZ
+  ★ 86.5 km  [dock/stay] Hotel Scala BZ
+  ★ 106.5 km  [note] Station Ora
+  ★ 110.1 km  [food] Bicigrill Ora
+  ★ 110.1 km  [note] Kiosk Ora
+  ★ 112.7 km  [note] 135
+  ★ 117.1 km  [note] 136
+  ★ 117.1 km  [note] 1482
+  ★ 122.0 km  [note] Station Salorno
+  ★ 124.6 km  [note] Grens Trentino/Alto Adige
+  ★ 125.6 km  [note] 0041
+  ★ 128.2 km  [food] Bicigrill Faedo
+  ★ 131.1 km  [note] Station San Michele a/a - Grumo
+  ★ 134.4 km  [note] 0051
+  ★ 134.6 km  [note] Nave San Felice
+  ★ 143.3 km  [note] 1983
+  ★ 144.2 km  [note] 0062
+  ★ 148.5 km  [note] 1492
+  ★ 149.9 km  [note] 0072
+  ★ 149.9 km  [bike_shop] Bike Shop Carpentari Torbole
+  ★ 149.9 km  [bike_shop] Bike Shop Velolake Torbole
+  ★ 149.9 km  [note] Ferry Torbole
+  ★ 149.9 km  [dock/stay] Hotel Caravel Torbole
+  ★ 149.9 km  [note] Quick descent
+  ★ 149.9 km  [note] Sharp turn (Left)
+  ★ 149.9 km  [note] Uitzicht vanaf Nago
+  ★ 150.1 km  [note] 137
+  ★ 150.1 km  [food] Bicigrill Duchi
+  ★ 150.1 km  [bike_shop] Drop Off Garda
+  ★ 150.1 km  [note] Ferry Sirmione
+  ★ 150.1 km  [bike_shop] Park Bikes Garda
+  ★ 150.1 km  [bike_shop] Park Bikes Sirmione
+  ★ 150.1 km  [note] Walk1
+  ★ 150.1 km  [note] Walk2
+  ★ 152.9 km  [dock/stay] Hotel America TN
+  ★ 153.0 km  [note] Station Trento
+  ★ 153.0 km  [note] 024
+  ★ 153.0 km  [note] 034
+  ★ 153.0 km  [note] 1502
+  ★ 153.0 km  [note] 1511
+  ★ 153.0 km  [note] 1532
+  ★ 153.0 km  [note] 1541
+  ★ 153.0 km  [note] 1552
+  ★ 153.0 km  [note] 1572
+  ★ 153.0 km  [note] 1581
+  ★ 153.0 km  [note] 1993
+  ★ 153.0 km  [note] 2002
+  ★ 153.0 km  [note] 2012
+  ★ 153.0 km  [note] 2022
+  ★ 153.0 km  [note] 2042
+  ★ 153.0 km  [food] Bicigrill Nomi — 19-MEI-14 10:24:43
+  ★ 153.0 km  [food] Bicigrill Rovereto
+  ★ 153.0 km  [bike_shop] Bike Shop Cicli Moser Trento
+  ★ 153.0 km  [bike_shop] Bike Shop Mountain And Bike Mori
+  ★ 153.0 km  [bike_shop] Bikepath of the Mincio
+  ★ 153.0 km  [note] Borghetto brug
+  ★ 153.0 km  [note] Castle Scaligero Valeggio
+  ★ 153.0 km  [note] Ferry Peschiera Del Garda
+  ★ 153.0 km  [dock/stay] Grand Hotel TN
+  ★ 153.0 km  [dock/stay] Hotel Puccini Peschiera — Puccini
+Via Puccini 2
+Peschiera Del Garda, Veneto, ITA
++39 0456401428
+  ★ 153.0 km  [note] Let op verkeer
+  ★ 153.0 km  [note] Mori
+  ★ 153.0 km  [food] Nonna Giulia IJs!
+  ★ 153.0 km  [food] Papa's Café, Mantova
+  ★ 153.0 km  [bike_shop] Park Bikes Lazise
+  ★ 153.0 km  [bike_shop] Park Bikes Peschiera
+  ★ 153.0 km  [note] Piazza Bra Verona
+  ★ 153.0 km  [bike_shop] Pick up Mantova
+  ★ 153.0 km  [note] Poli TN
+  ★ 153.0 km  [note] Station Mantova
+  ★ 153.0 km  [note] Station Peschiera
+  ★ 153.0 km  [note] Station Rovereto
+  ★ 153.0 km  [note] Station Verona Porta Nuova
+  ★ 153.0 km  [note] To Borghetto
+  ★ 153.0 km  [note] Walk3
+  ★ 153.0 km  [note] Walk4
+  ★ 153.0 km  [note] Walk5
+  ★ 153.0 km  [note] Walk6
+  ★ 153.0 km  [note] WC Borghetto

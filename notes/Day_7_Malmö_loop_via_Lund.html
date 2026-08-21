@@ -1,0 +1,130 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Day 7: Malmö (loop via Lund)</title>
+<style>
+  :root { --red:#c0101d; --ink:#1b1b1b; --gray:#8a8a8a; --line:#e6e2d8; --paper:#faf9f6; }
+  * { box-sizing:border-box; }
+  body { font-family:-apple-system,Segoe UI,Arial,sans-serif; color:var(--ink);
+         background:var(--paper); margin:0; padding:28px; line-height:1.5; }
+  .sheet { max-width:760px; margin:0 auto; }
+  header { border-bottom:3px solid var(--red); padding-bottom:10px; margin-bottom:6px; }
+  h1 { font-size:23px; margin:0; color:var(--red); text-transform:uppercase; letter-spacing:.4px; }
+  .meta { color:var(--gray); font-size:13px; margin-top:3px; }
+  .nodes { font-size:14px; margin:14px 0; padding:8px 10px; background:#fff;
+            border:1px solid var(--line); border-radius:6px; }
+  h2 { font-size:13px; text-transform:uppercase; letter-spacing:.6px; color:var(--gray);
+        margin:22px 0 8px; }
+  .row { display:flex; gap:12px; padding:5px 0; border-bottom:1px solid var(--line); }
+  .km { flex:0 0 88px; color:var(--red); font-variant-numeric:tabular-nums; font-weight:600; font-size:13px; }
+  .cue { flex:1; }
+  .poi { background:#fff; border:1px solid var(--line); border-left:3px solid var(--red);
+          border-radius:6px; padding:9px 12px; margin:8px 0; }
+  .poi-h { display:flex; align-items:baseline; gap:8px; }
+  .tag { font-size:11px; text-transform:uppercase; letter-spacing:.5px; color:#fff;
+          background:var(--red); border-radius:3px; padding:1px 6px; }
+  .poi-n { font-weight:600; }
+  .poi-km { margin-left:auto; color:var(--gray); font-size:13px; font-variant-numeric:tabular-nums; }
+  .poi-d { color:#444; font-size:14px; margin-top:4px; }
+  @media print { body { background:#fff; padding:0; } .poi, .nodes { break-inside:avoid; } }
+</style></head>
+<body><div class="sheet">
+  <header><h1>Day 7: Malmö (loop via Lund)</h1><div class="meta">43.6 km &nbsp;·&nbsp; signs &amp; notes only</div></header>
+  
+  <h2>Directions &amp; highlights</h2>
+  <div class="row"><span class="km">0.1 km</span><span class="cue">Turn right</span></div>
+<div class="row"><span class="km">0.4 km</span><span class="cue">Turn left</span></div>
+<div class="row"><span class="km">0.7 km</span><span class="cue">Turn left</span></div>
+<div class="row"><span class="km">0.7 km</span><span class="cue">Turn right onto Carlsgatan</span></div>
+<div class="row"><span class="km">1.4 km</span><span class="cue">Turn left onto Donaugatan</span></div>
+<div class="row"><span class="km">1.5 km</span><span class="cue">Turn right</span></div>
+<div class="row"><span class="km">1.5 km</span><span class="cue">Turn left</span></div>
+<div class="row"><span class="km">1.6 km</span><span class="cue">Turn right onto Grimsbygatan</span></div>
+<div class="row"><span class="km">2.0 km</span><span class="cue">Turn left</span></div>
+<div class="row"><span class="km">2.2 km</span><span class="cue">Turn right</span></div>
+<div class="row"><span class="km">2.2 km</span><span class="cue">Turn left onto Lodgatan</span></div>
+<div class="row"><span class="km">2.2 km</span><span class="cue">Turn right onto Borrgatan (follow 1.0 km)</span></div>
+<div class="row"><span class="km">3.2 km</span><span class="cue">Turn left onto Brännögatan</span></div>
+<div class="row"><span class="km">3.3 km</span><span class="cue">Turn right</span></div>
+<div class="row"><span class="km">4.3 km</span><span class="cue">Turn right</span></div>
+<div class="row"><span class="km">4.5 km</span><span class="cue">Turn right</span></div>
+<div class="row"><span class="km">5.0 km</span><span class="cue">Turn left</span></div>
+<div class="row"><span class="km">5.1 km</span><span class="cue">Turn left</span></div>
+<div class="row"><span class="km">5.4 km</span><span class="cue">Turn left</span></div>
+<div class="row"><span class="km">6.4 km</span><span class="cue">Turn left</span></div>
+<div class="row"><span class="km">6.6 km</span><span class="cue">Turn right (follow 2.7 km)</span></div>
+<div class="row"><span class="km">9.3 km</span><span class="cue">Turn left</span></div>
+<div class="poi"><div class="poi-h"><span class="tag">restroom</span><span class="poi-n">WC</span><span class="poi-km">9.4 km</span></div></div>
+<div class="row"><span class="km">9.5 km</span><span class="cue">Turn right</span></div>
+<div class="row"><span class="km">9.7 km</span><span class="cue">Turn left (follow 1.1 km)</span></div>
+<div class="row"><span class="km">10.8 km</span><span class="cue">Turn left</span></div>
+<div class="poi"><div class="poi-h"><span class="tag">coffee</span><span class="poi-n">Espresso House</span><span class="poi-km">11.4 km</span></div></div>
+<div class="row"><span class="km">11.4 km</span><span class="cue">Turn left</span></div>
+<div class="row"><span class="km">11.4 km</span><span class="cue">Turn right</span></div>
+<div class="row"><span class="km">11.5 km</span><span class="cue">Turn slight left</span></div>
+<div class="row"><span class="km">11.9 km</span><span class="cue">Turn right</span></div>
+<div class="row"><span class="km">12.0 km</span><span class="cue">Turn left (follow 1.1 km)</span></div>
+<div class="row"><span class="km">13.0 km</span><span class="cue">Turn right</span></div>
+<div class="row"><span class="km">13.0 km</span><span class="cue">Turn slight left (follow 2.7 km)</span></div>
+<div class="row"><span class="km">15.7 km</span><span class="cue">Continue onto Vragerupsvägen (follow 1.3 km)</span></div>
+<div class="poi"><div class="poi-h"><span class="tag">note</span><span class="poi-n">POI German town in Sweden Jakriborg</span><span class="poi-km">16.3 km</span></div><div class="poi-d">https://maps.app.goo.gl/yShPfAsgbMH9HMSVA</div></div>
+<div class="row"><span class="km">17.0 km</span><span class="cue">Turn right</span></div>
+<div class="row"><span class="km">17.5 km</span><span class="cue">Turn slight right onto Trollebergsvägen (follow 2.7 km)</span></div>
+<div class="row"><span class="km">20.1 km</span><span class="cue">Turn left</span></div>
+<div class="row"><span class="km">20.2 km</span><span class="cue">Turn slight left</span></div>
+<div class="row"><span class="km">20.9 km</span><span class="cue">Turn right</span></div>
+<div class="row"><span class="km">20.9 km</span><span class="cue">Continue onto Lilla Fiskaregatan</span></div>
+<div class="row"><span class="km">21.2 km</span><span class="cue">Continue onto Stortorget</span></div>
+<div class="row"><span class="km">21.2 km</span><span class="cue">Turn left onto Kungsgatan</span></div>
+<div class="row"><span class="km">21.3 km</span><span class="cue">Turn left</span></div>
+<div class="poi"><div class="poi-h"><span class="tag">note</span><span class="poi-n">Kulturen Open Air Museum</span><span class="poi-km">21.3 km</span></div></div>
+<div class="poi"><div class="poi-h"><span class="tag">shopping</span><span class="poi-n">Coop Supermarket</span><span class="poi-km">21.3 km</span></div></div>
+<div class="poi"><div class="poi-h"><span class="tag">monument</span><span class="poi-n">Lund Cathedral</span><span class="poi-km">21.4 km</span></div></div>
+<div class="row"><span class="km">21.4 km</span><span class="cue">Turn left onto Kyrkogatan (follow 1.5 km)</span></div>
+<div class="row"><span class="km">22.9 km</span><span class="cue">Turn right</span></div>
+<div class="row"><span class="km">23.3 km</span><span class="cue">Turn left</span></div>
+<div class="row"><span class="km">23.5 km</span><span class="cue">Turn slight right</span></div>
+<div class="row"><span class="km">24.1 km</span><span class="cue">Turn left (follow 1.9 km)</span></div>
+<div class="row"><span class="km">26.1 km</span><span class="cue">Turn left</span></div>
+<div class="row"><span class="km">26.6 km</span><span class="cue">Turn right onto Gamla Trelleborgsvägen, M 879 (follow 1.5 km)</span></div>
+<div class="row"><span class="km">28.1 km</span><span class="cue">Turn left onto Gamla Trelleborgsvägen, M 879 (follow 1.9 km)</span></div>
+<div class="row"><span class="km">30.0 km</span><span class="cue">Turn right onto Malmövägen, M 854</span></div>
+<div class="row"><span class="km">30.0 km</span><span class="cue">Turn left onto Kyrkobyvägen, M 861 (follow 1.5 km)</span></div>
+<div class="row"><span class="km">31.5 km</span><span class="cue">Keep right onto Görslövsvägen, M 860 (follow 1.4 km)</span></div>
+<div class="row"><span class="km">32.9 km</span><span class="cue">Turn left onto Dalbyvägen, M 853</span></div>
+<div class="row"><span class="km">33.0 km</span><span class="cue">Turn right</span></div>
+<div class="row"><span class="km">33.2 km</span><span class="cue">Turn right onto Gamla Kyrkvägen, M 877</span></div>
+<div class="row"><span class="km">33.3 km</span><span class="cue">Turn slight left onto Agriborgsvägen</span></div>
+<div class="row"><span class="km">33.7 km</span><span class="cue">Continue onto Astervägen</span></div>
+<div class="row"><span class="km">33.9 km</span><span class="cue">Turn right onto Mimosavägen</span></div>
+<div class="row"><span class="km">34.0 km</span><span class="cue">Turn slight right</span></div>
+<div class="row"><span class="km">34.1 km</span><span class="cue">Turn right onto Egnahemsvägen</span></div>
+<div class="row"><span class="km">34.2 km</span><span class="cue">Turn left onto Dahliavägen</span></div>
+<div class="row"><span class="km">34.4 km</span><span class="cue">Turn sharp right onto Kronetorps allé</span></div>
+<div class="row"><span class="km">34.5 km</span><span class="cue">Turn left</span></div>
+<div class="row"><span class="km">35.4 km</span><span class="cue">Turn left</span></div>
+<div class="row"><span class="km">35.5 km</span><span class="cue">Turn right</span></div>
+<div class="row"><span class="km">35.5 km</span><span class="cue">Turn right</span></div>
+<div class="row"><span class="km">36.2 km</span><span class="cue">Turn right</span></div>
+<div class="row"><span class="km">36.2 km</span><span class="cue">Turn left</span></div>
+<div class="row"><span class="km">36.2 km</span><span class="cue">Turn left</span></div>
+<div class="row"><span class="km">36.5 km</span><span class="cue">Turn left</span></div>
+<div class="row"><span class="km">36.5 km</span><span class="cue">Turn left</span></div>
+<div class="row"><span class="km">36.5 km</span><span class="cue">Turn slight left (follow 3.7 km)</span></div>
+<div class="row"><span class="km">40.3 km</span><span class="cue">Turn slight left</span></div>
+<div class="row"><span class="km">41.0 km</span><span class="cue">Turn sharp right</span></div>
+<div class="row"><span class="km">41.0 km</span><span class="cue">Turn left</span></div>
+<div class="row"><span class="km">41.0 km</span><span class="cue">Turn right onto Östra Förstadsgatan</span></div>
+<div class="row"><span class="km">41.1 km</span><span class="cue">Turn right</span></div>
+<div class="row"><span class="km">41.3 km</span><span class="cue">Turn slight left</span></div>
+<div class="row"><span class="km">41.3 km</span><span class="cue">Turn left</span></div>
+<div class="row"><span class="km">41.3 km</span><span class="cue">Turn slight right</span></div>
+<div class="row"><span class="km">41.5 km</span><span class="cue">Continue onto Konduktörsgatan</span></div>
+<div class="row"><span class="km">41.6 km</span><span class="cue">Turn right</span></div>
+<div class="row"><span class="km">41.9 km</span><span class="cue">Turn right</span></div>
+<div class="row"><span class="km">41.9 km</span><span class="cue">Turn left</span></div>
+<div class="row"><span class="km">42.9 km</span><span class="cue">Turn right</span></div>
+<div class="row"><span class="km">43.1 km</span><span class="cue">Turn left</span></div>
+<div class="row"><span class="km">43.1 km</span><span class="cue">Turn right</span></div>
+<div class="row"><span class="km">43.5 km</span><span class="cue">Turn left onto Ångbåtsbron</span></div>
+
+</div></body></html>

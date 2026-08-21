@@ -1,0 +1,645 @@
+{
+  "gpx": "Lehmen_-_Koblenz_21_km_ENG_2026.gpx",
+  "distance_km": 21.1,
+  "backbone_coverage_pct": 96.4,
+  "named_routes": [
+    {
+      "name": "Mosel-Radweg",
+      "ref": "Mosel",
+      "network": "ncn"
+    },
+    {
+      "name": "Maifeld-Radweg",
+      "ref": "MAI",
+      "network": "rcn"
+    },
+    {
+      "name": "Rhein-Route D8 [Rheinland-Pfalz]",
+      "ref": "D8",
+      "network": "ncn"
+    },
+    {
+      "name": "Lahnradweg",
+      "ref": "LRW",
+      "network": "rcn"
+    },
+    {
+      "name": "Rhein-Mosel-Eifel-Radweg",
+      "ref": "",
+      "network": "lcn"
+    },
+    {
+      "name": "Saar-Mosel-Main [Trier - Koblenz]",
+      "ref": "D5",
+      "network": "ncn"
+    },
+    {
+      "name": "Nette-Obst-Radrunde",
+      "ref": "",
+      "network": "lcn"
+    },
+    {
+      "name": "Saar-Mosel-Main [Koblenz - Mainz]",
+      "ref": "D5",
+      "network": "ncn"
+    }
+  ],
+  "deviations": [],
+  "ferries": [
+    {
+      "name": "Deutsches Eck",
+      "km": 21.1,
+      "dist_m": 124
+    },
+    {
+      "name": "Uferpark Lützel / Campingplatz Rhein-Mosel",
+      "km": 21.1,
+      "dist_m": 287
+    },
+    {
+      "name": "Personenfähre \"Liesel\"",
+      "km": 21.1,
+      "dist_m": 198
+    }
+  ],
+  "guideposts_count": 37,
+  "knooppunten": [],
+  "landmarks": [
+    {
+      "name": "Hubertushöhe",
+      "type": "viewpoint",
+      "km": 0.9,
+      "dist_m": 246,
+      "lat": 50.28099,
+      "lon": 7.45187
+    },
+    {
+      "name": "Lehmener Glockenturm",
+      "type": "tower",
+      "km": 0.9,
+      "dist_m": 18,
+      "lat": 50.28198,
+      "lon": 7.4554
+    },
+    {
+      "name": "Reichsfürst Philipp v. d. Leyen",
+      "type": "monument",
+      "km": 2.2,
+      "dist_m": 33,
+      "lat": 50.29126,
+      "lon": 7.45837
+    },
+    {
+      "name": "Johannes Apostel",
+      "type": "church",
+      "km": 2.2,
+      "dist_m": 73,
+      "lat": 50.29088,
+      "lon": 7.45838
+    },
+    {
+      "name": "Schloss von der Leyen",
+      "type": "castle",
+      "km": 2.2,
+      "dist_m": 34,
+      "lat": 50.29122,
+      "lon": 7.45858
+    },
+    {
+      "name": "Schloß Liebieg",
+      "type": "castle",
+      "km": 2.5,
+      "dist_m": 45,
+      "lat": 50.29379,
+      "lon": 7.46077
+    },
+    {
+      "name": "Moselgoldbrücke",
+      "type": "bridge",
+      "km": 2.9,
+      "dist_m": 175,
+      "lat": 50.29714,
+      "lon": 7.46355
+    },
+    {
+      "name": "Weinbau-/Pfarrer-Benz-Denkmal",
+      "type": "monument",
+      "km": 3.1,
+      "dist_m": 89,
+      "lat": 50.29835,
+      "lon": 7.45929
+    },
+    {
+      "name": "St. Lubentius",
+      "type": "church",
+      "km": 4.4,
+      "dist_m": 194,
+      "lat": 50.30996,
+      "lon": 7.45722
+    },
+    {
+      "name": "Wehr- und Glockenturm",
+      "type": "tower",
+      "km": 4.4,
+      "dist_m": 267,
+      "lat": 50.30959,
+      "lon": 7.45624
+    },
+    {
+      "name": "Corbigny-Platz",
+      "type": "monument",
+      "km": 4.5,
+      "dist_m": 13,
+      "lat": 50.31058,
+      "lon": 7.45968
+    },
+    {
+      "name": "Niederburg",
+      "type": "castle",
+      "km": 4.5,
+      "dist_m": 290,
+      "lat": 50.31077,
+      "lon": 7.45564
+    },
+    {
+      "name": "Niederburg",
+      "type": "tower",
+      "km": 4.5,
+      "dist_m": 283,
+      "lat": 50.31077,
+      "lon": 7.45574
+    },
+    {
+      "name": "Blums Lay",
+      "type": "viewpoint",
+      "km": 7.6,
+      "dist_m": 110,
+      "lat": 50.31772,
+      "lon": 7.49443
+    },
+    {
+      "name": "Elisabeth Müller",
+      "type": "monument",
+      "km": 9.6,
+      "dist_m": 117,
+      "lat": 50.31212,
+      "lon": 7.51763
+    },
+    {
+      "name": "Friedrich Schauss",
+      "type": "monument",
+      "km": 9.6,
+      "dist_m": 117,
+      "lat": 50.31213,
+      "lon": 7.51764
+    },
+    {
+      "name": "Evangelische Kirche Winningen",
+      "type": "church",
+      "km": 9.6,
+      "dist_m": 133,
+      "lat": 50.31207,
+      "lon": 7.51793
+    },
+    {
+      "name": "Horntor",
+      "type": "city_gate",
+      "km": 9.6,
+      "dist_m": 210,
+      "lat": 50.31135,
+      "lon": 7.5182
+    },
+    {
+      "name": "Katholische Kirche Winningen",
+      "type": "church",
+      "km": 10.2,
+      "dist_m": 19,
+      "lat": 50.31441,
+      "lon": 7.52191
+    },
+    {
+      "name": "Flugplatz Winningen",
+      "type": "tower",
+      "km": 11.1,
+      "dist_m": 240,
+      "lat": 50.32318,
+      "lon": 7.5266
+    },
+    {
+      "name": "Pfarrkirche St. Martinus",
+      "type": "church",
+      "km": 12.1,
+      "dist_m": 286,
+      "lat": 50.32183,
+      "lon": 7.54241
+    },
+    {
+      "name": "Friedhofskapelle",
+      "type": "church",
+      "km": 12.2,
+      "dist_m": 278,
+      "lat": 50.32194,
+      "lon": 7.543
+    },
+    {
+      "name": "Grossheiligenhäuschen",
+      "type": "church",
+      "km": 13.9,
+      "dist_m": 6,
+      "lat": 50.33764,
+      "lon": 7.54885
+    },
+    {
+      "name": "Rosa Wolff",
+      "type": "monument",
+      "km": 14.2,
+      "dist_m": 3,
+      "lat": 50.34097,
+      "lon": 7.54841
+    },
+    {
+      "name": "Leo Wolff",
+      "type": "monument",
+      "km": 14.2,
+      "dist_m": 3,
+      "lat": 50.34097,
+      "lon": 7.54841
+    },
+    {
+      "name": "St. Servatius",
+      "type": "church",
+      "km": 14.3,
+      "dist_m": 53,
+      "lat": 50.34178,
+      "lon": 7.54746
+    },
+    {
+      "name": "Alt-St. Servatius",
+      "type": "church",
+      "km": 14.5,
+      "dist_m": 24,
+      "lat": 50.34348,
+      "lon": 7.54792
+    },
+    {
+      "name": "St. Sebastianus",
+      "type": "church",
+      "km": 14.5,
+      "dist_m": 157,
+      "lat": 50.3437,
+      "lon": 7.54528
+    },
+    {
+      "name": "Gülser Eisenbahnbrücke",
+      "type": "bridge",
+      "km": 15.0,
+      "dist_m": 131,
+      "lat": 50.34517,
+      "lon": 7.55365
+    },
+    {
+      "name": "Über'm Rath",
+      "type": "viewpoint",
+      "km": 15.8,
+      "dist_m": 123,
+      "lat": 50.35371,
+      "lon": 7.55165
+    },
+    {
+      "name": "Kurt-Schumacher-Brücke",
+      "type": "bridge",
+      "km": 17.1,
+      "dist_m": 75,
+      "lat": 50.36013,
+      "lon": 7.56242
+    },
+    {
+      "name": "Sankt Josef",
+      "type": "church",
+      "km": 17.6,
+      "dist_m": 121,
+      "lat": 50.35661,
+      "lon": 7.56377
+    },
+    {
+      "name": "Jüdische Kultusgemeinde",
+      "type": "church",
+      "km": 19.9,
+      "dist_m": 51,
+      "lat": 50.36274,
+      "lon": 7.58555
+    },
+    {
+      "name": "Jüdische Kultusgemeinde",
+      "type": "church",
+      "km": 19.9,
+      "dist_m": 51,
+      "lat": 50.36273,
+      "lon": 7.58555
+    },
+    {
+      "name": "Europabrücke",
+      "type": "bridge",
+      "km": 20.0,
+      "dist_m": 279,
+      "lat": 50.3653,
+      "lon": 7.58812
+    },
+    {
+      "name": "Moseleisenbahnbrücke",
+      "type": "bridge",
+      "km": 20.3,
+      "dist_m": 155,
+      "lat": 50.36388,
+      "lon": 7.59056
+    },
+    {
+      "name": "Walter Hübinger",
+      "type": "monument",
+      "km": 20.4,
+      "dist_m": 125,
+      "lat": 50.36135,
+      "lon": 7.59156
+    },
+    {
+      "name": "Ernst Albert Wolff",
+      "type": "monument",
+      "km": 20.4,
+      "dist_m": 116,
+      "lat": 50.36143,
+      "lon": 7.59162
+    },
+    {
+      "name": "Weisser Gasse",
+      "type": "monument",
+      "km": 20.5,
+      "dist_m": 103,
+      "lat": 50.36154,
+      "lon": 7.59294
+    },
+    {
+      "name": "1944 Koblenz 1984",
+      "type": "monument",
+      "km": 20.5,
+      "dist_m": 238,
+      "lat": 50.36037,
+      "lon": 7.59447
+    },
+    {
+      "name": "Olga Daniel",
+      "type": "monument",
+      "km": 20.5,
+      "dist_m": 208,
+      "lat": 50.36064,
+      "lon": 7.59432
+    },
+    {
+      "name": "Simon Daniel",
+      "type": "monument",
+      "km": 20.5,
+      "dist_m": 207,
+      "lat": 50.36064,
+      "lon": 7.59432
+    },
+    {
+      "name": "Alte Burg",
+      "type": "castle",
+      "km": 20.5,
+      "dist_m": 18,
+      "lat": 50.36233,
+      "lon": 7.59407
+    },
+    {
+      "name": "Balduinbrücke",
+      "type": "bridge",
+      "km": 20.5,
+      "dist_m": 216,
+      "lat": 50.36441,
+      "lon": 7.59305
+    },
+    {
+      "name": "Flora Daniel",
+      "type": "monument",
+      "km": 20.6,
+      "dist_m": 176,
+      "lat": 50.36101,
+      "lon": 7.59545
+    },
+    {
+      "name": "Juliane Daniel",
+      "type": "monument",
+      "km": 20.6,
+      "dist_m": 176,
+      "lat": 50.36101,
+      "lon": 7.59545
+    },
+    {
+      "name": "Otto Daniel",
+      "type": "monument",
+      "km": 20.6,
+      "dist_m": 175,
+      "lat": 50.36101,
+      "lon": 7.59544
+    },
+    {
+      "name": "Helene Brück",
+      "type": "monument",
+      "km": 20.6,
+      "dist_m": 289,
+      "lat": 50.36516,
+      "lon": 7.59464
+    },
+    {
+      "name": "Franz Michael Brück",
+      "type": "monument",
+      "km": 20.6,
+      "dist_m": 289,
+      "lat": 50.36516,
+      "lon": 7.59464
+    },
+    {
+      "name": "Margarete Brück",
+      "type": "monument",
+      "km": 20.6,
+      "dist_m": 289,
+      "lat": 50.36516,
+      "lon": 7.59464
+    },
+    {
+      "name": "Hugo Brück",
+      "type": "monument",
+      "km": 20.6,
+      "dist_m": 289,
+      "lat": 50.36516,
+      "lon": 7.59464
+    },
+    {
+      "name": "Südtor",
+      "type": "monument",
+      "km": 20.6,
+      "dist_m": 193,
+      "lat": 50.36079,
+      "lon": 7.59452
+    },
+    {
+      "name": "Florinsmarkt",
+      "type": "monument",
+      "km": 20.7,
+      "dist_m": 54,
+      "lat": 50.36215,
+      "lon": 7.59658
+    },
+    {
+      "name": "Gemüsegasse",
+      "type": "monument",
+      "km": 20.7,
+      "dist_m": 129,
+      "lat": 50.36144,
+      "lon": 7.59581
+    },
+    {
+      "name": "Nikolaus-von-Kues Denkmal",
+      "type": "monument",
+      "km": 20.7,
+      "dist_m": 67,
+      "lat": 50.36203,
+      "lon": 7.59658
+    },
+    {
+      "name": "Floriansmarkt Gebäude",
+      "type": "monument",
+      "km": 20.7,
+      "dist_m": 80,
+      "lat": 50.36193,
+      "lon": 7.59673
+    },
+    {
+      "name": "Liebfrauenkirche",
+      "type": "church",
+      "km": 20.7,
+      "dist_m": 205,
+      "lat": 50.36077,
+      "lon": 7.59597
+    },
+    {
+      "name": "Michaelskapelle",
+      "type": "church",
+      "km": 20.7,
+      "dist_m": 229,
+      "lat": 50.36055,
+      "lon": 7.59603
+    },
+    {
+      "name": "Florinskirche",
+      "type": "church",
+      "km": 20.8,
+      "dist_m": 77,
+      "lat": 50.36197,
+      "lon": 7.59733
+    },
+    {
+      "name": "Peter-Friedhofen-Kapelle",
+      "type": "church",
+      "km": 20.8,
+      "dist_m": 163,
+      "lat": 50.36119,
+      "lon": 7.59716
+    },
+    {
+      "name": "Johannes-Müller-Denkmal",
+      "type": "monument",
+      "km": 20.9,
+      "dist_m": 239,
+      "lat": 50.36055,
+      "lon": 7.5984
+    },
+    {
+      "name": "Julia Appel",
+      "type": "monument",
+      "km": 20.9,
+      "dist_m": 27,
+      "lat": 50.36247,
+      "lon": 7.5994
+    },
+    {
+      "name": "Max Appel",
+      "type": "monument",
+      "km": 20.9,
+      "dist_m": 27,
+      "lat": 50.36247,
+      "lon": 7.5994
+    },
+    {
+      "name": "Jesuitenkirche",
+      "type": "church",
+      "km": 20.9,
+      "dist_m": 269,
+      "lat": 50.36028,
+      "lon": 7.59889
+    },
+    {
+      "name": "Adolf Appel",
+      "type": "monument",
+      "km": 21.0,
+      "dist_m": 210,
+      "lat": 50.36181,
+      "lon": 7.60315
+    },
+    {
+      "name": "Basilika Sankt Kastor",
+      "type": "church",
+      "km": 21.0,
+      "dist_m": 263,
+      "lat": 50.36222,
+      "lon": 7.60429
+    },
+    {
+      "name": "St. Jakobus",
+      "type": "church",
+      "km": 21.0,
+      "dist_m": 154,
+      "lat": 50.36198,
+      "lon": 7.60234
+    },
+    {
+      "name": "Peter-Altmeier-Denkmal",
+      "type": "monument",
+      "km": 21.1,
+      "dist_m": 49,
+      "lat": 50.36301,
+      "lon": 7.60149
+    },
+    {
+      "name": "Opfern der Teilung (17. Juni 1953 – 9. November 1989)",
+      "type": "monument",
+      "km": 21.1,
+      "dist_m": 287,
+      "lat": 50.3639,
+      "lon": 7.60461
+    },
+    {
+      "name": "Kastorbrunnen",
+      "type": "monument",
+      "km": 21.1,
+      "dist_m": 196,
+      "lat": 50.36253,
+      "lon": 7.60345
+    },
+    {
+      "name": "Kapelle des Deutschen Orden",
+      "type": "ruins",
+      "km": 21.1,
+      "dist_m": 259,
+      "lat": 50.36266,
+      "lon": 7.60441
+    },
+    {
+      "name": "Peter-Altmeier-Denkmal",
+      "type": "monument",
+      "km": 21.1,
+      "dist_m": 48,
+      "lat": 50.36303,
+      "lon": 7.60148
+    }
+  ]
+}

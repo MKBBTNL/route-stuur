@@ -1,0 +1,166 @@
+id_a,id_b,name_a,name_b,type_a,type_b,distance_m,similarity
+cafe-spaarndam,caf-spaarndam,Cafe Spaarndam,Café Spaarndam,Bar,Bar,267,1.0
+ch-teau-de-vaux-le-vicomte,chateau-de-vaux-le-vicomte,Château de Vaux-le-Vicomte,Chateau de Vaux-le-Vicomte,Viewpoint,Information,175,1.0
+cath-drale-saint-tienne-d-auxerre,cathedrale-saint-etienne-d-auxerre,Cathédrale Saint-Étienne d'Auxerre,Cathedrale Saint-Etienne d'Auxerre,Monument,Monument,38,1.0
+st-anna-tunnel-antwerp,st-annatunnel-antwerp,St Anna tunnel Antwerp,St AnnaTunnel Antwerp,Information,Information,280,0.98
+old-harbor-enkhuizen,old-harbour-enkhuizen,Old Harbor Enkhuizen,Old Harbour Enkhuizen,Bar,Bar,40,0.98
+karlstadt-old-city-centre,karlstradt-old-city-centre,Karlstadt Old City Centre,Karlstradt old city centre,Coffee,Coffee,38,0.98
+kreekrak-schiffschleuse,kreekrak-schiffschleusen,Kreekrak Schiffschleuse,Kreekrak Schiffschleusen,Information,Information,100,0.98
+4-windm-hle-groot-ammers,4-windm-hlen-groot-ammers,4 Windmühle Groot Ammers,4 Windmühlen Groot Ammers,Viewpoint,Viewpoint,116,0.98
+migennes-pick-up-drop-off,migenne-pick-up-drop-off,Migennes Pick up / Drop off,Migenne Pick up / drop off,Lodging,Lodging,216,0.98
+eisschnelllaufstadion,eisschnellaufstadion,Eisschnelllaufstadion,Eisschnellaufstadion,Information,Information,43,0.98
+reil-restaurants,reil-restaurant,Reil restaurants,Reil Restaurant,Bar,Bar,33,0.97
+caf-durgerdam,caf-s-durgerdam,Café Durgerdam,Cafés Durgerdam,Coffee,Coffee,75,0.97
+mooring-helsing-r,mooring-helsingor,Mooring Helsingør,Mooring Helsingor,Lodging,Lodging,276,0.97
+mijzerpoldertuin,mijzerepoldertuin,Mijzerpoldertuin,Mijzerepoldertuin,Information,Information,38,0.97
+anlegestelle-oosterdok,0-anlegestelle-oosterdok,Anlegestelle Oosterdok,0 Anlegestelle Oosterdok,Lodging,Lodging,102,0.96
+visitor-centre-kinderdijk,visitor-center-kinderdijk,Visitor Centre Kinderdijk,Visitor center Kinderdijk,Viewpoint,Coffee,131,0.96
+cafes-avelgem,caf-avelgem,Cafes Avelgem,Café Avelgem,Coffee,Coffee,110,0.96
+cafes-cambrai,cafe-cambrai,Cafes Cambrai,Cafe Cambrai,Coffee,Coffee,289,0.96
+stevns-klint,stevens-klint,Stevns Klint,Stevens Klint,Information,Viewpoint,47,0.96
+hannema-huis,hannemahuis,Hannema Huis,Hannemahuis,Information,Information,46,0.96
+dampfmachinen-museum,dampfmaschinenmuseum,Dampfmachinen Museum,Dampfmaschinenmuseum,Viewpoint,Viewpoint,65,0.95
+aanlegplaats-ruijterkade-oost,aanlegplaats-de-ruijterkade-oost,Aanlegplaats Ruijterkade Oost,Aanlegplaats De Ruijterkade Oost,Lodging,Lodging,68,0.95
+maastunnel,maas-tunnel,Maastunnel,Maas Tunnel,Information,Information,58,0.95
+bar-du-chateau-fort,bar-du-chateau-port,Bar du Chateau Fort,Bar du Chateau Port,Coffee,Coffee,72,0.95
+christmass-postoffice,christmaspostoffice,Christmass postoffice,Christmaspostoffice,Viewpoint,Viewpoint,105,0.95
+pont-naar-centraal-station,pont-f3-naar-centraal-station,Pont naar Centraal Station,Pont F3 naar Centraal Station,Ferry,Ferry,141,0.95
+aqu-dukt-galamadammen,aquaduct-galamadammen,Aquädukt Galamadammen,Aquaduct Galamadammen,Viewpoint,Viewpoint,48,0.95
+docking-pont-sainte-maxence-lock,docking-pont-ste-maxence-lock,Docking Pont-Sainte-Maxence (lock),Docking Pont-Ste-Maxence (lock),Lodging,Lodging,32,0.95
+mooring-amsterdam-azartplen,mooring-ansterdam-azartplein,Mooring Amsterdam (Azartplen),Mooring Ansterdam Azartplein,Lodging,Lodging,34,0.95
+camping-les-cericelles,camping-les-cerilles,Camping Les Cericelles,Camping les Cerilles,Rest Stop,Information,115,0.95
+fortress-diemerdam-stelling-van-amsterdam,fort-diemerdam-stelling-van-amsterdam,Fortress Diemerdam: Stelling van Amsterdam,Fort Diemerdam: Stelling van Amsterdam,Viewpoint,Viewpoint,40,0.95
+grensstube,grens-stube,GrensStube,Grens Stube,Food,Food,34,0.95
+lexkesveer,lexkes-veer,Lexkesveer,Lexkes Veer,Ferry,Ferry,48,0.95
+caf-vogelenzang,cef-vogelenzang,Café Vogelenzang,Cefé Vogelenzang ,Coffee,Coffee,163,0.94
+pick-up-stavoren,pick-up-stavoren-1,Pick-up Stavoren,Pick up Stavoren 1,Stop,Information,143,0.94
+texel-brouwerij-speciaal-bier,texel-bierbrouwerij-speciaal-bier,Texel Brouwerij Speciaal bier,Texel Bierbrouwerij speciaal bier,Bar,Bar,31,0.94
+chateau-vaux-le-vicomte,ch-teau-de-vaux-le-vicomte,Chateau Vaux-le-Vicomte,Château de Vaux-le-Vicomte,Monument,Viewpoint,95,0.94
+chateau-vaux-le-vicomte,chateau-de-vaux-le-vicomte,Chateau Vaux-le-Vicomte,Chateau de Vaux-le-Vicomte,Monument,Information,259,0.94
+ferry-kamperland,ferry-2-kamperland,Ferry Kamperland,Ferry 2 Kamperland,Ferry,Ferry,30,0.94
+klokkenstoel-goingarijp,to-klokkenstoel-goingarijp,Klokkenstoel Goingarijp,To Klokkenstoel Goingarijp,Information,Information,145,0.94
+pick-up-stavoren-2,pick-up-stavoren-3,Pick up Stavoren 2,Pick up Stavoren 3,Information,Information,124,0.94
+chateau-de-fontainebleau,chateau-fontainebleau,Chateau de Fontainebleau,Chateau Fontainebleau,Information,Information,102,0.93
+zaanse-schans-freiliches-museum,zaanse-schans-freilichtmuseum,Zaanse Schans; freiliches Museum,Zaanse Schans Freilichtmuseum,Viewpoint,Information,120,0.93
+hagestein-weir,hagestein-wehr,Hagestein Weir,Hagestein Wehr,Information,Information,35,0.93
+castle-gardens-in-arcen,castle-gardens-arcen,Castle Gardens In Arcen,Castle Gardens Arcen,Viewpoint,Information,124,0.93
+p-ronne-centre-world-war-1-museum,p-ronne-city-centre-world-war-1-museum,Péronne centre / World War 1 Museum ,"Péronne city centre, World War 1 Museum",Information,Information,43,0.93
+abbey-d-ourscamp,abbey-ourscamp,Abbey d'Ourscamp,Abbey Ourscamp,Viewpoint,Information,106,0.93
+docking-cochem,docking-cochem-1,Docking Cochem,Docking Cochem 1,Lodging,Lodging,230,0.93
+park-franeker-2,park-franeker-3,Park Franeker 2,Park Franeker 3,Information,Information,69,0.93
+caf-de-hert-bellem,caf-t-hert-bellem,Café De Hert Bellem,Café 't Hert Bellem,coffee,Coffee,111,0.92
+riekje-s-hoeve,riekjeshoeve,Riekje's Hoeve,Riekjeshoeve,Coffee,Coffee,38,0.92
+delville-wood-south-africa-military-cemetery,delville-wood-south-africa-war-cemetery,Delville Wood South Africa Military Cemetery,Delville Wood South Africa War Cemetery,Monument,Monument,69,0.92
+drinkwater-station,drinkingwater-station,Drinkwater Station,Drinkingwater Station,Viewpoint,Viewpoint,62,0.92
+anlegeplatz-deventer-binnenhaven,aanlegplaats-deventer-binnenhaven,Anlegeplatz Deventer Binnenhaven,Aanlegplaats Deventer Binnenhaven,Lodging,Lodging,62,0.92
+hoorn-train-station,hoorn-treinstation,Hoorn Train Station,Hoorn Treinstation,Information,Information,50,0.92
+veerpont-millingerwaard-doornenburg,veerdienst-millingerwaard-doornenburg,Veerpont Millingerwaard - Doornenburg,Veerdienst Millingerwaard - Doornenburg,Ferry,Ferry,187,0.92
+deutsches-eck,deutschen-eck,Deutsches Eck,Deutschen Eck,Viewpoint,Viewpoint,109,0.92
+chateau-de-versailles,chateau-versailles,Chateau De Versailles,Chateau Versailles,Monument,Viewpoint,98,0.92
+knooppunt-10,knooppunt-02,Knooppunt 10,Knooppunt 02,Information,Information,154,0.92
+de-ijstuin-dronryp,de-ijstuin-dronrijp,"De IJstuin, Dronryp",De ijstuin Dronrijp,Information,Coffee,63,0.92
+klokkenstoel-broek,to-klokkenstoel-broek,Klokkenstoel Broek,To Klokkenstoel Broek,Information,Information,33,0.92
+knooppunt-42,knooppunt-43,Knooppunt 42,Knooppunt 43,Information,Information,227,0.92
+ferry-azartplein,ferry-to-azartplein,Ferry Azartplein,Ferry to Azartplein,Ferry,Ferry,34,0.91
+mp-003-jardin-bourdelle,pm-005-jardin-bourdelle,MP 003 Jardin Bourdelle,PM 005 Jardin Bourdelle,Information,Information,66,0.91
+ligplaats-kampen-ijsselkade,aanlegplaats-kampen-ijsselkade,Ligplaats Kampen IJsselkade,Aanlegplaats Kampen IJsselkade,Lodging,Lodging,161,0.91
+musuem-kranenburg,museum-kranenburgh,Musuem Kranenburg ,Museum Kranenburgh,Monument,Viewpoint,71,0.91
+caf-restaurants-schoorl,caf-s-und-restaurants-schoorl,Café Restaurants Schoorl,Cafés und Restaurants Schoorl,Coffee,Coffee,82,0.91
+park-balk-2,park-balk-3,Park Balk 2,Park Balk 3,Information,Information,253,0.91
+park-joure,park-joure-2,Park Joure,Park Joure 2,Information,Information,84,0.91
+walk-5,walk5,Walk 5,Walk5,Information,Information,34,0.91
+ferry-to-obernzell,ferry-obernzell,Ferry to Obernzell,Ferry Obernzell,Ferry,Ferry,292,0.91
+mp-006-mooring-fleur,pm-003-mooring-fleur,MP 006 Mooring Fleur,PM 003 Mooring Fleur,Lodging,Lodging,45,0.9
+pancake-restaurant-den-strooper-veluwe,pancake-restaurant-den-strooper,Pancake Restaurant Den Strooper Veluwe,Pancake Restaurant Den Strooper,Food,Food,100,0.9
+caf-westerpark,caf-westerpaard,Café Westerpark,Café Westerpaard ,Coffee,Coffee,51,0.9
+docking-antwerpen-kattendijkdok,mooring-antwerpen-kattendijkdok,Docking Antwerpen (Kattendijkdok),Mooring Antwerpen Kattendijkdok,Lodging,Lodging,145,0.9
+mooring-amsterdam-buiksloterweg,docking-amsterdam-buiksloterweg,"Mooring, Amsterdam, Buiksloterweg",Docking Amsterdam (Buiksloterweg),Lodging,Lodging,44,0.9
+mp-007-mooring-fleur,pm-002-mooring-fleur,MP 007 Mooring Fleur,PM 002 Mooring Fleur,Lodging,Lodging,31,0.9
+van-brienenoordbrug,van-brienenoordbr-cke,Van Brienenoordbrug,Van Brienenoordbrücke,Viewpoint,Viewpoint,63,0.9
+vorden-several-restaurants-and-bakeries,several-restaurants-and-bakeries,Vorden: several restaurants and bakeries,Several restaurants and bakeries,Food,Food,107,0.9
+t-elfde-uur,t-elf-uur,'t Elfde Uur,'t Elf Uur,Food,Food,30,0.9
+docking-amsterdam-pontsteiger,mooring-amsterdam-pontsteiger,Docking Amsterdam (Pontsteiger),Mooring Amsterdam Pontsteiger,Lodging,Lodging,61,0.9
+la-d-fense,la-d-fence,La Défense,La Défence,Information,Information,110,0.9
+a-vogel-g-rten,a-vogel-gardens,A. Vogel Gärten,A. Vogel Gardens,Viewpoint,Viewpoint,112,0.9
+a-vogel-tuinen,dr-a-vogel-tuinen,A. Vogel Tuinen,Dr. A. Vogel Tuinen,Viewpoint,Viewpoint,150,0.9
+park-balk,park-balk-2,Park Balk,Park Balk 2,Information,Information,156,0.9
+st-servaasbrug,sint-servaasbrugf,St Servaasbrug,Sint Servaasbrugf,Information,Viewpoint,32,0.9
+the-tulip-barn,de-tulip-barn,The Tulip Barn,De Tulip Barn,Coffee,Coffee,59,0.89
+arnhem-centre,arnhem-centrum,Arnhem Centre,Arnhem centrum,Food,Viewpoint,99,0.89
+mooring-amsterdam-oosterdok,docking-amsterdam-oosterdok,Mooring Amsterdam Oosterdok,Docking Amsterdam (Oosterdok),Lodging,Lodging,89,0.89
+docking-antwerpen-willemdok,mooring-antwerpen-willemdok,Docking Antwerpen (Willemdok),Mooring Antwerpen Willemdok,Lodging,Lodging,42,0.89
+docking-rotterdam-oosterkade,mooring-rotterdam-oosterkade,Docking Rotterdam (Oosterkade),Mooring Rotterdam Oosterkade,Lodging,Lodging,46,0.89
+anliegeplatz-rotterdam-oosterkade,ligplaats-rotterdam-oosterkade,Anliegeplatz Rotterdam Oosterkade,Ligplaats Rotterdam Oosterkade,Lodging,Lodging,96,0.89
+docking-villeneuve-sur-yonne,mooring-villeneuve-sur-yonne,Docking Villeneuve-sur-Yonne,Mooring Villeneuve-sur-Yonne,Lodging,Lodging,54,0.89
+the-tosti-club,de-tosti-club,The Tosti Club,De Tosti Club,Food,Food,42,0.89
+castle-fontainebleau,chateau-fontainebleau,Castle Fontainebleau,Chateau Fontainebleau,Monument,Information,41,0.88
+docking-alkmaar-voormeer,mooring-alkmaar-voormeer,Docking Alkmaar (Voormeer),Mooring Alkmaar Voormeer,Lodging,Lodging,122,0.88
+docking-alkmaar-kanaalkade,mooring-alkmaar-kanaalkade,Docking Alkmaar (Kanaalkade),Mooring Alkmaar Kanaalkade,Lodging,Lodging,55,0.88
+ferry-krimpen-kinderdijk,f-hre-krimpen-kinderdijk,Ferry Krimpen - Kinderdijk,Fähre Krimpen - Kinderdijk,Ferry,Ferry,32,0.88
+waterbus-to-alblasserdam,waterbus-naar-alblasserdam,Waterbus to Alblasserdam,Waterbus naar Alblasserdam,Ferry,Information,66,0.88
+fortress-de-schans,fort-de-schans,Fortress De Schans,Fort De Schans,Viewpoint,Viewpoint,171,0.88
+anliegeplatz-rotterdam-boompjes,ligplaats-rotterdam-boompjes,Anliegeplatz Rotterdam Boompjes,Ligplaats Rotterdam Boompjes,Lodging,Lodging,52,0.88
+docking-bernkastel-city,docking-bernkastel-centre,Docking Bernkastel (city),Docking Bernkastel (centre),Lodging,Lodging,79,0.88
+f-hre-zentral-bahnhof-f3,f-hre-f3-zentral-bahnhof,Fähre Zentral Bahnhof F3,Fähre F3 Zentral Bahnhof,Ferry,Ferry,77,0.88
+ferry-f3-to-central-station,ferry-central-station,Ferry F3 to Central Station,Ferry Central Station,Ferry,Ferry,172,0.88
+ferry-f3-buiksloterweg,veer-f3-buiksloterweg,Ferry F3 Buiksloterweg,Veer F3 Buiksloterweg,Ferry,Ferry,51,0.88
+ferry-bronkhorst-brummen,f-hre-bronkhorst-brummen,Ferry Bronkhorst-Brummen,Fähre Bronkhorst-Brummen,Ferry,Ferry,34,0.88
+docking-ramspolbrug,docking-ramspol,Docking Ramspolbrug,Docking Ramspol,Lodging,Lodging,90,0.88
+schermerhorn-windmill,schermerhorn-windm-hle,Schermerhorn windmill,Schermerhorn Windmühle,Viewpoint,Viewpoint,39,0.88
+museum-singer-laren,kunstmuseum-singer-laren,Museum Singer Laren,Kunstmuseum Singer Laren,Viewpoint,Viewpoint,77,0.88
+kop-van-het-ende,kop-van-het-land,Kop van het Ende,Kop van het Land,Viewpoint,Viewpoint,50,0.88
+tulip-barn,de-tulip-barn,'Tulip Barn',De Tulip Barn,Coffee,Coffee,55,0.87
+anlegeplatz-stavoren-stationsweg,ligplaats-stavoren-stationsweg,Anlegeplatz Stavoren Stationsweg,Ligplaats Stavoren Stationsweg,Lodging,Lodging,73,0.87
+ligplaats-oudeschild,ligplaats-oudeschild-texel,Ligplaats Oudeschild,Ligplaats Oudeschild Texel,Lodging,Lodging,149,0.87
+texel-special-beer-brewery,texel-special-beer-brauerei,Texel special beer brewery,Texel special beer Brauerei,Bar,Bar,113,0.87
+docking-auvers-sur-oise,mooring-auvers-sur-oise,Docking Auvers-sur-Oise,Mooring Auvers sur Oise,Lodging,Lodging,88,0.87
+ligplaats-doesburg-ijsselkade,anlegeplatz-doesburg-ijsselkade,Ligplaats Doesburg IJsselkade,Anlegeplatz Doesburg IJsselkade,Lodging,Lodging,49,0.87
+brienon-sur-armencon-chateau,brienon-sur-armencon-church,Brienon-sur-Armencon chateau,Brienon-sur-Armencon church,Monument,Monument,83,0.87
+ferry-grou,to-ferry-grou,Ferry Grou,To ferry Grou,Ferry,Information,141,0.87
+let-op-ferry-grou,to-ferry-grou,Let op Ferry Grou,To ferry Grou,Information,Information,98,0.87
+veerpont-millingerwaard-doornenburg,fietsveer-millingerwaard-doornenburg,Veerpont Millingerwaard - Doornenburg,Fietsveer Millingerwaard - Doornenburg,Ferry,Ferry,121,0.87
+station-ora,stazione-ora,Station Ora,Stazione Ora,Information,Information,49,0.87
+staffanstorp-centre,staffanstorp-zentrum,Staffanstorp Centre,Staffanstorp Zentrum,Food,Food,33,0.87
+docking-gouda-veerstal,mooring-gouda-veerstal,Docking Gouda (Veerstal),Mooring Gouda Veerstal,Lodging,Lodging,39,0.86
+zaanse-schans-freilichtmuseum,zaanse-schans-openluchtmuseum,Zaanse Schans Freilichtmuseum,Zaanse Schans; openluchtmuseum,Information,Viewpoint,91,0.86
+fort-aan-de-klop,caf-fort-aan-de-klop,Fort aan de Klop,Café Fort aan de Klop ,Bar,Bar,34,0.86
+mp-003-abbey-ferrieres,mp-003-bar-ferri-res,MP 003 Abbey Ferrieres,MP 003 Bar Ferrières,Information,Coffee,116,0.86
+camping-de-l-aigrette,camping-de-l-aigrette-toilet,Camping de l'Aigrette,Camping de l'Aigrette / toilet,Rest Stop,Coffee,48,0.86
+anlegeplatz-deventer-pothoofd,ligplaats-deventer-pothoofd,Anlegeplatz Deventer Pothoofd,Ligplaats Deventer Pothoofd,Lodging,Lodging,89,0.86
+anlegeplatz-deventer-lage-welle,anlegestelle-deventer-lage-welle,Anlegeplatz Deventer Lage Welle,Anlegestelle Deventer Lage Welle,Lodging,Lodging,63,0.86
+ferry-wijhe-heerde,veer-wijhe-heerde,Ferry Wijhe - Heerde,Veer Wijhe - Heerde,Ferry,Ferry,118,0.86
+mooring-pont-l-veque,docking-pont-l-v-que,Mooring Pont l'Éveque,Docking Pont-l'Évêque,Lodging,Lodging,49,0.86
+mooring-paris-bougival,docking-paris-bougival,Mooring Paris - Bougival,Docking Paris (Bougival),Lodging,Lodging,117,0.86
+ferry-den-helder-texel,f-hre-den-helder-texel,Ferry Den Helder - Texel,Fähre Den Helder - Texel,Ferry,Ferry,47,0.86
+docking-pont-sur-yonne,mooring-pont-sur-yonne,Docking Pont-sur-Yonne,Mooring Pont-sur-Yonne,Lodging,Lodging,111,0.86
+kaasboerderij-van-zeeburg,k-serei-van-zeeburg,Kaasboerderij Van Zeeburg,Käserei Van Zeeburg,Information,Information,110,0.86
+ferry-texel-den-helder,f-hre-texel-den-helder,Ferry Texel - Den Helder,Fähre Texel - Den Helder,Ferry,Ferry,61,0.86
+zandwijkse-en-uitwijkse-molens-sleeuwijk,zandwijkse-en-uitwijkse-molens,Zandwijkse en Uitwijkse Molens Sleeuwijk,Zandwijkse en Uitwijkse molens,Viewpoint,Viewpoint,113,0.86
+de-lepelaar-jisp,cafe-de-lepelaar-jisp,de lepelaar - Jisp,"Cafe De Lepelaar, Jisp",Information,Information,53,0.86
+eeuwenoude-duinen-aan-de-zuiderzeekust,eeuwenoude-zeeduinen-langs-de-zuiderzee,Eeuwenoude duinen aan de Zuiderzeekust,Eeuwenoude zeeduinen langs de Zuiderzee,Information,Information,63,0.86
+gekke-fietsen-museum-nevele,gekke-fietsen-museum,Gekke Fietsen Museum Nevele,Gekke fietsen museum,Information,Information,59,0.85
+mp-006-dagerous-crossing-2x,pm-003-dangerous-crossing,MP 006 Dagerous crossing (2x) !,PM 003 Dangerous crossing,Caution,Information,37,0.85
+drop-off-pick-up-schoonhoven-veerpoort,drop-off-pick-up-schoonhoven-de-kat,Drop-off / pick-up Schoonhoven (Veerpoort),Drop-off / pick-up Schoonhoven (de Kat),Start,Start,106,0.85
+watermills-buitenweg,watermolen-buitenweg,Watermills Buitenweg,Watermolen Buitenweg,Viewpoint,Viewpoint,45,0.85
+anlegeplatz-oudeschild-texel,ligplaats-oudeschild-texel,Anlegeplatz Oudeschild Texel,Ligplaats Oudeschild Texel,Lodging,Lodging,37,0.85
+oude-zeedijk-sinds-1436,oude-zeedijk-1436,Oude zeedijk sinds 1436,Oude zeedijk (1436),Information,Viewpoint,120,0.85
+mooring-haarlem-spaarndamseweg,mooring-spaarndamseweg,Mooring Haarlem Spaarndamseweg,Mooring Spaarndamseweg,Lodging,Lodging,57,0.85
+zandvoort-several-restaurants,zandvoort-meerdere-restaurants,Zandvoort Several Restaurants,Zandvoort: meerdere restaurants,Food,Food,46,0.85
+mooring-ghent-merelbeke,mooring-merelbeke,Mooring Ghent Merelbeke,Mooring Merelbeke,Lodging,Lodging,145,0.85
+schermer-mill-schermenhorn,schermer-molens-schermerhorn,Schermer mill Schermenhorn,Schermer molens Schermerhorn,Viewpoint,Viewpoint,78,0.85
+villeneuve-sur-yonne-caf-s,villeneuve-sur-yonne,Villeneuve-sur-Yonne Café's,Villeneuve-sur-Yonne,Coffee,Information,86,0.85
+cannes-cluse-bar,cannes-cluse-bar-tabac,Cannes-Écluse bar,Cannes-Écluse Bar tabac,Bar,Coffee,42,0.85
+tea-garden-eemnes,teegarten-eemnes,Tea garden Eemnes,Teegarten Eemnes,Coffee,Coffee,40,0.85
+info-zentrum-schoorlse-duinen,buitencentrum-schoorlse-duinen,Info Zentrum Schoorlse Duinen,Buitencentrum Schoorlse Duinen,Viewpoint,Information,192,0.85
+veerdienst-millingerwaard-doornenburg,fietsveer-millingerwaard-doornenburg,Veerdienst Millingerwaard - Doornenburg,Fietsveer Millingerwaard - Doornenburg,Ferry,Ferry,87,0.85
+rustpunt-toko-twisk,rustpunt-twisk,Rustpunt Toko Twisk,Rustpunt Twisk,Coffee,Coffee,38,0.85
+restaurant-mazi,restaurant-thymari,Restaurant Mazi,Restaurant Thymari,Food,Food,260,0.85
+restaurant-goldener-stern-dorfprozelten,restaurant-zur-goldener-krone-dorfprozelten,Restaurant Goldener Stern Dorfprozelten,Restaurant Zur Goldener Krone Dorfprozelten,Food,Food,208,0.85
+oude-zandduinen-langs-de-zuiderzee,eeuwenoude-zeeduinen-langs-de-zuiderzee,Oude zandduinen langs de Zuiderzee,Eeuwenoude zeeduinen langs de Zuiderzee,Information,Information,125,0.85
+cathedral-of-our-lady,cathedral-of-our-lady-antwerp,Cathedral of our Lady,"Cathedral of Our Lady, Antwerp",Monument,Information,44,0.84
+old-seadike-since-1436,old-seadike-1436,old seadike since 1436,Old seadike (1436),Viewpoint,Viewpoint,91,0.84
+market-hall,markthal,Market Hall,Markthal,Convenience Store,Information,44,0.84
+anlegestelle-kreekrak-west,anlegestelle-kreekrak-schleusen,Anlegestelle Kreekrak West,Anlegestelle Kreekrak Schleusen,Lodging,Lodging,85,0.84
+anlegestelle-volendam-de-dijk,anlegestelle-volendam,Anlegestelle Volendam De Dijk,Anlegestelle Volendam,Lodging,Lodging,87,0.84
+braunstein-brewery,braunstein-brouwerij,Braunstein Brewery,Braunstein Brouwerij,Information,Information,40,0.84
+mooring-helsingborg,docking-helsingborg,Mooring Helsingborg,Docking Helsingborg,Lodging,Lodging,77,0.84

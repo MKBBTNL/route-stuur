@@ -1,0 +1,123 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>day 9 : Wolfsburg - Magdeburg</title>
+<style>
+  :root { --red:#c0101d; --ink:#1b1b1b; --gray:#8a8a8a; --line:#e6e2d8; --paper:#faf9f6; }
+  * { box-sizing:border-box; }
+  body { font-family:-apple-system,Segoe UI,Arial,sans-serif; color:var(--ink);
+         background:var(--paper); margin:0; padding:28px; line-height:1.5; }
+  .sheet { max-width:760px; margin:0 auto; }
+  header { border-bottom:3px solid var(--red); padding-bottom:10px; margin-bottom:6px; }
+  h1 { font-size:23px; margin:0; color:var(--red); text-transform:uppercase; letter-spacing:.4px; }
+  .meta { color:var(--gray); font-size:13px; margin-top:3px; }
+  .nodes { font-size:14px; margin:14px 0; padding:8px 10px; background:#fff;
+            border:1px solid var(--line); border-radius:6px; }
+  h2 { font-size:13px; text-transform:uppercase; letter-spacing:.6px; color:var(--gray);
+        margin:22px 0 8px; }
+  .row { display:flex; gap:12px; padding:5px 0; border-bottom:1px solid var(--line); }
+  .km { flex:0 0 88px; color:var(--red); font-variant-numeric:tabular-nums; font-weight:600; font-size:13px; }
+  .cue { flex:1; }
+  .poi { background:#fff; border:1px solid var(--line); border-left:3px solid var(--red);
+          border-radius:6px; padding:9px 12px; margin:8px 0; }
+  .poi-h { display:flex; align-items:baseline; gap:8px; }
+  .tag { font-size:11px; text-transform:uppercase; letter-spacing:.5px; color:#fff;
+          background:var(--red); border-radius:3px; padding:1px 6px; }
+  .poi-n { font-weight:600; }
+  .poi-km { margin-left:auto; color:var(--gray); font-size:13px; font-variant-numeric:tabular-nums; }
+  .poi-d { color:#444; font-size:14px; margin-top:4px; }
+  @media print { body { background:#fff; padding:0; } .poi, .nodes { break-inside:avoid; } }
+</style></head>
+<body><div class="sheet">
+  <header><h1>day 9 : Wolfsburg - Magdeburg</h1><div class="meta">84.4 km &nbsp;·&nbsp; signs &amp; notes only</div></header>
+  
+  <h2>Directions &amp; highlights</h2>
+  <div class="row"><span class="km">0.9 km</span><span class="cue">Slight right toward Borsigstraße</span></div>
+<div class="row"><span class="km">1.1 km</span><span class="cue">Turn left onto Borsigstraße</span></div>
+<div class="row"><span class="km">1.2 km</span><span class="cue">Turn right onto In den Allerwiesen</span></div>
+<div class="row"><span class="km">1.3 km</span><span class="cue">Turn right</span></div>
+<div class="row"><span class="km">2.1 km</span><span class="cue">Turn right</span></div>
+<div class="row"><span class="km">2.2 km</span><span class="cue">Turn left (follow 1.4 km)</span></div>
+<div class="row"><span class="km">3.5 km</span><span class="cue">Turn left</span></div>
+<div class="row"><span class="km">3.6 km</span><span class="cue">Turn right</span></div>
+<div class="row"><span class="km">3.7 km</span><span class="cue">Turn right</span></div>
+<div class="row"><span class="km">3.9 km</span><span class="cue">Sharp right</span></div>
+<div class="row"><span class="km">4.0 km</span><span class="cue">Turn right toward Heinrich-Jasper-Straße</span></div>
+<div class="row"><span class="km">4.2 km</span><span class="cue">Turn left onto Heinrich-Jasper-Straße</span></div>
+<div class="row"><span class="km">4.2 km</span><span class="cue">Turn right onto Helmstedter Str./​B188 (follow 3.9 km)</span></div>
+<div class="row"><span class="km">8.1 km</span><span class="cue">Continue onto Hauptstraße (follow 1.9 km)</span></div>
+<div class="row"><span class="km">10.0 km</span><span class="cue">Continue onto Vorsfelder Str. (follow 1.3 km)</span></div>
+<div class="row"><span class="km">11.2 km</span><span class="cue">Continue straight onto Neuenhäuser Str./​B244</span></div>
+<div class="row"><span class="km">11.4 km</span><span class="cue">Continue onto Grafhorster Str.</span></div>
+<div class="row"><span class="km">11.5 km</span><span class="cue">Turn left onto Oebisfelder Str. (follow 1.9 km)</span></div>
+<div class="row"><span class="km">13.4 km</span><span class="cue">Continue onto Stendaler Str. (follow 1.8 km)</span></div>
+<div class="row"><span class="km">15.2 km</span><span class="cue">Continue onto Büstedt</span></div>
+<div class="row"><span class="km">15.9 km</span><span class="cue">Turn right</span></div>
+<div class="row"><span class="km">16.0 km</span><span class="cue">Turn right</span></div>
+<div class="row"><span class="km">16.5 km</span><span class="cue">Turn right onto Magdeburger Str. (follow 1.7 km)</span></div>
+<div class="row"><span class="km">18.2 km</span><span class="cue">Continue onto Siedlung</span></div>
+<div class="row"><span class="km">18.7 km</span><span class="cue">Continue onto L24 (follow 6.9 km)</span></div>
+<div class="row"><span class="km">25.6 km</span><span class="cue">Continue onto Dorfstraße</span></div>
+<div class="row"><span class="km">25.8 km</span><span class="cue">Continue onto Kathendorfer Str.</span></div>
+<div class="row"><span class="km">26.4 km</span><span class="cue">Continue onto Rätzlinger Str.</span></div>
+<div class="row"><span class="km">27.3 km</span><span class="cue">Continue onto Etinger Str.</span></div>
+<div class="row"><span class="km">28.2 km</span><span class="cue">Continue onto L24 (follow 1.4 km)</span></div>
+<div class="row"><span class="km">29.6 km</span><span class="cue">Turn right onto Hauptstraße</span></div>
+<div class="row"><span class="km">30.1 km</span><span class="cue">Continue onto L24 (follow 8.1 km)</span></div>
+<div class="row"><span class="km">38.2 km</span><span class="cue">Turn right</span></div>
+<div class="row"><span class="km">38.6 km</span><span class="cue">Continue onto Am Kanal</span></div>
+<div class="row"><span class="km">39.1 km</span><span class="cue">Turn right to stay on Am Kanal</span></div>
+<div class="row"><span class="km">39.3 km</span><span class="cue">Continue onto L24</span></div>
+<div class="row"><span class="km">39.4 km</span><span class="cue">Slight left to stay on L24 (follow 9.4 km)</span></div>
+<div class="row"><span class="km">48.8 km</span><span class="cue">Continue onto Industriestraße</span></div>
+<div class="row"><span class="km">49.6 km</span><span class="cue">Continue onto L24</span></div>
+<div class="row"><span class="km">50.5 km</span><span class="cue">Continue onto K1653 (follow 2.7 km)</span></div>
+<div class="row"><span class="km">53.2 km</span><span class="cue">Continue onto K1106</span></div>
+<div class="row"><span class="km">54.0 km</span><span class="cue">Slight right onto Gänsebreite</span></div>
+<div class="row"><span class="km">54.7 km</span><span class="cue">Continue onto An d. Ohre (follow 1.4 km)</span></div>
+<div class="row"><span class="km">56.1 km</span><span class="cue">Sharp right (follow 1.6 km)</span></div>
+<div class="row"><span class="km">57.7 km</span><span class="cue">Turn left (follow 1.2 km)</span></div>
+<div class="row"><span class="km">58.8 km</span><span class="cue">Turn right onto K1106</span></div>
+<div class="row"><span class="km">58.9 km</span><span class="cue">Turn left (follow 1.7 km)</span></div>
+<div class="row"><span class="km">60.6 km</span><span class="cue">Turn right onto K1161 (follow 1.6 km)</span></div>
+<div class="row"><span class="km">62.2 km</span><span class="cue">Turn left onto Wedringer Str.</span></div>
+<div class="row"><span class="km">62.2 km</span><span class="cue">Turn right onto K1161</span></div>
+<div class="row"><span class="km">62.6 km</span><span class="cue">Turn left onto B71 (follow 2.3 km)</span></div>
+<div class="row"><span class="km">65.0 km</span><span class="cue">Turn right onto Haldensleber Str.</span></div>
+<div class="row"><span class="km">65.5 km</span><span class="cue">Continue onto Magdeburger Str.</span></div>
+<div class="row"><span class="km">65.9 km</span><span class="cue">Continue onto Holzweg</span></div>
+<div class="row"><span class="km">66.3 km</span><span class="cue">Continue onto K1655 (follow 1.6 km)</span></div>
+<div class="row"><span class="km">67.9 km</span><span class="cue">Turn left</span></div>
+<div class="row"><span class="km">68.8 km</span><span class="cue">Continue onto K1167</span></div>
+<div class="row"><span class="km">69.5 km</span><span class="cue">Continue onto Hintern Hecken</span></div>
+<div class="row"><span class="km">70.3 km</span><span class="cue">Turn right onto Wolmirstedter Ch</span></div>
+<div class="row"><span class="km">70.9 km</span><span class="cue">Turn left onto B71 (follow 2.7 km)</span></div>
+<div class="row"><span class="km">73.6 km</span><span class="cue">Turn right onto Schnarsleber Weg</span></div>
+<div class="row"><span class="km">73.6 km</span><span class="cue">Slight left onto Olvenstedter Str.</span></div>
+<div class="row"><span class="km">74.6 km</span><span class="cue">Continue onto Agrarstraße (follow 2.2 km)</span></div>
+<div class="row"><span class="km">76.7 km</span><span class="cue">Turn left onto Birkenallee</span></div>
+<div class="row"><span class="km">77.0 km</span><span class="cue">Turn right onto Friedrich-Aue-Str.</span></div>
+<div class="row"><span class="km">77.5 km</span><span class="cue">Turn right onto St.-Josef-Straße</span></div>
+<div class="row"><span class="km">77.5 km</span><span class="cue">Turn left onto Olvenstedter Chaussee</span></div>
+<div class="row"><span class="km">78.2 km</span><span class="cue">Turn right to stay on Olvenstedter Chaussee (follow 1.0 km)</span></div>
+<div class="row"><span class="km">79.2 km</span><span class="cue">Turn left</span></div>
+<div class="row"><span class="km">79.7 km</span><span class="cue">Turn right toward Olvenstedter Chaussee/​B1</span></div>
+<div class="row"><span class="km">79.7 km</span><span class="cue">Turn left onto Olvenstedter Chaussee/​B1</span></div>
+<div class="row"><span class="km">80.6 km</span><span class="cue">Turn right onto Ebendorfer Str.</span></div>
+<div class="row"><span class="km">81.1 km</span><span class="cue">Continue onto Olvenstedter Str.</span></div>
+<div class="row"><span class="km">81.6 km</span><span class="cue">Continue onto Ernst-Reuter-Allee</span></div>
+<div class="row"><span class="km">82.4 km</span><span class="cue">Turn right onto Ulrichpl.</span></div>
+<div class="row"><span class="km">82.6 km</span><span class="cue">Turn right onto Breiter Weg</span></div>
+<div class="row"><span class="km">82.9 km</span><span class="cue">Turn left onto Erhard-Hübener-Platz</span></div>
+<div class="poi"><div class="poi-h"><span class="tag">note</span><span class="poi-n">Magdeburg</span><span class="poi-km">83.0 km</span></div></div>
+<div class="row"><span class="km">83.1 km</span><span class="cue">Turn left onto Regierungsstraße</span></div>
+<div class="row"><span class="km">83.2 km</span><span class="cue">Turn right onto Große Klosterstraße</span></div>
+<div class="row"><span class="km">83.2 km</span><span class="cue">Slight left onto Prämonstratenserberg</span></div>
+<div class="row"><span class="km">83.4 km</span><span class="cue">Turn left to stay on Prämonstratenserberg</span></div>
+<div class="row"><span class="km">83.4 km</span><span class="cue">Sharp right</span></div>
+<div class="row"><span class="km">83.5 km</span><span class="cue">Turn right</span></div>
+<div class="row"><span class="km">83.6 km</span><span class="cue">Turn left</span></div>
+<div class="row"><span class="km">83.7 km</span><span class="cue">Turn left</span></div>
+<div class="row"><span class="km">84.3 km</span><span class="cue">Turn right onto Petriförder</span></div>
+<div class="row"><span class="km">84.3 km</span><span class="cue">Turn left</span></div>
+
+</div></body></html>

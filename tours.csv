@@ -1,0 +1,642 @@
+﻿Row #;Tour (Tour__r.Name);Program;Day;Optie;Doel km;Gematchte CSV route;Verschil (km);Hoogtemeters;Zekerheid
+10;Holland and Belgium: Amsterdam - Bruges Premium;Program: Amsterdam - Bruges Medium/Premium;Day 2: Utrecht – Vreeswijk | Vreeswijk – Schoonhoven – Kinderdijk  | Kinderdijk;Optie 1;32;Dordrecht // Alblasserdam - Kinderdijk - Schoonhoven 32 km ENG 2026;0,43;72,2;Hoog
+10;Holland and Belgium: Amsterdam - Bruges Premium;Program: Amsterdam - Bruges Medium/Premium;Day 2: Utrecht – Vreeswijk | Vreeswijk – Schoonhoven – Kinderdijk  | Kinderdijk;Optie 2;56;Dordrecht // Alblasserdam - Kinderdijk - Vianen 57 km ENG 2026;0,99;137,1;Laag (niet toegepast)
+11;Holland and Belgium: Amsterdam - Bruges Premium;Program: Amsterdam - Bruges Medium/Premium;Day 3: Dordrecht – Willemstad | Willemstad – Bergen op Zoom;Optie 1;42;Tholen - Willemstad (via Steenbergen) 42 km ENG 2026;0,4;105,2;Hoog
+11;Holland and Belgium: Amsterdam - Bruges Premium;Program: Amsterdam - Bruges Medium/Premium;Day 3: Dordrecht – Willemstad | Willemstad – Bergen op Zoom;Optie 2;50;Tholen - Willemstad (via Oud Vossemeer) 46 km ENG 2026;4,48;107,3;Redelijk
+12;Holland and Belgium: Amsterdam - Bruges Premium;Program: Amsterdam - Bruges Medium/Premium;Day 4: Bergen op Zoom – Kreekrak lock | Kreekrak  lock - Antwerp;Optie 1;21;Kreekrak (west) - Tholen 20 km ENG 2026;0,56;54,6;Hoog
+12;Holland and Belgium: Amsterdam - Bruges Premium;Program: Amsterdam - Bruges Medium/Premium;Day 4: Bergen op Zoom – Kreekrak lock | Kreekrak  lock - Antwerp;Optie 2;35;Kreekrak (west) - Tholen 34 km ENG 2026;0,72;119,8;Hoog
+49;Holland and Belgium: Amsterdam - Bruges Premium;Program: Bruges - Amsterdam Medium/Premium MAG;Day 1: Bruges;Optie 1;15;Ghent (city) - Lovendegem 10 km ENG 2026;4,6;30,2;Laag (niet toegepast)
+50;Holland and Belgium: Amsterdam - Bruges Premium;Program: Bruges - Amsterdam Medium/Premium MAG;Day 2: Bruges – Ghent;Optie 1;35;Bruges - Lissewege (loop) 38 km ENG 2026;3,09;124,6;Redelijk
+50;Holland and Belgium: Amsterdam - Bruges Premium;Program: Bruges - Amsterdam Medium/Premium MAG;Day 2: Bruges – Ghent;Optie 2;57;Vianen - Kinderdijk - Alblasserdam //  Dordrecht 57 km ENG 2026;0,12;138,8;Laag (niet toegepast)
+51;Holland and Belgium: Amsterdam - Bruges Premium;Program: Bruges - Amsterdam Medium/Premium MAG;Day 3: Ghent – Dendermonde/St. Amands;Optie 1;40;Dendermonde - Ghent (city) 38 km ENG 2026;1,97;144,4;Redelijk
+51;Holland and Belgium: Amsterdam - Bruges Premium;Program: Bruges - Amsterdam Medium/Premium MAG;Day 3: Ghent – Dendermonde/St. Amands;Optie 2;53;Antwerp - Dendermonde 53 km ENG 2026;0,1;192,3;Hoog
+52;Holland and Belgium: Amsterdam - Bruges Premium;Program: Bruges - Amsterdam Medium/Premium MAG;Day 4: St. Amands – Temse – Antwerp;Optie 1;32;Moerbrugge - Bruges 33 km ENG 2026;1,21;115,3;Laag (niet toegepast)
+52;Holland and Belgium: Amsterdam - Bruges Premium;Program: Bruges - Amsterdam Medium/Premium MAG;Day 4: St. Amands – Temse – Antwerp;Optie 2;49;Antwerp  - Dendermonde (via Waterbus) 42 ENG 2026;0,57;182,3;Hoog
+53;Holland and Belgium: Amsterdam - Bruges Premium;Program: Bruges - Amsterdam Medium/Premium MAG;Day 5: Antwerp – Kreekrak locks | Kreekrak locks – Tholen | Tholen – Willemstad;Optie 1;36;Tholen - Kreekrak (west) 35 km ENG 2026;1,86;152,5;Redelijk
+53;Holland and Belgium: Amsterdam - Bruges Premium;Program: Bruges - Amsterdam Medium/Premium MAG;Day 5: Antwerp – Kreekrak locks | Kreekrak locks – Tholen | Tholen – Willemstad;Optie 2;20;Tholen - Kreekrak (west) 21 km ENG 2026;0,5;45,6;Hoog
+54;Holland and Belgium: Amsterdam - Bruges Premium;Program: Bruges - Amsterdam Medium/Premium MAG;Day 6: Dordrecht – Kinderdijk | Kinderdijk – Schoonhoven – Vreeswijk/Utrecht;Optie 1;32;Schoonhoven - Kinderdijk - Alblasserdam  //  Dordrecht 32 km ENG 2026;0,51;68,9;Hoog
+54;Holland and Belgium: Amsterdam - Bruges Premium;Program: Bruges - Amsterdam Medium/Premium MAG;Day 6: Dordrecht – Kinderdijk | Kinderdijk – Schoonhoven – Vreeswijk/Utrecht;Optie 2;57;Vreeswijk - Kinderdijk - Alblasserdam // Dordrecht 57 km ENG 2026;1,08;144,8;Redelijk
+55;Holland and Belgium: Amsterdam - Bruges Premium;Program: Bruges - Amsterdam Medium/Premium MAG;Day 7: Vreeswijk/Utrecht – Breukelen | Breukelen – Amsterdam;Optie 1;36;Moerbrugge - Bruges 41 km ENG 2026;4,55;201,1;Laag (niet toegepast)
+55;Holland and Belgium: Amsterdam - Bruges Premium;Program: Bruges - Amsterdam Medium/Premium MAG;Day 7: Vreeswijk/Utrecht – Breukelen | Breukelen – Amsterdam;Optie 2;46;Antwerpen - Baasrode 45 km ENG 2026;0,83;165,3;Laag (niet toegepast)
+58;Holland and Belgium: Amsterdam - Bruges Premium;Program: Amsterdam - Bruges Medium/Premium MAG;Day 2: Utrecht – Vreeswijk  | Vreeswijk – Schoonhoven – Kinderdijk | Kinderdijk;Optie 1;32;Schoonhoven - Kinderdijk - Alblasserdam  //  Dordrecht 32 km ENG 2026;0,51;68,9;Hoog
+58;Holland and Belgium: Amsterdam - Bruges Premium;Program: Amsterdam - Bruges Medium/Premium MAG;Day 2: Utrecht – Vreeswijk  | Vreeswijk – Schoonhoven – Kinderdijk | Kinderdijk;Optie 2;56;Vianen - Kinderdijk - Alblasserdam //  Dordrecht 57 km ENG 2026;0,88;138,8;Laag (niet toegepast)
+59;Holland and Belgium: Amsterdam - Bruges Premium;Program: Amsterdam - Bruges Medium/Premium MAG;Day 3: Dordrecht – Willemstad | Willemstad – Bergen op Zoom;Optie 1;42;Willemstad - Tholen (via Steenbergen 43 km ENG 2026;0,49;127,5;Redelijk
+59;Holland and Belgium: Amsterdam - Bruges Premium;Program: Amsterdam - Bruges Medium/Premium MAG;Day 3: Dordrecht – Willemstad | Willemstad – Bergen op Zoom;Optie 2;50;Willemstad - Bergen op Zoom (via Tholen) 50 km ENG 2026;0,36;124,4;Hoog
+60;Holland and Belgium: Amsterdam - Bruges Premium;Program: Amsterdam - Bruges Medium/Premium MAG;Day 4: Bergen op Zoom – Kreekrak lock | Kreekrak lock – Antwerp;Optie 1;21;Tholen - Kreekrak (east) 23 km ENG 2026;1,48;49,6;Redelijk
+60;Holland and Belgium: Amsterdam - Bruges Premium;Program: Amsterdam - Bruges Medium/Premium MAG;Day 4: Bergen op Zoom – Kreekrak lock | Kreekrak lock – Antwerp;Optie 2;35;Tholen - Kreekrak (east) 33 km ENG 2026;2,37;146,1;Redelijk
+61;Holland and Belgium: Amsterdam - Bruges Premium;Program: Amsterdam - Bruges Medium/Premium MAG;Day 5: Antwerp – Temse – St. Amands;Optie 1;34;Antwerp - St. Amands (via Waterbus) 30 km ENG 2026;3,52;126,7;Redelijk
+61;Holland and Belgium: Amsterdam - Bruges Premium;Program: Amsterdam - Bruges Medium/Premium MAG;Day 5: Antwerp – Temse – St. Amands;Optie 2;49;Antwerp  - Dendermonde (via Waterbus) 42 ENG 2026;0,57;182,3;Hoog
+62;Holland and Belgium: Amsterdam - Bruges Premium;Program: Amsterdam - Bruges Medium/Premium MAG;Day 6: St. Amands – Dendermonde | Dendermonde – Ghent;Optie 1;52;Antwerp - Dendermonde 53 km ENG 2026;0,9;192,3;Hoog
+63;Holland and Belgium: Amsterdam - Bruges Premium;Program: Amsterdam - Bruges Medium/Premium MAG;Day 7: Ghent – Bruges;Optie 1;22;Aalter-Brug - Bruges 22 km ENG 2026;0,05;76,7;Hoog
+63;Holland and Belgium: Amsterdam - Bruges Premium;Program: Amsterdam - Bruges Medium/Premium MAG;Day 7: Ghent – Bruges;Optie 2;45;Dendermonde - Ghent (city) 45 km ENG 2026;0,27;166;Hoog
+66;Holland and Belgium: The Best of Holland and Belgium;Amsterdam - Bruges;Day 2: Vianen – Schoonhoven – Kinderdijk | Kinderdijk – Dordrecht;Optie 1;56;Dordrecht // Alblasserdam - Kinderdijk - Vianen 57 km ENG 2026;0,99;137,1;Hoog
+67;Holland and Belgium: The Best of Holland and Belgium;Amsterdam - Bruges;Day 3:Dordrecht – Tholen | Tholen – Kreekrak lock | Kreekrak lock – Antwerp;Optie 1;20;Kreekrak (west) - Tholen 20 km ENG 2026;0,44;54,6;Hoog
+67;Holland and Belgium: The Best of Holland and Belgium;Amsterdam - Bruges;Day 3:Dordrecht – Tholen | Tholen – Kreekrak lock | Kreekrak lock – Antwerp;Optie 2;36;Kreekrak (west) - Tholen 34 km ENG 2026;1,72;119,8;Redelijk
+68;Holland and Belgium: The Best of Holland and Belgium;Amsterdam - Bruges;Day 4: Antwerp – Temse – Dendermonde;Optie 1;48;Dendermonde - Antwerp (via waterbus) 42+8 km ENG 2026;2,07;174,7;Redelijk
+68;Holland and Belgium: The Best of Holland and Belgium;Amsterdam - Bruges;Day 4: Antwerp – Temse – Dendermonde;Optie 2;64;Dordrecht // Alblasserdam - Urecht [ALT] (centrum) (via Kinderdijk - Roosevelt) 65km;0,98;169,7;Laag (niet toegepast)
+69;Holland and Belgium: The Best of Holland and Belgium;Amsterdam - Bruges;Day 5: Dendermonde – Ghent;Optie 1;52;Dendermonde - Antwerp 52 km ENG 2026;0,32;201,7;Hoog
+70;Holland and Belgium: The Best of Holland and Belgium;Amsterdam - Bruges;Day 6: Ghent – Bruges;Optie 1;45;Tholen - Willemstad (via Oud Vossemeer) 46 km ENG 2026;0,52;107,3;Laag (niet toegepast)
+71;Holland and Belgium: The Best of Holland and Belgium;Amsterdam - Bruges;Day 7: Tour around Bruges to the North Sea;Optie 1;38;Breukelen - Amsterdam (Oosterdok) 38 km ENG 2026;0,05;110,6;Laag (niet toegepast)
+71;Holland and Belgium: The Best of Holland and Belgium;Amsterdam - Bruges;Day 7: Tour around Bruges to the North Sea;Optie 2;51;Bruges - Ghent (city) (via Aalter-Brug) 51 km ENG 2026;0,19;151,6;Hoog
+73;Holland and Belgium: The Best of Holland and Belgium;Bruges - Amsterdam;Day 1: Bruges;Optie 1;11;Test ride: Bruges 11 km ENG 2026;0,16;39,7;Hoog
+74;Holland and Belgium: The Best of Holland and Belgium;Bruges - Amsterdam;Day 2: Bruges – Ghent;Optie 1;57;Bruges - Ghent (city) (via Bulskampveld) 57 km ENG 2026;0,41;226,1;Hoog
+75;Holland and Belgium: The Best of Holland and Belgium;Bruges - Amsterdam;Day 3: Ghent – Dendermonde;Optie 1;40;Ghent (Merelbeke) - Dendermonde 39 km ENG 2026;1,37;126;Redelijk
+76;Holland and Belgium: The Best of Holland and Belgium;Bruges - Amsterdam;Day 4: Dendermonde – Antwerp;Optie 1;48;Dendermonde - Antwerp (via waterbus) 42+8 km ENG 2026;2,07;174,7;Redelijk
+76;Holland and Belgium: The Best of Holland and Belgium;Bruges - Amsterdam;Day 4: Dendermonde – Antwerp;Optie 2;63;Schoonhoven - Kinderdijk - Vreeswijk  ENG 62 km 2025;0,74;197,4;Laag (niet toegepast)
+77;Holland and Belgium: The Best of Holland and Belgium;Bruges - Amsterdam;Day 5: Antwerp – Kreekrak locks | Kreekrak locks – Tholen | Tholen – Dordrecht;Optie 1;36;St. Amands - Antwerp (via waterbus) 30+7 km ENG 2026;1,33;124;Redelijk
+77;Holland and Belgium: The Best of Holland and Belgium;Bruges - Amsterdam;Day 5: Antwerp – Kreekrak locks | Kreekrak locks – Tholen | Tholen – Dordrecht;Optie 2;20;Kreekrak (east) - Tholen 23 km ENG 2026;2,45;40,7;Redelijk
+78;Holland and Belgium: The Best of Holland and Belgium;Bruges - Amsterdam;Day 6: Dordrecht – Alblasserdam | Alblasserdam – Kinderdijk – Schoonhoven – Via;Optie 1;57;Dordrecht // Alblasserdam - Kinderdijk - Vianen 57 km ENG 2026;0,01;137,1;Hoog
+79;Holland and Belgium: The Best of Holland and Belgium;Bruges - Amsterdam;Day 7: Vianen – Breukelen | Breukelen – Amsterdam;Optie 1;38;Breukelen - Amsterdam (Oosterdok) 38 km ENG 2026;0,05;110,6;Hoog
+79;Holland and Belgium: The Best of Holland and Belgium;Bruges - Amsterdam;Day 7: Vianen – Breukelen | Breukelen – Amsterdam;Optie 2;48;Breukelen - Amsterdam (Oosterdok) 47 km ENG 2026;1,01;148,5;Redelijk
+106;Holland: Northern Tour;Program: Northern Tour;Day 2: Zaandam – Zaanse Schans – Alkmaar;Optie 1;44;Volendam - Zaanse Schanse - Amsterdam (Minerva) 42km ENG;0,67;126,5;Laag (niet toegepast)
+107;Holland: Northern Tour;Program: Northern Tour;Day 3: Dune tour: round trip from/to Alkmaar | Alkmaar – Den Helder;Optie 1;33;Alkmaar - Dunes (loop via Bergen) 34 km ENG 2026 (N);0,56;164,9;Hoog
+107;Holland: Northern Tour;Program: Northern Tour;Day 3: Dune tour: round trip from/to Alkmaar | Alkmaar – Den Helder;Optie 2;40;Alkmaar Polder-Windmill loop 40km ENG;0,18;121,1;Redelijk
+108;Holland: Northern Tour;Program: Northern Tour;Day 4: Ferry to North Sea island of Texel: cycling round trips from ‘t Horntje;Optie 1;34;Alkmaar - Hoorn 34 km ENG 2026;0,25;100,4;Laag (niet toegepast)
+108;Holland: Northern Tour;Program: Northern Tour;Day 4: Ferry to North Sea island of Texel: cycling round trips from ‘t Horntje;Optie 2;51;Texel (loop ferry) 51 km ENG 2026;0,26;143,3;Hoog
+109;Holland: Northern Tour;Program: Northern Tour;Day 5: Den Helder – Stavoren | Southwest Friesland: round trip from/to Stavoren;Optie 1;43;Stavoren (loop) 42 km ENG 2026 (N);0,6;108,1;Hoog
+109;Holland: Northern Tour;Program: Northern Tour;Day 5: Den Helder – Stavoren | Southwest Friesland: round trip from/to Stavoren;Optie 2;55;Stavoren (loop) 55 km ENG 2026 (N);0,2;137;Hoog
+110;Holland: Northern Tour;Program: Northern Tour;Day 6: Stavoren – Medemblik | Medemblik – Hoorn – Enkhuizen;Optie 1;39;Medemblik - Enkhuizen (via Twisk) 39 km ENG 2026 (N);0,04;104,3;Hoog
+110;Holland: Northern Tour;Program: Northern Tour;Day 6: Stavoren – Medemblik | Medemblik – Hoorn – Enkhuizen;Optie 2;51;Hoorn - Enkhuizen (via Medemblik) 51 km ENG 2026;0,18;143,8;Hoog
+111;Holland: Northern Tour;Program: Northern Tour;Day 7: Enkhuizen – Volendam | Volendam – Waterland – Amsterdam;Optie 1;28;Volendam - Amsterdam (Minerva) 29 km ENG 2026 (N);1,23;97,9;Redelijk
+111;Holland: Northern Tour;Program: Northern Tour;Day 7: Enkhuizen – Volendam | Volendam – Waterland – Amsterdam;Optie 2;50;Zaandam - Volendam 50 km ENG 2025;1,08;167,7;Redelijk
+114;Holland: Southern Tour;Program: Southern Tour;Day 2: Amsterdam – Breukelen | Breukelen – Utrecht | Utrecht – Rotterdam;Optie 1;20;Breukelen - Utrecht (Neude) 16km / 10mi ENG 2026;3,74;73,9;Redelijk
+114;Holland: Southern Tour;Program: Southern Tour;Day 2: Amsterdam – Breukelen | Breukelen – Utrecht | Utrecht – Rotterdam;Optie 2;39;Gouda - Utrecht 39 km / 24 mi ENG 2026;0,04;98,8;Hoog
+115;Holland: Southern Tour;Program: Southern Tour;Day 3: Rotterdam – Schiedam – Delft – Rotterdam;Optie 1;48;Rotterdam - Delft (loop) 49 km / 31 mi ENG 2026;1,59;182,3;Redelijk
+116;Holland: Southern Tour;Program: Southern Tour;Day 4: Rotterdam – Alblasserdam (“waterbus”) |   Kinderdijk – (Gouda)Schoonhoven;Optie 1;30;Alblasserdam - Kinderdijk - Gouda  30 km / 19 mi ENG 2026;0,24;85,8;Hoog
+116;Holland: Southern Tour;Program: Southern Tour;Day 4: Rotterdam – Alblasserdam (“waterbus”) |   Kinderdijk – (Gouda)Schoonhoven;Optie 2;58;Rotterdam - Kinderdijk - Schoonhoven - Gouda 61 km / 38 mi ENG 2026;2,51;153,8;Redelijk
+117;Holland: Southern Tour;Program: Southern Tour;Day 5: Schoonhoven – Oudewater – Utrecht | Utrecht – Haarlem;Optie 1;36;Breukelen - Utrecht (centrum) 36km / 22mi ENG 2026;0,47;114,9;Laag (niet toegepast)
+117;Holland: Southern Tour;Program: Southern Tour;Day 5: Schoonhoven – Oudewater – Utrecht | Utrecht – Haarlem;Optie 2;44;Rotterdam - Kinderdijk - Schoonhoven 44 km / 28 mi ENG 2026;0,19;111,6;Redelijk
+118;Holland: Southern Tour;Program: Southern Tour;Day 6: Haarlem – North Sea coast – Haarlem | Haarlem – Zaandam;Optie 1;40;Haarlem Haarlem (Spaarndamseweg) - North Sea (loop) 41 km / 25 mi ENG 2026;0,6;210,9;Hoog
+118;Holland: Southern Tour;Program: Southern Tour;Day 6: Haarlem – North Sea coast – Haarlem | Haarlem – Zaandam;Optie 2;50;Haarlem Haarlem (Spaarndamseweg) - North Sea (loop) 50 km / 31 mi ENG 2025- North Sea (loop) 50 km / 31 mi ENG 2026;0,11;244,6;Hoog
+119;Holland: Southern Tour;Program: Southern Tour;Day 7: Zaandam – Amsterdam;Optie 1;32;Amsterdam (Minerva) - Waterland (loop) 34 km ENG 2026;1,7;132,3;Redelijk
+119;Holland: Southern Tour;Program: Southern Tour;Day 7: Zaandam – Amsterdam;Optie 2;53;Zaandam - Amsterdam (Minerva) 54 km / 33 mi ENG 2026;0,72;179,4;Hoog
+121;Netherlands: 8-day Tulip Tour (Boutique);Program: 8 days regular tulip;Day 1: Amsterdam – Spaarndam | Spaarndam – Haarlem;Optie 1;6;Spaarndam - Haarlem (Spaarndamseweg) 6,7 km ENG 2026;0,66;25,6;Hoog
+121;Netherlands: 8-day Tulip Tour (Boutique);Program: 8 days regular tulip;Day 1: Amsterdam – Spaarndam | Spaarndam – Haarlem;Optie 2;14;Spaarndam - Haarlem (city) 14 km ENG 2026;0,16;55,9;Hoog
+122;Netherlands: 8-day Tulip Tour (Boutique);Program: 8 days regular tulip;Day 2: Haarlem – Keukenhof – Leiden;Optie 1;38;Leiden - Gouda 38 km ENG 2026;0,1;112,6;Hoog
+123;Netherlands: 8-day Tulip Tour (Boutique);Program: 8 days regular tulip;Day 3: Leiden –  Gouda;Optie 1;37;Leiden - Gouda 36 km ENG 2026 Zoeterwoude;0,3;118,5;Hoog
+123;Netherlands: 8-day Tulip Tour (Boutique);Program: 8 days regular tulip;Day 3: Leiden –  Gouda;Optie 2;43;Gouda - Uithoorn 43 km ENG 2026;0,23;106,6;Hoog
+124;Netherlands: 8-day Tulip Tour (Boutique);Program: 8 days regular tulip;Day 4: Gouda – Alphen a/d Rijn | Alphen a/d Rijn – Kudelstaart;Optie 1;20;Alphen a/d Rijn - Uithoorn 24 km ENG 2026;4,41;63,2;Redelijk
+124;Netherlands: 8-day Tulip Tour (Boutique);Program: 8 days regular tulip;Day 4: Gouda – Alphen a/d Rijn | Alphen a/d Rijn – Kudelstaart;Optie 2;44;Leiden - Gouda 46 km ENG 2026;2,46;113,6;Redelijk
+125;Netherlands: 8-day Tulip Tour (Boutique);Program: 8 days regular tulip;Day 5: Kudelstaart – Flower auction | Aalsmeer – Amsterdam | Amsterdam – Zaanse;Optie 1;9;Spaarndam - Haarlem (city) 8,3 km ENG 2026;0,67;31,4;Laag (niet toegepast)
+125;Netherlands: 8-day Tulip Tour (Boutique);Program: 8 days regular tulip;Day 5: Kudelstaart – Flower auction | Aalsmeer – Amsterdam | Amsterdam – Zaanse;Optie 2;45;Zaandam - Zaanse Schans - Alkmaar (via Schermer) 45 km ENG 2026;0,16;143,5;Laag (niet toegepast)
+126;Netherlands: 8-day Tulip Tour (Boutique);Program: 8 days regular tulip;Day 6: Purmerend – Alkmaar;Optie 1;50;Zaandam - Zaanse Schans - Alkmaar (via Egmond) 50 km ENG 2026;0,54;193,1;Hoog
+127;Netherlands: 8-day Tulip Tour (Boutique);Program: 8 days regular tulip;Day 7: Alkmaar – Amsterdam;Optie 1;37;Purmerend - Alkmaar (via Heiloo) 37 km ENG 2026;0,24;113,1;Hoog
+127;Netherlands: 8-day Tulip Tour (Boutique);Program: 8 days regular tulip;Day 7: Alkmaar – Amsterdam;Optie 2;54;Alkmaar - Haarlem (city) 54 km ENG 2026;0,13;250,2;Hoog
+137;Netherlands: Amsterdam - Maastricht or v.v.;Program: Amsterdam - Maastricht;Day 1: Amsterdam – Weesp | testride in Weesp;Optie 1;11;Test ride: Maastricht 12 km ENG 2026;0,83;66,2;Laag (niet toegepast)
+138;Netherlands: Amsterdam - Maastricht or v.v.;Program: Amsterdam - Maastricht;Day 2: Weesp – Utrecht | Utrecht – Vianen;Optie 1;47;Gorinchem - Vianen 49 km ENG 2026 (alternative);2,08;133,2;Redelijk
+139;Netherlands: Amsterdam - Maastricht or v.v.;Program: Amsterdam - Maastricht;Day 3: Vianen – Gorinchem | Gorinchem – Heusden;Optie 1;41;Gorinchem - Vianen 42 km ENG 2026;0,73;106,7;Hoog
+140;Netherlands: Amsterdam - Maastricht or v.v.;Program: Amsterdam - Maastricht;Day 4: Heusden – Lith | Lith – Cuijck;Optie 1;40;Schoonhoven - Oudewater - Utrecht 45 km / 28 mi ENG 2026;4,63;113,9;Laag (niet toegepast)
+141;Netherlands: Amsterdam - Maastricht or v.v.;Program: Amsterdam - Maastricht;Day 5: Cuijck – Arcen;Optie 1;53;Arcen - Cuijk 55 km ENG 2026;2,36;244,4;Redelijk
+142;Netherlands: Amsterdam - Maastricht or v.v.;Program: Amsterdam - Maastricht;Day 6: Arcen – Venlo – Roermond;Optie 1;50;Roermond - Venlo 50 km ENG 2026;0,31;253;Hoog
+143;Netherlands: Amsterdam - Maastricht or v.v.;Program: Amsterdam - Maastricht;Day 7: Roermond – Born | Born – Maastricht;Optie 1;42;Schipperskerk - Roermond 41 km ENG 2026;1,4;185,4;Redelijk
+145;Netherlands: Amsterdam - Maastricht or v.v.;Program: Maastricht - Amsterdam;Day 1: Maastricht;Optie 1;6;Avondwandeling Maastricht 3,3 KM - extra;2,67;22,9;Redelijk
+146;Netherlands: Amsterdam - Maastricht or v.v.;Program: Maastricht - Amsterdam;Day 2: Maastricht – Born | Born – Roermond;Optie 1;40;Schipperskerk - Roermond 41 km ENG 2026;0,6;185,4;Hoog
+147;Netherlands: Amsterdam - Maastricht or v.v.;Program: Maastricht - Amsterdam;Day 3: Roermond – Venlo – Arcen;Optie 1;50;Roermond - Venlo 50 km ENG 2026;0,31;253;Hoog
+148;Netherlands: Amsterdam - Maastricht or v.v.;Program: Maastricht - Amsterdam;Day 4: Arcen – Cuijk;Optie 1;53;Cuijk - Lith  54 km ENG 2026 (deviations 2026);1;150,8;Hoog
+149;Netherlands: Amsterdam - Maastricht or v.v.;Program: Maastricht - Amsterdam;Day 5: Cuijk – Oss | Oss – Heusden;Optie 1;40;Schoonhoven - Oudewater - Utrecht 45 km / 28 mi ENG 2026;4,63;113,9;Laag (niet toegepast)
+150;Netherlands: Amsterdam - Maastricht or v.v.;Program: Maastricht - Amsterdam;Day 6: Heusden – Gorinchem | Gorinchem – Vianen;Optie 1;41;Gorinchem - Vianen 42 km ENG 2026;0,73;106,7;Hoog
+151;Netherlands: Amsterdam - Maastricht or v.v.;Program: Maastricht - Amsterdam;Day 7: Vianen – Breukelen | Breukelen – Amsterdam;Optie 1;42;Breukelen - Amsterdam (Oosterdok) 47 km ENG 2026;4,99;148,5;Redelijk
+153;France and Belgium: Paris - Bruges;Program: Bruges - Paris;Day 1: Bruges;Optie 1;22;Bruges - Damme (loop) 22 km ENG 2026;0,56;79,6;Hoog
+154;France and Belgium: Paris - Bruges;Program: Bruges - Paris;Day 2: Bruges ­– Moerbrugge | Moerbrugge – Ghent;Optie 1;52;Ghent (Merelbeke) - Oudenaarde (via Ghent City & Deinze) 51 km ENG 2026;0,65;243,4;Hoog
+154;France and Belgium: Paris - Bruges;Program: Bruges - Paris;Day 2: Bruges ­– Moerbrugge | Moerbrugge – Ghent;Optie 2;58;Bruges - Ghent (city) (via Bulskampveld) 57 km ENG 2026;1,41;226,1;Redelijk
+155;France and Belgium: Paris - Bruges;Program: Bruges - Paris;Day 3: Ghent ­– Oudenaarde;Optie 1;51;Bruges - Ghent (city) (via Aalter-Brug) 51 km ENG 2026;0,19;151,6;Hoog
+156;France and Belgium: Paris - Bruges;Program: Bruges - Paris;Day 4: Oudenaarde­ – Doornik (Tournai);Optie 1;42;Oudenaarde - Tournai (flat) ENG 42 km 2026;0,21;126,2;Hoog
+156;France and Belgium: Paris - Bruges;Program: Bruges - Paris;Day 4: Oudenaarde­ – Doornik (Tournai);Optie 2;51;Oudenaarde - Tournai (hill) ENG 51 km 2026;0,19;435,4;Hoog
+157;France and Belgium: Paris - Bruges;Program: Bruges - Paris;Day 5: Doornik (Tournai) – Bleharies | Bleharies – Pont Malin | Pont Malin – Arl;Optie 1;50;Bléharies - Pont-Malin 50 km ENG 2026;0,26;180,4;Hoog
+157;France and Belgium: Paris - Bruges;Program: Bruges - Paris;Day 5: Doornik (Tournai) – Bleharies | Bleharies – Pont Malin | Pont Malin – Arl;Optie 2;54;Bléharies - Pont-Malin (via Lewarde) 54 km ENG 2026;0,01;229,8;Hoog
+158;France and Belgium: Paris - Bruges;Program: Bruges - Paris;Day 6: Arleux – Havrincourt;Optie 1;40;Arleux - Havrincourt (via Canal St-Quentin) 40 km ENG 2026;0,55;236,9;Hoog
+158;France and Belgium: Paris - Bruges;Program: Bruges - Paris;Day 6: Arleux – Havrincourt;Optie 2;53;Arleux - Havrincourt (via Vaucelles) 53 km ENG 2026;0,06;427,8;Hoog
+159;France and Belgium: Paris - Bruges;Program: Bruges - Paris;Day 7: Havrincourt – Péronne;Optie 1;45;Ytres - Péronne 45 km ENG 2026;0,44;300,3;Hoog
+159;France and Belgium: Paris - Bruges;Program: Bruges - Paris;Day 7: Havrincourt – Péronne;Optie 2;53;Ytres - Péronne 53 km ENG 2026;0,31;348,1;Hoog
+161;France and Belgium: Paris - Bruges;Program: Bruges - Paris;Day 9: Péronne – Épénancourt | Épénancourt  – Noyon – Pont l’Évêque;Optie 1;52;Péronne - Pont-l'Évêque 52 km ENG 2026;0,12;265,8;Hoog
+162;France and Belgium: Paris - Bruges;Program: Bruges - Paris;Day 10: Pont l’Évêque – Compiègne;Optie 1;37;Pont-l'Évêque - Compiègne 37 km ENG 2026;0,45;231,3;Hoog
+162;France and Belgium: Paris - Bruges;Program: Bruges - Paris;Day 10: Pont l’Évêque – Compiègne;Optie 2;46;Pont-l'Évêque - Compiègne (via Attichy) 46 km  ENG 2026;0,04;267,3;Hoog
+163;France and Belgium: Paris - Bruges;Program: Bruges - Paris;Day 11: Compiègne – Pont-St-Maxence;Optie 1;54;Compiègne - Pont-Sainte-Maxence 54 km ENG 2026;0,33;380,1;Hoog
+164;France and Belgium: Paris - Bruges;Program: Bruges - Paris;Day 12: Pont-St-Maxence – Beaumont | Beaumont – Auvers-sur-Oise;Optie 1;45;Auvers-sur-Oise - Paris (Bougival) (via Ax Majeur) 44 km ENG 2026 rain route;0,65;296;Hoog
+164;France and Belgium: Paris - Bruges;Program: Bruges - Paris;Day 12: Pont-St-Maxence – Beaumont | Beaumont – Auvers-sur-Oise;Optie 2;59;Pont-Ste-Maxence - Chantilly - Auvers-sur-Oise 59 km ENG 2026;0,34;426,1;Hoog
+165;France and Belgium: Paris - Bruges;Program: Bruges - Paris;Day 13: Auvers-sur-Oise – Paris (Bougival);Optie 1;35;Auvers-sur-Oise - Paris (Bougival) 35 km ENG 2026;0,42;246,2;Hoog
+165;France and Belgium: Paris - Bruges;Program: Bruges - Paris;Day 13: Auvers-sur-Oise – Paris (Bougival);Optie 2;48;Auvers-sur-Oise - Paris (Bougival) (via Ax Majeur) 48 km ENG 2026;0,04;302,2;Hoog
+169;France and Belgium: Paris - Bruges;Program: Paris - Bruges;Day 2: Paris (Bougival) – Auvers-sur-Oise;Optie 1;42;Paris (Bougival) - L'Isle-Adam 42 km ENG 2026;0,01;270,6;Redelijk
+169;France and Belgium: Paris - Bruges;Program: Paris - Bruges;Day 2: Paris (Bougival) – Auvers-sur-Oise;Optie 2;48;Paris (Bougival) - Auvers-sur-Oise (via Ax Majeure) 48 km ENG 2026;0,13;295,9;Hoog
+170;France and Belgium: Paris - Bruges;Program: Paris - Bruges;Day 3: Auvers-sur-Oise – Beaumont | Beaumont – Pont-Ste- Maxence;Optie 1;46;Beaumont - Chantilly - Pont-Ste-Maxence 46 km ENG 2026;0,49;372;Hoog
+171;France and Belgium: Paris - Bruges;Program: Paris - Bruges;Day 4: Pont-Ste.-Maxence – Compiègne;Optie 1;42;Pont-Ste-Maxence - Compiègne 42 km ENG 2026;0,1;295,9;Hoog
+171;France and Belgium: Paris - Bruges;Program: Paris - Bruges;Day 4: Pont-Ste.-Maxence – Compiègne;Optie 2;54;Pont-Ste-Maxence - Compiègne (hills / Pièrrefonds) 54 km ENG 2026;0,49;406,3;Hoog
+172;France and Belgium: Paris - Bruges;Program: Paris - Bruges;Day 5: Compiègne – Pont l’Évêque;Optie 1;42;Compiègne - Pont-l'Évêque 42 km ENG 2026;0,13;264,3;Hoog
+172;France and Belgium: Paris - Bruges;Program: Paris - Bruges;Day 5: Compiègne – Pont l’Évêque;Optie 2;52;Pont-l'Évêque - Péronne 52 km ENG 2026;0,14;266;Hoog
+173;France and Belgium: Paris - Bruges;Program: Paris - Bruges;Day 6: Pont l’Évêque – Haudival | Haudival – Péronne;Optie 1;52;Compiègne - Pont-l'Évêque (via Attichy) 52 km ENG 2026;0,21;330,4;Hoog
+173;France and Belgium: Paris - Bruges;Program: Paris - Bruges;Day 6: Pont l’Évêque – Haudival | Haudival – Péronne;Optie 2;60;Haudival - Péronne (via Ham & Péronne) 60 km ENG 2026;0,27;271;Hoog
+175;France and Belgium: Paris - Bruges;Program: Paris - Bruges;Day 8: Péronne – Ytres | Ytres – Havrincourt;Optie 1;42;Péronne - Ytres 45 km ENG 2026;3,01;364,2;Redelijk
+175;France and Belgium: Paris - Bruges;Program: Paris - Bruges;Day 8: Péronne – Ytres | Ytres – Havrincourt;Optie 2;52;Péronne - Ytres 53 km ENG 2026;1,41;416,9;Redelijk
+176;France and Belgium: Paris - Bruges;Program: Paris - Bruges;Day 9: Havrincourt – Arleux | Arleux – Pont Malin;Optie 1;44;Havrincourt - Arleux (via Masnières) 44 km ENG 2026;0,06;239,9;Hoog
+176;France and Belgium: Paris - Bruges;Program: Paris - Bruges;Day 9: Havrincourt – Arleux | Arleux – Pont Malin;Optie 2;56;Havrincourt - Arleux (via Vaucelles) 56 km ENG 2026;0,48;393,1;Hoog
+177;France and Belgium: Paris - Bruges;Program: Paris - Bruges;Day 10: Pont Malin – Denain | Denain – Doornik (Tournai);Optie 1;44;Denain - Tournai (via Saint-Amands) 44 km ENG 2026;0,02;161,2;Hoog
+177;France and Belgium: Paris - Bruges;Program: Paris - Bruges;Day 10: Pont Malin – Denain | Denain – Doornik (Tournai);Optie 2;56;Denain - Tournai (via Marchiennes & Saint-Amand) 56 km ENG 2026;0,45;219,6;Hoog
+178;France and Belgium: Paris - Bruges;Program: Paris - Bruges;Day 11: Doornik (Tournai) – Oudenaarde;Optie 1;41;Tournai - Oudenaarde (flat) 41 km ENG 2026;0,05;116,9;Hoog
+178;France and Belgium: Paris - Bruges;Program: Paris - Bruges;Day 11: Doornik (Tournai) – Oudenaarde;Optie 2;50;Tournai - Oudenaarde (hill) 50 km ENG 2026;0,36;367;Hoog
+179;France and Belgium: Paris - Bruges;Program: Paris - Bruges;Day 12: Oudenaarde – Ghent;Optie 1;51;Ghent (Lovendegem) - Bruges (via Bulskampveld) 49 km ENG 2026;1,88;185,6;Redelijk
+180;France and Belgium: Paris - Bruges;Program: Paris - Bruges;Day 13: Ghent – Bruges;Optie 1;49;Bruges - De Haan (loop) 51 km ENG 2026;2,41;152;Redelijk
+181;France and Belgium: Paris - Bruges;Program: Paris - Bruges;Day 14: Bruges;Optie 1;38;Bruges - Lissewege (loop) 38 km ENG 2026;0,09;124,6;Hoog
+181;France and Belgium: Paris - Bruges;Program: Paris - Bruges;Day 14: Bruges;Optie 2;54;Bruges - Sluis (loop) 54 km ENG 2026;0,35;190,6;Hoog
+199;Sail & Bike Wadden Sea;Program: Frisian Sea;Day 2: Enkhuizen – Medemblik | Medemblik – Texel;Optie 1;24;Medemblik - Enkhuizen (via coast) 24 km ENG 2026;0,2;71,4;Hoog
+199;Sail & Bike Wadden Sea;Program: Frisian Sea;Day 2: Enkhuizen – Medemblik | Medemblik – Texel;Optie 2;40;Enkhuizen - Medemblik (via Twisk) 40 km ENG 2026;0,46;96,3;Hoog
+200;Sail & Bike Wadden Sea;Program: Frisian Sea;Day 3: Texel, roundtrip from/to Oudeschild;Optie 1;40;Texel (loop Oudeschild) 42 km ENG 2026;1,53;139,1;Redelijk
+200;Sail & Bike Wadden Sea;Program: Frisian Sea;Day 3: Texel, roundtrip from/to Oudeschild;Optie 2;49;Texel (loop ferry) 49 km ENG 2026;0,52;151,3;Hoog
+202;Sail & Bike Wadden Sea;Program: Frisian Sea;Day 5: Terschelling roundtrip | Terschelling – Harlingen;Optie 1;0;Den Helder: Ship - Ferry 2,1 km ENG 2026;2,09;7,8;Laag (niet toegepast)
+203;Sail & Bike Wadden Sea;Program: Frisian Sea;Day 6: Harlingen – Franeker – Makkum;Optie 1;40;Makkum - Franeker - Harlingen (via kust) 40 km ENG 2026;0,4;104,8;Hoog
+203;Sail & Bike Wadden Sea;Program: Frisian Sea;Day 6: Harlingen – Franeker – Makkum;Optie 2;45;Harlingen - Franeker - Makkum (via Bolsward) 45 km ENG 2026;0,12;129;Hoog
+204;Sail & Bike Wadden Sea;Program: Frisian Sea;Day 7: Makkum – Stavoren | Stavoren - Enkhuizen;Optie 1;28;Stavoren - Makkum 30 km ENG 2026;1,86;66,8;Redelijk
+204;Sail & Bike Wadden Sea;Program: Frisian Sea;Day 7: Makkum – Stavoren | Stavoren - Enkhuizen;Optie 2;48;Stavoren - Makkum (via Bolsward) 49 km ENG 2026 Self Guided;0,86;120,9;Hoog
+215;Netherlands: Hansa Highlights;Program: Hanseatic highlights;Day 2: Wijk bij Duurstede – Wageningen | Wageningen – Arnhem;Optie 1;44;Wageningen - Arnhem (via Veluwe) DEU 43 km 2026;0,49;252,7;Hoog
+216;Netherlands: Hansa Highlights;Program: Hanseatic highlights;Day 3: Arnhem – Doesburg | Doesburg – Zutphen – Deventer;Optie 1;45;Doesburg - Deventer (über Zutphen) 45 km DEU 2026;0,08;170,7;Hoog
+216;Netherlands: Hansa Highlights;Program: Hanseatic highlights;Day 3: Arnhem – Doesburg | Doesburg – Zutphen – Deventer;Optie 2;55;Deventer - Kampen 51 km ENG 2026;4,37;215;Redelijk
+217;Netherlands: Hansa Highlights;Program: Hanseatic highlights;Day 4: Deventer – Wijhe | Wijhe – Kampen;Optie 1;40;Wijhe - Kampen (über Hattem) 38 km DEU 2026;2,38;151,2;Redelijk
+217;Netherlands: Hansa Highlights;Program: Hanseatic highlights;Day 4: Deventer – Wijhe | Wijhe – Kampen;Optie 2;56;Doesburg - Deventer (über Wichmond & Zutphen) 57 km DEU 2026;0,96;226;Hoog
+218;Netherlands: Hansa Highlights;Program: Hanseatic highlights;Day 5: Kampen – Elburg – Harderwijk;Optie 1;48;Wijhe - Kampen (über Heerde / Hattem) 48 km DEU 2026;0,36;208,7;Hoog
+218;Netherlands: Hansa Highlights;Program: Hanseatic highlights;Day 5: Kampen – Elburg – Harderwijk;Optie 2;56;Wijhe - Kampen (über Heerde / Hattem / Zwolle) 58 km DEU 2026;1,79;234,8;Redelijk
+219;Netherlands: Hansa Highlights;Program: Hanseatic highlights;Day 6: Harderwijk – Spakenburg – Huizen;Optie 1;45;Kampen - Harderwijk (über Elburg) 48 km DEU 2026;2,68;133,8;Redelijk
+219;Netherlands: Hansa Highlights;Program: Hanseatic highlights;Day 6: Harderwijk – Spakenburg – Huizen;Optie 2;56;Kampen - Harderwijk (über Flevoland, Elburg & Nunspeet) 59 km DEU 2026;2,56;226,6;Redelijk
+220;Netherlands: Hansa Highlights;Program: Hanseatic highlights;Day 7: Huizen – Naarden – Muiden – Amsterdam;Optie 1;35;Huizen - Amsterdam (Tolhuis-Buikslotermeer) 35 km DEU 2026;0,35;138,1;Hoog
+246;Holland: Best of Holland;Program: Best of Holland;Day 2: Zaandam – Zaanse Schans – Beemster – Hoorn;Optie 1;41;Zaandam - Hoorn 41 km DEU 2023;0,6;88,8;Hoog
+246;Holland: Best of Holland;Program: Best of Holland;Day 2: Zaandam – Zaanse Schans – Beemster – Hoorn;Optie 2;51;Volendam-Diemen 47 km DEU 2022;4,24;152,8;Laag (niet toegepast)
+247;Holland: Best of Holland;Program: Best of Holland;Day 3: Hoorn – Volendam | Volendam – Marken (ferry) | Marken – Waterland – Weesp;Optie 1;39;Volendam-Diemen 39 km DEU 2022;3,71;138,5;Redelijk
+247;Holland: Best of Holland;Program: Best of Holland;Day 3: Hoorn – Volendam | Volendam – Marken (ferry) | Marken – Waterland – Weesp;Optie 2;46;Zaandam - Hoorn 50 km DEU 2023;0,58;117,7;Hoog
+248;Holland: Best of Holland;Program: Best of Holland;Day 4: Utrecht – Schoonhoven | Schoonhoven – Dordrecht;Optie 1;32;Oude Wetering - Nieuwe Meer 29 km DEU 2025;2,99;92;Laag (niet toegepast)
+248;Holland: Best of Holland;Program: Best of Holland;Day 4: Utrecht – Schoonhoven | Schoonhoven – Dordrecht;Optie 2;53;Schoonhoven - Alblasserdam - Rotterdam(Coolhaven) 32+3 km DEU 2022;2,1;205,9;Redelijk
+249;Holland: Best of Holland;Program: Best of Holland;Day 5: Dordrecht – Alblasserdam (Waterbus) | Alblasserdam – Gouda;Optie 1;37;Rotterdam (Coolhaven) - Gouda 35 km DEU 2022;2,34;119,3;Redelijk
+249;Holland: Best of Holland;Program: Best of Holland;Day 5: Dordrecht – Alblasserdam (Waterbus) | Alblasserdam – Gouda;Optie 2;52;Gouda - Oude Wetering 54 km DEU 2024;2,1;140,9;Redelijk
+250;Holland: Best of Holland;Program: Best of Holland;Day 6: Gouda – Leiden – Uithoorn;Optie 1;33;Gouda - Oude Wetering 32 km DEU 2022;1,11;74,7;Redelijk
+250;Holland: Best of Holland;Program: Best of Holland;Day 6: Gouda – Leiden – Uithoorn;Optie 2;52;Rotterdam (Coolhaven) - Gouda 50 km DEU 2022;1,93;149,8;Redelijk
+251;Holland: Best of Holland;Program: Best of Holland;Day 7: Uithoorn – Amsterdam;Optie 1;26;Waterland Rundtour (Buiksloterweg) 28 km DEU 2022;1,67;88,4;Laag (niet toegepast)
+282;France: Paris - Montargis;Montargis - Paris;Day 2: Montargis;Optie 1;45;Montargis (loop) 43 km ENG 2026;1,66;285;Redelijk
+283;France: Paris - Montargis;Montargis - Paris;Day 3: Montargis – lock of Cepoy | lock of Cepoy – Néronville;Optie 1;39;Moret - Nemours (via Darvault) 39 km ENG 2026;0,1;208;Laag (niet toegepast)
+283;France: Paris - Montargis;Montargis - Paris;Day 3: Montargis – lock of Cepoy | lock of Cepoy – Néronville;Optie 2;46;Neronville - Montargis 43 km ENG 2026;2,87;258,9;Redelijk
+284;France: Paris - Montargis;Montargis - Paris;Day 4: Néronville – Nemours;Optie 1;29;Nemours - Neronville 32 km ENG 2026;3,02;172,1;Redelijk
+284;France: Paris - Montargis;Montargis - Paris;Day 4: Néronville – Nemours;Optie 2;43;Moret - Nemours (via Darvault) 50 km ENG 2026;3,41;278,3;Redelijk
+285;France: Paris - Montargis;Montargis - Paris;Day 5: Nemours – Moret-sur-Loing;Optie 1;32;Moret (loop, Gray) 27km ENG 2026;4,7;161,3;Redelijk
+285;France: Paris - Montargis;Montargis - Paris;Day 5: Nemours – Moret-sur-Loing;Optie 2;43;Melun - Moret (via Barbizon & Fontainebleau) 40 km ENG 2026;2,82;264,6;Redelijk
+286;France: Paris - Montargis;Montargis - Paris;Day 6: Moret-sur-Loing – Melun;Optie 1;40;Moret - Nemours  40 km ENG 2026 (via Rochess, gravel);0,02;400,8;Hoog
+287;France: Paris - Montargis;Montargis - Paris;Day 7: Melun – lock of Evry  | lock of Evry – Paris;Optie 1;31;Melun (loop) 31km ENG 2026;0,32;182,4;Hoog
+290;France: Paris - Montargis;Paris - Montargis;Day 2: Evry – Melun;Optie 1;30;Evry - Melun 30 km DEU 2025;0,55;138,5;Hoog
+291;France: Paris - Montargis;Paris - Montargis;Dag 3: Melun – Moret-sur-Loing;Optie 1;40;Melun - Moret 40 km DEU 2025;0,15;250,1;Hoog
+292;France: Paris - Montargis;Paris - Montargis;Day 4: Moret-sur-Loing – Nemours;Optie 1;38;Moret - Nemours 38 km DEU 2025;0,03;235,6;Hoog
+292;France: Paris - Montargis;Paris - Montargis;Day 4: Moret-sur-Loing – Nemours;Optie 2;49;Moret - Nemours 49 km DEU 2025;0,13;347,2;Hoog
+293;France: Paris - Montargis;Paris - Montargis;Day 5: Nemours – Néronville;Optie 1;35;Nemours - Neronville 35 km DEU 2025;0,06;172,7;Hoog
+293;France: Paris - Montargis;Paris - Montargis;Day 5: Nemours – Néronville;Optie 2;45;Nemours - Neronville 45 km DEU 2025;3,29;216,1;Redelijk
+294;France: Paris - Montargis;Paris - Montargis;Day 6: Néronville – Montargis;Optie 1;31;Neronville - Montargis 31 km DEU 2025;0,62;254,1;Hoog
+294;France: Paris - Montargis;Paris - Montargis;Day 6: Néronville – Montargis;Optie 2;55;Neronville - Montargis 55 km DEU 2025;0,93;356;Hoog
+295;France: Paris - Montargis;Paris - Montargis;Day 7: Montargis;Optie 1;45;Montargis loop 44 km DEU 2025;1,7;278,8;Redelijk
+314;Holland: Tulip Tour 5 days;Program: Tulip 5 days F;Day 2: Zaandam – Zaanse Schans – Zaandam | Zaandam – Haarlem;Optie 1;24;Amsterdam (Buiksloterweg) - Zaanse Schans 23 km ENG 2026 (white label);0,65;74,6;Hoog
+314;Holland: Tulip Tour 5 days;Program: Tulip 5 days F;Day 2: Zaandam – Zaanse Schans – Zaandam | Zaandam – Haarlem;Optie 2;34;Amsterdam (Buiksloterweg) - Zaanse Schans - Purmerend 34 km ENG 2026 (white label);0,33;94,8;Hoog
+315;Holland: Tulip Tour 5 days;Program: Tulip 5 days F;Day 3: Haarlem – Keukenhof – Oude Wetering;Optie 1;38;Haarlem (Spaarndamseweg) - Keukenhof - Leiden 38 km ENG 2026 (white label);0,44;132,3;Hoog
+315;Holland: Tulip Tour 5 days;Program: Tulip 5 days F;Day 3: Haarlem – Keukenhof – Oude Wetering;Optie 2;55;Haarlem (Spaarndamseweg) - Keukenhof - Oude Wetering 55 km ENG 2026 (white label);0,37;200,5;Hoog
+316;Holland: Tulip Tour 5 days;Program: Tulip 5 days F;Day 4: Oude Wetering –Nieuwe Meer | Nieuwe Meer – Amsterdam;Optie 1;28;Amsterdam (Buiksloterweg) - Zaanse Schans - Zaandam 28 km ENG 2026 (white label);0,09;94,6;Laag (niet toegepast)
+319;Holland: Tulip Tour 5 days;Tulip 5 day 2027;Day 2: Haarlem - Keukenhof - Haarlem;Optie 1;50;Haarlem - Nordsee - Haarlem 50 km DEU 2026;0,05;242,3;Hoog
+320;Holland: Tulip Tour 5 days;Tulip 5 day 2027;Day 3: Haarlem - Alkmaar;Optie 1;50;Amsterdam (Minerva) - Haarlem - Amsterdam (Minerva) 50 km DEU 2024;0,25;185,2;Hoog
+321;Holland: Tulip Tour 5 days;Tulip 5 day 2027;Day 4: Alkmaar - Zaanse Schans | Zaanse Schans - Amsterdam;Optie 1;41;Amsterdam (Minerva) - Haarlem (loop) 40 km ENG 2026;0,79;142,6;Hoog
+331;Holland and Belgium Relax Tour - 11 days;Amsterdam - Bruges;Day 1: Amsterdam – Weesp | test ride in Weesp;Optie 1;11;Ghent (city) - Lovendegem 10 km ENG 2026;0,6;30,2;Laag (niet toegepast)
+332;Holland and Belgium Relax Tour - 11 days;Amsterdam - Bruges;Day 2: Weesp – Utrecht | Utrecht – Vianen;Optie 1;47;Bergen op Zoom - Antwerpen over Woensdrecht 46 km;0,65;258,9;Laag (niet toegepast)
+333;Holland and Belgium Relax Tour - 11 days;Amsterdam - Bruges;Day 3: Vianen – Schoonhoven – Kinderdijk – Alblasserdam;Optie 1;22;Aalter-Brug - Bruges 22 km ENG 2026;0,05;76,7;Laag (niet toegepast)
+333;Holland and Belgium Relax Tour - 11 days;Amsterdam - Bruges;Day 3: Vianen – Schoonhoven – Kinderdijk – Alblasserdam;Optie 2;57;Vianen - Kinderdijk - Alblasserdam //  Dordrecht 57 km ENG 2026;0,12;138,8;Hoog
+334;Holland and Belgium Relax Tour - 11 days;Amsterdam - Bruges;Day 4: Dordrecht – Willemstad | Willemstad – Tholen;Optie 1;44;Willemstad - Bergen op Zoom (via Steenbergen) 44 km ENG 2026;0,33;146,6;Redelijk
+335;Holland and Belgium Relax Tour - 11 days;Amsterdam - Bruges;Day 5: Tholen – Kreekrak lock | Kreekrak locks –;Optie 1;20;Tholen - Kreekrak (east) 23 km ENG 2026;2,48;49,6;Redelijk
+335;Holland and Belgium Relax Tour - 11 days;Amsterdam - Bruges;Day 5: Tholen – Kreekrak lock | Kreekrak locks –;Optie 2;36;Tholen - Kreekrak (east) 33 km ENG 2026;3,37;146,1;Redelijk
+337;Holland and Belgium Relax Tour - 11 days;Amsterdam - Bruges;Day 7: Antwerp – Temse – St. Amands;Optie 1;34;Antwerp - St. Amands (via Waterbus) 30 km ENG 2026;3,52;126,7;Redelijk
+337;Holland and Belgium Relax Tour - 11 days;Amsterdam - Bruges;Day 7: Antwerp – Temse – St. Amands;Optie 2;49;Antwerp  - Dendermonde (via Waterbus) 42 ENG 2026;0,57;182,3;Hoog
+338;Holland and Belgium Relax Tour - 11 days;Amsterdam - Bruges;Day 8: St. Amands – Dendermonde | Dendermonde – Ghent;Optie 1;52;Antwerp - Dendermonde 53 km ENG 2026;0,9;192,3;Hoog
+339;Holland and Belgium Relax Tour - 11 days;Amsterdam - Bruges;Day 9: Ghent – Bruges;Optie 1;22;Bruges - Damme (loop) 22 km ENG 2026;0,56;79,6;Hoog
+339;Holland and Belgium Relax Tour - 11 days;Amsterdam - Bruges;Day 9: Ghent – Bruges;Optie 2;45;Dendermonde - Ghent (city) 45 km ENG 2026;0,27;166;Hoog
+340;Holland and Belgium Relax Tour - 11 days;Amsterdam - Bruges;Day 10: Tour around Bruges to the North Sea;Optie 1;38;Bruges - Lissewege (loop) 38 km ENG 2026;0,09;124,6;Hoog
+342;Holland and Belgium Relax Tour - 11 days;Bruges - Amsterdam;Day 1: Bruges;Optie 1;11;Test ride: Bruges 11 km ENG 2026;0,16;39,7;Hoog
+343;Holland and Belgium Relax Tour - 11 days;Bruges - Amsterdam;Day 2: Roundtrip from/to Bruges & North Sea;Optie 1;38;Bruges - Lissewege (loop) 38 km ENG 2026;0,09;124,6;Hoog
+344;Holland and Belgium Relax Tour - 11 days;Bruges - Amsterdam;Day 3: Bruges – Aalterbrug | Aalterbrug – Ghent;Optie 1;37;Ghent (Merelbeke) - Dendermonde 39 km ENG 2026;1,63;126;Redelijk
+344;Holland and Belgium Relax Tour - 11 days;Bruges - Amsterdam;Day 3: Bruges – Aalterbrug | Aalterbrug – Ghent;Optie 2;45;Breukelen - Amsterdam (Oosterdok) 47 km ENG 2026;1,99;148,5;Laag (niet toegepast)
+345;Holland and Belgium Relax Tour - 11 days;Bruges - Amsterdam;Day 4: Ghent – Dendermonde/St. Amands;Optie 1;40;Tholen - Willemstad (via Steenbergen) 42 km ENG 2026;2,4;105,2;Laag (niet toegepast)
+345;Holland and Belgium Relax Tour - 11 days;Bruges - Amsterdam;Day 4: Ghent – Dendermonde/St. Amands;Optie 2;55;Bruges - Ghent (city) (via Bulskampveld) 57 km ENG 2026;1,59;226,1;Redelijk
+346;Holland and Belgium Relax Tour - 11 days;Bruges - Amsterdam;Day 5: St. Amands – Temse – Antwerp;Optie 1;33;St. Amands - Antwerp (via waterbus) 30+7 km ENG 2026;4,33;124;Redelijk
+346;Holland and Belgium Relax Tour - 11 days;Bruges - Amsterdam;Day 5: St. Amands – Temse – Antwerp;Optie 2;49;Dendermonde - Antwerp (via waterbus) 42+8 km ENG 2026;1,07;174,7;Redelijk
+348;Holland and Belgium Relax Tour - 11 days;Bruges - Amsterdam;Day 7: Antwerp – Kreekrak locks | Kreekrak loDay 7: Antwerp – Kreekrak locks | K;Optie 1;20;Kreekrak (east) - Tholen 23 km ENG 2026;2,45;40,7;Redelijk
+348;Holland and Belgium Relax Tour - 11 days;Bruges - Amsterdam;Day 7: Antwerp – Kreekrak locks | Kreekrak loDay 7: Antwerp – Kreekrak locks | K;Optie 2;36;St. Amands - Antwerp 40 km ENG 2026;4,44;158,4;Redelijk
+349;Holland and Belgium Relax Tour - 11 days;Bruges - Amsterdam;Day 8: Tholen – Willemstad | Willemstad – Dordrecht;Optie 1;36;Kreekrak (east) - Tholen 32 km ENG 2026;3,57;112,3;Redelijk
+349;Holland and Belgium Relax Tour - 11 days;Bruges - Amsterdam;Day 8: Tholen – Willemstad | Willemstad – Dordrecht;Optie 2;44;Tholen - Willemstad (via Oud Vossemeer) 46 km ENG 2026;1,52;107,3;Redelijk
+350;Holland and Belgium Relax Tour - 11 days;Bruges - Amsterdam;Day 9: Dordrecht – Alblasserdam (waterbus ferry) | Alblasserdam – Kinderdijk – S;Optie 1;32;Dordrecht // Alblasserdam - Kinderdijk - Schoonhoven 32 km ENG 2026;0,43;72,2;Hoog
+350;Holland and Belgium Relax Tour - 11 days;Bruges - Amsterdam;Day 9: Dordrecht – Alblasserdam (waterbus ferry) | Alblasserdam – Kinderdijk – S;Optie 2;57;Dordrecht // Alblasserdam - Kinderdijk - Vianen 57 km ENG 2026;0,01;137,1;Hoog
+351;Holland and Belgium Relax Tour - 11 days;Bruges - Amsterdam;Day 10: Vianen – Breukelen | Breukelen – Amsterdam;Optie 1;37;Breukelen - Amsterdam (Oosterdok) 38 km ENG 2026;1,05;110,6;Redelijk
+351;Holland and Belgium Relax Tour - 11 days;Bruges - Amsterdam;Day 10: Vianen – Breukelen | Breukelen – Amsterdam;Optie 2;47;Bruges - Ghent (city) (via Aalter-Brug) 51 km ENG 2026;3,81;151,6;Laag (niet toegepast)
+356;Holland: Sail and Bike Tulip Tour;Program Wapen/Leafde FF;Day 4: Wadden island of Texel: round trip | Oudeschild – Den Helder;Optie 1;43;Den Oever - Medemblik 43km ENG;0,87;125,5;Laag (niet toegepast)
+356;Holland: Sail and Bike Tulip Tour;Program Wapen/Leafde FF;Day 4: Wadden island of Texel: round trip | Oudeschild – Den Helder;Optie 2;48;Texel (loop Oudeschild) 50 km ENG 2026 reverse;1,71;156,9;Redelijk
+357;Holland: Sail and Bike Tulip Tour;Program Wapen/Leafde FF;Day 5: Den Helder – St. Maartensvlotbrug | St. Maartensvlotbrug – Alkmaar;Optie 2;53;Medemblik - Enkhuizen (via Hoorn ) 52 km ENG 2026 (N);0,88;141,6;Laag (niet toegepast)
+358;Holland: Sail and Bike Tulip Tour;Program Wapen/Leafde FF;Day 6: Alkmaar – Zaandam;Optie 1;47;Zaandam - Hoorn 50 km ENG 2023;1,77;119,2;Redelijk
+402;Holland: Sail and Bike Tulip Tour;Program Mare fan Fryslan;Day 2: Zaandam – Alkmaar;Optie 1;47;Zaandam - Hoorn 50 km ENG 2023;1,77;119,2;Redelijk
+403;Holland: Sail and Bike Tulip Tour;Program Mare fan Fryslan;Day 3: Alkmaar – Den Helder;Optie 2;50;Medemblik - Enkhuizen (via Hoorn ) 52 km ENG 2026 (N);2,12;141,6;Laag (niet toegepast)
+404;Holland: Sail and Bike Tulip Tour;Program Mare fan Fryslan;Day 4: Den Helder – Oudeschild | Wadden island of Texel: round trip;Optie 1;43;Den Oever - Medemblik 43km ENG;0,87;125,5;Laag (niet toegepast)
+404;Holland: Sail and Bike Tulip Tour;Program Mare fan Fryslan;Day 4: Den Helder – Oudeschild | Wadden island of Texel: round trip;Optie 2;48;Texel (loop Oudeschild) 50 km ENG 2026 reverse;1,71;156,9;Redelijk
+450;Sail and Bike IJsselmeer + National Parks;Program: IJsselmeer + National parks;Day 2:  Monnickendam / Volendam | Volendam – Hoorn;Optie 1;35;Volendam (loop) 35 km ENG 2026;0,44;91,1;Hoog
+450;Sail and Bike IJsselmeer + National Parks;Program: IJsselmeer + National parks;Day 2:  Monnickendam / Volendam | Volendam – Hoorn;Optie 2;48;Volendam (loop) 48 km ENG 2026;0,06;108,8;Hoog
+451;Sail and Bike IJsselmeer + National Parks;Program: IJsselmeer + National parks;Day 3: Hoorn – Enkhuizen | Enkhuizen – Urk;Optie 1;26;Hoorn - Enkhuizen (via coast) 26 km ENG 2026;0,04;61,3;Hoog
+451;Sail and Bike IJsselmeer + National Parks;Program: IJsselmeer + National parks;Day 3: Hoorn – Enkhuizen | Enkhuizen – Urk;Optie 2;44;Hoorn - Enkhuizen (via Midwoud) 44 km ENG 2026;0,01;116,6;Hoog
+452;Sail and Bike IJsselmeer + National Parks;Program: IJsselmeer + National parks;Day 4:  Urk – Vollenhove;Optie 1;30;Vollenhove - Schokkerhaven (via Schokland) 30 km ENG 2026;0,02;128,3;Hoog
+452;Sail and Bike IJsselmeer + National Parks;Program: IJsselmeer + National parks;Day 4:  Urk – Vollenhove;Optie 2;44;Vollenhove - Giethoorn 40 km ENG 2026;3,98;94;Redelijk
+453;Sail and Bike IJsselmeer + National Parks;Program: IJsselmeer + National parks;Day 5: Vollenhove – Giethoorn;Optie 1;40;Giethoorn - Vollehove 40 km ENG 2026;0,27;112,9;Hoog
+453;Sail and Bike IJsselmeer + National Parks;Program: IJsselmeer + National parks;Day 5: Vollenhove – Giethoorn;Optie 2;52;Giethoorn - Vollehove 53 km ENG 2026;1,35;157,8;Redelijk
+455;Sail and Bike IJsselmeer + National Parks;Program: IJsselmeer + National parks;Day 7: Lelystad – Blocq van Kuffeler | Blocq v.K – Amsterdam;Optie 1;20;Lelystad - Blocq van Kuffeler 20 km ENG 2026;0,19;25;Hoog
+455;Sail and Bike IJsselmeer + National Parks;Program: IJsselmeer + National parks;Day 7: Lelystad – Blocq van Kuffeler | Blocq v.K – Amsterdam;Optie 2;29;Lelystad - Blocq van Kuffeler 29 km ENG 2026;0,5;53,7;Hoog
+505;Holland: Tulip Tour Premium 8days;Program: Tulip8 Prem;Day 1: Amsterdam – Spaarndam | Spaarndam – Haarlem;Optie 1;6;Spaarndam - Haarlem (Spaarndamseweg) 6,7 km ENG 2026;0,66;25,6;Hoog
+505;Holland: Tulip Tour Premium 8days;Program: Tulip8 Prem;Day 1: Amsterdam – Spaarndam | Spaarndam – Haarlem;Optie 2;14;Spaarndam - Haarlem (city) 14 km ENG 2026;0,16;55,9;Hoog
+506;Holland: Tulip Tour Premium 8days;Program: Tulip8 Prem;Day 2: Haarlem – Keukenhof – Leiden;Optie 1;38;Leiden - Gouda 38 km ENG 2026;0,1;112,6;Hoog
+507;Holland: Tulip Tour Premium 8days;Program: Tulip8 Prem;Day 3: Leiden – Gouda;Optie 1;37;Leiden - Gouda 36 km ENG 2026 Zoeterwoude;0,3;118,5;Hoog
+507;Holland: Tulip Tour Premium 8days;Program: Tulip8 Prem;Day 3: Leiden – Gouda;Optie 2;43;Gouda - Uithoorn 43 km ENG 2026;0,23;106,6;Hoog
+508;Holland: Tulip Tour Premium 8days;Program: Tulip8 Prem;Day 4: Gouda – Alphen a/d Rijn | Alphen a/d Rijn – Kudelstaart or Oude Wetering;Optie 1;20;Alphen a/d Rijn - Uithoorn 24 km ENG 2026;4,41;63,2;Redelijk
+508;Holland: Tulip Tour Premium 8days;Program: Tulip8 Prem;Day 4: Gouda – Alphen a/d Rijn | Alphen a/d Rijn – Kudelstaart or Oude Wetering;Optie 2;44;Leiden - Gouda 46 km ENG 2026;2,46;113,6;Redelijk
+509;Holland: Tulip Tour Premium 8days;Program: Tulip8 Prem;Day 5: Kudelstaart/Oude Wetering – Flower auction | Aalsmeer – Amsterdam | Amste;Optie 1;32;Amsterdam (Buiksloterweg) - Zaanse Schans - Purmerend 34 km ENG 2026;2,33;94,9;Laag (niet toegepast)
+510;Holland: Tulip Tour Premium 8days;Program: Tulip8 Prem;Day 6: Zaanse Schans/Zaandam – Alkmaar;Optie 1;40;Haarlem (Spaarndamseweg) - Alkmaar (via Heiloo) 41 km ENG 2026;0,84;111,5;Hoog
+511;Holland: Tulip Tour Premium 8days;Program: Tulip8 Prem;Day 7: Alkmaar – Amsterdam;Optie 1;37;Purmerend - Alkmaar (via Heiloo) 37 km ENG 2026;0,24;113,1;Hoog
+511;Holland: Tulip Tour Premium 8days;Program: Tulip8 Prem;Day 7: Alkmaar – Amsterdam;Optie 2;54;Alkmaar - Haarlem (city) 54 km ENG 2026;0,13;250,2;Hoog
+578;Holland: Green Heart of Holland Guided;Green Heart guided;Day 2: Amsterdam – Zaandam | Zaandam – Zaanse Schans – Haarlem;Optie 1;40;Haarlem (city) - Leiden (via Cruquius) 40 km ENG 2026;0,16;129,9;Hoog
+578;Holland: Green Heart of Holland Guided;Green Heart guided;Day 2: Amsterdam – Zaandam | Zaandam – Zaanse Schans – Haarlem;Optie 2;55;Zaandam - Zaanse Schans - Haarlem (city) (via IJmuiden) 51 km ENG 2026;4,3;220,4;Redelijk
+579;Holland: Green Heart of Holland Guided;Green Heart guided;Day 3: Haarlem – North Sea coast – Leiden;Optie 1;42;Haarlem (city) - Leiden (via dunes) 46 km ENG 2026;3,6;221,3;Redelijk
+579;Holland: Green Heart of Holland Guided;Green Heart guided;Day 3: Haarlem – North Sea coast – Leiden;Optie 2;50;Leiden - Delft - Rotterdam (Cool- & Maashaven) 50 km ENG 2026;0;179,9;Redelijk
+580;Holland: Green Heart of Holland Guided;Green Heart guided;Day 4: Leiden – Delft;Optie 1;35;Leiden - Delft (via Zoetermeer) 32 km ENG 2026;2,81;101,8;Redelijk
+580;Holland: Green Heart of Holland Guided;Green Heart guided;Day 4: Leiden – Delft;Optie 2;41;Leiden - Delft (via Den Haag) 38 km ENG 2026;3,48;152,3;Redelijk
+581;Holland: Green Heart of Holland Guided;Green Heart guided;Day 5: Delft – Rotterdam – Kinderdijk | Kinderdijk – Schoonhoven – Gouda;Optie 1;23;Bosrandbrug - Amsterdam (Veemkade) 23 km ENG 2026;0;80,4;Laag (niet toegepast)
+582;Holland: Green Heart of Holland Guided;Green Heart guided;Day 6: Gouda – Kudelstaart;Optie 1;45;Alblasserdam - Kinderdijk - Gouda (via Schoonhoven) 44 km ENG 2026;1,43;112,1;Redelijk
+582;Holland: Green Heart of Holland Guided;Green Heart guided;Day 6: Gouda – Kudelstaart;Optie 2;55;Gouda - Kudelstaart 54 km ENG 2026;1,19;136,7;Redelijk
+583;Holland: Green Heart of Holland Guided;Green Heart guided;Day 7: Kudelstaart – Aalsmeer – Amsterdam;Optie 1;32;Bosrandbrug - Amsterdam (Oosterdok) 36 km ENG 2026;3,65;143,3;Redelijk
+628;France: Northern Burgundy;Program: Auxerre - Moret-sur-Loing;Day 2: Auxerre;Optie 1;29;Auxerre - Auxerre zonder Irancy  31 km DEU 2025  T;2,52;185,1;Redelijk
+628;France: Northern Burgundy;Program: Auxerre - Moret-sur-Loing;Day 2: Auxerre;Optie 2;44;Auxerre - Migennes 43 km DEU 2025;0,44;215,3;Hoog
+629;France: Northern Burgundy;Program: Auxerre - Moret-sur-Loing;Day 3: Auxerre – Joigny;Optie 1;28;Auxerre- Migennes 30 km DEU 2025 via Cheny;0,18;104,4;Hoog
+629;France: Northern Burgundy;Program: Auxerre - Moret-sur-Loing;Day 3: Auxerre – Joigny;Optie 2;43;Auxerre - Auxerre with Irancy  43 km DEU 2025 T 7L ;0,68;323,4;Hoog
+630;France: Northern Burgundy;Program: Auxerre - Moret-sur-Loing;Day 4: Joigny – Villeneuve-sur-Yonne;Optie 1;28;Villeneuve-sur-Yonne - Sens 28 km DEU 2025;0,34;95;Hoog
+630;France: Northern Burgundy;Program: Auxerre - Moret-sur-Loing;Day 4: Joigny – Villeneuve-sur-Yonne;Optie 2;43;Pont-sur-Yonne - Montereau 44 km ENG 2025;0,47;369,3;Hoog
+631;France: Northern Burgundy;Program: Auxerre - Moret-sur-Loing;Day 5: Villeneuve-sur-Yonne – Sens;Optie 1;28;Villeneuf - Sens 30 km DEU 2025;1,18;117;Redelijk
+631;France: Northern Burgundy;Program: Auxerre - Moret-sur-Loing;Day 5: Villeneuve-sur-Yonne – Sens;Optie 2;52;Villeneuve-sur-Yonne - Sens 52 km DEU 2025;0,27;309;Hoog
+632;France: Northern Burgundy;Program: Auxerre - Moret-sur-Loing;Day 6: Sens – Pont-sur-Yonne;Optie 1;20;Sens - Pont-sur-Yonne 20 km DEU 2025;0,66;81;Hoog
+632;France: Northern Burgundy;Program: Auxerre - Moret-sur-Loing;Day 6: Sens – Pont-sur-Yonne;Optie 2;42;Sens - Pont-sur-Yonne 42 km DEU 2025;0,72;265,9;Hoog
+633;France: Northern Burgundy;Program: Auxerre - Moret-sur-Loing;Day 7: Pont-sur-Yonne – Vinneuf | Vinneuf – Moret;Optie 1;35;Vinneuf - Moret  35km DEU 2025;0,09;250,2;Hoog
+633;France: Northern Burgundy;Program: Auxerre - Moret-sur-Loing;Day 7: Pont-sur-Yonne – Vinneuf | Vinneuf – Moret;Optie 2;40;Moret - Melun (via Barbizon & Fontainebleau) 40 km ENG 2025;0,1;248,3;Hoog
+644;France: Northern Burgundy;Program: Moret-sur-Loing - Auxerre;Day 2: Moret – Montereau – Pont sur Yonne;Optie 1;37;Vinneuf - Moret 38 km ENG 2026;1,23;284;Redelijk
+644;France: Northern Burgundy;Program: Moret-sur-Loing - Auxerre;Day 2: Moret – Montereau – Pont sur Yonne;Optie 2;41;Sens - Pont sur Yonne 42km ENG 2026 (T);0,25;326,7;Hoog
+645;France: Northern Burgundy;Program: Moret-sur-Loing - Auxerre;Day 3: Pont sur Yonne – Sens;Optie 1;20;Sens - Pont-sur-Yonne 20 km ENG 2025;0,66;81;Hoog
+645;France: Northern Burgundy;Program: Moret-sur-Loing - Auxerre;Day 3: Pont sur Yonne – Sens;Optie 2;42;Sens - Pont-sur-Yonne 41 km ENG 2026;0,57;266;Hoog
+646;France: Northern Burgundy;Program: Moret-sur-Loing - Auxerre;Day 4: Sens – Villeneuve sur Yonne;Optie 1;28;Villeneuve-sur-Yonne - Sens 28 km ENG 2026;0,11;115,8;Hoog
+646;France: Northern Burgundy;Program: Moret-sur-Loing - Auxerre;Day 4: Sens – Villeneuve sur Yonne;Optie 2;52;Villeneuve-sur-Yonne - Sens 52km ENG 2026 (T);0,26;363,4;Hoog
+647;France: Northern Burgundy;Program: Moret-sur-Loing - Auxerre;Day 5: Villeneuve sur Yonne – Joigny;Optie 1;23;Sens - Point sur Yonne 23km ENG 2026 (T);0,07;80,9;Hoog
+647;France: Northern Burgundy;Program: Moret-sur-Loing - Auxerre;Day 5: Villeneuve sur Yonne – Joigny;Optie 2;47;Joigny - Sens 47 km ENG 2025 ;0,21;458,3;Hoog
+648;France: Northern Burgundy;Program: Moret-sur-Loing - Auxerre;Day 6: Joigny – Auxerre;Optie 1;25;Joigny (loop to winery) 23 km ENG 2026;2,03;139,7;Redelijk
+648;France: Northern Burgundy;Program: Moret-sur-Loing - Auxerre;Day 6: Joigny – Auxerre;Optie 2;38;Auxerre - Joigny 37 km ENG 2026;1,43;140,7;Redelijk
+649;France: Northern Burgundy;Program: Moret-sur-Loing - Auxerre;Day 7: Auxerre;Optie 1;30;Auxerre - Vincelottes (loop) 32 km ENG 2026;1,51;185,5;Redelijk
+649;France: Northern Burgundy;Program: Moret-sur-Loing - Auxerre;Day 7: Auxerre;Optie 2;42;Auxerre - Irancy (loop) 42 km ENG 2026;0,39;341,6;Hoog
+676;Holland: 5-day Tulip Tour Premium;5-day Tulip tour Premium;Day 2: Haarlem - Keukenhof - Haarlem;Optie 1;50;Haarlem - Nordsee - Haarlem 50 km DEU 2026;0,05;242,3;Hoog
+677;Holland: 5-day Tulip Tour Premium;5-day Tulip tour Premium;Day 3: Haarlem - Alkmaar;Optie 1;50;Amsterdam (Minerva) - Haarlem - Amsterdam (Minerva) 50 km DEU 2024;0,25;185,2;Hoog
+678;Holland: 5-day Tulip Tour Premium;5-day Tulip tour Premium;Day 4: Alkmaar - Zaanse Schans | Zaanse Schans - Amsterdam;Optie 1;41;Amsterdam (Minerva) - Haarlem (loop) 40 km ENG 2026;0,79;142,6;Hoog
+681;Netherlands: Historic Hanseatic cities;Program: Hanseatic Boutique Premium;Day 2: Wijk bij Duurstede – Wageningen | Wageningen – Arnhem;Optie 1;37;Wageningen - Arnhem (via Veluwe & Airborne museum) 37 km ENG 2026;0,02;250,7;Hoog
+681;Netherlands: Historic Hanseatic cities;Program: Hanseatic Boutique Premium;Day 2: Wijk bij Duurstede – Wageningen | Wageningen – Arnhem;Optie 2;44;Wageningen - Arnhem (via Veluwe) ENG 43 km 2026;0,55;202,5;Hoog
+682;Netherlands: Historic Hanseatic cities;Program: Hanseatic Boutique Premium;Day 3: Arnhem – Doesburg | Doesburg – Zutphen | Zutphen – Deventer;Optie 1;27;Wageningen - Arnhem (via Heteren & Airborne Museum) 27 km ENG 2026;0,01;168,1;Hoog
+682;Netherlands: Historic Hanseatic cities;Program: Hanseatic Boutique Premium;Day 3: Arnhem – Doesburg | Doesburg – Zutphen | Zutphen – Deventer;Optie 2;44;Doesburg - Zutphen (via Vorden) 44 km ENG 2026;0,14;136,6;Hoog
+683;Netherlands: Historic Hanseatic cities;Program: Hanseatic Boutique Premium;Day 4: Deventer – Wijhe | Wijhe – Kampen;Optie 1;40;Wijhe - Kampen (via Hattem) 38 km ENG 2026;2,38;152,6;Redelijk
+683;Netherlands: Historic Hanseatic cities;Program: Hanseatic Boutique Premium;Day 4: Deventer – Wijhe | Wijhe – Kampen;Optie 2;56;Doesburg - Deventer (via Wichmond & Zutphen) 57 km ENG 2026;0,94;173;Hoog
+684;Netherlands: Historic Hanseatic cities;Program: Hanseatic Boutique Premium;Day 5: Kampen – Elburg – Harderwijk;Optie 1;48;Kampen - Harderwijk (via Elburg) 48 km ENG 2026;0,33;117,9;Hoog
+684;Netherlands: Historic Hanseatic cities;Program: Hanseatic Boutique Premium;Day 5: Kampen – Elburg – Harderwijk;Optie 2;56;Kampen - Hattem (loop) 54 km ENG 2026;1,92;163,6;Redelijk
+685;Netherlands: Historic Hanseatic cities;Program: Hanseatic Boutique Premium;Day 6: Harderwijk – Bunschoten – Spakenburg;Optie 1;41;Harderwijk - Spakenburg (via Putten) 41 km ENG 2026;0,14;141;Hoog
+685;Netherlands: Historic Hanseatic cities;Program: Hanseatic Boutique Premium;Day 6: Harderwijk – Bunschoten – Spakenburg;Optie 2;61;Harderwijk - Spakenburg (via Veluwe & Nijkerk) 62 km ENG 2026;0,56;240,6;Hoog
+686;Netherlands: Historic Hanseatic cities;Program: Hanseatic Boutique Premium;Day 7: Spakenburg – Huizen | Huizen  – Naarden – Muiden – Amsterdam;Optie 1;35;Huizen - Amsterdam (Tolhuis-Buiksloterweg) 35 km ENG 2026;0,59;133;Hoog
+686;Netherlands: Historic Hanseatic cities;Program: Hanseatic Boutique Premium;Day 7: Spakenburg – Huizen | Huizen  – Naarden – Muiden – Amsterdam;Optie 2;49;Huizen - Amsterdam (Tolhuis-Buiksloterweg) (via Crailoo) 50 km ENG 2025;0,61;212,1;Hoog
+762;Germany: 8-day Cochem – Metz or v.v.;Program: Cochem - Metz;Day 2: Cochem – Zell;Optie 1;39;Cochem - Zell 37 km ENG 2026;1,87;232,5;Redelijk
+763;Germany: 8-day Cochem – Metz or v.v.;Program: Cochem - Metz;Day 3: Zell on the Moselle – Bernkastel-Kues;Optie 1;45;Zell - Bernkastel-Kues 44 km ENG 2026;1,12;299,7;Redelijk
+764;Germany: 8-day Cochem – Metz or v.v.;Program: Cochem - Metz;Day 4:  Bernkastel-Kues – Neumagen – Schweich | Schweich –Trier;Optie 1;28;Neumagen - Schweich 27 km ENG 2025;0,6;194;Hoog
+764;Germany: 8-day Cochem – Metz or v.v.;Program: Cochem - Metz;Day 4:  Bernkastel-Kues – Neumagen – Schweich | Schweich –Trier;Optie 2;54;Bernkastel-Kues - Schweich 54 km ENG 2026;0,03;354,1;Hoog
+765;Germany: 8-day Cochem – Metz or v.v.;Program: Cochem - Metz;Day 5: Trier – Saarburg;Optie 1;28;Trier (centre)  - Saarburg 29 km ENG 2026;0,55;236,2;Hoog
+766;Germany: 8-day Cochem – Metz or v.v.;Program: Cochem - Metz;Day 6: Saarburg – Remich;Optie 1;45;Remich - Thionville 45 km ENG 2026;0,23;246,2;Hoog
+766;Germany: 8-day Cochem – Metz or v.v.;Program: Cochem - Metz;Day 6: Saarburg – Remich;Optie 2;53;Saarburg - Remich (via river) 53 km ENG 2026;0,53;311,5;Hoog
+767;Germany: 8-day Cochem – Metz or v.v.;Program: Cochem - Metz;Day 7: Remich – Schengen | Schengen – Thionville | Thionville – Metz;Optie 1;30;Schengen - Thionville 35 km ENG 2026;4,53;193,1;Redelijk
+770;Germany: 8-day Cochem – Metz or v.v.;Program: Metz - Cochem;Day 2: Metz – Remich;Optie 1;41;Remich - Saarburg (via Mannebach) 40 km ENG 2026;1,21;470,7;Redelijk
+770;Germany: 8-day Cochem – Metz or v.v.;Program: Metz - Cochem;Day 2: Metz – Remich;Optie 2;49;Richemont - Remich 52 km ENG 2026;2,85;269,6;Redelijk
+771;Germany: 8-day Cochem – Metz or v.v.;Program: Metz - Cochem;Day 3: Remich – Saarburg;Optie 1;40;Saarburg - Trier (Pfalzel / Ostkai) 38 km ENG 2026;2,32;230,4;Redelijk
+771;Germany: 8-day Cochem – Metz or v.v.;Program: Metz - Cochem;Day 3: Remich – Saarburg;Optie 2;48;Remich - Saarburg (via river) 48 km ENG 2026;0,03;317,3;Hoog
+772;Germany: 8-day Cochem – Metz or v.v.;Program: Metz - Cochem;Day 4: Saarburg – Trier;Optie 1;32;Saarburg - Trier (centre) (via Igel) 34 km ENG 2026;1,47;208,3;Redelijk
+773;Germany: 8-day Cochem – Metz or v.v.;Program: Metz - Cochem;Day 5: Trier – Schweich | Schweich – Neumagen – Bernkastel-Kues;Optie 1;27;Saarburg - Trier (centre) 28 km ENG 2026;1,3;174,7;Redelijk
+773;Germany: 8-day Cochem – Metz or v.v.;Program: Metz - Cochem;Day 5: Trier – Schweich | Schweich – Neumagen – Bernkastel-Kues;Optie 2;53;Schweich - Bernkastel-Kues 55 km ENG 2026;1,49;358,3;Redelijk
+774;Germany: 8-day Cochem – Metz or v.v.;Program: Metz - Cochem;Day 6: Bernkastel-Kues – Traben-Trarbach – Zell on the Moselle;Optie 1;45;Bernkastel-Kues - Zell 45 km ENG 2026;0,01;260,4;Hoog
+775;Germany: 8-day Cochem – Metz or v.v.;Program: Metz - Cochem;Day 7: Zell – Beilstein – Cochem;Optie 1;39;Zell - Cochem 39 km ENG 2026;0,22;301,1;Hoog
+933;Netherlands: Discover Friesland;Program Discover Friesland;Day 2: Stavoren – Makkum | Makkum – Terschelling;Optie 1;31;Heeg-Stavoren 32km NLD;0,48;72;Redelijk
+933;Netherlands: Discover Friesland;Program Discover Friesland;Day 2: Stavoren – Makkum | Makkum – Terschelling;Optie 2;49;Stavoren - Makkum 49 km NLD 2026;0,24;124,4;Hoog
+934;Netherlands: Discover Friesland;Program Discover Friesland;Day 3: Terschelling | Terschelling - Harlingen;Optie 1;42;Harlingen - Franeker - Leeuwarden 42 km NLD 2026;0,04;108,3;Hoog
+935;Netherlands: Discover Friesland;Program Discover Friesland;Day 4: Harlingen – Franeker – Leeuwarden;Optie 1;42;Leeuwarden - Grou 41 km NLD 2026;1,44;91;Redelijk
+935;Netherlands: Discover Friesland;Program Discover Friesland;Day 4: Harlingen – Franeker – Leeuwarden;Optie 2;51;Harlingen - Franeker - Leeuwarden 51 km NLD 2026;0,18;104,2;Hoog
+936;Netherlands: Discover Friesland;Program Discover Friesland;Day 5: Leeuwarden – De Alde Feanen – Grou;Optie 1;40;Grou-Heeg 37km NLD;2,97;84,9;Redelijk
+937;Netherlands: Discover Friesland;Program Discover Friesland;Day 6: Grou – Sneek;Optie 1;46;Grou-Heeg 46km NLD;0,24;115,3;Hoog
+937;Netherlands: Discover Friesland;Program Discover Friesland;Day 6: Grou – Sneek;Optie 2;53;Grou - Sneek 53 km NLD 2026;0,83;133,1;Hoog
+938;Netherlands: Discover Friesland;Program Discover Friesland;Day 7: Sneek  – Spannenburg | Spannenburg - Lemmer | Lemmer – Enkhuizen;Optie 1;33;Spannenburg-Lemmer 33km NLD 2026;0,22;121,4;Hoog
+938;Netherlands: Discover Friesland;Program Discover Friesland;Day 7: Sneek  – Spannenburg | Spannenburg - Lemmer | Lemmer – Enkhuizen;Optie 2;41;Spannenburg-Lemmer 41km NLD 2026;0,36;134,2;Hoog
+945;North Holland landscapes and seascapes;program N-H;Day 1: Amsterdam – Zaandam | Zaandam – Zaanse Schans;Optie 1;8;Test ride: Zaanse Schans 8,4 km ENG 2026;0,37;26,3;Hoog
+946;North Holland landscapes and seascapes;program N-H;Day 2: Zaanse Schans – Alkmaar;Optie 1;29;Alkmaar - Sint Maartensvlotbrug 29 km ENG 2026;0,24;121,1;Redelijk
+946;North Holland landscapes and seascapes;program N-H;Day 2: Zaanse Schans – Alkmaar;Optie 2;40;Texel (loop Oudeschild) 42 km ENG 2026;1,53;139,1;Laag (niet toegepast)
+947;North Holland landscapes and seascapes;program N-H;Day 3: Alkmaar – St. Maartensvlotbrug – Den Helder | Den Helder – Texel;Optie 1;30;Sint Maartensvlotbrug - Den Helder (via coast) 27 km ENG 2026;3,03;111,7;Redelijk
+947;North Holland landscapes and seascapes;program N-H;Day 3: Alkmaar – St. Maartensvlotbrug – Den Helder | Den Helder – Texel;Optie 2;53;Texel (loop Oudeschild, full circle) 53 km ENG 2026;0,21;173,3;Hoog
+948;North Holland landscapes and seascapes;program N-H;Day 4: Texel, round trip | Texel – Medemblik;Optie 1;43;Texel (loop ferry) 43 km ENG 2026;0,37;139,8;Hoog
+948;North Holland landscapes and seascapes;program N-H;Day 4: Texel, round trip | Texel – Medemblik;Optie 2;48;Texel (loop ferry) 49 km ENG 2026;0,48;151,3;Hoog
+949;North Holland landscapes and seascapes;program N-H;Day 5: Medemblik – Enkhuizen;Optie 1;39;Medemblik - Enkhuizen (via Twisk) 40 km ENG 2026;0,53;95,8;Hoog
+949;North Holland landscapes and seascapes;program N-H;Day 5: Medemblik – Enkhuizen;Optie 2;51;Alkmaar - Den Helder 51 km ENG 2026;0,12;209,2;Laag (niet toegepast)
+950;North Holland landscapes and seascapes;program N-H;Day 6: Enkhuizen – Hoorn;Optie 1;23;Medemblik - Enkhuizen (via coast) 24 km ENG 2026;1,2;71,4;Redelijk
+950;North Holland landscapes and seascapes;program N-H;Day 6: Enkhuizen – Hoorn;Optie 2;35;Hoorn (loop) 35 km ENG 2026;0,01;96,3;Hoog
+951;North Holland landscapes and seascapes;program N-H;Day 7: Hoorn – Volendam | Volendam – Amsterdam;Optie 1;23;Hoorn - Volendam 24 km ENG 2026;1,41;62,8;Redelijk
+951;North Holland landscapes and seascapes;program N-H;Day 7: Hoorn – Volendam | Volendam – Amsterdam;Optie 2;45;Volendam - Amsterdam (Oosterdok) (via Marken) 50 km ENG 2026;5;130,1;Redelijk
+969;Cochem - Aschaffenburg or v.v.;Program: Cochem - Aschaffenburg;Day 2: Cochem – Karden | Karden – Koblenz;Optie 1;38;Treis-Karden - Winningen (über Burg Eltz) 34 km DEU 2026;4,32;312,2;Redelijk
+970;Cochem - Aschaffenburg or v.v.;Program: Cochem - Aschaffenburg;Day 3: Koblenz – St. Goar;Optie 1;37;Koblenz - Sankt Goar 37 km DEU 2026;0,49;239,8;Hoog
+971;Cochem - Aschaffenburg or v.v.;Program: Cochem - Aschaffenburg;Day 4: St. Goar – Oberwesel | Oberwesel – Rüdesheim (Bingen);Optie 1;23;Oberwesel - Rüdesheim 26 km DEU 2026;2,85;150,2;Redelijk
+971;Cochem - Aschaffenburg or v.v.;Program: Cochem - Aschaffenburg;Day 4: St. Goar – Oberwesel | Oberwesel – Rüdesheim (Bingen);Optie 2;30;Rüdesheim - Mainz (entlang Fluss) 32 km DEU 2026;1,53;149,6;Redelijk
+972;Cochem - Aschaffenburg or v.v.;Program: Cochem - Aschaffenburg;Day 5: Rüdesheim (Bingen) – Mainz;Optie 1;35;Rüdesheim - Mainz 34 km DEU 2026;1,04;196,1;Redelijk
+972;Cochem - Aschaffenburg or v.v.;Program: Cochem - Aschaffenburg;Day 5: Rüdesheim (Bingen) – Mainz;Optie 2;43;Mainz - Frankfurt 43 km DEU 2026;0,09;250,3;Hoog
+973;Cochem - Aschaffenburg or v.v.;Program: Cochem - Aschaffenburg;Day 6: Mainz – Frankfurt-am-Main;Optie 1;40;Rüdesheim - Mainz (über Kloster) 39 km DEU 2026;1,26;324,8;Redelijk
+974;Cochem - Aschaffenburg or v.v.;Program: Cochem - Aschaffenburg;Day 7: Frankfurt-am-Main – Aschaffenburg;Optie 1;50;Offenbach - Aschaffenburg 50 km DEU 2026;0,25;211,7;Hoog
+977;Cochem - Aschaffenburg or v.v.;Program: Aschaffenburg - Cochem;Day 2: Asschaffenburg – Frankfurt-am-Main;Optie 1;50;Offenbach - Aschaffenburg 49 km ENG 2026;0,7;204,9;Laag (niet toegepast)
+978;Cochem - Aschaffenburg or v.v.;Program: Aschaffenburg - Cochem;Day 3: Frankfurt-am-Main – Mainz;Optie 1;40;Rüdesheim - Mainz 40km ENG 2026;0,92;401,2;Redelijk
+979;Cochem - Aschaffenburg or v.v.;Program: Aschaffenburg - Cochem;Day 4: Mainz – Rüdesheim (Bingen);Optie 1;35;Rüdesheim - Mainz 34 km ENG 2026;0,61;193,6;Hoog
+979;Cochem - Aschaffenburg or v.v.;Program: Aschaffenburg - Cochem;Day 4: Mainz – Rüdesheim (Bingen);Optie 2;43;Mainz - Frankfurt 43 km ENG 2026;0,06;207;Hoog
+980;Cochem - Aschaffenburg or v.v.;Program: Aschaffenburg - Cochem;Day 5: Rüdesheim (Bingen) – St. Goar;Optie 1;40;Rüdesheim - Mainz (via monastery) 39 km ENG 2026;0,93;295;Hoog
+981;Cochem - Aschaffenburg or v.v.;Program: Aschaffenburg - Cochem;Day 6: St. Goar – Koblenz;Optie 1;45;Treis-Karden - Koblenz (via Burg Eltz) 44 km ENG 2026;0,41;370,1;Hoog
+982;Cochem - Aschaffenburg or v.v.;Program: Aschaffenburg - Cochem;Day 7: Koblenz – Alken | Alken – Moselkern – Cochem;Optie 1;40;Koblenz - Sankt Goar 37 km ENG 2026;2,64;238,4;Redelijk
+1236;Netherlands & Germany: Amsterdam - Cochem Premium;Program: Amsterdam - Cochem;Day 2: Wijk bij Duurstede – Wageningen | Wageningen – Arnhem | Arnhem – Rees;Optie 1;35;Wageningen-Arnhem 35 km DEU 2023;0,23;169,3;Hoog
+1236;Netherlands & Germany: Amsterdam - Cochem Premium;Program: Amsterdam - Cochem;Day 2: Wijk bij Duurstede – Wageningen | Wageningen – Arnhem | Arnhem – Rees;Optie 2;44;Wageningen - Arnhem 43 km DEU for 2025;0,39;202,2;Hoog
+1237;Netherlands & Germany: Amsterdam - Cochem Premium;Program: Amsterdam - Cochem;Day 3: Rees – Wesel | Wesel – Duisburg | Duisburg – Düsseldorf;Optie 1;40;Wesel - Ruhrort 40 km DEU 2023;1,71;121,8;Redelijk
+1238;Netherlands & Germany: Amsterdam - Cochem Premium;Program: Amsterdam - Cochem;Day 4: Düsseldorf – Zons – Cologne;Optie 1;28;Zons - Cologne 28 km DEU 2023;0,03;130,4;Hoog
+1238;Netherlands & Germany: Amsterdam - Cochem Premium;Program: Amsterdam - Cochem;Day 4: Düsseldorf – Zons – Cologne;Optie 2;54;Düsseldorf - Cologne 54 km DEU 2023;1,28;232,9;Redelijk
+1239;Netherlands & Germany: Amsterdam - Cochem Premium;Program: Amsterdam - Cochem;Day 5: Cologne – Bonn;Optie 1;38;Cologne - Bonn 38 km DEU 2023;0,28;180;Hoog
+1240;Netherlands & Germany: Amsterdam - Cochem Premium;Program: Amsterdam - Cochem;Day 6: Bonn – Remagen | Remagen – Koblenz;Optie 1;44;Remagen - Koblenz 44 km DEU 2023;0,05;191,8;Hoog
+1241;Netherlands & Germany: Amsterdam - Cochem Premium;Program: Amsterdam - Cochem;Day 7: Koblenz – Alken | Alken – Moselkern – Cochem;Optie 1;40;Alken - Cochem 37 km DEU 2023;2,77;335,2;Redelijk
+1428;Italy: Sicily and Aeolian Islands;Sicily Sundial;Day 2: Milazzo;Optie 1;15;Milazzo - Cape Milazzo - Milazzo ENG 2025;1,56;166;Redelijk
+1429;Italy: Sicily and Aeolian Islands;Sicily Sundial;Day 3: Milazzo Marina – Vulcano Island | Vulcano, roundtripo – Vulcano Island |;Optie 1;20;Marina Capo d'Orlando - Gioioa Marea ENG 2026;0,73;235,4;Laag (niet toegepast)
+1432;Italy: Sicily and Aeolian Islands;Sicily Sundial;Day 6: Salina | Salina – Lipari;Optie 1;20;Vulcano Porto - Capo Grillo - Vulcano Porto ENG 2025;3,5;412,2;Laag (niet toegepast)
+1433;Italy: Sicily and Aeolian Islands;Sicily Sundial;Day 7: Lipari | Lipari – Milazzo;Optie 1;25;Lipari roundtour 26km ENG 2025;0,75;581,3;Hoog
+1436;Italy: Sicily and Aeolian Islands;Sicily Tersane IV;Day 2: Capo d’Orlando Marina;Optie 1;26;Salina roundtour 26 km ENG 2025;0,03;530,8;Laag (niet toegepast)
+1437;Italy: Sicily and Aeolian Islands;Sicily Tersane IV;Day 3: Capo d’Orlando Marina – Vulcano Island | Vulcano, roundtrip;Optie 1;20;Marina Capo d'Orlando - Gioioa Marea ENG 2026;0,73;235,4;Hoog
+1440;Italy: Sicily and Aeolian Islands;Sicily Tersane IV;Day 6: Salina | Salina – Lipari;Optie 1;20;Vulcano Porto - Capo Grillo - Vulcano Porto ENG 2025;3,5;412,2;Laag (niet toegepast)
+1441;Italy: Sicily and Aeolian Islands;Sicily Tersane IV;Day 7: Lipari - Capo d’Orlando Marina;Optie 1;25;Lipari roundtour 26km ENG 2025;0,75;581,3;Hoog
+1452;9 days Cochem – Metz or v.v.;9 days Cochem - Metz;Day 2: Cochem – Zell;Optie 1;39;Zell - Cochem 39 km ENG 2026;0,22;301,1;Hoog
+1453;9 days Cochem – Metz or v.v.;9 days Cochem - Metz;Day 3: Zell an der Moselle – Bernkastel-Kues;Optie 1;45;Bernkastel-Kues - Zell 45 km ENG 2026;0,01;260,4;Hoog
+1454;9 days Cochem – Metz or v.v.;9 days Cochem - Metz;Day 4:  Bernkastel-Kues – Neumagen – Schweich | Schweich –Trier;Optie 1;28;Saarburg - Trier (centre) 28 km ENG 2026;0,3;174,7;Hoog
+1454;9 days Cochem – Metz or v.v.;9 days Cochem - Metz;Day 4:  Bernkastel-Kues – Neumagen – Schweich | Schweich –Trier;Optie 2;54;Schweich - Bernkastel-Kues 55 km ENG 2026;0,49;358,3;Hoog
+1455;9 days Cochem – Metz or v.v.;9 days Cochem - Metz;Day 5: Trier – Saarburg;Optie 1;28;Cochem - Treis-Garden (loop via wine tasting) 27 km ENG 2026;0,82;213,5;Laag (niet toegepast)
+1456;9 days Cochem – Metz or v.v.;9 days Cochem - Metz;Day 6: Saarburg – Remich;Optie 1;45;Thionville - Remich 45 km ENG 2026;0,54;254,3;Hoog
+1456;9 days Cochem – Metz or v.v.;9 days Cochem - Metz;Day 6: Saarburg – Remich;Optie 2;53;Richemont - Remich 52 km ENG 2026;1,15;269,6;Redelijk
+1457;9 days Cochem – Metz or v.v.;9 days Cochem - Metz;Day 7: Remich – Schengen | Schengen – Schengen;Optie 1;50;Remich - Saarburg (via river) 48 km ENG 2026;2,03;317,3;Redelijk
+1462;9 days Cochem – Metz or v.v.;9 days Metz - Cochem;Day 3: Schengen – Remich;Optie 1;41;Remich - Saarburg (via Mannebach) 40 km ENG 2026;1,21;470,7;Redelijk
+1462;9 days Cochem – Metz or v.v.;9 days Metz - Cochem;Day 3: Schengen – Remich;Optie 2;49;Richemont - Remich 52 km ENG 2026;2,85;269,6;Redelijk
+1463;9 days Cochem – Metz or v.v.;9 days Metz - Cochem;Day 4: Remich – Saarburg;Optie 1;40;Saarburg - Trier (Pfalzel / Ostkai) 38 km ENG 2026;2,32;230,4;Redelijk
+1463;9 days Cochem – Metz or v.v.;9 days Metz - Cochem;Day 4: Remich – Saarburg;Optie 2;48;Remich - Saarburg (via river) 48 km ENG 2026;0,03;317,3;Hoog
+1464;9 days Cochem – Metz or v.v.;9 days Metz - Cochem;Day 5: Saarburg – Trier;Optie 1;32;Saarburg - Trier (centre) (via Igel) 34 km ENG 2026;1,47;208,3;Redelijk
+1465;9 days Cochem – Metz or v.v.;9 days Metz - Cochem;Day 6: Trier – Schweich | Schweich – Neumagen – Bernkastel-Kues;Optie 1;27;Saarburg - Trier (centre) 28 km ENG 2026;1,3;174,7;Redelijk
+1465;9 days Cochem – Metz or v.v.;9 days Metz - Cochem;Day 6: Trier – Schweich | Schweich – Neumagen – Bernkastel-Kues;Optie 2;53;Schweich - Bernkastel-Kues 55 km ENG 2026;1,49;358,3;Redelijk
+1466;9 days Cochem – Metz or v.v.;9 days Metz - Cochem;Day 7: Bernkastel-Kues – Traben-Trarbach – Zell on the Moselle;Optie 1;45;Bernkastel-Kues - Zell 45 km ENG 2026;0,01;260,4;Hoog
+1467;9 days Cochem – Metz or v.v.;9 days Metz - Cochem;Day 8: Zell – Beilstein – Cochem;Optie 1;39;Zell - Cochem 39 km ENG 2026;0,22;301,1;Hoog
+1470;Sail & Bike Denmark and Sweden;Denmark & Sweden;Day 2: Copenhagen – Humlebaek – Helsingør;Optie 1;48;Copenhagen - Helsingør 49 km DEU 2026;0,57;255;Hoog
+1471;Sail & Bike Denmark and Sweden;Denmark & Sweden;Day 3: Helsingør–Hornbaek–Esrum–Helsingør| ship sails to Helsingborg;Optie 1;28;Helsingør (Schleife) 27 km DEU 2026;0,6;169,2;Hoog
+1471;Sail & Bike Denmark and Sweden;Denmark & Sweden;Day 3: Helsingør–Hornbaek–Esrum–Helsingør| ship sails to Helsingborg;Optie 2;45;Helsingør (Schleife) 46 km DEU 2026;0,88;332,7;Hoog
+1472;Sail & Bike Denmark and Sweden;Denmark & Sweden;Day 4: Helsingborg – Landskrona | Ferry to Ven | Ven roundtour;Optie 1;28;Helsingborg - Landskrona 27 km DEU 2026;0,76;163,2;Hoog
+1472;Sail & Bike Denmark and Sweden;Denmark & Sweden;Day 4: Helsingborg – Landskrona | Ferry to Ven | Ven roundtour;Optie 2;38;Køge - Viking Museum & Vallo (loop) (CCW) 35 km ENG 2026;1,65;187,3;Laag (niet toegepast)
+1474;Sail & Bike Denmark and Sweden;Denmark & Sweden;Day 6: Rødvig – Stevns Klint – Køge or roundtour Køge – Stevns Klint – Køge |;Optie 2;58;Køge - Stevns Klint (Schleife) 62 km DEU 2026;4,13;221;Redelijk
+1475;Sail & Bike Denmark and Sweden;Denmark & Sweden;Day 7: Malmö : city + outskirts roundtour or Malmö – Lund – Lomma – Malmö;Optie 1;26;Malmö (Schleife) 27 km DEU 2026;0,72;131,6;Hoog
+1475;Sail & Bike Denmark and Sweden;Denmark & Sweden;Day 7: Malmö : city + outskirts roundtour or Malmö – Lund – Lomma – Malmö;Optie 2;49;Køge - Viking Museum & Vallo (loop) (CCW) 46 km ENG 2026;2,72;222,8;Laag (niet toegepast)
+1494;Islandhopping Netherlands Premium;Program: Frisian Sea Premium;Day 2: Medemblik, roundtour | Medemblik – Den Oever – Texel;Optie 1;28;Medemblik (loop) 28 km ENG 2026;0,36;70,8;Hoog
+1494;Islandhopping Netherlands Premium;Program: Frisian Sea Premium;Day 2: Medemblik, roundtour | Medemblik – Den Oever – Texel;Optie 2;40;Enkhuizen - Medemblik (via Twisk) 40 km ENG 2026;0,46;96,3;Hoog
+1495;Islandhopping Netherlands Premium;Program: Frisian Sea Premium;Day 3: Texel, roundtrip from/to Oudeschild;Optie 1;43;Texel (loop ferry) 43 km ENG 2026;0,37;139,8;Hoog
+1495;Islandhopping Netherlands Premium;Program: Frisian Sea Premium;Day 3: Texel, roundtrip from/to Oudeschild;Optie 2;49;Texel (loop ferry) 49 km ENG 2026;0,52;151,3;Hoog
+1497;Islandhopping Netherlands Premium;Program: Frisian Sea Premium;Day 5: Terschelling roundtrip | sailing Terschelling – Harlinge;Optie 1;42;Terschelling (loop) 42 km ENG 2026;0,19;150,6;Hoog
+1498;Islandhopping Netherlands Premium;Program: Frisian Sea Premium;Day 6: Harlingen – Franeker – Makkum;Optie 1;48;Stavoren - Makkum (via Bolsward) 49 km ENG 2026 Self Guided;0,86;120,9;Redelijk
+1498;Islandhopping Netherlands Premium;Program: Frisian Sea Premium;Day 6: Harlingen – Franeker – Makkum;Optie 2;58;Texel (loop Oudeschild, full circle) 53 km ENG 2026;4,79;173,3;Laag (niet toegepast)
+1499;Islandhopping Netherlands Premium;Program: Frisian Sea Premium;Day 7: Makkum – Stavoren | Stavoren - Enkhuizen;Optie 1;32;Stavoren loop (via Rijs & Bakhuzen) 31km ENG;0,4;110,8;Hoog
+1499;Islandhopping Netherlands Premium;Program: Frisian Sea Premium;Day 7: Makkum – Stavoren | Stavoren - Enkhuizen;Optie 2;49;Makkum - Stavoren 49 km ENG 2026;0,03;130,6;Hoog
+1502;France: 8d Paris – Epernay or v.v.;Paris - Epernay;Day 2: Lagny-sur-Marne;Optie 1;22;Lagny (loop via Champs-sur-Marne) 23 km ENG 2026;0,71;108,6;Hoog
+1502;France: 8d Paris – Epernay or v.v.;Paris - Epernay;Day 2: Lagny-sur-Marne;Optie 2;42;Meaux - Lagny (gravel) 41 km ENG 2026;1,01;232,1;Redelijk
+1503;France: 8d Paris – Epernay or v.v.;Paris - Epernay;Day 3: Lagny-sur-Marne – Meaux;Optie 1;22;Lagny (loop via castles) 24 km 2026;1,95;206,9;Redelijk
+1503;France: 8d Paris – Epernay or v.v.;Paris - Epernay;Day 3: Lagny-sur-Marne – Meaux;Optie 2;42;Meaux - Lagny (tarmac) 40 km ENG 2026;1,54;231,2;Redelijk
+1504;France: 8d Paris – Epernay or v.v.;Paris - Epernay;Day 4: Meaux – La Ferté-sous-Jouarre;Optie 1;30;La Ferte - Meaux 29 km ENG 2026;1,06;307,7;Redelijk
+1505;France: 8d Paris – Epernay or v.v.;Paris - Epernay;Day 5: La-Ferté-sous-Jouarre – Château-Thierry;Optie 1;40;Château-Thierry - La Ferté 40 km ENG 2026;0,08;403,3;Hoog
+1505;France: 8d Paris – Epernay or v.v.;Paris - Epernay;Day 5: La-Ferté-sous-Jouarre – Château-Thierry;Optie 2;57;Château-Thierry - La Ferté 58 km ENG 2026;1,07;535,7;Redelijk
+1506;France: 8d Paris – Epernay or v.v.;Paris - Epernay;Day 6: Château-Thierry – Dormans – Epernay;Optie 1;35;Epernay - Dormans (low) 33 km ENG 2026;2,15;148,3;Redelijk
+1506;France: 8d Paris – Epernay or v.v.;Paris - Epernay;Day 6: Château-Thierry – Dormans – Epernay;Optie 2;55;Epernay - Mont-St-Pierre (high) 54 km ENG 2026;1,47;446,7;Redelijk
+1507;France: 8d Paris – Epernay or v.v.;Paris - Epernay;Day 7: Epernay round tour;Optie 1;17;Epernay (loop, flat via Ay & Mareuil-sur-Ay) 18 km ENG 2026;0,93;70,4;Hoog
+1507;France: 8d Paris – Epernay or v.v.;Paris - Epernay;Day 7: Epernay round tour;Optie 2;26;Epernay (loop via winelands, Ay & Mareuil-sur-Ay) 26 km ENG 2026;0,46;181,4;Hoog
+1510;France: 8d Paris – Epernay or v.v.;Epernay - Paris;Day 2: Epernay round tour;Optie 1;19;Epernay (loop via winelands & Ay) 21 km ENG 2026;2,29;172,7;Redelijk
+1510;France: 8d Paris – Epernay or v.v.;Epernay - Paris;Day 2: Epernay round tour;Optie 2;26;Epernay (loop via winelands, Ay & Mareuil-sur-Ay) 26 km ENG 2026;0,46;181,4;Hoog
+1511;France: 8d Paris – Epernay or v.v.;Epernay - Paris;Day 3: Epernay – Dormans – Château-Thierry;Optie 1;35;Dormans - Epernay (high) 36 km ENG 2026;1,37;292,7;Redelijk
+1511;France: 8d Paris – Epernay or v.v.;Epernay - Paris;Day 3: Epernay – Dormans – Château-Thierry;Optie 2;50;Mont-St-Pierre - Epernay (high) 54 km ENG 2026;2,96;485,4;Redelijk
+1512;France: 8d Paris – Epernay or v.v.;Epernay - Paris;Day 4: Château-Thierry – La-Ferté-sous-Jouarre;Optie 1;40;La Ferté - Château-Thierry 40 km ENG 2026;0,26;408,6;Hoog
+1512;France: 8d Paris – Epernay or v.v.;Epernay - Paris;Day 4: Château-Thierry – La-Ferté-sous-Jouarre;Optie 2;44;Dormans - Epernay (high - challenging) 44 km ENG 2026;0,3;644,8;Laag (niet toegepast)
+1513;France: 8d Paris – Epernay or v.v.;Epernay - Paris;Day 5: La Ferté-sous-Jouarre – Meaux;Optie 1;30;Dormans - Epernay (low) 32 km ENG 2026;1,89;126,5;Laag (niet toegepast)
+1513;France: 8d Paris – Epernay or v.v.;Epernay - Paris;Day 5: La Ferté-sous-Jouarre – Meaux;Optie 2;52;Meaux - La Ferté 52 km ENG 2026;0,33;661,2;Hoog
+1514;France: 8d Paris – Epernay or v.v.;Epernay - Paris;Day 6: Meaux – Paris, Lagny-sur-Marne;Optie 1;24;Lagny (loop via castles) 24 km 2026;0,05;206,9;Hoog
+1514;France: 8d Paris – Epernay or v.v.;Epernay - Paris;Day 6: Meaux – Paris, Lagny-sur-Marne;Optie 2;45;Lagny - Meaux 45km dag 3  ENG 2026;0,21;317,8;Hoog
+1515;France: 8d Paris – Epernay or v.v.;Epernay - Paris;Day 7: Lagny-sur-Marne – Paris;Optie 1;38;Lagny - Meaux (tarmac) 39 km ENG 2026;1,31;250,1;Redelijk
+1518;France: 8d Paris – Epernay or v.v.;Paris - Soissons;Day 2: Paris – Bougival | Bike tour around L’Île des Impressionnistes;Optie 1;25;Lagny (loop via castles) 24 km 2026;1,05;206,9;Laag (niet toegepast)
+1519;France: 8d Paris – Epernay or v.v.;Paris - Soissons;Day 3: Bougival – Auvers-sur-Oise;Optie 1;42;Lagny - Meaux (gravel) 40 km ENG 2026;1,58;246,5;Laag (niet toegepast)
+1519;France: 8d Paris – Epernay or v.v.;Paris - Soissons;Day 3: Bougival – Auvers-sur-Oise;Optie 2;46;Lagny - Meaux 45km dag 3  ENG 2026;1,21;317,8;Laag (niet toegepast)
+1520;France: 8d Paris – Epernay or v.v.;Paris - Soissons;Day 4: Auvers-sur-Oise – Beaumont | Beaumont – Pont-Sainte-Maxence;Optie 1;45;Dormans - Epernay (high - challenging) 44 km ENG 2026;0,7;644,8;Laag (niet toegepast)
+1521;France: 8d Paris – Epernay or v.v.;Paris - Soissons;Day 5: Pont-Sainte-Maxence – Compiègne;Optie 1;52;Mont-St-Pierre - Epernay (high) 54 km ENG 2026;0,96;485,4;Laag (niet toegepast)
+1522;France: 8d Paris – Epernay or v.v.;Paris - Soissons;Day 6: Compiègne – Soissons;Optie 1;50;Meaux - La Ferté 52 km ENG 2026;1,67;661,2;Laag (niet toegepast)
+1527;France: 8d Paris – Epernay or v.v.;Soissons - Paris;Day 3: Soissons – Compiègne;Optie 1;50;Meaux - La Ferté 52 km ENG 2026;1,67;661,2;Laag (niet toegepast)
+1528;France: 8d Paris – Epernay or v.v.;Soissons - Paris;Day 4: Compiègne – Pont-Sainte-Maxence;Optie 1;45;Lagny - Meaux 45km dag 3  ENG 2026;0,21;317,8;Laag (niet toegepast)
+1528;France: 8d Paris – Epernay or v.v.;Soissons - Paris;Day 4: Compiègne – Pont-Sainte-Maxence;Optie 2;55;La Ferté - Château-Thierry 58 km ENG 2026;3,05;532,7;Laag (niet toegepast)
+1529;France: 8d Paris – Epernay or v.v.;Soissons - Paris;Day 5: Pont-Sainte-Maxence – Creil | Creil – Beaumont | Beaumont – Auvers-sur-Oi;Optie 1;40;La Ferté - Château-Thierry 40 km ENG 2026;0,26;408,6;Laag (niet toegepast)
+1529;France: 8d Paris – Epernay or v.v.;Soissons - Paris;Day 5: Pont-Sainte-Maxence – Creil | Creil – Beaumont | Beaumont – Auvers-sur-Oi;Optie 2;54;Mont-St-Pierre - Epernay (high) 54 km ENG 2026;1,04;485,4;Laag (niet toegepast)
+1530;France: 8d Paris – Epernay or v.v.;Soissons - Paris;Day 6: Auvers-sur-Oise – Bougival;Optie 1;42;Lagny - Meaux (gravel) 40 km ENG 2026;1,58;246,5;Laag (niet toegepast)
+1530;France: 8d Paris – Epernay or v.v.;Soissons - Paris;Day 6: Auvers-sur-Oise – Bougival;Optie 2;46;Dormans - Epernay (high - challenging) 44 km ENG 2026;1,7;644,8;Laag (niet toegepast)
+1531;France: 8d Paris – Epernay or v.v.;Soissons - Paris;Day 7: Bougival / Rueil – Paris | Bike tour around L’Île des Impressionnistes an;Optie 1;25;Lagny (loop via castles) 24 km 2026;1,05;206,9;Laag (niet toegepast)
+1534;Rhine and Moselle: Koblenz – Koblenz;Program Koblenz - Koblenz;Day 2: St. Goar – Bacharach – Bingen – Rüdesheim;Optie 1;30;Sankt Goar - Rüdesheim (via Bacharach & Bingen) 32 km DEU 2026;1,92;197;Redelijk
+1535;Rhine and Moselle: Koblenz – Koblenz;Program Koblenz - Koblenz;Day 3: Rüdesheim – Mainz;Optie 1;35;Mainz - Winningen - Burg Eltz - Treis- Karden (über Alken) 36 km DEU 2026;1,03;397;Redelijk
+1535;Rhine and Moselle: Koblenz – Koblenz;Program Koblenz - Koblenz;Day 3: Rüdesheim – Mainz;Optie 2;43;Mainz - Winningen - Burg Eltz - Treis - Karden (über Eltz) 40 km DEU 2026;3,69;405,2;Redelijk
+1536;Rhine and Moselle: Koblenz – Koblenz;Program Koblenz - Koblenz;Day 4: Mainz – Winningen | Winningen – Treis-Karden;Optie 1;40;Rüdesheim - Mainz 39 km DEU 2026;0,98;393,7;Hoog
+1537;Rhine and Moselle: Koblenz – Koblenz;Program Koblenz - Koblenz;Day 5: Treis-Karden – Zell | Zell – Bernkastel-Kues;Optie 1;45;Zell - Bernkastel - Kues 45 km DEU 2026;0,95;326;Hoog
+1538;Rhine and Moselle: Koblenz – Koblenz;Program Koblenz - Koblenz;Day 6: Bernkastel-Kues – Zell | Zell – Cochem;Optie 1;41;Zell - Cochem 37 km DEU 2026;0,07;266,9;Hoog
+1539;Rhine and Moselle: Koblenz – Koblenz;Program Koblenz - Koblenz;Day 7: Cochem – Lehmen | Lehmen – Koblenz;Optie 1;20;Lehmen - Kobern - Winningen - Koblenz 20 km DEU 2026;0,32;139,3;Hoog
+1542;Rhine and Moselle: Koblenz – Koblenz;Program: Koblenz - Koblenz 2027;Day 2: St. Goar – Rüdesheim;Optie 1;30;Sankt Goar - Rüdesheim (via Bacharach & Bingen) 32 km DEU 2026;1,92;197;Redelijk
+1543;Rhine and Moselle: Koblenz – Koblenz;Program: Koblenz - Koblenz 2027;Day 3: Rüdesheim – Mainz;Optie 1;35;Mainz - Winningen - Burg Eltz - Treis- Karden (über Alken) 36 km DEU 2026;1,03;397;Redelijk
+1543;Rhine and Moselle: Koblenz – Koblenz;Program: Koblenz - Koblenz 2027;Day 3: Rüdesheim – Mainz;Optie 2;43;Mainz - Winningen - Burg Eltz - Treis - Karden (über Eltz) 40 km DEU 2026;3,69;405,2;Redelijk
+1544;Rhine and Moselle: Koblenz – Koblenz;Program: Koblenz - Koblenz 2027;Day 4: Mainz – St. Goar | St. Goar – Oberlahnstein;Optie 1;30;Rüdesheim - Mainz 34 km DEU 2026;3,56;187,3;Redelijk
+1544;Rhine and Moselle: Koblenz – Koblenz;Program: Koblenz - Koblenz 2027;Day 4: Mainz – St. Goar | St. Goar – Oberlahnstein;Optie 2;45;Zell - Bernkastel - Kues 45 km DEU 2026;0,95;326;Laag (niet toegepast)
+1545;Rhine and Moselle: Koblenz – Koblenz;Program: Koblenz - Koblenz 2027;Day 5: Oberlahnstein – Lehmen | Lehmen – Cochem;Optie 1;40;Zell - Cochem 37 km DEU 2026 kopie Marc;0,87;262,7;Redelijk
+1546;Rhine and Moselle: Koblenz – Koblenz;Program: Koblenz - Koblenz 2027;Day 6: Cochem – Zell;Optie 1;50;Cochem - Koblenz 51 km DEU 2026;1,33;359;Redelijk
+1547;Rhine and Moselle: Koblenz – Koblenz;Program: Koblenz - Koblenz 2027;Day 7: Zell – Lehmen | Lehmen – Koblenz;Optie 1;20;Lehmen - Kobern - Winningen - Koblenz 20 km DEU 2026;0,32;139,3;Hoog
+1550;Aschaffenburg-Bamberg or v.v.;Program: Aschaffenburg-Bamberg;Day 2: Aschaffenburg – Freudenberg;Optie 1;48;Aschaffenburg - Miltenberg 40 km ENG 2026;1,35;365,8;Redelijk
+1551;Aschaffenburg-Bamberg or v.v.;Program: Aschaffenburg-Bamberg;Day 3: Freudenberg – Wertheim | Wertheim – Lohr;Optie 1;40;Haßfurt - Bamberg 40km ENG 2026;1,27;300,9;Laag (niet toegepast)
+1551;Aschaffenburg-Bamberg or v.v.;Program: Aschaffenburg-Bamberg;Day 3: Freudenberg – Wertheim | Wertheim – Lohr;Optie 2;45;Wertheim - Lohr 44 km ENG 2026;0,09;347,3;Hoog
+1552;Aschaffenburg-Bamberg or v.v.;Program: Aschaffenburg-Bamberg;Day 4: Lohr – Karlstadt |  Karlstadt – Wurzburg;Optie 1;30;Karlstadt - Würzburg - 34 km ENG 2026;4,31;254,6;Redelijk
+1554;Aschaffenburg-Bamberg or v.v.;Program: Aschaffenburg-Bamberg;Day 6: Kitzingen – Dettelbach | (Kitzingen -) Dettelbach – Schweinfurt;Optie 2;60;Kitzingen - Schweinfurt 60 km ENG 2026;0,38;362,3;Hoog
+1555;Aschaffenburg-Bamberg or v.v.;Program: Aschaffenburg-Bamberg;Day 7: Schweinfurt – Haßfurt | Haßfurt – Bamberg;Optie 1;35;Würzburg - Marktbreit 29 km ENG 2026;2,28;205,1;Laag (niet toegepast)
+1555;Aschaffenburg-Bamberg or v.v.;Program: Aschaffenburg-Bamberg;Day 7: Schweinfurt – Haßfurt | Haßfurt – Bamberg;Optie 2;40;Haßfurt-Bamberg 40 km Eng 2026 ;1,44;296,1;Redelijk
+1558;Aschaffenburg-Bamberg or v.v.;Program: Bamberg - Aschaffenburg;Day 2: Bamberg – Haßfurt | Haßfurt – Schweinfurt;Optie 2;40;Haßfurt - Bamberg 40km ENG 2026;1,27;300,9;Redelijk
+1559;Aschaffenburg-Bamberg or v.v.;Program: Bamberg - Aschaffenburg;Day 3: Schweinfurt – Stammheim – Kitzingen;Optie 2;60;Kitzingen - Schweinfurt 60 km DEU 2026;0,48;349,7;Hoog
+1560;Aschaffenburg-Bamberg or v.v.;Program: Bamberg - Aschaffenburg;Day 4: Kitzingen – Würzburg;Optie 1;40;Würzburg - Kitzingen 40 km DEU 2026;0,4;245,6;Hoog
+1561;Aschaffenburg-Bamberg or v.v.;Program: Bamberg - Aschaffenburg;Day 5: Würzburg – Karlstadt | Karlstadt – Lohr;Optie 1;30;Karlstadt - Würzburg - 30 km DEU 2026;0,42;168,7;Hoog
+1563;Aschaffenburg-Bamberg or v.v.;Program: Bamberg - Aschaffenburg;Day 7: Freudenberg – Aschaffenburg;Optie 1;50;Aschaffenburg - Freudenberg 50 km DEU 2026;0,1;252;Hoog
+1566;Springtime Tour: Tulips and Dutch Highlights;Program: Springtime Semi-Guided;Day 2: Hoorn – Enkhuizen;Optie 1;40;Noordwijk - Cruquis - Noordwijk;0,24;162,5;Laag (niet toegepast)
+1568;Springtime Tour: Tulips and Dutch Highlights;Program: Springtime Semi-Guided;Day 4: Alkmaar – Alkmaar;Optie 1;33;Akersloot - Akersloot 31km by Hortus 2024;1,82;106,7;Laag (niet toegepast)
+1569;Springtime Tour: Tulips and Dutch Highlights;Program: Springtime Semi-Guided;Day 5: Alkmaar – Zaandam | Zaandam - Haarlem;Optie 1;38;Akersloot - De Rijp - Schermerhoorn - Akersloot ENG 2024;0,2;109,5;Laag (niet toegepast)
+1571;Springtime Tour: Tulips and Dutch Highlights;Program: Springtime Semi-Guided;Day 7: Haarlem – Amsterdam;Optie 1;31;Akersloot - Beach- Hortus - Akersloot ;0,71;107,8;Laag (niet toegepast)
+1586;Through Flanders Fields and along the Somme;Program Bruges - Abbeville;Day 1: Bruges;Optie 1;22;Bruges - Damme (loop) 22 km ENG 2026;0,44;64,2;Hoog
+1587;Through Flanders Fields and along the Somme;Program Bruges - Abbeville;Day 2: Bruges – Moerbrugge | Moerbrugge – Deinze;Optie 1;47;Moerbrugge - Deinze 47 km ENG 2026;0,43;214,4;Hoog
+1587;Through Flanders Fields and along the Somme;Program Bruges - Abbeville;Day 2: Bruges – Moerbrugge | Moerbrugge – Deinze;Optie 2;58;Moerbrugge - Deinze 58 km ENG 2026;0,05;278,7;Hoog
+1588;Through Flanders Fields and along the Somme;Program Bruges - Abbeville;Day 3: Deinze – Waregem | Waregem – Kortrijk – Menen;Optie 1;48;Waregem - Kortrijk - Menen (via Flanders Field) 48 km ENG 2026;0,2;218,4;Hoog
+1588;Through Flanders Fields and along the Somme;Program Bruges - Abbeville;Day 3: Deinze – Waregem | Waregem – Kortrijk – Menen;Optie 2;52;Waregem - Kortrijk - Menen 52 km ENG 2026;0,21;257;Hoog
+1589;Through Flanders Fields and along the Somme;Program Bruges - Abbeville;Day 4: Menen – Lille;Optie 1;36;Menen - Lille 36 km ENG 2026;0,41;148,6;Hoog
+1589;Through Flanders Fields and along the Somme;Program Bruges - Abbeville;Day 4: Menen – Lille;Optie 2;58;Menen - Lille (via Tyne Cot) 58 km ENG 2026;0,28;301,9;Hoog
+1590;Through Flanders Fields and along the Somme;Program Bruges - Abbeville;Day 5: Lille – Don | Don – Arleux;Optie 1;51;Don - Arleux (via Lewarde) 51 km ENG 2026;0,4;229,1;Hoog
+1590;Through Flanders Fields and along the Somme;Program Bruges - Abbeville;Day 5: Lille – Don | Don – Arleux;Optie 2;56;Don - Arleux (via Lens) 56 km ENG 2026;0,32;284,2;Hoog
+1591;Through Flanders Fields and along the Somme;Program Bruges - Abbeville;Day 6: Arleux – Havrincourt;Optie 1;41;Arleux - Havrincourt (via Masnière) 41 km ENG 2026;0,3;274,3;Hoog
+1591;Through Flanders Fields and along the Somme;Program Bruges - Abbeville;Day 6: Arleux – Havrincourt;Optie 2;53;Arleux - Havrincourt (via Vaucelles) 53 km ENG 2026;0,14;426;Hoog
+1592;Through Flanders Fields and along the Somme;Program Bruges - Abbeville;Day 7: Havrincourt – Ytres | Ytres – Cappy;Optie 1;46;Ytres - Péronne - Cappy 46 km ENG 2026;0,27;311,9;Hoog
+1593;Through Flanders Fields and along the Somme;Program Bruges - Abbeville;Day 8: Cappy – Corbie;Optie 1;44;Cappy - Corbie 44 km ENG 2026;0,42;336,6;Hoog
+1593;Through Flanders Fields and along the Somme;Program Bruges - Abbeville;Day 8: Cappy – Corbie;Optie 2;54;Cappy - Corbie (via Thiepval) 54 km ENG 2026;0,11;423,5;Hoog
+1594;Through Flanders Fields and along the Somme;Program Bruges - Abbeville;Day 9: Corbie – Amiens;Optie 1;29;Corbie - Amiens 29 km ENG 2026;0,1;218,1;Hoog
+1594;Through Flanders Fields and along the Somme;Program Bruges - Abbeville;Day 9: Corbie – Amiens;Optie 2;53;Corbie - Amiens (via Moreuil) 53 km ENG 2026;0,07;446,9;Hoog
+1596;Through Flanders Fields and along the Somme;Program Bruges - Abbeville;Day 11: Amiens – Samara;Optie 1;42;Samara - Long 39 km ENG 2026;4;390;Redelijk
+1596;Through Flanders Fields and along the Somme;Program Bruges - Abbeville;Day 11: Amiens – Samara;Optie 2;51;Amiens - Samara 51 km ENG 2026;0,44;302;Hoog
+1597;Through Flanders Fields and along the Somme;Program Bruges - Abbeville;Day 12: Samara – La Breilloire Breilloire – Long;Optie 1;39;Amiens - Samara 42 km ENG 2026;2,96;273,1;Redelijk
+1598;Through Flanders Fields and along the Somme;Program Bruges - Abbeville;Day 13: Long – Abbeville;Optie 1;57;Long - Abbeville 57 km ENG 2026;0,52;371,7;Hoog
+1599;Through Flanders Fields and along the Somme;Program Bruges - Abbeville;Day 14: Abbeville – Saint-Valéry-sur-Somme – Abbeville;Optie 1;47;Abbeville - Saint-Valery (loop) 47 km ENG 2026;0,3;296,4;Hoog
+1599;Through Flanders Fields and along the Somme;Program Bruges - Abbeville;Day 14: Abbeville – Saint-Valéry-sur-Somme – Abbeville;Optie 2;68;Abbeville - Saint-Valery (loop) 68 km ENG 2026;0,07;360,7;Hoog
+1602;Through Flanders Fields and along the Somme;Program Abbeville - Bruges;Day 2: Abbeville – Saint-Valéry-sur-Somme – Abbeville;Optie 1;47;Abbeville - Saint-Valery (loop) 47 km ENG 2026;0,3;296,4;Hoog
+1602;Through Flanders Fields and along the Somme;Program Abbeville - Bruges;Day 2: Abbeville – Saint-Valéry-sur-Somme – Abbeville;Optie 2;68;Abbeville - Saint-Valery (loop) 68 km ENG 2026;0,07;360,7;Hoog
+1603;Through Flanders Fields and along the Somme;Program Abbeville - Bruges;Day 3: Abbeville – Long;Optie 1;57;Abbeville - Long 57 km ENG 2026;0,54;375,7;Hoog
+1604;Through Flanders Fields and along the Somme;Program Abbeville - Bruges;Day 4: Long – La Breilloire | La Breilloire – Samara;Optie 1;39;Long - Samara 39 km ENG 2026;0,49;358,8;Hoog
+1605;Through Flanders Fields and along the Somme;Program Abbeville - Bruges;Day 5: Samara – Amiens;Optie 1;16;Samara - Amiens 16 km ENG 2026;0,39;87,5;Hoog
+1606;Through Flanders Fields and along the Somme;Program Abbeville - Bruges;Day 6: Amiens – Corbie;Optie 1;28;Amiens - Corbie 28 km ENG 2026;0,02;213,5;Hoog
+1606;Through Flanders Fields and along the Somme;Program Abbeville - Bruges;Day 6: Amiens – Corbie;Optie 2;52;Amiens - Corbie (via Moreuil) 52 km ENG 2026;0,08;448;Hoog
+1607;Through Flanders Fields and along the Somme;Program Abbeville - Bruges;Day 7: Corbie – Cappy;Optie 1;44;Corbie - Cappy 44 km ENG 2026;0,2;343,5;Hoog
+1607;Through Flanders Fields and along the Somme;Program Abbeville - Bruges;Day 7: Corbie – Cappy;Optie 2;54;Corbie - Cappy (via Thiepval) 54 km ENG 2026;0,25;431,8;Hoog
+1608;Through Flanders Fields and along the Somme;Program Abbeville - Bruges;Day 8: Cappy – Péronne – Havrincourt;Optie 1;41;Frise - Péronne - Ytres 41 km ENG 2026;0,37;333,5;Redelijk
+1609;Through Flanders Fields and along the Somme;Program Abbeville - Bruges;Day 9: Havrincourt – Douai;Optie 1;47;Havrincourt - Douai 47 km ENG 2026;0,18;234,5;Hoog
+1609;Through Flanders Fields and along the Somme;Program Abbeville - Bruges;Day 9: Havrincourt – Douai;Optie 2;61;Havrincourt - Cambrai - Douai 61 km ENG 2026;0,24;328,8;Hoog
+1610;Through Flanders Fields and along the Somme;Program Abbeville - Bruges;Day 10: Douai – Lille;Optie 1;50;Douai - Lille 50 km ENG 2026;0,16;209,1;Hoog
+1610;Through Flanders Fields and along the Somme;Program Abbeville - Bruges;Day 10: Douai – Lille;Optie 2;65;Douai - Lille (via Lens) 65 km ENG 2026;0,32;306,7;Hoog
+1612;Through Flanders Fields and along the Somme;Program Abbeville - Bruges;Day 12: Lille – Comines | Comines – Kortrijk – Harelbeke;Optie 1;39;Comines - Kortrijk - Harelbeke 39 km ENG 2026;0,23;179,3;Hoog
+1612;Through Flanders Fields and along the Somme;Program Abbeville - Bruges;Day 12: Lille – Comines | Comines – Kortrijk – Harelbeke;Optie 2;53;Comines - Kortrijk - Harelbeke (via Tyne Cot) 53 km ENG 2026;0,27;269,8;Hoog
+1613;Through Flanders Fields and along the Somme;Program Abbeville - Bruges;Day 13: Harelbeke – Deinze;Optie 1;57;Harelbeke - Oudenaarde - Deinze 57 km ENG 2026;0,4;310,4;Hoog
+1614;Through Flanders Fields and along the Somme;Program Abbeville - Bruges;Day 14: Deinze – Bruges;Optie 1;46;Deinze - Bruges 46 km ENG 2026;0,15;222,5;Hoog
+1614;Through Flanders Fields and along the Somme;Program Abbeville - Bruges;Day 14: Deinze – Bruges;Optie 2;63;Deinze - Bruges 63 km ENG 2026;0,02;298,2;Hoog
+1618;Through Europe’s Heartland: between Amsterdam and Paris;Tour program: Amsterdam - Paris;Day 2: Cycle to the ship – Amsterdam to Utrecht;Optie 1;43;Amsterdam (Hoxton) - Breukelen 46km DEU 2026;2,72;169;Redelijk
+1619;Through Europe’s Heartland: between Amsterdam and Paris;Tour program: Amsterdam - Paris;Day 3: Silvercraft & windmills – Utrecht to Willemstad;Optie 1;38;Amsterdam (Hoxten) - Breukelen 38km DEU 2026;0,21;133;Laag (niet toegepast)
+1619;Through Europe’s Heartland: between Amsterdam and Paris;Tour program: Amsterdam - Paris;Day 3: Silvercraft & windmills – Utrecht to Willemstad;Optie 2;56;Tholen - Bergen op Zoom - Antwerpen DEU 2026;0,67;246,7;Laag (niet toegepast)
+1620;Through Europe’s Heartland: between Amsterdam and Paris;Tour program: Amsterdam - Paris;Day 4: Into Belgium – Willemstad to Antwerp;Optie 1;56;Tholen - Antwerpen 55km DEU 2026;2,67;267,4;Laag (niet toegepast)
+1621;Through Europe’s Heartland: between Amsterdam and Paris;Tour program: Amsterdam - Paris;Day 5: Along the Schelde – Antwerp to St. Amands;Optie 1;34;Antwerpen - St. Amands (Temse Vita Scheldebad) 39km DEU 2026;4,65;179,9;Redelijk
+1621;Through Europe’s Heartland: between Amsterdam and Paris;Tour program: Amsterdam - Paris;Day 5: Along the Schelde – Antwerp to St. Amands;Optie 2;49;Bruges - Blankenberge loop 55 km DEU 2026;1,59;184,7;Laag (niet toegepast)
+1622;Through Europe’s Heartland: between Amsterdam and Paris;Tour program: Amsterdam - Paris;Day 6: Flemish flair – St. Amands to Ghent;Optie 1;52;Amsterdam (Hoxten) - Naarden - Diemen DEU 2026;0,74;197,1;Laag (niet toegepast)
+1623;Through Europe’s Heartland: between Amsterdam and Paris;Tour program: Amsterdam - Paris;Day 7: Into Bruges – Ghent to Bruges;Optie 1;22;Bruges - Damme (loop) 22 km DEU 2026;0,41;83;Hoog
+1623;Through Europe’s Heartland: between Amsterdam and Paris;Tour program: Amsterdam - Paris;Day 7: Into Bruges – Ghent to Bruges;Optie 2;45;Bruges - Blankenberge (loop) 48 km DEU 2026;3,56;168,8;Redelijk
+1624;Through Europe’s Heartland: between Amsterdam and Paris;Tour program: Amsterdam - Paris;Day 8: Coastal escape – Bruges to the North Sea;Optie 1;38;Bruges - Damme 37km DEU 2026;0,89;136,4;Hoog
+1624;Through Europe’s Heartland: between Amsterdam and Paris;Tour program: Amsterdam - Paris;Day 8: Coastal escape – Bruges to the North Sea;Optie 2;51;Gent (Evergem) - Bruges (via Bulskampveld) 52 km DEU 2026;0,58;251,3;Hoog
+1631;Through Europe’s Heartland: between Amsterdam and Paris;Tour Program: Paris - Amsterdam;Day 3: Storybook scenery – Bruges to Ghent;Optie 1;34;Breukelen - Amsterdam 34km DEU 2026;0,35;122,8;Laag (niet toegepast)
+1631;Through Europe’s Heartland: between Amsterdam and Paris;Tour Program: Paris - Amsterdam;Day 3: Storybook scenery – Bruges to Ghent;Optie 2;45;Bruges city centre - Lovendegem 41km DEU 2026;3,7;166,5;Laag (niet toegepast)
+1632;Through Europe’s Heartland: between Amsterdam and Paris;Tour Program: Paris - Amsterdam;Day 4: River serenity – Ghent to St. Amands;Optie 1;38;St. Amands - Antwerpen 41km DEU 2026;1,85;190,1;Redelijk
+1632;Through Europe’s Heartland: between Amsterdam and Paris;Tour Program: Paris - Amsterdam;Day 4: River serenity – Ghent to St. Amands;Optie 2;50;Schoonhoven - Utrecht (zentrum) 50 km DEU 2026;0,12;147,9;Laag (niet toegepast)
+1633;Through Europe’s Heartland: between Amsterdam and Paris;Tour Program: Paris - Amsterdam;Day 5: Countryside to city – St. Amands to Antwerp;Optie 1;30;St. Amands - Antwerpen 28km DEU 2026 (Ferry Kruibeke);2,6;128,9;Redelijk
+1633;Through Europe’s Heartland: between Amsterdam and Paris;Tour Program: Paris - Amsterdam;Day 5: Countryside to city – St. Amands to Antwerp;Optie 2;41;St. Amands - Antwerp 40 km DEU 2026;0,48;192;Hoog
+1634;Through Europe’s Heartland: between Amsterdam and Paris;Tour Program: Paris - Amsterdam;Day 6: Crossing borders – Antwerp to Dordrecht;Optie 1;22;Bruges - Damme (loop) 22 km DEU 2026;0,41;83;Laag (niet toegepast)
+1634;Through Europe’s Heartland: between Amsterdam and Paris;Tour Program: Paris - Amsterdam;Day 6: Crossing borders – Antwerp to Dordrecht;Optie 2;34;St. Amands - Antwerp (via waterbus) 30 km DEU 2026;3,18;145;Redelijk
+1635;Through Europe’s Heartland: between Amsterdam and Paris;Tour Program: Paris - Amsterdam;Day 7: Windmills and silversmiths – Dordrecht to Schoonhoven;Optie 1;32;Dordrecht // Alblasserdam - Kinderdijk - Schoonhoven 32 km DEU 2026;0,4;84,3;Hoog
+1635;Through Europe’s Heartland: between Amsterdam and Paris;Tour Program: Paris - Amsterdam;Day 7: Windmills and silversmiths – Dordrecht to Schoonhoven;Optie 2;45;Schoonhoven - Utrecht 45km DEU (Mittagessen Schwimmbad);0,42;124,8;Redelijk
+1636;Through Europe’s Heartland: between Amsterdam and Paris;Tour Program: Paris - Amsterdam;Day 8: The Green Heart of Holland – Schoonhoven to Utrecht;Optie 1;44;Schoonhoven - Oudewater - Utrecht 45 km / 28 mi DEU 2026;0,57;115,6;Hoog
+1637;Through Europe’s Heartland: between Amsterdam and Paris;Tour Program: Paris - Amsterdam;Day 9: Easy morning ride – Breukelen to Amsterdam;Optie 1;28;Kreekrak - Tholen 30km DEU 2026;0,74;131,5;Laag (niet toegepast)
+1641;Discover Holland’s UNESCO Treasures;Unesco A'dam-A'dam;Day 2: Hoorn – (Medemblik) – Enkhuizen;Optie 1;30;Hoorn - Enkhuizen (über die Küste) 26 km DEU 2026;4;65,4;Redelijk
+1641;Discover Holland’s UNESCO Treasures;Unesco A'dam-A'dam;Day 2: Hoorn – (Medemblik) – Enkhuizen;Optie 2;37;Sint Maartensvlotbrug - Alkmaar 37 km DEU;0,16;190,9;Laag (niet toegepast)
+1642;Discover Holland’s UNESCO Treasures;Unesco A'dam-A'dam;Day 3: Enkhuizen – Lemmer | Lemmer – Sneek;Optie 1;35;Lemmer - Sneek 37 km DEU;1,68;113,3;Redelijk
+1642;Discover Holland’s UNESCO Treasures;Unesco A'dam-A'dam;Day 3: Enkhuizen – Lemmer | Lemmer – Sneek;Optie 2;50;Sneek - Franeker (über Grou) 50 km DEU 2026;0,42;151,7;Hoog
+1643;Discover Holland’s UNESCO Treasures;Unesco A'dam-A'dam;Day 4: Sneek – Franeker;Optie 1;43;Sneek - Franeker 44 km DEU 2026;0,88;127,2;Hoog
+1644;Discover Holland’s UNESCO Treasures;Unesco A'dam-A'dam;Day 5: Franeker – Harlingen | Harlingen – Kornwerderzand | Kornwerderzand – Den;Optie 1;23;Harlingen - Kornwerderzand 25 km DEU 2026;1,76;70,1;Redelijk
+1644;Discover Holland’s UNESCO Treasures;Unesco A'dam-A'dam;Day 5: Franeker – Harlingen | Harlingen – Kornwerderzand | Kornwerderzand – Den;Optie 2;35;Harlingen - Kornwerderzand 39 km DEU 2026;4,11;107,1;Redelijk
+1645;Discover Holland’s UNESCO Treasures;Unesco A'dam-A'dam;Day 6: Den Helder - St. Maartensvlotbrug | St. Maartensvlotbrug – Alkmaar;Optie 1;45;Sneek - Franeker 45 km DEU 2026;0,03;141;Laag (niet toegepast)
+1646;Discover Holland’s UNESCO Treasures;Unesco A'dam-A'dam;Day 7: Alkmaar – Wormerveer | Wormerveer – Zaanse Schans – Amsterdam;Optie 1;38;Sint Maartensvlotbrug - Alkmaar 37 km DEU 2026;1,31;188,6;Redelijk
+1646;Discover Holland’s UNESCO Treasures;Unesco A'dam-A'dam;Day 7: Alkmaar – Wormerveer | Wormerveer – Zaanse Schans – Amsterdam;Optie 2;47;Wormerveer - Zaanse Schans - Amsterdam 46 km DEU;1,53;151,9;Redelijk
+1654;Egypt & The Nile – A Journey to Ancient wonders;Egypt & The Nile;Day 2: El Gouna Cycling & Red Sea Leisure;Optie 1;29;El Gouna Cycling (27 km/17 mi.);3,35;124,2;Redelijk
+1656;Egypt & The Nile – A Journey to Ancient wonders;Egypt & The Nile;Day 4: Luxor East Bank;Optie 1;26;Day 4 (2/2): Luxor East Bank;3,62;60,2;Redelijk
+1657;Egypt & The Nile – A Journey to Ancient wonders;Egypt & The Nile;Day 5: Luxor – Esna;Optie 1;51;Day 5: Luxor – Esna;0,59;185,6;Hoog
+1658;Egypt & The Nile – A Journey to Ancient wonders;Egypt & The Nile;Day 6: Kom Ombo & Aswan;Optie 1;31;Day 6: Kom Ombo & Aswan;2,18;166,5;Redelijk
+1659;Egypt & The Nile – A Journey to Ancient wonders;Egypt & The Nile;Day 7: Aswan & Philae Temple;Optie 1;35;Day 9 (1/2): Luxor West Bank;3,25;172,4;Laag (niet toegepast)
+1660;Egypt & The Nile – A Journey to Ancient wonders;Egypt & The Nile;Day 8: Edfu & Monastic Heritage;Optie 1;21;Day 8: Edfu & Monastic Heritage;4,87;70,5;Redelijk
+1676;Historic Towns and coastal Holland by Sail and Bike;Program S&B Zeeland;Day 2: Across the border: Doel – Paal – Hulst – Terneuzen;Optie 1;39;Paal - Terneuzen kort 40km;0,44;108,7;Hoog
+1676;Historic Towns and coastal Holland by Sail and Bike;Program S&B Zeeland;Day 2: Across the border: Doel – Paal – Hulst – Terneuzen;Optie 2;49;Paal - Terneuzen 50km;0,51;161,9;Hoog
+1677;Historic Towns and coastal Holland by Sail and Bike;Program S&B Zeeland;Day 3: Dunes, dikes, and polders: Terneuzen – Breskens;Optie 1;50;Terneuzen - Breskens 50km;0,39;137,9;Hoog
+1678;Historic Towns and coastal Holland by Sail and Bike;Program S&B Zeeland;Day 4: Sea air and Zeeland charm: Middelburg – coastal route – Middelburg;Optie 2;55;Middelburg (loop) 55km ENG;0,39;219,3;Hoog
+1679;Historic Towns and coastal Holland by Sail and Bike;Program S&B Zeeland;Day 5: Historic harbors and Dutch ingenuity - Middelburg – Veere – Kamperland;Optie 1;36;Middelburg - Neeltje Jans - Kamperland 36km;0,09;109;Redelijk
+1681;Historic Towns and coastal Holland by Sail and Bike;Program S&B Zeeland;Day 7: A final ride to Antwerp- Hansweert – Zandvliet – Antwerp;Optie 1;34;Hansweert - Zandvliet Kust - 34km;1,34;105,6;Redelijk
+1684;Heart of Tulips;Heart of Tulips;Day 2: A gentle start through Waterland: Amsterdam to Zaandam;Optie 1;30;Zaandam - Zaanse Schans - Haarlem (city) 32 km ENG 2026;2,1;113,1;Laag (niet toegepast)
+1685;Heart of Tulips;Heart of Tulips;Day 3: Windmills, flowers & Dutch heritage: Zaandam to Alkmaar;Optie 1;39;Alphen a/d Rijn - Kudelstaart 39 km ENG 2026;0,17;97,4;Laag (niet toegepast)
+1685;Heart of Tulips;Heart of Tulips;Day 3: Windmills, flowers & Dutch heritage: Zaandam to Alkmaar;Optie 2;50;Zaandam - Zaanse Schans - Haarlem (city) (via IJmuiden) 51 km ENG 2026;0,7;220,4;Laag (niet toegepast)
+1686;Heart of Tulips;Heart of Tulips;Day 4: Cheese market and dune landscapes: Alkmaar to Haarlem;Optie 1;50;Amsterdam (Oosterdok) - Zaanse schans - Haarlem 48 km ENG 2026;2,25;144,9;Laag (niet toegepast)
+1687;Heart of Tulips;Heart of Tulips;Day 5: A celebration of spring: Haarlem to Haarlem;Optie 1;47;Amsterdam (Oosterdok) - Zaanse Schans - Haarlem (city) 47 km ENG 2026;0,25;160,3;Redelijk
+1688;Heart of Tulips;Heart of Tulips;Day 6: From flower trade to open water: Haarlem to Zaandam | cruise to Hoorn;Optie 1;30;Alblasserdam - Kinderdijk - Gouda 30 km ENG 2026;0,39;83,7;Laag (niet toegepast)
+1689;Heart of Tulips;Heart of Tulips;Day 7: Tulip country and historic harbors: Hoorn to Volendam | cruise to Huizen;Optie 1;25;Alphen a/d Rijn - Uithoorn 24 km ENG 2026;0,59;63,2;Laag (niet toegepast)
+1689;Heart of Tulips;Heart of Tulips;Day 7: Tulip country and historic harbors: Hoorn to Volendam | cruise to Huizen;Optie 2;55;Gouda - Kudelstaart 54 km ENG 2026;1,19;136,7;Laag (niet toegepast)
+1690;Heart of Tulips;Heart of Tulips;Day 8: Fortified towns and a grand finale: Huizen to Amsterdam;Optie 1;35;Bosrandbrug - Amsterdam (Oosterdok) 36 km ENG 2026;0,65;143,3;Hoog
+1690;Heart of Tulips;Heart of Tulips;Day 8: Fortified towns and a grand finale: Huizen to Amsterdam;Optie 2;49;Amsterdam (Veemkade) - Zaanse Schans - Haarlem (city) 47 km ENG 2026;1,84;159,8;Laag (niet toegepast)
+1709;France: Provence & the Rhône Valley;Lyon - Arles;Day 2: Along the Northern Rhône: Lyon – Chavanay – Tournon-sur-Rhône;Optie 1;45;Tournon - La Voulte sur Rhône 47km ENG;2,16;209,8;Redelijk
+1710;France: Provence & the Rhône Valley;Lyon - Arles;Day 3: ViaRhôna and  Ardèche Views: Tournon-sur-Rhône – La Voulte-sur-Rhône – Vi;Optie 1;40;Cote Rotie loop 37km (15km^ avg 3%);2,51;659,6;Laag (niet toegepast)
+1711;France: Provence & the Rhône Valley;Lyon - Arles;Day 4: Hilltop Villages and Rhône Wines: Viviers – Châteauneuf-du-Pape – Avignon;Optie 1;60;Tarascon – Pont du Gard – Avignon 57km ENG 2026;3,43;444,5;Laag (niet toegepast)
+1711;France: Provence & the Rhône Valley;Lyon - Arles;Day 4: Hilltop Villages and Rhône Wines: Viviers – Châteauneuf-du-Pape – Avignon;Optie 2;65;Viviers - Chateau Neuf du Pape 66km;0,97;647,3;Redelijk
+1712;France: Provence & the Rhône Valley;Lyon - Arles;Day 5: Avignon and Provençal Life: Avignon;Optie 1;40;Saint Etiennes des Sorts - Orange - Roquemare 35km ENG;4,39;229,7;Laag (niet toegepast)
+1712;France: Provence & the Rhône Valley;Lyon - Arles;Day 5: Avignon and Provençal Life: Avignon;Optie 2;50;Chavanay - Tournon EV17 50km ENG;0,28;216,5;Laag (niet toegepast)
+1713;France: Provence & the Rhône Valley;Lyon - Arles;Day 6: Roman past at the Pont du Gard: Avignon – Pont du Gard – Tarascon;Optie 1;55;Tarascon - Chateau des Baux - Arles 54km;1,11;487,6;Laag (niet toegepast)
+1713;France: Provence & the Rhône Valley;Lyon - Arles;Day 6: Roman past at the Pont du Gard: Avignon – Pont du Gard – Tarascon;Optie 2;60;Avignon - Pont du Gard - Tarascon 56km ENG 2026;3,5;483,4;Redelijk
+1714;France: Provence & the Rhône Valley;Lyon - Arles;Day 7: Van Gogh’s Provence: Tarascon – Arles;Optie 2;65;Lamastre - La Voulte Sur Rhône (La Dolce Via) 66km ENG;1;668;Laag (niet toegepast)
+1717;France: Provence & the Rhône Valley;Arles - Lyon;Day 2: Van Gogh’s Provence: Arles – Tarascon;Optie 2;65;Lamastre - La Voulte Sur Rhône (La Dolce Via) 66km ENG;1;668;Laag (niet toegepast)
+1718;France: Provence & the Rhône Valley;Arles - Lyon;Day 3: The Pont du Gard: Tarascon – Pont du Gard – Avignon;Optie 1;55;Tarascon - Chateau des Baux - Arles 54km;1,11;487,6;Laag (niet toegepast)
+1718;France: Provence & the Rhône Valley;Arles - Lyon;Day 3: The Pont du Gard: Tarascon – Pont du Gard – Avignon;Optie 2;60;Tarascon – Pont du Gard – Avignon 57km ENG 2026;3,43;444,5;Redelijk
+1719;France: Provence & the Rhône Valley;Arles - Lyon;Day 4: The Papal City: Avignon;Optie 1;40;Cote Rotie loop 37km (15km^ avg 3%);2,51;659,6;Laag (niet toegepast)
+1719;France: Provence & the Rhône Valley;Arles - Lyon;Day 4: The Papal City: Avignon;Optie 2;50;Chavanay - Tournon EV17 50km ENG;0,28;216,5;Laag (niet toegepast)
+1720;France: Provence & the Rhône Valley;Arles - Lyon;Day 5: Vineyards of the Rhône: Avignon – Châteauneuf-du-Pape – Viviers;Optie 1;60;Avignon - Pont du Gard - Tarascon 56km ENG 2026;3,5;483,4;Laag (niet toegepast)
+1720;France: Provence & the Rhône Valley;Arles - Lyon;Day 5: Vineyards of the Rhône: Avignon – Châteauneuf-du-Pape – Viviers;Optie 2;65;Viviers - Chateau Neuf du Pape 66km;0,97;647,3;Redelijk
+1721;France: Provence & the Rhône Valley;Arles - Lyon;Day 6: Rhône or Ardèche: Viviers – La Voulte-sur-Rhône – Tournon-sur-Rhône;Optie 1;40;Saint Etiennes des Sorts - Orange - Roquemare 35km ENG;4,39;229,7;Laag (niet toegepast)
+1722;France: Provence & the Rhône Valley;Arles - Lyon;Day 7: Northern Rhône Wines: Tournon-sur-Rhône – Chavanay – Lyon;Optie 1;45;Tournon - La Voulte sur Rhône 47km ENG;2,16;209,8;Redelijk
+1726;Hamburg - Berlin or Berlin - Hamburg;Program Hamburg - Berlin;Day 3: Hamburg - Geesthacht;Optie 1;40;day 3: Hamburg - Geesthacht (shorter);0,35;170,7;Hoog
+1726;Hamburg - Berlin or Berlin - Hamburg;Program Hamburg - Berlin;Day 3: Hamburg - Geesthacht;Optie 2;52;day 3: Hamburg - Geesthacht ;0,72;216;Hoog
+1727;Hamburg - Berlin or Berlin - Hamburg;Program Hamburg - Berlin;Day 4: Lüneburg;Optie 1;43;Day 4: Luneberg  (42 km);0,39;293,9;Laag (niet toegepast)
+1728;Hamburg - Berlin or Berlin - Hamburg;Program Hamburg - Berlin;Day 5: Lüneberg - Bad Bevensen;Optie 1;26;day 5: Lüneburg Harbor - Bad Bevensen ;0,08;145,2;Hoog
+1729;Hamburg - Berlin or Berlin - Hamburg;Program Hamburg - Berlin;Day 6: Bad Bevensen - Alt Isenhagen;Optie 1;46;Day 6: Bad Bevensen - Meevaren - Alt Isenhagen;0,18;298,4;Hoog
+1730;Hamburg - Berlin or Berlin - Hamburg;Program Hamburg - Berlin;Day 7: Alt Isenhagen - Wolfsburg;Optie 1;46;Day 7: Alt Isenhagen - Weißes Moor - Wolfsburg   (46 km);0,83;219,1;Hoog
+1732;Hamburg - Berlin or Berlin - Hamburg;Program Hamburg - Berlin;Day 9: Wolfsburg - Magdeburg;Optie 1;59;DAy 9 : Calvorde (outside Wolfsburg) to Magdeburg (55km);0,33;272,4;Hoog
+1733;Hamburg - Berlin or Berlin - Hamburg;Program Hamburg - Berlin;Day 10: Magdeburg - Genthin;Optie 1;55;Day 10: Magdeburg - Genthin (55km);0,3;256,6;Hoog
+1734;Hamburg - Berlin or Berlin - Hamburg;Program Hamburg - Berlin;Day 11: Genthin - Brandenburg an der Havel;Optie 1;38;Day 11: Genthin - Brandenburg (38km);0,12;171,5;Hoog
+1735;Hamburg - Berlin or Berlin - Hamburg;Program Hamburg - Berlin;Day 12: Brandenburg - Potsdam;Optie 1;40;Day 12: Brandeburg - Potsdam (40km);0,05;188,3;Hoog
+1736;Hamburg - Berlin or Berlin - Hamburg;Program Hamburg - Berlin;Day 13: Potsdam - Spandau;Optie 1;23;Day 13: Potsdam - Berlijn (West: Spandau / Lindenufer area) approx. 23 km;0,15;157,8;Hoog
+1737;Hamburg - Berlin or Berlin - Hamburg;Program Hamburg - Berlin;Day 14: explore Berlin;Optie 1;35;Day 14: Berlin - Spandau Castle;1,49;190;Redelijk
+1740;Hamburg - Berlin or Berlin - Hamburg;Program Berlin - Hamburg;Day 2: explore Berlin;Optie 1;35;Day 14: Berlin - Spandau Castle;1,49;190;Redelijk
+1741;Hamburg - Berlin or Berlin - Hamburg;Program Berlin - Hamburg;Day 3: Spandau - Potsdam;Optie 1;23;Day 13: Potsdam - Berlijn (West: Spandau / Lindenufer area) approx. 23 km;0,15;157,8;Hoog
+1742;Hamburg - Berlin or Berlin - Hamburg;Program Berlin - Hamburg;Day 4: Along the Havel to Brandenburg an der Havel;Optie 1;40;Day 12: Brandeburg - Potsdam (40km);0,05;188,3;Laag (niet toegepast)
+1743;Hamburg - Berlin or Berlin - Hamburg;Program Berlin - Hamburg;Day 5: Brandenburg an der Havel to Genthin;Optie 1;38;Day 11: Genthin - Brandenburg (38km);0,12;171,5;Hoog
+1744;Hamburg - Berlin or Berlin - Hamburg;Program Berlin - Hamburg;Day 6: Jerichower land to Magdeburg;Optie 1;55;Day 10: Magdeburg - Genthin (55km);0,3;256,6;Hoog
+1745;Hamburg - Berlin or Berlin - Hamburg;Program Berlin - Hamburg;Day 7: to Wolfsburg;Optie 1;59;DAy 9 : Calvorde (outside Wolfsburg) to Magdeburg (55km);0,33;272,4;Laag (niet toegepast)
+1747;Hamburg - Berlin or Berlin - Hamburg;Program Berlin - Hamburg;Day 9: Alt Isenhagen;Optie 1;46;Day 7: Alt Isenhagen - Weißes Moor - Wolfsburg   (46 km);0,83;219,1;Hoog
+1748;Hamburg - Berlin or Berlin - Hamburg;Program Berlin - Hamburg;Day 10: Bad Bevensen;Optie 1;46;Day 6: Bad Bevensen - Meevaren - Alt Isenhagen;0,18;298,4;Hoog
+1749;Hamburg - Berlin or Berlin - Hamburg;Program Berlin - Hamburg;Day 11:  Lüneburg;Optie 1;26;day 5: Lüneburg Harbor - Bad Bevensen ;0,08;145,2;Hoog
+1750;Hamburg - Berlin or Berlin - Hamburg;Program Berlin - Hamburg;Day 12: Geesthacht;Optie 1;43;Day 4: Luneberg  (42 km);0,39;293,9;Laag (niet toegepast)
+1751;Hamburg - Berlin or Berlin - Hamburg;Program Berlin - Hamburg;Day 13: Geesthacht to Hamburg;Optie 1;40;day 3: Hamburg - Geesthacht (shorter);0,35;170,7;Hoog
+1751;Hamburg - Berlin or Berlin - Hamburg;Program Berlin - Hamburg;Day 13: Geesthacht to Hamburg;Optie 2;52;day 3: Hamburg - Geesthacht ;0,72;216;Hoog
+1755;Berlin and the Green Lake District;Program: Berlin and the Green Lake District;Day 2: A journey through history along the Spree Berlin – Oranienburg;Optie 1;35;Day 14: Berlin - Spandau Castle;1,49;190;Redelijk
+1755;Berlin and the Green Lake District;Program: Berlin and the Green Lake District;Day 2: A journey through history along the Spree Berlin – Oranienburg;Optie 2;48;Day 6: Bad Bevensen - Meevaren - Alt Isenhagen;1,82;298,4;Laag (niet toegepast)
+1756;Berlin and the Green Lake District;Program: Berlin and the Green Lake District;Day 3: Lakes, forests, and memorials: Oranienburg - Potsdam;Optie 1;35;Day 12: Brandeburg - Potsdam (40km);4,95;188,3;Redelijk
+1756;Berlin and the Green Lake District;Program: Berlin and the Green Lake District;Day 3: Lakes, forests, and memorials: Oranienburg - Potsdam;Optie 2;45;Day 7: Alt Isenhagen - Weißes Moor - Wolfsburg   (46 km);0,17;219,1;Laag (niet toegepast)
+1757;Berlin and the Green Lake District;Program: Berlin and the Green Lake District;Day 4: Palaces and Parks of Potsdam;Optie 1;30;Short Potsdam - Oranianburg;0,83;161,5;Redelijk
+1758;Berlin and the Green Lake District;Program: Berlin and the Green Lake District;Day 5: Einstein, Werder, and the Havel: Potsdam - Brandenburg an der Havel;Optie 1;40;day 3: Hamburg - Geesthacht (shorter);0,35;170,7;Laag (niet toegepast)
+1758;Berlin and the Green Lake District;Program: Berlin and the Green Lake District;Day 5: Einstein, Werder, and the Havel: Potsdam - Brandenburg an der Havel;Optie 2;55;Day 10: Magdeburg - Genthin (55km);0,3;256,6;Laag (niet toegepast)
+1759;Berlin and the Green Lake District;Program: Berlin and the Green Lake District;Day 6: Through water-rich Brandenburg: Brandenburg an der Havel - Berlin-Spandau;Optie 1;38;Day 11: Genthin - Brandenburg (38km);0,12;171,5;Hoog
+1759;Berlin and the Green Lake District;Program: Berlin and the Green Lake District;Day 6: Through water-rich Brandenburg: Brandenburg an der Havel - Berlin-Spandau;Optie 2;50;day 3: Hamburg - Geesthacht ;2,72;216;Laag (niet toegepast)
+1760;Berlin and the Green Lake District;Program: Berlin and the Green Lake District;Day 7: Berlin’s Past and Present;Optie 1;25;Day 14: Spandau-Berlin (estimate);4,29;167,8;Redelijk
+1763;Hamburg - Lübeck;Hamburg - Lübeck - Hamburg;Day 2: Geesthacht – Lüneburg;Optie 1;30;day 2: Lüneburg Old Town (route 2);3,56;221,5;Redelijk
+1763;Hamburg - Lübeck;Hamburg - Lübeck - Hamburg;Day 2: Geesthacht – Lüneburg;Optie 2;45;Lübeck -  Mölln;3,75;329,7;Laag (niet toegepast)
+1764;Hamburg - Lübeck;Hamburg - Lübeck - Hamburg;Day 3: Lüneburg to Lauenburg;Optie 1;35;Lauenburg-Mölln, Germany, option 3;0,27;199,1;Hoog
+1764;Hamburg - Lübeck;Hamburg - Lübeck - Hamburg;Day 3: Lüneburg to Lauenburg;Optie 2;50;Lauenburg-Mölln, Germany option 1;3,8;295,7;Redelijk
+1765;Hamburg - Lübeck;Hamburg - Lübeck - Hamburg;Day 4: Lauenburg - Mölln - Lübeck;Optie 1;34;Mölln - Lübeck;1,18;241,1;Redelijk
+1765;Hamburg - Lübeck;Hamburg - Lübeck - Hamburg;Day 4: Lauenburg - Mölln - Lübeck;Optie 2;50;Travemünde - Mölln - option 2;2,1;318,7;Redelijk
+1766;Hamburg - Lübeck;Hamburg - Lübeck - Hamburg;Day 5: Lübeck - Travemünde - Lübeck;Optie 1;33;Day 5: Lübeck - Travemünde (Coastal);0,23;225,7;Hoog
+1767;Hamburg - Lübeck;Hamburg - Lübeck - Hamburg;Day 6: Lübeck - Witzeeze;Optie 1;32;Day 4 Witzeeze lock - Donnerschleuse lock;0,02;185,1;Hoog
+1767;Hamburg - Lübeck;Hamburg - Lübeck - Hamburg;Day 6: Lübeck - Witzeeze;Optie 2;45;Lübeck to Mölln- option 2;4,08;283,3;Redelijk
+1768;Hamburg - Lübeck;Hamburg - Lübeck - Hamburg;Day 7: Witzeeze - Hamburg;Optie 1;25;Day 7: Witzeeze - Geesthacht (25 km+-);1,03;195,3;Redelijk
+1768;Hamburg - Lübeck;Hamburg - Lübeck - Hamburg;Day 7: Witzeeze - Hamburg;Optie 2;64;Luneberg Hafer option 2;1,77;389,2;Laag (niet toegepast)
+1771;Rhine highlights between Koblenz and Duisburg;Koblenz - Duisburg - Koblenz;Day 2: Along the Rhine Cologne – Monheim – Düsseldorf;Optie 1;25;Alken - Kobern - Winningen - Koblenz 25 km ENG 2025;0,18;177,1;Laag (niet toegepast)
+1771;Rhine highlights between Koblenz and Duisburg;Koblenz - Duisburg - Koblenz;Day 2: Along the Rhine Cologne – Monheim – Düsseldorf;Optie 2;55;Cochem - Koblenz 51 km ENG 2026;3,65;356,2;Laag (niet toegepast)
+1772;Rhine highlights between Koblenz and Duisburg;Koblenz - Duisburg - Koblenz;Day 3: Industrial heritage in the Ruhr: Düsseldorf – Duisburg;Optie 1;40;Mainz - Winningen - Burg Eltz - Treis-Karden (Via eltz) 40 km ENG 2026;0,68;413,2;Laag (niet toegepast)
+1772;Rhine highlights between Koblenz and Duisburg;Koblenz - Duisburg - Koblenz;Day 3: Industrial heritage in the Ruhr: Düsseldorf – Duisburg;Optie 2;60;Zell (loop via Kinheim & Traben-Trarbach) 59 km ENG 2025;0,85;494,6;Laag (niet toegepast)
+1774;Rhine highlights between Koblenz and Duisburg;Koblenz - Duisburg - Koblenz;Day 5: Between river meadows and the cathedral: Düsseldorf – Cologne;Optie 1;28;Boppard - Winningen 30km ENG 2026;2,55;212,1;Laag (niet toegepast)
+1774;Rhine highlights between Koblenz and Duisburg;Koblenz - Duisburg - Koblenz;Day 5: Between river meadows and the cathedral: Düsseldorf – Cologne;Optie 2;52;Cochem-Beilstein-Ediger Eller-Bremm-Cochem 50 km 2025;2,41;335,7;Laag (niet toegepast)
+1775;Rhine highlights between Koblenz and Duisburg;Koblenz - Duisburg - Koblenz;Day 6: In Beethoven's footsteps: Cologne – Bonn;Optie 1;38;Oberwesel - Nierlahnstein 37km ENG;0,52;289,4;Laag (niet toegepast)
+1775;Rhine highlights between Koblenz and Duisburg;Koblenz - Duisburg - Koblenz;Day 6: In Beethoven's footsteps: Cologne – Bonn;Optie 2;58;Andernach - Boppard 54km ENG 2026;4,53;277,6;Laag (niet toegepast)
+1776;Rhine highlights between Koblenz and Duisburg;Koblenz - Duisburg - Koblenz;Day 7: The romantic Rhine Valley: Bonn - Remagen | Remagen – Koblenz;Optie 1;50;Alf - Bernkastel Kues 49km ENG 2026;1,32;351,7;Laag (niet toegepast)

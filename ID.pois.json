@@ -1,0 +1,632 @@
+[
+  {
+    "name": "Haltstelle Buslinien 48 Central Bahnhof",
+    "type": "Information",
+    "lat": 52.397898,
+    "lon": 4.875247,
+    "desc": ""
+  },
+  {
+    "name": "Ferry Zaandam",
+    "type": "Ferry",
+    "lat": 52.418406,
+    "lon": 4.827193,
+    "desc": "free"
+  },
+  {
+    "name": "START/DOCKING BOAT",
+    "type": "Information",
+    "lat": 52.438092,
+    "lon": 4.828062,
+    "desc": ""
+  },
+  {
+    "name": "Docking Zaandam",
+    "type": "Lodging",
+    "lat": 52.438161,
+    "lon": 4.827623,
+    "desc": ""
+  },
+  {
+    "name": "Liegeplatz Zaandam",
+    "type": "Lodging",
+    "lat": 52.438385,
+    "lon": 4.827267,
+    "desc": ""
+  },
+  {
+    "name": "Mooring Zaandam Burcht",
+    "type": "Lodging",
+    "lat": 52.438277,
+    "lon": 4.826839,
+    "desc": ""
+  },
+  {
+    "name": "Anlegestelle Zaandam",
+    "type": "Lodging",
+    "lat": 52.437913,
+    "lon": 4.827213,
+    "desc": ""
+  },
+  {
+    "name": "Mooring Zaandam",
+    "type": "Lodging",
+    "lat": 52.438297,
+    "lon": 4.826125,
+    "desc": ""
+  },
+  {
+    "name": "Anliegeplatz Zaandam Theater",
+    "type": "Lodging",
+    "lat": 52.437917,
+    "lon": 4.826248,
+    "desc": ""
+  },
+  {
+    "name": "Theatre Zaandam",
+    "type": "Information",
+    "lat": 52.438318,
+    "lon": 4.824842,
+    "desc": ""
+  },
+  {
+    "name": "Tsaar Peterhuisje",
+    "type": "Viewpoint",
+    "lat": 52.437325,
+    "lon": 4.823318,
+    "desc": ""
+  },
+  {
+    "name": "Inn Hotel",
+    "type": "Viewpoint",
+    "lat": 52.43855,
+    "lon": 4.817518,
+    "desc": "architecture with small green Zaandam houses"
+  },
+  {
+    "name": "Hotel Inntel",
+    "type": "Viewpoint",
+    "lat": 52.437972,
+    "lon": 4.815985,
+    "desc": ""
+  },
+  {
+    "name": "Cafe's Zaandam",
+    "type": "Coffee",
+    "lat": 52.439495,
+    "lon": 4.823949,
+    "desc": ""
+  },
+  {
+    "name": "Trucks Parking",
+    "type": "Caution",
+    "lat": 52.457467,
+    "lon": 4.813708,
+    "desc": ""
+  },
+  {
+    "name": "closed for next 5 years",
+    "type": "Caution",
+    "lat": 52.458123,
+    "lon": 4.813984,
+    "desc": ""
+  },
+  {
+    "name": "Trucks",
+    "type": "Caution",
+    "lat": 52.464205,
+    "lon": 4.820512,
+    "desc": ""
+  },
+  {
+    "name": "Authentic Neighbourhood",
+    "type": "Viewpoint",
+    "lat": 52.471456,
+    "lon": 4.828331,
+    "desc": ""
+  },
+  {
+    "name": "ZAANSE SCHANS - open air museum",
+    "type": "Information",
+    "lat": 52.473187,
+    "lon": 4.821775,
+    "desc": ""
+  },
+  {
+    "name": "Zaanse Schans; freiliches Museum",
+    "type": "Viewpoint",
+    "lat": 52.472883,
+    "lon": 4.821976,
+    "desc": "Windmühlen, alte Holzhäuser und vieles mehr"
+  },
+  {
+    "name": "Zaanse Schans Freilichtmuseum",
+    "type": "Information",
+    "lat": 52.473312,
+    "lon": 4.820348,
+    "desc": ""
+  },
+  {
+    "name": "Zaanse Schans bike parking",
+    "type": "Bike Parking",
+    "lat": 52.473481,
+    "lon": 4.821304,
+    "desc": ""
+  },
+  {
+    "name": "Café Restaurant Pancakes",
+    "type": "Coffee",
+    "lat": 52.472908,
+    "lon": 4.820694,
+    "desc": ""
+  },
+  {
+    "name": "Holzschumacher",
+    "type": "Information",
+    "lat": 52.473017,
+    "lon": 4.819672,
+    "desc": ""
+  },
+  {
+    "name": "Zaanse Schans; openluchtmuseum",
+    "type": "Viewpoint",
+    "lat": 52.472936,
+    "lon": 4.821535,
+    "desc": "Molens, Zaanse houten huisjes en nog veel meer"
+  },
+  {
+    "name": "Zaanse Schans Entrance",
+    "type": "Information",
+    "lat": 52.47341,
+    "lon": 4.820856,
+    "desc": ""
+  },
+  {
+    "name": "Restaurant, Café",
+    "type": "Coffee",
+    "lat": 52.47295,
+    "lon": 4.820248,
+    "desc": "Pancake"
+  },
+  {
+    "name": "Zaans Museum",
+    "type": "Viewpoint",
+    "lat": 52.473655,
+    "lon": 4.822082,
+    "desc": "Mahler Monet"
+  },
+  {
+    "name": "Café Het Heerenhuis Oostzaan",
+    "type": "Coffee",
+    "lat": 52.47219,
+    "lon": 4.84339,
+    "desc": ""
+  },
+  {
+    "name": "Generic",
+    "type": "Information",
+    "lat": 52.471325,
+    "lon": 4.855642,
+    "desc": ""
+  },
+  {
+    "name": "12",
+    "type": "Information",
+    "lat": 52.461503,
+    "lon": 4.874603,
+    "desc": "Knooppunt 12"
+  },
+  {
+    "name": "Recreatiegebied Twiske",
+    "type": "Information",
+    "lat": 52.459076,
+    "lon": 4.876978,
+    "desc": ""
+  },
+  {
+    "name": "Strand Twiske",
+    "type": "Swimming",
+    "lat": 52.452595,
+    "lon": 4.88025,
+    "desc": ""
+  },
+  {
+    "name": "Picknick plaats",
+    "type": "Rest Stop",
+    "lat": 52.452308,
+    "lon": 4.879543,
+    "desc": ""
+  },
+  {
+    "name": "restaurant Paviljoen Twiske",
+    "type": "Coffee",
+    "lat": 52.450543,
+    "lon": 4.883316,
+    "desc": ""
+  },
+  {
+    "name": "Benches at the Harbour",
+    "type": "Rest Stop",
+    "lat": 52.449166,
+    "lon": 4.886545,
+    "desc": ""
+  },
+  {
+    "name": "Twiske harbour",
+    "type": "Bar",
+    "lat": 52.448829,
+    "lon": 4.886571,
+    "desc": ""
+  },
+  {
+    "name": "Paviljoen Twiske",
+    "type": "Information",
+    "lat": 52.447749,
+    "lon": 4.885735,
+    "desc": ""
+  },
+  {
+    "name": "Twiske Mühlen",
+    "type": "Viewpoint",
+    "lat": 52.434983,
+    "lon": 4.897002,
+    "desc": ""
+  },
+  {
+    "name": "Café's Landsmeer",
+    "type": "Coffee",
+    "lat": 52.431511,
+    "lon": 4.910759,
+    "desc": ""
+  },
+  {
+    "name": "Several cafés",
+    "type": "Coffee",
+    "lat": 52.431874,
+    "lon": 4.914249,
+    "desc": ""
+  },
+  {
+    "name": "ATM Landsmeer",
+    "type": "ATM",
+    "lat": 52.429443,
+    "lon": 4.913406,
+    "desc": ""
+  },
+  {
+    "name": "De Zuyd",
+    "type": "Bar",
+    "lat": 52.428952,
+    "lon": 4.913787,
+    "desc": "Own lunch not permitted"
+  },
+  {
+    "name": "Wellington Monument",
+    "type": "Viewpoint",
+    "lat": 52.423837,
+    "lon": 4.928405,
+    "desc": "Marks the crash in 1941, of a Vickers Wellington bomber plane."
+  },
+  {
+    "name": "Umleitung bis Juli 2025",
+    "type": "Caution",
+    "lat": 52.405639,
+    "lon": 4.924507,
+    "desc": ""
+  },
+  {
+    "name": "d'Admiraal Old Mill 18th Century",
+    "type": "Viewpoint",
+    "lat": 52.402611,
+    "lon": 4.923564,
+    "desc": ""
+  },
+  {
+    "name": "Buiksloterdijk",
+    "type": "Viewpoint",
+    "lat": 52.399966,
+    "lon": 4.920147,
+    "desc": "Oude zeedijk"
+  },
+  {
+    "name": "Old Sea-dike up to 1932",
+    "type": "Viewpoint",
+    "lat": 52.399648,
+    "lon": 4.920766,
+    "desc": ""
+  },
+  {
+    "name": "Drop-off Amsterdam (Buiksloterweg)",
+    "type": "Start",
+    "lat": 52.383254,
+    "lon": 4.905934,
+    "desc": ""
+  },
+  {
+    "name": "Mooring, Amsterdam, Buiksloterweg",
+    "type": "Lodging",
+    "lat": 52.382982,
+    "lon": 4.905432,
+    "desc": ""
+  },
+  {
+    "name": "Docking Amsterdam (Buiksloterweg)",
+    "type": "Lodging",
+    "lat": 52.382762,
+    "lon": 4.904885,
+    "desc": ""
+  },
+  {
+    "name": "docking Amsterdam",
+    "type": "Lodging",
+    "lat": 52.382505,
+    "lon": 4.905025,
+    "desc": ""
+  },
+  {
+    "name": "The Coffee Virus",
+    "type": "Coffee",
+    "lat": 52.384186,
+    "lon": 4.902904,
+    "desc": "The Coffee Virus offers a vibrant and cozy atmosphere with expertly brewed coffee and scrumptious bites, perfect for a leisurely break in a bustling part of town."
+  },
+  {
+    "name": "4 Anlegestelle Buiksloterweg",
+    "type": "Lodging",
+    "lat": 52.382308,
+    "lon": 4.904577,
+    "desc": ""
+  },
+  {
+    "name": "Ferry F3 to Central Station",
+    "type": "Ferry",
+    "lat": 52.382244,
+    "lon": 4.903242,
+    "desc": "Free ferry, departs every 10 minutes"
+  },
+  {
+    "name": "This is Holland",
+    "type": "Information",
+    "lat": 52.384219,
+    "lon": 4.902354,
+    "desc": ""
+  },
+  {
+    "name": "Museum Eye",
+    "type": "Viewpoint",
+    "lat": 52.384102,
+    "lon": 4.901436,
+    "desc": ""
+  },
+  {
+    "name": "Restaurants Café",
+    "type": "Food",
+    "lat": 52.382803,
+    "lon": 4.903295,
+    "desc": ""
+  },
+  {
+    "name": "4 Mooring Buiksloterweg",
+    "type": "Lodging",
+    "lat": 52.38251,
+    "lon": 4.902572,
+    "desc": ""
+  },
+  {
+    "name": "Fähre F3 Zentral Bahnhof",
+    "type": "Ferry",
+    "lat": 52.382083,
+    "lon": 4.902744,
+    "desc": "gratis"
+  },
+  {
+    "name": "Pont F3 naar Centraal Station",
+    "type": "Ferry",
+    "lat": 52.381771,
+    "lon": 4.902905,
+    "desc": "Gratis pont, vertrekt elke 10 minuten"
+  },
+  {
+    "name": "Fähre Zentral Bahnhof F3",
+    "type": "Ferry",
+    "lat": 52.381519,
+    "lon": 4.902089,
+    "desc": ""
+  },
+  {
+    "name": "Ferry F3 Buiksloterweg",
+    "type": "Ferry",
+    "lat": 52.381259,
+    "lon": 4.901547,
+    "desc": "free"
+  },
+  {
+    "name": "Veer F3 Buiksloterweg",
+    "type": "Ferry",
+    "lat": 52.3817,
+    "lon": 4.901367,
+    "desc": "gratis"
+  },
+  {
+    "name": "Ferry Central Station",
+    "type": "Ferry",
+    "lat": 52.381568,
+    "lon": 4.900965,
+    "desc": ""
+  },
+  {
+    "name": "Pont naar Centraal Station",
+    "type": "Ferry",
+    "lat": 52.381274,
+    "lon": 4.900987,
+    "desc": "Gratis."
+  },
+  {
+    "name": "Ferry F3 to Buiksloterweg / Tolhuistuin",
+    "type": "Ferry",
+    "lat": 52.380838,
+    "lon": 4.900291,
+    "desc": "Free ferry"
+  },
+  {
+    "name": "Fahrradparkplatz",
+    "type": "Bike Parking",
+    "lat": 52.380396,
+    "lon": 4.900244,
+    "desc": ""
+  },
+  {
+    "name": "free ferry (F3) to Docking Buiksloterweg",
+    "type": "Ferry",
+    "lat": 52.380723,
+    "lon": 4.899696,
+    "desc": ""
+  },
+  {
+    "name": "free ferry to NDSM Werf",
+    "type": "Ferry",
+    "lat": 52.380938,
+    "lon": 4.899282,
+    "desc": ""
+  },
+  {
+    "name": "Amsterdam Central Station",
+    "type": "Caution",
+    "lat": 52.380446,
+    "lon": 4.899485,
+    "desc": "Generally, it is very busy here "
+  },
+  {
+    "name": "Knotenpunkt 05",
+    "type": "Information",
+    "lat": 52.380238,
+    "lon": 4.899086,
+    "desc": ""
+  },
+  {
+    "name": "Knooppunt 05",
+    "type": "Information",
+    "lat": 52.379961,
+    "lon": 4.898944,
+    "desc": ""
+  },
+  {
+    "name": "Grachtenrundfahrt",
+    "type": "Information",
+    "lat": 52.37878,
+    "lon": 4.897051,
+    "desc": ""
+  },
+  {
+    "name": "Canal Tours",
+    "type": "Information",
+    "lat": 52.379041,
+    "lon": 4.896771,
+    "desc": ""
+  },
+  {
+    "name": "Anliegeplatz Ruyterkade West",
+    "type": "Lodging",
+    "lat": 52.382208,
+    "lon": 4.896971,
+    "desc": ""
+  },
+  {
+    "name": "Mooring De Ruyterkade West",
+    "type": "Lodging",
+    "lat": 52.382746,
+    "lon": 4.8958,
+    "desc": ""
+  },
+  {
+    "name": "Docking Amsterdam (Ruijterkade West)",
+    "type": "Lodging",
+    "lat": 52.382489,
+    "lon": 4.896398,
+    "desc": ""
+  },
+  {
+    "name": "Anlegestelle Ruijterkade West",
+    "type": "Lodging",
+    "lat": 52.382844,
+    "lon": 4.895253,
+    "desc": ""
+  },
+  {
+    "name": "Anlegeplatz Amsterdam (Westerdoksdijk)",
+    "type": "Lodging",
+    "lat": 52.387057,
+    "lon": 4.893244,
+    "desc": ""
+  },
+  {
+    "name": "6 Anlegestelle Westerdoksdijk",
+    "type": "Lodging",
+    "lat": 52.387352,
+    "lon": 4.893144,
+    "desc": ""
+  },
+  {
+    "name": "Docking Amsterdam (Pontsteiger)",
+    "type": "Lodging",
+    "lat": 52.391382,
+    "lon": 4.886065,
+    "desc": ""
+  },
+  {
+    "name": "Mooring Amsterdam Pontsteiger",
+    "type": "Lodging",
+    "lat": 52.390977,
+    "lon": 4.88545,
+    "desc": ""
+  },
+  {
+    "name": "Ferry F7 to NDSM",
+    "type": "Ferry",
+    "lat": 52.3922,
+    "lon": 4.885947,
+    "desc": "free ferry"
+  },
+  {
+    "name": "Docking Magnifique",
+    "type": "Lodging",
+    "lat": 52.400551,
+    "lon": 4.874177,
+    "desc": ""
+  },
+  {
+    "name": "Docking Amsterdam (Minervahaven)",
+    "type": "Lodging",
+    "lat": 52.400192,
+    "lon": 4.874489,
+    "desc": "Minervahavenweg 17"
+  },
+  {
+    "name": "Docking Minervahaven",
+    "type": "Lodging",
+    "lat": 52.400188,
+    "lon": 4.873923,
+    "desc": ""
+  },
+  {
+    "name": "Minervahaven Ende",
+    "type": "Finish",
+    "lat": 52.400103,
+    "lon": 4.875017,
+    "desc": ""
+  },
+  {
+    "name": "Minervahaven",
+    "type": "Finish",
+    "lat": 52.399843,
+    "lon": 4.874779,
+    "desc": ""
+  },
+  {
+    "name": "Einde reis",
+    "type": "Finish",
+    "lat": 52.399881,
+    "lon": 4.87549,
+    "desc": ""
+  }
+]

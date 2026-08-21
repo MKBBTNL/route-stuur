@@ -1,0 +1,36 @@
+MALMÖ MUNICIPALITY ROAD BIKE    44.3 km    · signs & notes only ·
+
+DIRECTIONS
+  ★ 9.3 km  [note] WC
+  ★ 11.4 km  [note] Espresso House — addr:city: Lomma
+addr:country: SE
+addr:housenumber: 2
+addr:postcode: 23433
+addr:street: Höjeågatan
+amenity: cafe
+brand: Espresso House
+brand:wikidata: Q10489162
+cuisine: coffee_shop
+diet:vegetarian: yes
+name: Espresso House
+opening_hours: Mo-Fr 08:00-18:00; Sa,Su 09:00-18:00
+takeaway: yes
+  ★ 21.3 km  [note] POI Dom of Lund With a special clock inside — POI Dom of Lund With a special clock inside
+  ★ 21.4 km  [note] Toilets — access: yes
+amenity: toilets
+capacity: 11
+capacity:disabled: 1
+changing_table: yes
+description: Ask staff for access if it’s locked. Asking staff is always necessary for disabled/changing table.
+fee: no
+level: 0
+opening_hours: Mo-Fr 10:00-17:00; Sa 10:30-15:00; Su 12:30-15:00
+operator: Svenska Kyrkan
+portable: no
+toilets:disposal: flush
+toilets:handwashing: yes
+toilets:position: seated
+unisex: yes
+wheelchair: yes
+  ★ 21.5 km  [note] Lunch stop in Lund WC inside Townhall — +/- 1 hour break in Lund
+  ★ 28.5 km  [note] POI German town in Sweden Jakriborg — https://maps.app.goo.gl/yShPfAsgbMH9HMSVA

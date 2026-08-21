@@ -1,0 +1,542 @@
+guessed_language,route_id,name,lang_breakdown,n_cues,action,status
+NL,26632317,Hassfurt - Bamberg 39 km ENG 2026,"NL:104,EN:67",184,"Set account -> NL, run Trace",TODO
+NL,32079591,Gent (Merelbeke) - Stadtmitte - Oudenaarde 52 km DEU 2023,"NL:34,EN:13,DE:8",130,"Set account -> NL, run Trace",TODO
+NL,34433224,Lochem - Holterberg - Deventer 65 km NLD 2026,"NL:34,EN:12",126,"Set account -> NL, run Trace",TODO
+NL,34434118,Deventer - Olst - Veluwe - Zwolle 56 km NLD 2026,"NL:71,EN:1",148,"Set account -> NL, run Trace",TODO
+NL,34434694,Zwolle - Zwartsluis - Kampen 54 km NLD 2026,"NL:85,EN:4",138,"Set account -> NL, run Trace",TODO
+NL,34467534,Tiel - Geldermalsen - Leerdam - Gorinchem 59 km NLD 2026,"NL:59,EN:21",93,"Set account -> NL, run Trace",TODO
+NL,34467647,Tiel - langs de Waal - Gorinchem 52km NLD 2026,"NL:50,EN:3",71,"Set account -> NL, run Trace",TODO
+NL,34467841,Werkendam - Biesbosch - Heusden 60 km NLD 2026,"NL:44,EN:43",93,"Set account -> NL, run Trace",TODO
+NL,34468017,Werkendam - Biesbosch - Heusden kort 53 km NLD 2026,"NL:45,EN:32",100,"Set account -> NL, run Trace",TODO
+NL,34552387,Gent (Evergem) - Oudenaarde 51 km DEU 2023,"NL:25,DE:19,EN:10",134,"Set account -> NL, run Trace",TODO
+NL,35486927,Zwolle - Genemuiden - Kampen 36 km NLD 2026,"NL:55,EN:2",84,"Set account -> NL, run Trace",TODO
+NL,38871267,Stavoren - Makkum 30 km NLD 2026,"NL:7,EN:4",34,"Set account -> NL, run Trace",TODO
+NL,38871271,Stavoren - Makkum 49 km NLD 2026,"NL:17,EN:7",62,"Set account -> NL, run Trace",TODO
+NL,38871289,Grou - Sneek 53 km NLD 2026,"NL:29,DE:2",78,"Set account -> NL, run Trace",TODO
+NL,38871293,Grou - Sneek 46 km NLD 2026,"NL:28,EN:1",67,"Set account -> NL, run Trace",TODO
+NL,41450692,Oudenaarde - Astene - Ghent (City) 49 km DEU 2023,"NL:78,EN:39",124,"Set account -> NL, run Trace",TODO
+NL,42967645,Zaandam - Hoorn 50 km NLD 2023,"NL:9,EN:6",67,"Set account -> NL, run Trace",TODO
+NL,43906255,Stavoren - Lemmer 43 km NLD 2023,"NL:10,EN:1",55,"Set account -> NL, run Trace",TODO
+NL,44110014,Born - Zutendaal - Maastricht 60km NLD 2026,"NL:118,EN:5",129,"Set account -> NL, run Trace",TODO
+NL,44277919,Thorn-Venlo  (via Roermond) 54 km NLD  2026,"NL:117,EN:2",129,"Set account -> NL, run Trace",TODO
+NL,44666741,Born - Eisden - Maastricht 45 km NLD 2026,"NL:83,EN:6",96,"Set account -> NL, run Trace",TODO
+NL,44992477,Arcen - Cuijk 55 km ENG 2026,"NL:58,EN:53",115,"Set account -> NL, run Trace",TODO
+NL,45028378,Maastricht - Bilzen(België) - Maastricht 54 km NLD 2026,"NL:115,EN:31",154,"Set account -> NL, run Trace",TODO
+NL,45028842,Maastricht-Margraten/Valkenburg-Maastricht  46 km NLD 2026,"NL:81,EN:27",118,"Set account -> NL, run Trace",TODO
+NL,45918496,Paris (Bougival) - Paris (Arsenal) (via Versailles) 43 KM 2026,"NL:137,EN:11",162,"Set account -> NL, run Trace",TODO
+NL,46008749,Kampen - Zwolle - Hattem - Kampen 51 km NLD 2026,"NL:119,DE:4",145,"Set account -> NL, run Trace",TODO
+NL,48847519,Wageningen - Tiel 45 km NLD 2026,"NL:59,EN:3",75,"Set account -> NL, run Trace",TODO
+NL,48989878,Doesburg - Doetinchem - Doesburg 44 km NLD 2026,"NL:76,EN:15",96,"Set account -> NL, run Trace",TODO
+NL,48989960,Doesburg - Gaanderen - Doesburg 54 km NLD 2026,"NL:92,EN:28",126,"Set account -> NL, run Trace",TODO
+NL,49159685,Rüdesheim - Mainz 40 km NLD 2026,"NL:93,EN:5",115,"Set account -> NL, run Trace",TODO
+NL,49226615,Cuijk - Venlo 66 km NLD 2026,"NL:110,EN:7",129,"Set account -> NL, run Trace",TODO
+NL,49236778,Thorn - Venlo 55 km NLD 2026,"NL:104,EN:10",121,"Set account -> NL, run Trace",TODO
+NL,49291974,Cuijk - Kleve - Cuijk  55 km NLD 2026,"NL:71,EN:1",76,"Set account -> NL, run Trace",TODO
+NL,49295951,Samara - Long 39 km ENG 2026,"NL:43,EN:20",64,"Set account -> NL, run Trace",TODO
+NL,49296004,Long - Abbeville 48 km ENG 2026,"NL:35,EN:33",68,"Set account -> NL, run Trace",TODO
+NL,49296331,Mook - Grave - Mook 44 km NLD 2026,"NL:93,EN:4",102,"Set account -> NL, run Trace",TODO
+NL,49523012,Breukelen - Utrecht (Neude) 17 km NLD 2026,"NL:29,EN:8",39,"Set account -> NL, run Trace",TODO
+NL,49523229,Breukelen - Utrecht (Neude) 36 km NLD 2026,"NL:43,EN:5",55,"Set account -> NL, run Trace",TODO
+NL,49523348,Rotterdam - Delft - Rotterdam 49 km NLD 2026,"NL:133,EN:4",142,"Set account -> NL, run Trace",TODO
+NL,49523350,Alblasserdam - Kinderdijk - Gouda - Schoonhoven 45 km NLD 2025,"NL:89,EN:7",99,"Set account -> NL, run Trace",TODO
+NL,49523364,Gouda - Utrecht 39 km NLD 2026,"NL:72,DE:2",77,"Set account -> NL, run Trace",TODO
+NL,49812023,Hoorn - Enkhuizen (via Midwoud) 44 km NLD 2026,"NL:73,EN:1",79,"Set account -> NL, run Trace",TODO
+NL,49812033,Volendam - Zaanse Schans 48 km NLD 2026,"NL:84,EN:2",89,"Set account -> NL, run Trace",TODO
+NL,49812072,Haarlem (Spaarndamseweg) - Amsterdam 33 km NLD 2026,"NL:70,EN:10",86,"Set account -> NL, run Trace",TODO
+NL,49812074,Haarlem (Spaarndamseweg) - Amsterdam 39 km NLD 2026,"NL:83,EN:11",100,"Set account -> NL, run Trace",TODO
+NL,49967945,Bikefittingride Aschaffenburg 11km/6 miles,"NL:25,EN:5",31,"Set account -> NL, run Trace",TODO
+NL,49977604,Long - Abbeville 57 km ENG 2026,"NL:31,EN:22",55,"Set account -> NL, run Trace",TODO
+NL,50376014,Mook - Kranenburg (D) - Nijmegen vlak 51 km NLD 2026,"NL:41,EN:1",66,"Set account -> NL, run Trace",TODO
+NL,51001926,Nijmegen - Tolkamer - Arnhem 55 km NL 2026,"NL:63,EN:5",98,"Set account -> NL, run Trace",TODO
+NL,51719996,Kampen - Hattem (loop) 54 km ENG 2026,"NL:59,EN:51",117,"Set account -> NL, run Trace",TODO
+NL,52088191,Paris (Bougival) - Versailles (loop) 35 km ENG 2026,"NL:84,EN:40",130,"Set account -> NL, run Trace",TODO
+NL,53899248,Samara - Long 39 km ENG 2026,"NL:43,EN:20",64,"Set account -> NL, run Trace",TODO
+NL,53899249,Long - Abbeville 48 km ENG 2026,"NL:35,EN:33",68,"Set account -> NL, run Trace",TODO
+NL,53899250,Long - Abbeville 57 km ENG 2026,"NL:31,EN:22",55,"Set account -> NL, run Trace",TODO
+NL,54165356,Paris (Pont-de-Sevres) - Paris (Bougival) 28 KM ENG 2026 Q-ENG,"NL:84,EN:22",114,"Set account -> NL, run Trace",TODO
+NL,54221011,Huizen - Zaandam 48 km NLD 2026,"NL:74,EN:1",86,"Set account -> NL, run Trace",TODO
+NL,54221015,Huizen - Amsterdam (Minerva & Buiksloterweg) 38 km NLD 2026,"NL:58,EN:2",66,"Set account -> NL, run Trace",TODO
+NL,54221080,Texel (rondrit Oudeschild) 42 km NLD 2026 omgekeerd,"NL:63,EN:2",70,"Set account -> NL, run Trace",TODO
+NL,54221082,Texel (rondrit Oudeschild) 42 km NLD 2026,"NL:76,EN:1",80,"Set account -> NL, run Trace",TODO
+NL,54221084,Volendam - Amsterdam (Minerva) (via Marken) 51 km NLD 2026,"NL:108,EN:7",119,"Set account -> NL, run Trace",TODO
+NL,54221090,Medemblik - Enkhuizen (via Hoorn ) 52 km NLD 2026,"NL:75,EN:2",81,"Set account -> NL, run Trace",TODO
+NL,54221095,Medemblik - Enkhuizen (via Twisk) 39 km NLD 2026,"NL:65,EN:1",72,"Set account -> NL, run Trace",TODO
+NL,54221110,Texel (rondrit veerboot) 51 km NLD 2026,"NL:90,EN:1",93,"Set account -> NL, run Trace",TODO
+NL,54221118,Texel (rondrit veerboot) 49 km NLD 2026,"NL:87,EN:2",93,"Set account -> NL, run Trace",TODO
+NL,54221121,Texel (rondrit veerboot) 43 km NLD 2026,"NL:79,EN:1",85,"Set account -> NL, run Trace",TODO
+NL,54221123,Den Helder: Veerboot - Ship 2 km NLD 2026,"NL:7,EN:1",8,"Set account -> NL, run Trace",TODO
+NL,54221125,"Den Helder: Ship - veerboot 2,1 km NLD 2026","NL:5,EN:1",6,"Set account -> NL, run Trace",TODO
+NL,54343721,Bamberg - Hassfurt - Schweinfurt 59 km ENG 2026,"NL:60,EN:26",95,"Set account -> NL, run Trace",TODO
+NL,54374287,Enkhuizen - Medemblik (via kust) 24 km NLD 2026,"NL:38,EN:1",45,"Set account -> NL, run Trace",TODO
+NL,54374291,Medemblik (rondrit) 28 km NLD 2026,"NL:54,EN:1",56,"Set account -> NL, run Trace",TODO
+NL,54374295,Terschelling (rondrit) 42 km NLD 2026,"NL:58,EN:1",66,"Set account -> NL, run Trace",TODO
+NL,54374297,Harlingen - Franeker - Makkum (via kust) 40 km NLD 2026,"NL:57,EN:5",64,"Set account -> NL, run Trace",TODO
+NL,54374300,Harlingen - Franeker - Makkum (via Bolsward) 45 km NLD 2026,"NL:67,EN:5",73,"Set account -> NL, run Trace",TODO
+NL,54374301,Harlingen - Franeker - Makkum (via Pingjum) 45 km NLD 2026,"NL:68,EN:6",75,"Set account -> NL, run Trace",TODO
+NL,54374303,Makkum - Stavoren 30 km NLD 2026,"NL:32,EN:9",46,"Set account -> NL, run Trace",TODO
+NL,54374304,Makkum - Stavoren 49 km NLD 2026,"NL:46,EN:4",58,"Set account -> NL, run Trace",TODO
+NL,54374309,Lemmer - Stavoren 43 km NLD 2026,"NL:56,EN:1",63,"Set account -> NL, run Trace",TODO
+NL,54413819,Nijmegen - Tolkamer - Arnhem 55 km NL 2026 (copy),"NL:63,EN:5",98,"Set account -> NL, run Trace",TODO
+NL,54520915,Enkhuizen - Hoorn 22 km NLD 2026,"NL:32,EN:2",36,"Set account -> NL, run Trace",TODO
+NL,54646664,Rotterdam - Kinderdijk - Nieuwpoort 42 km NLD 2025,"NL:66,EN:1",71,"Set account -> NL, run Trace",TODO
+NL,54750247,Nieuwpoort - Gouda - Utrecht 46 km NLD 2026,"NL:86,EN:4",96,"Set account -> NL, run Trace",TODO
+NL,54906248,Born - Zutendaal - Maastricht 60km NLD 2026,"NL:118,EN:5",129,"Set account -> NL, run Trace",TODO
+NL,54906249,Thorn-Venlo  (via Roermond) 54 km NLD  2026,"NL:117,EN:2",129,"Set account -> NL, run Trace",TODO
+NL,54906250,Born - Eijsden - Maastricht 45 km NLD 2026,"NL:83,EN:6",96,"Set account -> NL, run Trace",TODO
+NL,54906251,Maastricht - Bilzen(België) - Maastricht 54 km NLD 2026,"NL:115,EN:31",154,"Set account -> NL, run Trace",TODO
+NL,54906252,Maastricht-Margraten/Valkenburg-Maastricht  46 km NLD 2026,"NL:89,EN:13",114,"Set account -> NL, run Trace",TODO
+NL,54906253,Cuijk - Venlo 66 km NLD 2026,"NL:110,EN:7",129,"Set account -> NL, run Trace",TODO
+NL,54906255,Thorn - Venlo 55 km NLD 2026,"NL:104,EN:10",121,"Set account -> NL, run Trace",TODO
+NL,54906265,Cuijk - Kleve - Cuijk  55 km NLD 2026,"NL:71,EN:1",76,"Set account -> NL, run Trace",TODO
+NL,54906267,Mook - Grave - Mook 44 km NLD 2026,"NL:93,EN:4",102,"Set account -> NL, run Trace",TODO
+NL,54906276,Born - Zutendaal - Maastricht 60km NLD 2026,"NL:118,EN:5",129,"Set account -> NL, run Trace",TODO
+NL,54906277,Thorn-Venlo  (via Roermond) 54 km NLD  2026,"NL:117,EN:2",129,"Set account -> NL, run Trace",TODO
+NL,54906278,Born - Eijsden - Maastricht 45 km NLD 2026,"NL:83,EN:6",96,"Set account -> NL, run Trace",TODO
+NL,54906279,Maastricht - Bilzen(België) - Maastricht 54 km NLD 2026,"NL:115,EN:31",154,"Set account -> NL, run Trace",TODO
+NL,54906280,Maastricht-Margraten/Valkenburg-Maastricht  46 km NLD 2026,"NL:89,EN:13",114,"Set account -> NL, run Trace",TODO
+NL,54906281,Cuijk - Venlo 66 km NLD 2026,"NL:110,EN:7",129,"Set account -> NL, run Trace",TODO
+NL,54906282,Thorn - Venlo 55 km NLD 2026,"NL:104,EN:10",121,"Set account -> NL, run Trace",TODO
+NL,54906292,Cuijk - Kleve - Cuijk  55 km NLD 2026,"NL:71,EN:1",76,"Set account -> NL, run Trace",TODO
+NL,54906296,Mook - Grave - Mook 44 km NLD 2026,"NL:93,EN:4",102,"Set account -> NL, run Trace",TODO
+NL,54957821,Day 4: Gent stad - Dendermonde  - St. Amands (Van) (X),"NL:60,EN:8",85,"Set account -> NL, run Trace",TODO
+NL,54958360,Dag 6: Gent stad - Cruise dok (Van)(X),"NL:25,EN:8",34,"Set account -> NL, run Trace",TODO
+NL,54958369,Dag 6: Gent stad - Cruise dok (Van)(X),"NL:25,EN:8",34,"Set account -> NL, run Trace",TODO
+NL,54994964,Venlo - Cuijk 66 km ENG 2026,"NL:71,EN:47",121,"Set account -> NL, run Trace",TODO
+NL,55204226,Wageningen - Tiel 45 km NLD 2026,"NL:59,EN:3",75,"Set account -> NL, run Trace",TODO
+NL,55204228,Tiel - langs de Waal - Gorinchem 52km NLD 2026,"NL:50,EN:3",71,"Set account -> NL, run Trace",TODO
+NL,55204229,Tiel - Geldermalsen - Leerdam - Gorinchem 59 km NLD 2026,"NL:59,EN:21",93,"Set account -> NL, run Trace",TODO
+NL,55204231,Werkendam - Biesbosch - Heusden kort 53 km NLD 2026,"NL:46,EN:29",98,"Set account -> NL, run Trace",TODO
+NL,55204232,Werkendam - Biesbosch - Heusden 60 km NLD 2026,"NL:72,EN:20",104,"Set account -> NL, run Trace",TODO
+NL,55204239,Mook - Kranenburg (D) - Nijmegen vlak 51 km NLD 2026,"NL:41,EN:1",66,"Set account -> NL, run Trace",TODO
+NL,55204240,Nijmegen - Tolkamer - Arnhem 55 km NL 2026,"NL:63,EN:5",98,"Set account -> NL, run Trace",TODO
+NL,55204242,Werkendam - Biesbosch - (following the Dijk)  Heusden kort 55 km NLD 2025 (ALT),"NL:35,EN:29",88,"Set account -> NL, run Trace",TODO
+NL,55204251,Doesburg - Doetinchem - Doesburg 44 km NLD 2026,"NL:76,EN:15",96,"Set account -> NL, run Trace",TODO
+NL,55204252,Doesburg - Gaanderen - Doesburg 54 km NLD 2026,"NL:92,EN:28",126,"Set account -> NL, run Trace",TODO
+NL,55601952,Schoonhoven - Utrecht city centre 50 km ENG 2026,"NL:91,EN:11",113,"Set account -> NL, run Trace",TODO
+NL,55824980,Cochem - Koblenz 51 km NLD 2026,"NL:60,EN:1",67,"Set account -> NL, run Trace",TODO
+NL,55848455,Marktbreit - Schweinfurt 71km ENG 2026,"NL:123,EN:15",141,"Set account -> NL, run Trace",TODO
+NL,55929835,Schoonhoven - Utrecht city centre (lunch at swimmingpool)50 km ENG 2026,"NL:92,EN:18",120,"Set account -> NL, run Trace",TODO
+NL,55957045,Lohr-Wertheim 44km,"NL:48,EN:12",60,"Set account -> NL, run Trace",TODO
+NL,55991161,Cochem - Alf 31 km ENG 2026,"NL:12,EN:6",18,"Set account -> NL, run Trace",TODO
+NL,55992748,Zell - Cochem 39 km ENG 2026,"NL:18,EN:11",31,"Set account -> NL, run Trace",TODO
+NL,56008109,Aambeeld - Einstein ,"NL:55,EN:14",72,"Set account -> NL, run Trace",TODO
+DE,26525090,Rüdesheim - Mainz (via river) 32 km ENG 2026,"DE:32,EN:22",68,"Set account -> DE, run Trace",TODO
+DE,26832055,Zaandam - Zaanse Schans - Haarlem (Stadt) 32 km DEU 2026,"DE:45,EN:11",69,"Set account -> DE, run Trace",TODO
+DE,26882950,Dendermonde - Gent Innenstadt 44 km DEU 2025,"DE:54,EN:6",89,"Set account -> DE, run Trace",TODO
+DE,26882952,Dendermonde - Gent city centre 38 km DEU 2024 [GPS only] QUE,"DE:36,EN:4",77,"Set account -> DE, run Trace",TODO
+DE,26883464,Brügge - Gent Stadtmitte 50 km DEU 2025,"DE:38,EN:7",77,"Set account -> DE, run Trace",TODO
+DE,26920863,Zaandam - Amsterdam (Minerva) 34 km DEU 2026,"DE:60,NL:4",72,"Set account -> DE, run Trace",TODO
+DE,26920953,Breukelen - Utrecht (Neude) 16 km DEU 2026,"DE:26,EN:1",31,"Set account -> DE, run Trace",TODO
+DE,26920955,Rotterdam - Delft - Rotterdam 49 km DEU 2026,"DE:96,EN:6",144,"Set account -> DE, run Trace",TODO
+DE,26920976,Haarlem - Nordsee - Haarlem 40 km DEU 2026,"DE:62,EN:4",86,"Set account -> DE, run Trace",TODO
+DE,26920979,Zaandam - Amsterdam (Minerva) 54 km DEU 2026,"DE:86,EN:7",114,"Set account -> DE, run Trace",TODO
+DE,31572538,Zaandam - Hoorn 41 km DEU 2023,"DE:46,EN:5",62,"Set account -> DE, run Trace",TODO
+DE,31572539,Zaandam - Hoorn 50 km DEU 2023,"DE:54,EN:6",68,"Set account -> DE, run Trace",TODO
+DE,32038058,Oudenaarde - Gavere - Ghent (CIty) 45 km DEU 2023,"DE:32,EN:4,NL:1",53,"Set account -> DE, run Trace",TODO
+DE,34552253,Gent (Evergem) - Oudenaarde 45 km DEU 2023,"DE:28,EN:13,NL:4",78,"Set account -> DE, run Trace",TODO
+DE,39329822,Harderwijk - Spakenburg (via Putten) 41 km ENG 2026,"DE:46,EN:34",89,"Set account -> DE, run Trace",TODO
+DE,42901540,Zaandam - Purmerend - Hoorn DEU 2023,"DE:47,EN:12",64,"Set account -> DE, run Trace",TODO
+DE,44719223,Gent (City) - Gent (Evergem) 8 km DEU 2025,"DE:10,EN:8",22,"Set account -> DE, run Trace",TODO
+DE,49672937,Hoorn - Alkmaar - Schoorl 39 km DEU 2025,"DE:13,EN:9",78,"Set account -> DE, run Trace",TODO
+DE,50095735,Zaandam - Twiske (Schleife) 25 km DEU 2026,"DE:52,EN:1",70,"Set account -> DE, run Trace",TODO
+DE,52043732,Sas van Gent - Terneuzen 55 km 2026,"DE:72,EN:6",83,"Set account -> DE, run Trace",TODO
+DE,53657735,Rüdesheim - Mainz 39 km DEU 2026,"DE:117,EN:1",149,"Set account -> DE, run Trace",TODO
+DE,53657793,Mainz - Winningen - Burg Eltz - Treis - Karden (Via eltz) 40 km DEU 2025,"DE:46,EN:8",65,"Set account -> DE, run Trace",TODO
+DE,53657973,Mainz - Winningen - Burg Eltz - Treis - Karden (über Eltz) 40 km DEU 2026,"DE:46,EN:8",65,"Set account -> DE, run Trace",TODO
+DE,53665190,"Testfahrt: Amsterdam (Oosterdok) 4,8 km DEU 2026","DE:8,EN:1",10,"Set account -> DE, run Trace",TODO
+DE,53665215,Haarlem (Stadt) - Leiden (über Cruquius) 40 km DEU 2026,"DE:80,EN:1",100,"Set account -> DE, run Trace",TODO
+DE,53665224,Leiden - Delft (über Zoetermeer) 32 km DEU 2026,"DE:62,EN:1",72,"Set account -> DE, run Trace",TODO
+DE,53665234,Alblasserdam - Kinderdijk - Gouda (über Schoonhoven) 44 km DEU 2026,"DE:54,EN:15",90,"Set account -> DE, run Trace",TODO
+DE,53665236,Gouda - Kudelstaart 47 km DEU 2026,"DE:58,EN:2",68,"Set account -> DE, run Trace",TODO
+DE,53665442,Haarlem (Stadt) - Keukenhof - Leiden 37 km DEU 2026,"DE:70,EN:3",94,"Set account -> DE, run Trace",TODO
+DE,53665448,Leiden - Gouda 38 km DEU 2026,"DE:50,EN:1",65,"Set account -> DE, run Trace",TODO
+DE,53665491,Alkmaar - Dünen (Schleife über Bergen & Schoorl) 39 km DEU 2026 (N),"DE:59,EN:1",71,"Set account -> DE, run Trace",TODO
+DE,53665503,Akersloot - Amsterdam (Oosterdok) 39 km DEU 2026,"DE:41,EN:2",52,"Set account -> DE, run Trace",TODO
+DE,53665613,Zaandam - Zaanse Schans - Alkmaar (über Egmond) 50 km DEU 2026,"DE:102,EN:2",127,"Set account -> DE, run Trace",TODO
+DE,53665636,Haarlem - Keukenhof (Schleife) 48 km DEU 2026,"DE:108,NL:2",138,"Set account -> DE, run Trace",TODO
+DE,53668265,Haarlem - Amsterdam 39 km DEU 2026,"DE:63,EN:1",86,"Set account -> DE, run Trace",TODO
+DE,53668278,Leiden - Delft - Rotterdam (Coolhaven) 44 km DEU 2026,"DE:56,EN:2",73,"Set account -> DE, run Trace",TODO
+DE,53668484,Testfahrt: Maastricht 12 km DEU 2026,"DE:31,NL:1",41,"Set account -> DE, run Trace",TODO
+DE,53668487,Schipperskerk - Roermond 40 km DEU 2026,"DE:85,EN:2",102,"Set account -> DE, run Trace",TODO
+DE,53668524,Weesp - Utrecht (Keulsekade) 45 km DEU 2026,"DE:43,EN:2",54,"Set account -> DE, run Trace",TODO
+DE,53668539,Schipperskerk - Maastricht 47 km DEU 2026,"DE:84,EN:1",107,"Set account -> DE, run Trace",TODO
+DE,53668708,Wageningen - Arnhem (via Veluwe) DEU 43 km 2026,"DE:65,EN:1",83,"Set account -> DE, run Trace",TODO
+DE,53668712,Doesburg - Zutphen 27 km DEU 2026,"DE:39,EN:2",46,"Set account -> DE, run Trace",TODO
+DE,53668714,Doesburg - Zutphen (über Vorden) 44 km DEU 2026,"DE:69,EN:4",81,"Set account -> DE, run Trace",TODO
+DE,53668720,Wijhe - Kampen (über Heerde / Hattem) 48 km DEU 2026,"DE:65,EN:1",87,"Set account -> DE, run Trace",TODO
+DE,53668724,Wijhe - Kampen (über Heerde / Hattem / Zwolle) 58 km DEU 2026,"DE:100,EN:1",133,"Set account -> DE, run Trace",TODO
+DE,53668735,Huizen - Amsterdam (Buiksloterweg) 35 km DEU 2026,"DE:35,EN:6",65,"Set account -> DE, run Trace",TODO
+DE,53668738,Huizen - Amsterdam (Oosterdok) (via Crailoo) 50 km DEU 2026,"DE:68,EN:1",97,"Set account -> DE, run Trace",TODO
+DE,53668739,Huizen - Amsterdam (Minerva) 38 km DEU 2026,"DE:41,EN:3",67,"Set account -> DE, run Trace",TODO
+DE,53668740,Huizen - Amsterdam (Minerva) (über Crailoo) 53 km DEU 2026,"DE:72,EN:1",96,"Set account -> DE, run Trace",TODO
+DE,53668742,Wageningen - Arnhem (über Heteren & Airborne Museum) 27 km DEU 2026,"DE:53,NL:1",72,"Set account -> DE, run Trace",TODO
+DE,53668743,Doesburg - Deventer (über Zutphen) 45 km DEU 2026,"DE:65,EN:1",80,"Set account -> DE, run Trace",TODO
+DE,53668755,Harderwijk - Huizen  (über Putten - Spakenburg) 62 km DEU 2026,"DE:103,EN:1",125,"Set account -> DE, run Trace",TODO
+DE,53677080,Antwerp - Dendermonde 53 km DEU 2026,"DE:75,NL:3",98,"Set account -> DE, run Trace",TODO
+DE,53677087,Bruges - De Haan (Schleife) 51 km DEU 2026,"DE:79,EN:1",92,"Set account -> DE, run Trace",TODO
+DE,53677094,Bruges - Damme (Schleife) 22 km DEU 2026,"DE:34,EN:2",48,"Set account -> DE, run Trace",TODO
+DE,53677104,Willemstad - Bergen op Zoom (über Steenbergen) 39 km DEU 2026,"DE:52,EN:1",73,"Set account -> DE, run Trace",TODO
+DE,53677132,Antwerp - St. Amands (mit Waterbus) 30 km DEU 2026,"DE:39,EN:2",55,"Set account -> DE, run Trace",TODO
+DE,53677135,Bergen op Zoom - Kreekrak (Ost) 29 km DEU 2026,"DE:40,EN:3",53,"Set account -> DE, run Trace",TODO
+DE,53677141,Tholen - Kreekrak (West) 34 km DEU 2026,"DE:59,EN:3",71,"Set account -> DE, run Trace",TODO
+DE,53677156,Dendermonde - Ghent (Stadt) 39 km DEU 2026,"DE:70,EN:2",91,"Set account -> DE, run Trace",TODO
+DE,53677181,Ghent (Evergem) - Bruges 45 km DEU 2026,"DE:51,EN:3",62,"Set account -> DE, run Trace",TODO
+DE,53677191,St. Amands - Antwerp (mit die waterbus) 30+8 km DEU 2026,"DE:38,EN:2",57,"Set account -> DE, run Trace",TODO
+DE,53677206,Aalter-Brug - Ghent (Stadt) 27 km DEU 2026,"DE:34,EN:1",49,"Set account -> DE, run Trace",TODO
+DE,53677208,Bruges - Ghent (Stadt) (über Bulskampveld) 57 km DEU 2026,"DE:63,EN:10",92,"Set account -> DE, run Trace",TODO
+DE,53677211,Bruges - Ghent (Stadt) (über Aalter-Brug) 51 km DEU 2026,"DE:59,EN:1",78,"Set account -> DE, run Trace",TODO
+DE,53677237,Dordrecht // Alblasserdam - Kinderdijk - Schoonhoven 32 km DEU 2026,"DE:28,EN:2",45,"Set account -> DE, run Trace",TODO
+DE,53677243,Kreekrak (Ost) - Tholen 32 km DEU 2026,"DE:51,EN:2",56,"Set account -> DE, run Trace",TODO
+DE,53677266,Dordrecht // Alblasserdam - Kinderdijk - Vreeswijk 58 km DEU 2026,"DE:60,NL:3",89,"Set account -> DE, run Trace",TODO
+DE,53677272,Breukelen - Amsterdam (Minervahaven) 50 km DEU 2026,"DE:50,EN:1",59,"Set account -> DE, run Trace",TODO
+DE,53677313,Vollenhove - Schokkerhaven (über Kamperland) 49 km DEU 2026,"DE:45,EN:1",55,"Set account -> DE, run Trace",TODO
+DE,53677344,Vollenhove - Giethoorn 53 km DEU 2026,"DE:54,EN:2",65,"Set account -> DE, run Trace",TODO
+DE,53677346,Vollenhove - Giethoorn 40 km DEU 2026,"DE:41,EN:2",45,"Set account -> DE, run Trace",TODO
+DE,53680641,Texel (Schleife Fähre) 43 km DEU 2026,"DE:72,EN:1",85,"Set account -> DE, run Trace",TODO
+DE,53680658,Den Helder - Alkmaar 53 km DEU 2026,"DE:60,EN:1",88,"Set account -> DE, run Trace",TODO
+DE,53683925,Medemblik (Schleife) 28 km DEU 2026,"DE:46,EN:1",55,"Set account -> DE, run Trace",TODO
+DE,53683930,Medemblik - Enkhuizen (über Twisk) 40 km DEU 2026,"DE:56,EN:2",76,"Set account -> DE, run Trace",TODO
+DE,53683933,Enkhuizen - Medemblik (über die Küste) 24 km DEU 2026,"DE:29,EN:2",45,"Set account -> DE, run Trace",TODO
+DE,53683943,Volendam - Hoorn 24 km DEU 2026,"DE:12,EN:2",18,"Set account -> DE, run Trace",TODO
+DE,53684030,Terschelling (Schleife) 37 DEU km 2026,"DE:35,NL:3",55,"Set account -> DE, run Trace",TODO
+DE,53684034,Terschelling (Schleife) 42 km DEU 2026,"DE:36,EN:1",60,"Set account -> DE, run Trace",TODO
+DE,53684037,Harlingen - Franeker - Makkum (über die Küste) 40 km DEU 2026,"DE:49,EN:6",63,"Set account -> DE, run Trace",TODO
+DE,53684039,Harlingen - Franeker - Makkum (über Bolsward) 45 km DEU 2026,"DE:59,EN:5",70,"Set account -> DE, run Trace",TODO
+DE,53684108,Harlingen - Franeker - Makkum (über Pingjum) 45 km DEU 2026,"DE:59,EN:5",68,"Set account -> DE, run Trace",TODO
+DE,53684114,Makkum - Stavoren 30 km DEU 2026,"DE:28,EN:1",42,"Set account -> DE, run Trace",TODO
+DE,53684116,Makkum - Stavoren 49 km DEU 2026,"DE:42,EN:1",57,"Set account -> DE, run Trace",TODO
+DE,53684119,Stavoren - Lemmer 33 km DEU 2025,"DE:30,NL:4",45,"Set account -> DE, run Trace",TODO
+DE,53684122,Stavoren - Lemmer 43 km DEU 2026,"DE:37,EN:1",51,"Set account -> DE, run Trace",TODO
+DE,53684128,Lemmer - Stavoren 33 km DEU 2025,"DE:28,EN:1",47,"Set account -> DE, run Trace",TODO
+DE,53684135,Lemmer - Sneek 49 km DEU 2026,"DE:74,EN:2",96,"Set account -> DE, run Trace",TODO
+DE,53684518,Malmö (Schleife) 27 km DEU 2026,"DE:74,EN:10",108,"Set account -> DE, run Trace",TODO
+DE,53684520,Rødvig - Køge 44 km DEU 2026,"DE:50,EN:1",56,"Set account -> DE, run Trace",TODO
+DE,53684523,Køge - Stevns Klint (Schleife) 68 km DEU 2026,"DE:46,EN:20",67,"Set account -> DE, run Trace",TODO
+DE,53684524,Køge - Stevns Klint (Schleife) 62 km DEU 2026,"DE:36,EN:9",48,"Set account -> DE, run Trace",TODO
+DE,53684531,Helsingborg - Landskrona 27 km DEU 2026,"DE:29,EN:25",66,"Set account -> DE, run Trace",TODO
+DE,53684533,Helsingborg (Schleife) 21 km DEU 2026,"DE:34,EN:2",56,"Set account -> DE, run Trace",TODO
+DE,53684538,Helsingør (Schleife) 27 km DEU 2026,"DE:25,EN:8",35,"Set account -> DE, run Trace",TODO
+DE,53684541,Copenhagen - Helsingør 49 km DEU 2026,"DE:44,EN:28",83,"Set account -> DE, run Trace",TODO
+DE,53774081,Haarlem (Spaarndamseweg) - Keukenhof (loop) 47 km 2026 DEU,"DE:99,EN:3,NL:2",129,"Set account -> DE, run Trace",TODO
+DE,53782092,Wormerveer - Zaanse Schans - Amsterdam 40 km DEU 2026,"DE:61,EN:4",79,"Set account -> DE, run Trace",TODO
+DE,53805732,Thionville - Remich 44 km DEU 2026,"DE:56,EN:1",70,"Set account -> DE, run Trace",TODO
+DE,53805733,Richemont - Remich 52 km DEU 2026,"DE:63,EN:2",75,"Set account -> DE, run Trace",TODO
+DE,53805734,Remich - Saarburg (entlang Fluss) 48 km DEU 2026,"DE:42,EN:1",56,"Set account -> DE, run Trace",TODO
+DE,53805735,Remich - Saarburg (über Mannebach) 40 km DEU 2026,"DE:41,EN:1",47,"Set account -> DE, run Trace",TODO
+DE,53805737,Remich - Saarburg (über Saarschleife) 35 km DEU 2026,"DE:44,EN:1",53,"Set account -> DE, run Trace",TODO
+DE,53805738,Saarburg - Trier (Stadt) 28 km DEU 2026,"DE:37,EN:1",57,"Set account -> DE, run Trace",TODO
+DE,53805739,Saarburg - Trier (Stadt) (über Igel) 34 km DEU 2026,"DE:44,EN:1",62,"Set account -> DE, run Trace",TODO
+DE,53805742,Schweich - Bernkastel-Kues 55 km DEU 2026,"DE:68,NL:3,EN:1",102,"Set account -> DE, run Trace",TODO
+DE,53805793,Schengen - Metz 65 km DEU 2026,"DE:64,EN:1",80,"Set account -> DE, run Trace",TODO
+DE,53805796,Remich - Thionville 44 km DEU 2026,"DE:47,EN:1",61,"Set account -> DE, run Trace",TODO
+DE,53805809,Bernkastel-Kues - Schweich 54 km DEU 2026,"DE:65,NL:5",89,"Set account -> DE, run Trace",TODO
+DE,53806290,Hassfurt - Bamberg 38 km DEU 2026,"DE:44,EN:4",75,"Set account -> DE, run Trace",TODO
+DE,53806292,Kitzingen - Schweinfurt 60 km DEU 2026,"DE:87,EN:1",118,"Set account -> DE, run Trace",TODO
+DE,53806298,Hassfurt - Schweinfurt 42 km DEU 2026,"DE:39,EN:1",52,"Set account -> DE, run Trace",TODO
+DE,53806303,Karlstadt - Lohr 31 km DEU 2026,"DE:26,NL:14",43,"Set account -> DE, run Trace",TODO
+DE,53806307,Freudenberg – Aschaffenburg 50 km DEU 2026,"DE:77,EN:1",96,"Set account -> DE, run Trace",TODO
+DE,53814287,Rüdesheim - Mainz (entlang Fluss) 32 km DEU 2026,"DE:51,EN:1",70,"Set account -> DE, run Trace",TODO
+DE,53814292,Rüdesheim - Mainz (über Kloster) 39 km DEU 2026,"DE:64,NL:1",96,"Set account -> DE, run Trace",TODO
+DE,53814347,Mainz - Rüdesheim (über Weinregionen) 35 km DEU 2026,"DE:79,EN:5",100,"Set account -> DE, run Trace",TODO
+DE,53814362,Sankt Goar - Koblenz 38 km DEU 2026,"DE:28,EN:1",46,"Set account -> DE, run Trace",TODO
+DE,53839192,Breukelen - Amsterdam (Hoxten)  35 km DEU 2025,"DE:28,EN:3",47,"Set account -> DE, run Trace",TODO
+DE,53844936,Breukelen - Amsterdam (Hoxten)  35 km DEU 2025,"DE:28,EN:3",47,"Set account -> DE, run Trace",TODO
+DE,53851578,St. Amands - Antwerp 40 km DEU 2026,"DE:43,EN:19",90,"Set account -> DE, run Trace",TODO
+DE,53851711,Schoonhoven - Oudewater - Utrecht 45 km / 28 mi DEU 2026,"DE:66,EN:1",84,"Set account -> DE, run Trace",TODO
+DE,53851858,Schoonhoven - Kinderdijk - Dordrecht 38 km DEU 2026 (X),"DE:59,EN:3",80,"Set account -> DE, run Trace",TODO
+DE,53852922,Antwerp - St. Amands 42 km DEU 2026 (X),"DE:101,EN:2",139,"Set account -> DE, run Trace",TODO
+DE,53852934,Dendermonde - Ghent (city) 39 km DEU 2026 (X),"DE:62,EN:16",92,"Set account -> DE, run Trace",TODO
+DE,54338105,Gouda - Uithoorn 43 km DEU 2026,"DE:58,EN:2",72,"Set account -> DE, run Trace",TODO
+DE,54345203,Haßfurt-Bamberg 40 km Eng 2026 ,"DE:40,EN:22,NL:17",105,"Set account -> DE, run Trace",TODO
+DE,54351790,Amsterdam (Minerva) - Haarlem - Zaandam 52 km ENG 2026,"DE:88,EN:5",126,"Set account -> DE, run Trace",TODO
+DE,54393473,Zaandam - Alkmaar 45 km DEU 2026,"DE:58,EN:2",79,"Set account -> DE, run Trace",TODO
+DE,54393553,Stavoren (Schleife) 42 km DEU 2026 (N),"DE:44,EN:2",61,"Set account -> DE, run Trace",TODO
+DE,54393569,Medemblik - Enkhuizen (über Twisk) 39 km DEU 2026 (N),"DE:51,EN:1",68,"Set account -> DE, run Trace",TODO
+DE,54393584,Volendam - Amsterdam (Minerva) 29 km DEU 2026 (N),"DE:40,EN:1",59,"Set account -> DE, run Trace",TODO
+DE,54393638,Zaandam - Waterland (Schleife) 47 km DEU 2026,"DE:74,EN:1",99,"Set account -> DE, run Trace",TODO
+DE,54394016,Volendam - Amsterdam (Minerva) (über Marken) 51 km DEU 2026 (N),"DE:91,EN:1",119,"Set account -> DE, run Trace",TODO
+DE,54521110,Hoorn - Zaanse schans 54 km DEU 2026,"DE:29,EN:8",44,"Set account -> DE, run Trace",TODO
+DE,54536501,Test rit: Beverwijk 20km DEU,"DE:13,EN:10",35,"Set account -> DE, run Trace",TODO
+DE,54536660,Keukenhof - Beverwijk 34km DEU,"DE:33,EN:25",72,"Set account -> DE, run Trace",TODO
+DE,54536674,Beverwijk - Alkmaar 36 km DEU 2026,"DE:49,EN:7",70,"Set account -> DE, run Trace",TODO
+DE,54563956,Alkmaar - Zaanse Schans - Amsterdam (Minerva) 45 km DEU 2026,"DE:94,EN:17",126,"Set account -> DE, run Trace",TODO
+DE,54572774,Hoorn - Medemblik - Hoorn 47km DEU 2026,"DE:38,EN:26",73,"Set account -> DE, run Trace",TODO
+DE,54591898,Nieuwpoort - Utrecht 44 km DEU 2026,"DE:55,EN:1",84,"Set account -> DE, run Trace",TODO
+DE,54646632,Rotterdam - Kinderdijk - Nieuwpoort 43 km DEU 2026,"DE:48,EN:3",63,"Set account -> DE, run Trace",TODO
+DE,54655047,Haarlem (Schleife über Blumenfelder und Strand) 48 km DEU 2026,"DE:90,EN:7",124,"Set account -> DE, run Trace",TODO
+DE,54674985,Nieuwpoort - Oudewater - Utrecht 46 km / 28 mi DEU 2026,"DE:66,EN:3",84,"Set account -> DE, run Trace",TODO
+DE,54723047,Zaanse Schans - Minervahaven ,"DE:20,EN:9",41,"Set account -> DE, run Trace",TODO
+DE,54749807,Cologne - Bonn 39 km DEU 2026,"DE:55,EN:5",86,"Set account -> DE, run Trace",TODO
+DE,54906657,Cuijk - Kranenburg (D) - Nijmegen - Arnhem 53 km DEU 2026,"DE:53,EN:25",101,"Set account -> DE, run Trace",TODO
+DE,54906695,Cuijk - Groesbeek - Arnhem 47km DEU 2026,"DE:65,EN:5",94,"Set account -> DE, run Trace",TODO
+DE,54906723,Mook - Groesbeek - Arnhem 45km DEU 2026,"DE:55,EN:10",81,"Set account -> DE, run Trace",TODO
+DE,54906798,Mook - Kranenburg (D) - Nijmegen - Arnhem 57km DEU 2026,"DE:67,EN:22",114,"Set account -> DE, run Trace",TODO
+DE,55135334,Huizen - Amsterdam (Tolhuis-Buikslotermeer) 35 km DEU 2026,"DE:35,EN:8",67,"Set account -> DE, run Trace",TODO
+DE,55135351,Huizen - Amsterdam (Tolhuis-Buikslotermeer) (via Crailoo) 50 km DEU 2026,"DE:64,EN:5",95,"Set account -> DE, run Trace",TODO
+DE,55188955,Sneek - Franeker 57km DEU 2026,"DE:76,EN:10",114,"Set account -> DE, run Trace",TODO
+DE,55188963,Sneek - Franeker 45 km DEU 2026,"DE:62,EN:12",87,"Set account -> DE, run Trace",TODO
+DE,55551836,Aschaffenburg - Freudenberg 54km ENG 2026,"DE:48,EN:37,NL:6",124,"Set account -> DE, run Trace",TODO
+DE,55677791,St. Amands - Antwerpen 41km DEU 2026,"DE:75,EN:9",102,"Set account -> DE, run Trace",TODO
+DE,55678212,Schoonhoven - Utrecht (Mittagessen im Nieuw Vogelenzang) 44km DEU 2026,"DE:79,EN:1",97,"Set account -> DE, run Trace",TODO
+DE,55879678,Gouda - Albasserdam (via kinderdijk) 30 km DEU 2026,"DE:36,EN:10",61,"Set account -> DE, run Trace",TODO
+DE,55989120,Nemours - Moret (via Fontainebleau) 32km DEU 2026,"DE:38,NL:1",62,"Set account -> DE, run Trace",TODO
+DE,55992992,Bernkastel-Kues - Alf 49 km DEU 2026,"DE:40,EN:6",63,"Set account -> DE, run Trace",TODO
+EN,19220574,Zaandam - Zaanse Schans - Alkmaar (via Egmond) 50 km ENG 2026,"EN:88,NL:5",104,"Set account -> EN, run Trace",TODO
+EN,19353581,Rüdesheim - Mainz (via monastery) 39 km ENG 2026,"EN:59,DE:9,NL:1",78,"Set account -> EN, run Trace",TODO
+EN,19353591,Remagen - Koblenz 46 km ENG 2026,"EN:51,NL:2",53,"Set account -> EN, run Trace",TODO
+EN,19353605,Cologne - Bonn 39 km ENG 2026,"EN:29,DE:7",39,"Set account -> EN, run Trace",TODO
+EN,19355087,Wesel - Duisburg 40 km ENG 2026,"EN:53,NL:1",63,"Set account -> EN, run Trace",TODO
+EN,22953130,Melun - Moret (via Barbizon & Fontainebleau) 40 km ENG 2026,"EN:35,DE:25",64,"Set account -> EN, run Trace",TODO
+EN,25208723,Lith - Cuijk  54 km ENG 2026,"EN:73,NL:1",79,"Set account -> EN, run Trace",TODO
+EN,25307217,Roermond - Arcen 49 km ENG 2026,"EN:97,NL:2",99,"Set account -> EN, run Trace",TODO
+EN,26537161,Zaandam - Zaanse Schans - Alkmaar (via Heiloo) 39 km ENG 2026,"EN:77,NL:8",98,"Set account -> EN, run Trace",TODO
+EN,26545114,Rotterdam - Delft (loop) 49 km / 31 mi ENG 2026,"EN:128,DE:8",143,"Set account -> EN, run Trace",TODO
+EN,26560329,Denain - Tournai (via Marchiennes) 52 km ENG 2026,"EN:78,NL:2",82,"Set account -> EN, run Trace",TODO
+EN,26571090,Bernkastel-Kues - Schweich 54 km ENG 2026,"EN:72,NL:1",74,"Set account -> EN, run Trace",TODO
+EN,26581606,Trier (centre)  - Saarburg 29 km ENG 2026,"EN:48,NL:1",50,"Set account -> EN, run Trace",TODO
+EN,26609452,Remich - Saarburg (via river) 48 km ENG 2026,"EN:51,NL:2",53,"Set account -> EN, run Trace",TODO
+EN,26609577,Saarburg - Trier (centre) (via Igel) 34 km ENG 2026,"EN:56,NL:4",60,"Set account -> EN, run Trace",TODO
+EN,26609643,Schweich - Bernkastel-Kues 55 km ENG 2026,"EN:72,NL:17",90,"Set account -> EN, run Trace",TODO
+EN,26609808,Richemont - Remich 52 km ENG 2026,"EN:57,NL:17",74,"Set account -> EN, run Trace",TODO
+EN,26613278,Zell - Bernkastel-Kues 44 km ENG 2026,"EN:58,NL:2",60,"Set account -> EN, run Trace",TODO
+EN,26617076,Havrincourt - Arleux (via Vaucelles) 56 km ENG 2026,"EN:65,NL:3",68,"Set account -> EN, run Trace",TODO
+EN,26632225,Wertheim - Lohr 44 km ENG 2026,"EN:55,NL:10,DE:5",72,"Set account -> EN, run Trace",TODO
+EN,26632242,Karlstadt - Würzburg - 34 km ENG 2026,"EN:62,NL:12",75,"Set account -> EN, run Trace",TODO
+EN,26633088,Koblenz - Sankt Goar 37 km ENG 2026,"EN:29,NL:3",36,"Set account -> EN, run Trace",TODO
+EN,26660826,Cuijk - Lith  54 km ENG 2026 (deviations 2026),"EN:74,NL:10",87,"Set account -> EN, run Trace",TODO
+EN,26920390,Gouda - Utrecht 39 km / 24 mi ENG 2026,"EN:75,NL:1",76,"Set account -> EN, run Trace",TODO
+EN,26921011,Haarlem Haarlem (Spaarndamseweg) - North Sea (loop) 50 km / 31 mi ENG 2025- North Sea (loop) 50 km / 31 mi ENG 2026,"EN:100,NL:6",109,"Set account -> EN, run Trace",TODO
+EN,26925532,Denain - Tournai (via Saint-Amands) 44 km ENG 2026,"EN:77,NL:4",82,"Set account -> EN, run Trace",TODO
+EN,26964754,Tournai - Oudenaarde (hill) 50 km ENG 2026,"EN:75,NL:3",80,"Set account -> EN, run Trace",TODO
+EN,28073200,Neronville - Montargis 31 km ENG 2026,"EN:41,DE:26",71,"Set account -> EN, run Trace",TODO
+EN,28729101,Haudival - Péronne (via Ham & Péronne) 60 km ENG 2026,"EN:33,NL:19",53,"Set account -> EN, run Trace",TODO
+EN,28962067,Lagny - Meaux (gravel) 40 km ENG 2026,"EN:52,NL:8",62,"Set account -> EN, run Trace",TODO
+EN,28984563,Terschelling (loop) 37 ENG km 2026,"EN:34,NL:3",38,"Set account -> EN, run Trace",TODO
+EN,29179529,Alkmaar - Amsterdam (Oosterdok) (via Schermer) 54 km ENG 2026,"EN:75,NL:2",82,"Set account -> EN, run Trace",TODO
+EN,29308350,Schengen - Thionville 35 km ENG 2026,"EN:48,DE:1",50,"Set account -> EN, run Trace",TODO
+EN,31432899,Alkmaar - Zaanse Schans - Zaandam (via Heiloo) 37 km ENG 2026,"EN:82,NL:1",88,"Set account -> EN, run Trace",TODO
+EN,31571004,Château-Thierry - La Ferté 40 km ENG 2026,"EN:43,NL:1",44,"Set account -> EN, run Trace",TODO
+EN,31571313,Dendermonde - Antwerp 52 km ENG 2026,"EN:82,NL:3",86,"Set account -> EN, run Trace",TODO
+EN,31571337,Dendermonde - Antwerp (via waterbus) 42+8 km ENG 2026,"EN:63,NL:3",67,"Set account -> EN, run Trace",TODO
+EN,31571497,Breukelen - Amsterdam (Minervahaven) 50 km ENG 2026,"EN:53,DE:3",57,"Set account -> EN, run Trace",TODO
+EN,31575981,Nemours - Moret 31 km DEU 2026,"EN:20,DE:10",35,"Set account -> EN, run Trace",TODO
+EN,31594931,Ghent (Merelbeke) - Ghent  Centre - Oudenaarde 52 km ENG 2025,"EN:124,NL:1",127,"Set account -> EN, run Trace",TODO
+EN,31596014,Auvers-sur-Oise - Paris (Bougival) (via Ax Majeur) 48 km ENG 2026,"EN:109,NL:5",117,"Set account -> EN, run Trace",TODO
+EN,31596049,Auvers-sur-Oise - Paris (Bougival) 35 km ENG 2026,"EN:86,NL:5",95,"Set account -> EN, run Trace",TODO
+EN,31596961,Paris (Bougival) - Auvers-sur-Oise (via Ax Majeure) 48 km ENG 2026,"EN:103,NL:2",105,"Set account -> EN, run Trace",TODO
+EN,31599992,Compiègne - Pont-l'Évêque (via Attichy) 52 km ENG 2026,"EN:68,NL:4",74,"Set account -> EN, run Trace",TODO
+EN,31612131,Paris (Bougival) - L'Isle-Adam 42 km ENG 2026,"EN:101,NL:1",102,"Set account -> EN, run Trace",TODO
+EN,31612237,Ghent (Lovendegem) - Bruges (via Bulskampveld) 49 km ENG 2026,"EN:73,NL:3,DE:1",77,"Set account -> EN, run Trace",TODO
+EN,32069739,Auxerre - Joigny 50 km ENG 2026,"EN:65,NL:1",66,"Set account -> EN, run Trace",TODO
+EN,32261520,Zaandam - Zaanse Schans - Alkmaar (via Schermer) 45 km ENG 2026,"EN:70,DE:13",86,"Set account -> EN, run Trace",TODO
+EN,32289895,Stavoren (loop) 42 km ENG 2026 (N),"EN:57,DE:6",64,"Set account -> EN, run Trace",TODO
+EN,34339974,Joigny - Auxerre 50 km ENG 2026,"EN:58,NL:2",60,"Set account -> EN, run Trace",TODO
+EN,34340215,Montereau - Pont-sur-Yonne (via Misy-sur-Yonne) 34 km ENG 2026,"EN:55,NL:1",56,"Set account -> EN, run Trace",TODO
+EN,34340228,Montereau - Pont-sur-Yonne (via Voulx) 41 km ENG 2026,"EN:43,NL:1",45,"Set account -> EN, run Trace",TODO
+EN,34467409,Wageningen - Amerongen - Tiel 53km NLD 2026,"EN:36,NL:19",90,"Set account -> EN, run Trace",TODO
+EN,34468107,Heusden - Loonse & Drunense Duinen - Heusden 47km NLD 2026,"EN:47,NL:24",96,"Set account -> EN, run Trace",TODO
+EN,34468209,Heusden - Loonse & Drunense Duinen - Heusden kort 38km NLD 2026,"EN:76,NL:10",90,"Set account -> EN, run Trace",TODO
+EN,34482223,Doesburg - Westervoort - Arnhem 22km NLD 2026,"EN:11,NL:10",38,"Set account -> EN, run Trace",TODO
+EN,34823325,"Test ride: Vianen 6,9 km ENG 2026","EN:11,NL:1",13,"Set account -> EN, run Trace",TODO
+EN,38226611,Medemblik - Enkhuizen (via Twisk) 40 km ENG 2026,"EN:70,DE:3",73,"Set account -> EN, run Trace",TODO
+EN,38685281,Compiègne - Soissons 46 km ENG 2026,"EN:44,NL:8",52,"Set account -> EN, run Trace",TODO
+EN,41402920,Ghent (Merelbeke) - Oudenaarde (via Gavere) 32 km ENG 2026,"EN:39,NL:1",40,"Set account -> EN, run Trace",TODO
+EN,41445529,Denain - Tournai (via Marchiennes & Saint-Amand) 56 km ENG 2026,"EN:83,NL:2",87,"Set account -> EN, run Trace",TODO
+EN,41455218,Havrincourt - Arleux (via Masnières) 44 km ENG 2026,"EN:64,NL:2",67,"Set account -> EN, run Trace",TODO
+EN,41461169,Paris (Bougival) - Paris (Arsenal) (via La Defense) 32 km ENG 2026,"EN:94,NL:5",99,"Set account -> EN, run Trace",TODO
+EN,41669835,Harlingen - Franeker - Makkum (via coast) 40 km ENG 2026,"EN:60,NL:2",62,"Set account -> EN, run Trace",TODO
+EN,41739356,Pont-sur-Yonne - Sens 34 km ENG 2026,"EN:58,NL:4",62,"Set account -> EN, run Trace",TODO
+EN,41904110,Terschelling (loop) 42 km ENG 2026,"EN:54,NL:1",55,"Set account -> EN, run Trace",TODO
+EN,42684471,Bergen op Zoom - Kreekrak (east) 29 km ENG 2026,"EN:32,DE:1",38,"Set account -> EN, run Trace",TODO
+EN,42897235,Zaandam - Purmerend - Hoorn ENG 2023,"EN:63,NL:1",64,"Set account -> EN, run Trace",TODO
+EN,42901644,Zaandam - Purmerend - Hoorn NLD 2023,"EN:12,NL:4",64,"Set account -> EN, run Trace",TODO
+EN,43198763,Lagny - Meaux (tarmac) 39 km ENG 2026,"EN:57,NL:4",62,"Set account -> EN, run Trace",TODO
+EN,43278541,Lagny - Paris 37 km ENG 2026,"EN:57,NL:7",65,"Set account -> EN, run Trace",TODO
+EN,43310464,Sankt Goar - Koblenz 38 km ENG 2026,"EN:38,NL:1",39,"Set account -> EN, run Trace",TODO
+EN,43310476,Rüdesheim - Sankt Goar 33 km ENG 2026,"EN:28,NL:7",35,"Set account -> EN, run Trace",TODO
+EN,43310508,Frankfurt - Mainz 40 km ENG 2026,"EN:88,NL:5",93,"Set account -> EN, run Trace",TODO
+EN,43533455,Schipperskerk - Maastricht 47 km ENG 2026,"EN:97,NL:1",99,"Set account -> EN, run Trace",TODO
+EN,43547879,Dendermonde - Ghent (city) 38 km ENG 2026,"EN:67,NL:3",73,"Set account -> EN, run Trace",TODO
+EN,43627670,Vinneuf - Moret 38 km ENG 2026,"EN:47,NL:1",48,"Set account -> EN, run Trace",TODO
+EN,44574990,Beaumont - Chantilly - Pont-Ste-Maxence 46 km ENG 2026,"EN:58,NL:7",68,"Set account -> EN, run Trace",TODO
+EN,44719219,Gent (City) - Gent (Lovendegem) 10km DEU 2025,"EN:9,DE:9",24,"Set account -> EN, run Trace",TODO
+EN,44935654,"Epernay (loop via winelands, Ay & Mareuil-sur-Ay) 26 km ENG 2026","EN:47,NL:4",52,"Set account -> EN, run Trace",TODO
+EN,44937598,Meaux - Lagny (gravel) 41 km ENG 2026,"EN:60,NL:4",65,"Set account -> EN, run Trace",TODO
+EN,44937599,Meaux - Lagny (tarmac) 40 km ENG 2026,"EN:54,NL:9",65,"Set account -> EN, run Trace",TODO
+EN,44942344,Lagny (loop via Champs-sur-Marne) 23 km ENG 2026,"EN:36,NL:19",55,"Set account -> EN, run Trace",TODO
+EN,44991960,Schoonhoven - Alblasserdam 32 km ENG 2026 (RS),"EN:39,DE:8",59,"Set account -> EN, run Trace",TODO
+EN,44992794,Lith - Den Bosch - Heusden 42 km ENG 2026 (RS),"EN:87,DE:1",89,"Set account -> EN, run Trace",TODO
+EN,45443829,Menen - Lille 36 km ENG 2026,"EN:33,NL:13",50,"Set account -> EN, run Trace",TODO
+EN,46285906,Haarlem (city) - Leiden (via dunes) 46 km ENG 2026,"EN:105,NL:2",121,"Set account -> EN, run Trace",TODO
+EN,47787302,Wijhe - Kampen (via Hattem) 38 km ENG 2026,"EN:55,DE:1",57,"Set account -> EN, run Trace",TODO
+EN,48396638,Vollenhove - Schokkerhaven (via Kamperland) 49 km ENG 2026,"EN:52,NL:2",54,"Set account -> EN, run Trace",TODO
+EN,48424065,Schoonhoven - Alblasserdam 26 km ENG 2026 (RS),"EN:33,NL:3",36,"Set account -> EN, run Trace",TODO
+EN,49133045,Volendam - Zaanse Schans 48 km ENG 2026,"EN:79,NL:5",88,"Set account -> EN, run Trace",TODO
+EN,49159629,Sankt Goar - Rüdesheim (via Bacharach & Bingen) 31 km ENG 2026,"EN:59,NL:13",75,"Set account -> EN, run Trace",TODO
+EN,49271812,Moerbrugge - Deinze 47 km ENG 2026,"EN:78,NL:3",81,"Set account -> EN, run Trace",TODO
+EN,49272396,Menen - Lille (via Tyne Cot) 58 km ENG 2026,"EN:102,NL:15",121,"Set account -> EN, run Trace",TODO
+EN,49284930,Moerbrugge - Deinze 58 km ENG 2026,"EN:95,NL:4",99,"Set account -> EN, run Trace",TODO
+EN,49293250,Amiens - Samara 51 km ENG 2026,"EN:78,NL:14",93,"Set account -> EN, run Trace",TODO
+EN,49293254,Corbie - Amiens 29 km ENG 2026,"EN:45,NL:17",62,"Set account -> EN, run Trace",TODO
+EN,49322976,Helsingborg - Landskrona 27 km ENG 2026,"EN:41,NL:19",62,"Set account -> EN, run Trace",TODO
+EN,49322986,Køge - Stevns Klint (loop) 62 km ENG 2026,"EN:46,NL:10",57,"Set account -> EN, run Trace",TODO
+EN,49322998,Malmö (loop) 27 km ENG 2026,"EN:108,NL:1",109,"Set account -> EN, run Trace",TODO
+EN,49424070,Rüdesheim - Mainz 34 km ENG 2026,"EN:92,NL:2",94,"Set account -> EN, run Trace",TODO
+EN,49428393,Winningen - Koblenz 11 km ENG 2026,"EN:20,NL:2",22,"Set account -> EN, run Trace",TODO
+EN,49434555,Havrincourt - Douai 47 km ENG 2026,"EN:71,NL:10",81,"Set account -> EN, run Trace",TODO
+EN,49434614,Deinze - Bruges 46 km ENG 2026,"EN:54,NL:14",69,"Set account -> EN, run Trace",TODO
+EN,49434634,Harelbeke - Deinze 49 km ENG 2026 Michiel,"EN:105,NL:20",125,"Set account -> EN, run Trace",TODO
+EN,49578546,Den Helder - Anna Paulowna (loop) 51 km ENG 2026,"EN:53,DE:6",63,"Set account -> EN, run Trace",TODO
+EN,49672078,Don - Arleux (via Lens / Vimy) 65 km ENG 2026,"EN:102,NL:3",106,"Set account -> EN, run Trace",TODO
+EN,49681201,TestfahrtHoorn 7 km DEU 2025,"EN:7,DE:5",34,"Set account -> EN, run Trace",TODO
+EN,49681573,Hoorn - Alkmaar - Schoorl  47 km DEU 2025,"EN:8,DE:3",104,"Set account -> EN, run Trace",TODO
+EN,49689224,Schweinfurt – Kitzingen 60 km ENG 2026,"EN:112,NL:15",127,"Set account -> EN, run Trace",TODO
+EN,49940703,Amiens - Samara 42 km ENG 2026,"EN:67,NL:9",77,"Set account -> EN, run Trace",TODO
+EN,49968024,Wertheim - Freudenberg 27 km ENG 2026,"EN:33,DE:11",45,"Set account -> EN, run Trace",TODO
+EN,49991813,Würzburg - Marktbreit 29 km ENG 2026,"EN:85,NL:9",94,"Set account -> EN, run Trace",TODO
+EN,50031097,Havrincourt - Cambrai - Douai 61 km ENG 2026,"EN:99,NL:13",112,"Set account -> EN, run Trace",TODO
+EN,50031347,Havringcourt - Douai 47 km ENG 2026,"EN:71,NL:10",81,"Set account -> EN, run Trace",TODO
+EN,50032598,Comines - Kortrijk - Harelbeke (via Tyne Cot) 53 km ENG 2026,"EN:96,NL:8",104,"Set account -> EN, run Trace",TODO
+EN,50032621,Comines - Kortrijk - Harelbeke 46 km ENG 2026,"EN:83,NL:8",91,"Set account -> EN, run Trace",TODO
+EN,50040474,Comines - Kortrijk - Harelbeke 39 km ENG 2026,"EN:72,NL:8",80,"Set account -> EN, run Trace",TODO
+EN,50264683,Akersloot - Amsterdam (Oosterdok) (before 15 April) 43 km ENG 2026,"EN:73,NL:4",77,"Set account -> EN, run Trace",TODO
+EN,50264946,Akersloot - Amsterdam (Oosterdok) (before 15 April) 36 km ENG 2026,"EN:59,NL:4",63,"Set account -> EN, run Trace",TODO
+EN,50375527,Kampen - Schokland (loop) 45 km ENG 2026,"EN:69,DE:2",72,"Set account -> EN, run Trace",TODO
+EN,50680179,"Test ride: Utrecht 5,7 km ENG 2026","EN:18,NL:1",19,"Set account -> EN, run Trace",TODO
+EN,50755585,Trier (centre) - Saarburg (via Igel) 35 km ENG 2026,"EN:74,NL:2",77,"Set account -> EN, run Trace",TODO
+EN,50755641,Trier (Ostkai / Pfalzel)  - Saarburg 38 km ENG 2026,"EN:58,NL:1",60,"Set account -> EN, run Trace",TODO
+EN,50830650,Remich - Thionville 45 km ENG 2026,"EN:61,NL:1,DE:1",64,"Set account -> EN, run Trace",TODO
+EN,51406196,Mainz - Rüdesheim (via winelands) 35 km ENG 2026,"EN:93,NL:3",96,"Set account -> EN, run Trace",TODO
+EN,51414792,Melun - Moret (via Barbizon) 47 km ENG 2026,"EN:64,NL:19",83,"Set account -> EN, run Trace",TODO
+EN,51571621,Sens - Pont-sur-Yonne 29 km ENG 2026,"EN:22,DE:15",51,"Set account -> EN, run Trace",TODO
+EN,51605671,Montereau - Pont-sur-Yonne (via Misy-sur-Yonne) 41 km ENG 2026,"EN:38,NL:20",59,"Set account -> EN, run Trace",TODO
+EN,51839345,Dordrecht // Alblasserdam - Kinderdijk - Vreeswijk 58 km ENG 2026,"EN:80,NL:3",83,"Set account -> EN, run Trace",TODO
+EN,52673440,Paris (city) - Paris (Bougival) (via La Défence) 33 km ENG 2026,"EN:128,NL:1",129,"Set account -> EN, run Trace",TODO
+EN,52683725,Lemmer - Stavoren 33 km ENG 2025,"EN:51,DE:2",53,"Set account -> EN, run Trace",TODO
+EN,52683750,Lemmer - Stavoren 43 km ENG 2025,"EN:70,DE:1",72,"Set account -> EN, run Trace",TODO
+EN,52741225,Pont-Ste-Maxence - Compiègne (hills / Pièrrefonds) 54 km ENG 2026,"EN:53,NL:8",61,"Set account -> EN, run Trace",TODO
+EN,53330377,Gouda - Vreeswijk 40 km ENG 2026,"EN:63,NL:10",73,"Set account -> EN, run Trace",TODO
+EN,53384736,Rüdesheim - Mainz (via winelands) 33 km ENG 2026,"EN:51,DE:24",84,"Set account -> EN, run Trace",TODO
+EN,53518101,Dendermonde - Ghent (city) 39 km ENG 2026 (X),"EN:74,NL:3",80,"Set account -> EN, run Trace",TODO
+EN,53518625,Sneek - Lemmer 50 km (via Heeg) ENG 2026,"EN:76,NL:14",90,"Set account -> EN, run Trace",TODO
+EN,53536917,Zaandam - Zaanse Schans - Alkmaar (via Schermer) 48 km (before 15 April) ENG 2026,"EN:75,DE:13",91,"Set account -> EN, run Trace",TODO
+EN,53538533,Haarlem (Spaarndamseweg) - Alkmaar (via dunes) 51 km ENG 2026,"EN:107,NL:3",110,"Set account -> EN, run Trace",TODO
+EN,53543790,Alkmaar - Amsterdam (Oosterdok) (via Schermer) (before 15 April) 53 km ENG 2026,"EN:91,NL:4",95,"Set account -> EN, run Trace",TODO
+EN,53546106,Moret - Melun (via Barbizon) 47km ENG 2026,"EN:61,NL:9",77,"Set account -> EN, run Trace",TODO
+EN,53564093,Rüdesheim - Mainz 40km ENG 2026,"EN:129,DE:17",157,"Set account -> EN, run Trace",TODO
+EN,53576317,Sankt Goar - Rüdesheim (via Bacharach & Bingen) 31 km ENG 2026,"EN:60,NL:13",76,"Set account -> EN, run Trace",TODO
+EN,53657627,Sankt Goar - Rüdesheim (via Bacharach & Bingen) 31 km ENG 2026,"EN:50,NL:13",66,"Set account -> EN, run Trace",TODO
+EN,53657628,Rüdesheim - Mainz 34 km ENG 2025,"EN:86,NL:2",88,"Set account -> EN, run Trace",TODO
+EN,53657841,Zell - Bernkastel - Kues 45 km DEU 2026,"EN:49,DE:11",64,"Set account -> EN, run Trace",TODO
+EN,53684515,Malmö - Lund (Schleife) 43 km DEU 2026,"EN:56,DE:33",117,"Set account -> EN, run Trace",TODO
+EN,53805747,Zell - Cochem 38 km DEU 2026,"EN:22,DE:10",34,"Set account -> EN, run Trace",TODO
+EN,53844941,Dendermonde - Ghent (city) 39 km ENG 2026 (X),"EN:78,NL:3",84,"Set account -> EN, run Trace",TODO
+EN,53844943,Gent (Evergem) - Bruges (via Bulskampveld) 52 km ENG 2026,"EN:79,DE:1",81,"Set account -> EN, run Trace",TODO
+EN,53844945,Bruges - Blankenberge loop 55 km ENG 2025,"EN:88,NL:13",105,"Set account -> EN, run Trace",TODO
+EN,53852990,"Ghent (city) - Merelbeke 7,5 km DEU 2026","EN:16,DE:2",24,"Set account -> EN, run Trace",TODO
+EN,53899215,Havrincourt - Douai 47 km ENG 2026,"EN:71,NL:10",81,"Set account -> EN, run Trace",TODO
+EN,53899216,Havrincourt - Cambrai - Douai 61 km ENG 2026,"EN:99,NL:13",112,"Set account -> EN, run Trace",TODO
+EN,53899219,Comines - Kortrijk - Harelbeke 39 km ENG 2026,"EN:72,NL:8",80,"Set account -> EN, run Trace",TODO
+EN,53899220,Comines - Kortrijk - Harelbeke 46 km ENG 2026,"EN:83,NL:8",91,"Set account -> EN, run Trace",TODO
+EN,53899221,Comines - Kortrijk - Harelbeke (via Tyne Cot) 53 km ENG 2026,"EN:96,NL:8",104,"Set account -> EN, run Trace",TODO
+EN,53899223,Deinze - Bruges 46 km ENG 2026,"EN:54,NL:14",69,"Set account -> EN, run Trace",TODO
+EN,53899234,Menen - Lille 36 km ENG 2026,"EN:33,NL:13",50,"Set account -> EN, run Trace",TODO
+EN,53899235,Menen - Lille (via Tyne Cot) 58 km ENG 2026,"EN:102,NL:15",121,"Set account -> EN, run Trace",TODO
+EN,53899238,Don - Arleux (via Lens / Vimy) 65 km ENG 2026,"EN:102,NL:3",106,"Set account -> EN, run Trace",TODO
+EN,53899244,Corbie - Amiens 29 km ENG 2026,"EN:45,NL:17",62,"Set account -> EN, run Trace",TODO
+EN,53899246,Amiens - Samara 42 km ENG 2026,"EN:67,NL:9",77,"Set account -> EN, run Trace",TODO
+EN,53899247,Amiens - Samara 51 km ENG 2026,"EN:78,NL:14",93,"Set account -> EN, run Trace",TODO
+EN,53900784,Lagny - Meaux 45km dag 3  ENG 2026,"EN:95,NL:19",114,"Set account -> EN, run Trace",TODO
+EN,54152898,Alphen a/d Rijn - Uithoorn 37 km ENG 2026,"EN:30,NL:3",33,"Set account -> EN, run Trace",TODO
+EN,54165408,Paris (Bougival) - Auvers-sur-Oise 35 km ENG 2026,"EN:89,NL:1",90,"Set account -> EN, run Trace",TODO
+EN,54305485,Schoonhoven - Utrecht 44 km ENG 2026,"EN:96,NL:1",97,"Set account -> EN, run Trace",TODO
+EN,54342956,Wurzburg - Karlstadt - Lohr 59km ENG 2026,"EN:80,NL:1",81,"Set account -> EN, run Trace",TODO
+EN,54360739,Alphen a/d Rijn - Kudelstaart 39 km ENG 2026 (white label),"EN:21,NL:4",33,"Set account -> EN, run Trace",TODO
+EN,54360749,Zaandam - Zaanse Schans - Alkmaar (via Heiloo) 39 km ENG 2026 (white label),"EN:77,NL:8",98,"Set account -> EN, run Trace",TODO
+EN,54360750,Zaandam - Zaanse Schans - Alkmaar (via Egmond) 50 km ENG 2026 (white label),"EN:87,NL:5",103,"Set account -> EN, run Trace",TODO
+EN,54360751,Zaandam - Zaanse Schans - Alkmaar (via Schermer) 48 km (before 15 April) ENG 2026 (white label),"EN:75,DE:13",91,"Set account -> EN, run Trace",TODO
+EN,54360752,Zaandam - Zaanse Schans - Alkmaar (via Schermer) 45 km ENG 2026 (white label),"EN:70,DE:13",86,"Set account -> EN, run Trace",TODO
+EN,54360759,Alkmaar - Amsterdam (Oosterdok) (via Schermer) 55 km ENG 2026 (white label),"EN:67,NL:3",75,"Set account -> EN, run Trace",TODO
+EN,54360761,Akersloot - Amsterdam (Oosterdok) (before 15 April) 36 km ENG 2026 (white label),"EN:59,NL:4",63,"Set account -> EN, run Trace",TODO
+EN,54360762,Akersloot - Amsterdam (Oosterdok) (before 15 April) 43 km ENG 2026 (white label),"EN:73,NL:4",77,"Set account -> EN, run Trace",TODO
+EN,54360763,Alkmaar - Amsterdam (Oosterdok) (via Schermer) (before 15 April) 53 km ENG 2026 (white label),"EN:88,NL:4",92,"Set account -> EN, run Trace",TODO
+EN,54360772,Alphen a/d Rijn - Uithoorn 36 km ENG 2026 (white label),"EN:22,NL:8",30,"Set account -> EN, run Trace",TODO
+EN,54360777,Breukelen - Amsterdam (Buiksloterweg) 47 km ENG 2026 (white label),"EN:50,DE:3",54,"Set account -> EN, run Trace",TODO
+EN,54366999,Wertheim - Freudenberg - Miltenberg 46 km ENG 2026,"EN:61,DE:10",72,"Set account -> EN, run Trace",TODO
+EN,54387007,Helsingborg (loop) 13 km ENG 2026,"EN:41,NL:2",43,"Set account -> EN, run Trace",TODO
+EN,54387368,Køge - Viking Museum & Vallo (loop) 46 km ENG 2026,"EN:65,NL:3",68,"Set account -> EN, run Trace",TODO
+EN,54393707,Volendam - Zaanse Schans 48 km DEU 2026 Q,"EN:79,NL:5",90,"Set account -> EN, run Trace",TODO
+EN,54401476,Schweinfurt – Marktbreit 68 km ENG 2026,"EN:80,NL:65",149,"Set account -> EN, run Trace",TODO
+EN,54402315,Køge - Viking Museum & Vallo (loop) 39 km ENG 2026,"EN:59,NL:13",73,"Set account -> EN, run Trace",TODO
+EN,54408004,Cuijk - Groesbeek - Nijmegen - Arnhem 54 km NLD 2026,"EN:62,NL:17",108,"Set account -> EN, run Trace",TODO
+EN,54408248,Cuijk - Kranenburg (D) - Nijmegen - Arnhem 53 km NLD 2026,"EN:103,NL:12",120,"Set account -> EN, run Trace",TODO
+EN,54410198,Mook - Kranenburg (D) - Nijmegen - Arnhem 55km NLD 2026,"EN:96,NL:9",112,"Set account -> EN, run Trace",TODO
+EN,54410206,Mook - Groesbeek - Nijmegen - Arnhem 50 km NLD 2026,"EN:76,NL:11",108,"Set account -> EN, run Trace",TODO
+EN,54413902,Nijmegen  - Arnhem 31km NL 2026,"EN:41,NL:17",70,"Set account -> EN, run Trace",TODO
+EN,54415865,Aschaffenburg - Miltenberg 40 km ENG 2026,"EN:83,DE:30",128,"Set account -> EN, run Trace",TODO
+EN,54473490,Beverwijk - Alkmaar 36 km ENG 2026,"EN:72,NL:1",73,"Set account -> EN, run Trace",TODO
+EN,54476690,Cuijk - Kranenburg (D) - Nijmegen - Arnhem 63km NLD 2026 Michiel,"EN:125,NL:10",143,"Set account -> EN, run Trace",TODO
+EN,54502069,Alkmaar - Amsterdam (Minerva) (via Schermer) 53 km ENG 2026,"EN:69,NL:2",77,"Set account -> EN, run Trace",TODO
+EN,54554549,Alkmaar - Zaanse Schans -  (via Schermer) (before 15 April) 42 km ENG 2026,"EN:74,NL:1",75,"Set account -> EN, run Trace",TODO
+EN,54563880,Alkmaar - Zaanse Schans - Amsterdam (Minerva) 45 km ENG 2026,"EN:107,NL:1",113,"Set account -> EN, run Trace",TODO
+EN,54591869,Nieuwpoort - Utrecht 45 km ENG 2026,"EN:100,NL:1",102,"Set account -> EN, run Trace",TODO
+EN,54596408,Alkmaar - Amsterdam (Buiksloterweg) 47 km ENG 2026,"EN:44,NL:17",63,"Set account -> EN, run Trace",TODO
+EN,54609300,Alkmaar - Amsterdam (Buiksloterweg) (via Schermer) 51 km ENG 2026,"EN:66,NL:2",73,"Set account -> EN, run Trace",TODO
+EN,54646549,Volendam - Alkmaar 45km ENG,"EN:95,DE:12",112,"Set account -> EN, run Trace",TODO
+EN,54664344,Alkmaar Polder-Windmill loop 40km DEU,"EN:46,DE:22",74,"Set account -> EN, run Trace",TODO
+EN,54723050,Zaanse Schans - Minervahaven ENG,"EN:26,DE:1",29,"Set account -> EN, run Trace",TODO
+EN,54779001,Volendam - Zaanse Schanse - Amsterdam (Minerva) 42km ENG,"EN:63,DE:14",83,"Set account -> EN, run Trace",TODO
+EN,54906260,Cuijk - Groesbeek - Nijmegen - Arnhem 54 km NLD 2026,"EN:62,NL:17",108,"Set account -> EN, run Trace",TODO
+EN,54906261,Cuijk - Kranenburg (D) - Nijmegen - Arnhem 53 km NLD 2026,"EN:103,NL:12",120,"Set account -> EN, run Trace",TODO
+EN,54906263,Mook - Groesbeek - Nijmegen - Arnhem 50 km NLD 2026,"EN:76,NL:11",108,"Set account -> EN, run Trace",TODO
+EN,54906264,Mook - Kranenburg (D) - Nijmegen - Arnhem 55km NLD 2026,"EN:96,NL:9",112,"Set account -> EN, run Trace",TODO
+EN,54906287,Cuijk - Groesbeek - Nijmegen - Arnhem 54 km NLD 2026,"EN:62,NL:17",108,"Set account -> EN, run Trace",TODO
+EN,54906288,Cuijk - Kranenburg (D) - Nijmegen - Arnhem 53 km NLD 2026,"EN:103,NL:12",120,"Set account -> EN, run Trace",TODO
+EN,54906290,Mook - Groesbeek - Nijmegen - Arnhem 50 km NLD 2026,"EN:76,NL:11",108,"Set account -> EN, run Trace",TODO
+EN,54906291,Mook - Kranenburg (D) - Nijmegen - Arnhem 55km NLD 2026,"EN:96,NL:9",112,"Set account -> EN, run Trace",TODO
+EN,54915153,Leiden - Gouda 36 km ENG 2026 Zoeterwoude,"EN:38,NL:34",73,"Set account -> EN, run Trace",TODO
+EN,54994676,Roermond - Venlo 50 km ENG 2026,"EN:119,NL:1",121,"Set account -> EN, run Trace",TODO
+EN,55062001,Nijmegen-Arnhem Nassau,"EN:47,NL:4",51,"Set account -> EN, run Trace",TODO
+EN,55073515,Gouda - Uithoorn (via Nieuweveen) 49 km ENG 2026,"EN:73,NL:2",81,"Set account -> EN, run Trace",TODO
+EN,55102427,Treis-Karden - Koblenz (via Burg Eltz) 44 km ENG 2026,"EN:69,NL:4",73,"Set account -> EN, run Trace",TODO
+EN,55108811,Cuijk - Lith  50 km ENG 2026 (alternative),"EN:73,NL:2",78,"Set account -> EN, run Trace",TODO
+EN,55140931,Amsterdam (Hoxton) - Breukelen 41 km ENG 2026,"EN:28,NL:18",47,"Set account -> EN, run Trace",TODO
+EN,55191934,Amsterdam (Hoxton) - Breukelen 38km ENG 2026,"EN:62,NL:4",66,"Set account -> EN, run Trace",TODO
+EN,55204227,Wageningen - Amerongen - Tiel 53km NLD 2026,"EN:36,NL:19",90,"Set account -> EN, run Trace",TODO
+EN,55204234,Heusden - Loonse & Drunense Duinen - Heusden kort 38km NLD 2026,"EN:76,NL:10",90,"Set account -> EN, run Trace",TODO
+EN,55204235,Heusden - Loonse & Drunense Duinen - Heusden 47km NLD 2026,"EN:47,NL:24",96,"Set account -> EN, run Trace",TODO
+EN,55204243,Mook - Kranenburg (D) - Nijmegen - Arnhem 55km NLD 2026,"EN:96,NL:9",112,"Set account -> EN, run Trace",TODO
+EN,55204244,Mook - Groesbeek - Nijmegen - Arnhem 50 km NLD 2026,"EN:76,NL:11",108,"Set account -> EN, run Trace",TODO
+EN,55204246,Cuijk - Kranenburg (D) - Nijmegen - Arnhem 53 km NLD 2026,"EN:103,NL:12",120,"Set account -> EN, run Trace",TODO
+EN,55204248,Cuijk - Groesbeek - Nijmegen - Arnhem 54 km NLD 2026,"EN:62,NL:17",108,"Set account -> EN, run Trace",TODO
+EN,55216744,Venlo - Roermond 50 km ENG 2026,"EN:129,NL:2",132,"Set account -> EN, run Trace",TODO
+EN,55224384,Grave - Groesbeek - Nijmegen 42km NLD 2026,"EN:38,NL:17",87,"Set account -> EN, run Trace",TODO
+EN,55226763,Breukelen - Amsterdam (Tolhuis) 52 km ENG 2026,"EN:85,DE:3",89,"Set account -> EN, run Trace",TODO
+EN,55319078,Wijhe - Kampen (über Hattem / Zwolle)  Hot Wetter 43km,"EN:54,DE:33",98,"Set account -> EN, run Trace",TODO
+EN,55449938,Auvers-sur-Oise - Paris (Bougival) (via Ax Majeur) 44 km ENG 2026 rain route,"EN:119,NL:5",127,"Set account -> EN, run Trace",TODO
+EN,55465649,"Moret - Nemours  40 km ENG 2026 (via Rochess, gravel)","EN:53,NL:7",61,"Set account -> EN, run Trace",TODO
+EN,55506259,Deventer - Hattem - Kampen 50km ENG 2026,"EN:65,DE:11",85,"Set account -> EN, run Trace",TODO
+EN,55582957,Roermond - Venlo 34 km ENG 2026,"EN:63,NL:2",65,"Set account -> EN, run Trace",TODO
+EN,55583000,Venlo - Sambeek 51 km ENG 2026,"EN:84,NL:19",104,"Set account -> EN, run Trace",TODO
+EN,55583899,Sambeek - Cuijk 21km ENG 2026,"EN:30,NL:3",33,"Set account -> EN, run Trace",TODO
+EN,55599973,Alf - Bernkastel Kues 49km ENG 2026,"EN:60,NL:2",62,"Set account -> EN, run Trace",TODO
+EN,55680260,Bruges - Blankenberge (loop) 48 km DEU 2026,"EN:60,DE:55",124,"Set account -> EN, run Trace",TODO
+EN,55693597,Dordrecht // Alblasserdam - Kinderdijk - Utrecht 69km ENG 2026,"EN:76,DE:14,NL:3",100,"Set account -> EN, run Trace",TODO
+EN,55805083,Paris (Bougival) - Auvers-sur-Oise (via Ax Majeur) 45 km ENG 2026 rain route,"EN:79,NL:57",136,"Set account -> EN, run Trace",TODO
+EN,55806616,Breukelen - Utrecht (centrum)(EPR) 37km / 22mi ENG 2026,"EN:48,NL:7",56,"Set account -> EN, run Trace",TODO
+EN,55819916,Bosrandbrug - Amsterdam (Veemkade) 36 km ENG 2026,"EN:60,NL:13",76,"Set account -> EN, run Trace",TODO
+EN,55819929,Bosrandbrug - Amsterdam (Veemkade) 23 km ENG 2026,"EN:37,NL:12",49,"Set account -> EN, run Trace",TODO
+EN,55820434,Amsterdam (Veemkade) - Zaanse Schans - Haarlem (city) 47 km ENG 2026,"EN:77,NL:2",89,"Set account -> EN, run Trace",TODO
+EN,55859885,Schweinfurt - Haßfurt - Bamberg 64km ENG 2026,"EN:59,DE:34",115,"Set account -> EN, run Trace",TODO
+EN,55915172,Alkmaar - Zaanse Schans - Amsterdam (Oosterdok) 50 km ENG 2026,"EN:74,NL:39",116,"Set account -> EN, run Trace",TODO
+EN,55915895,Antwerpen - St. Amands 39km ENG 2026,"EN:91,NL:3",94,"Set account -> EN, run Trace",TODO
+EN,55925393,Wertheim - Marktheidenfeld 23km ENG 2026,"EN:23,NL:3",26,"Set account -> EN, run Trace",TODO
+EN,55930257,Stammheim – Marktbreit 45 km ENG 2026,"EN:106,NL:5",111,"Set account -> EN, run Trace",TODO
+EN,55992071,Alf - Bernkastel-Kues 48 km ENG 2026,"EN:51,NL:9",61,"Set account -> EN, run Trace",TODO
+EN,55992185,Cochem - Zell 37 km ENG 2026,"EN:20,NL:8",28,"Set account -> EN, run Trace",TODO
+EN,55992441,Alf - Bernkastel-Kues 48 km DEU 2026,"EN:26,DE:21",56,"Set account -> EN, run Trace",TODO
+EN,55992461,Zell - Bernkastel-Kues 44 km DEU 2026,"EN:27,DE:21",57,"Set account -> EN, run Trace",TODO
+EN,55992660,Alf - Cochem 37 km ENG 2026,"EN:12,NL:7",21,"Set account -> EN, run Trace",TODO
+EN,55992873,Alf  - Cochem 31 km DEU 2026,"EN:17,DE:3",21,"Set account -> EN, run Trace",TODO
+EN,56097941,Trier - Pamplona ,"EN:1115,NL:35",1151,"Set account -> EN, run Trace",TODO
+EN,56161412,Wageningen-Airborne- Arnhem 26 km NLD 2025,"EN:35,NL:30",68,"Set account -> EN, run Trace",TODO

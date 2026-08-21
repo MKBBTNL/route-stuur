@@ -1,0 +1,859 @@
+{
+  "gpx": "Trier_-_Saarburg_(loop)_50km_ENG_2026.gpx",
+  "distance_km": 49.7,
+  "backbone_coverage_pct": 98.5,
+  "named_routes": [
+    {
+      "name": "Mosel-Radweg",
+      "ref": "Mosel",
+      "network": "ncn"
+    },
+    {
+      "name": "Ruwer-Hochwald-Radweg",
+      "ref": "RHR",
+      "network": "rcn"
+    },
+    {
+      "name": "VeloRoute SaarLorLux",
+      "ref": "SLL",
+      "network": "icn"
+    },
+    {
+      "name": "Kylltal-Radweg",
+      "ref": "Kyll",
+      "network": "rcn"
+    },
+    {
+      "name": "Vallée de la Sarre",
+      "ref": "Saar",
+      "network": "rcn"
+    },
+    {
+      "name": "Hunsrück-Radweg",
+      "ref": "H",
+      "network": "rcn"
+    },
+    {
+      "name": "Saar-Mosel-Main [Trier - Koblenz]",
+      "ref": "D5",
+      "network": "ncn"
+    },
+    {
+      "name": "Konzer Tälchen Radweg",
+      "ref": "KonzT",
+      "network": "lcn"
+    }
+  ],
+  "deviations": [
+    {
+      "leave_km": 31.3,
+      "rejoin_km": 31.7,
+      "span_km": 0.3
+    }
+  ],
+  "ferries": [],
+  "guideposts_count": 34,
+  "knooppunten": [],
+  "landmarks": [
+    {
+      "name": "Sankt Simon und Juda",
+      "type": "church",
+      "km": 0.3,
+      "dist_m": 255,
+      "lat": 49.76683,
+      "lon": 6.63241
+    },
+    {
+      "name": "Wohnhaus Charles de Gaulle",
+      "type": "monument",
+      "km": 0.7,
+      "dist_m": 232,
+      "lat": 49.76153,
+      "lon": 6.63592
+    },
+    {
+      "name": "St Martin",
+      "type": "monument",
+      "km": 0.7,
+      "dist_m": 43,
+      "lat": 49.76207,
+      "lon": 6.6334
+    },
+    {
+      "name": "Wally Gross",
+      "type": "monument",
+      "km": 0.8,
+      "dist_m": 42,
+      "lat": 49.76154,
+      "lon": 6.63321
+    },
+    {
+      "name": "Heiliger Willibrord",
+      "type": "monument",
+      "km": 1.1,
+      "dist_m": 137,
+      "lat": 49.75816,
+      "lon": 6.63223
+    },
+    {
+      "name": "St. Irminen",
+      "type": "church",
+      "km": 1.2,
+      "dist_m": 172,
+      "lat": 49.75754,
+      "lon": 6.63225
+    },
+    {
+      "name": "Willibrordkapelle",
+      "type": "church",
+      "km": 1.2,
+      "dist_m": 185,
+      "lat": 49.75734,
+      "lon": 6.6323
+    },
+    {
+      "name": "Ruine Konventsaal",
+      "type": "ruins",
+      "km": 1.3,
+      "dist_m": 152,
+      "lat": 49.75693,
+      "lon": 6.63154
+    },
+    {
+      "name": "Matthias Schmadel",
+      "type": "monument",
+      "km": 1.4,
+      "dist_m": 202,
+      "lat": 49.75547,
+      "lon": 6.63156
+    },
+    {
+      "name": "Erwin Fleischmann",
+      "type": "monument",
+      "km": 1.9,
+      "dist_m": 105,
+      "lat": 49.75197,
+      "lon": 6.62937
+    },
+    {
+      "name": "Bertha Cohen",
+      "type": "monument",
+      "km": 1.9,
+      "dist_m": 138,
+      "lat": 49.7524,
+      "lon": 6.62983
+    },
+    {
+      "name": "Römerbrücke",
+      "type": "bridge",
+      "km": 1.9,
+      "dist_m": 96,
+      "lat": 49.75188,
+      "lon": 6.62653
+    },
+    {
+      "name": "Konstantin Säule",
+      "type": "monument",
+      "km": 2.0,
+      "dist_m": 15,
+      "lat": 49.75133,
+      "lon": 6.62801
+    },
+    {
+      "name": "Johann Baptist Bastian",
+      "type": "monument",
+      "km": 2.0,
+      "dist_m": 124,
+      "lat": 49.75158,
+      "lon": 6.62956
+    },
+    {
+      "name": "Barbarathermen",
+      "type": "archaeo",
+      "km": 2.1,
+      "dist_m": 189,
+      "lat": 49.75013,
+      "lon": 6.63023
+    },
+    {
+      "name": "Herz-Jesu",
+      "type": "church",
+      "km": 2.4,
+      "dist_m": 228,
+      "lat": 49.74767,
+      "lon": 6.63065
+    },
+    {
+      "name": "Walter Bruno Kaufmann",
+      "type": "monument",
+      "km": 2.5,
+      "dist_m": 167,
+      "lat": 49.74708,
+      "lon": 6.62986
+    },
+    {
+      "name": "Nikolaus Etges",
+      "type": "monument",
+      "km": 2.6,
+      "dist_m": 126,
+      "lat": 49.74611,
+      "lon": 6.62938
+    },
+    {
+      "name": "St. Medardus-Kapelle",
+      "type": "church",
+      "km": 3.7,
+      "dist_m": 80,
+      "lat": 49.73588,
+      "lon": 6.62891
+    },
+    {
+      "name": "St. German ad undas",
+      "type": "church",
+      "km": 4.5,
+      "dist_m": 135,
+      "lat": 49.72899,
+      "lon": 6.62749
+    },
+    {
+      "name": "Königreichssaal der Zeugen Jehovas",
+      "type": "church",
+      "km": 4.7,
+      "dist_m": 246,
+      "lat": 49.72617,
+      "lon": 6.62776
+    },
+    {
+      "name": "Kriegerdenkmal Konz-Karthaus",
+      "type": "monument",
+      "km": 7.0,
+      "dist_m": 180,
+      "lat": 49.71294,
+      "lon": 6.60158
+    },
+    {
+      "name": "St. Johann",
+      "type": "church",
+      "km": 7.7,
+      "dist_m": 146,
+      "lat": 49.7106,
+      "lon": 6.59307
+    },
+    {
+      "name": "Albukhary Moschee",
+      "type": "church",
+      "km": 8.1,
+      "dist_m": 214,
+      "lat": 49.70825,
+      "lon": 6.5876
+    },
+    {
+      "name": "Neuapostolische Kirche Konz",
+      "type": "church",
+      "km": 8.2,
+      "dist_m": 111,
+      "lat": 49.70892,
+      "lon": 6.58647
+    },
+    {
+      "name": "Ev. Kirche Konz-Karthaus",
+      "type": "church",
+      "km": 8.3,
+      "dist_m": 226,
+      "lat": 49.70756,
+      "lon": 6.58578
+    },
+    {
+      "name": "Max Glass",
+      "type": "monument",
+      "km": 8.8,
+      "dist_m": 213,
+      "lat": 49.70553,
+      "lon": 6.58057
+    },
+    {
+      "name": "Hammer Rundfels",
+      "type": "viewpoint",
+      "km": 14.8,
+      "dist_m": 170,
+      "lat": 49.66011,
+      "lon": 6.55444
+    },
+    {
+      "name": "Kapelle „Heiliger Josef“",
+      "type": "church",
+      "km": 17.8,
+      "dist_m": 74,
+      "lat": 49.63707,
+      "lon": 6.57169
+    },
+    {
+      "name": "Saar Knoten",
+      "type": "monument",
+      "km": 18.3,
+      "dist_m": 5,
+      "lat": 49.63339,
+      "lon": 6.57314
+    },
+    {
+      "name": "Lambertuskapelle",
+      "type": "church",
+      "km": 19.5,
+      "dist_m": 49,
+      "lat": 49.62385,
+      "lon": 6.57022
+    },
+    {
+      "name": "Ehrenmal Niederleuken",
+      "type": "monument",
+      "km": 20.6,
+      "dist_m": 262,
+      "lat": 49.61662,
+      "lon": 6.55762
+    },
+    {
+      "name": "Den Toten der Kriege",
+      "type": "monument",
+      "km": 21.6,
+      "dist_m": 163,
+      "lat": 49.61042,
+      "lon": 6.55569
+    },
+    {
+      "name": "Burganlage Saarburg",
+      "type": "castle",
+      "km": 21.7,
+      "dist_m": 127,
+      "lat": 49.60981,
+      "lon": 6.55521
+    },
+    {
+      "name": "Saarburg",
+      "type": "castle",
+      "km": 21.7,
+      "dist_m": 126,
+      "lat": 49.60991,
+      "lon": 6.55545
+    },
+    {
+      "name": "Inge Königsfeld",
+      "type": "monument",
+      "km": 21.9,
+      "dist_m": 290,
+      "lat": 49.60831,
+      "lon": 6.54985
+    },
+    {
+      "name": "Jenny Königsfeld",
+      "type": "monument",
+      "km": 21.9,
+      "dist_m": 292,
+      "lat": 49.6083,
+      "lon": 6.54983
+    },
+    {
+      "name": "Evangelische Kirche",
+      "type": "church",
+      "km": 21.9,
+      "dist_m": 34,
+      "lat": 49.60882,
+      "lon": 6.55382
+    },
+    {
+      "name": "St. Laurentius",
+      "type": "church",
+      "km": 21.9,
+      "dist_m": 224,
+      "lat": 49.60731,
+      "lon": 6.55129
+    },
+    {
+      "name": "Kautenturm",
+      "type": "castle",
+      "km": 22.0,
+      "dist_m": 228,
+      "lat": 49.60693,
+      "lon": 6.55156
+    },
+    {
+      "name": "Altstadtbrücke",
+      "type": "bridge",
+      "km": 22.0,
+      "dist_m": 0,
+      "lat": 49.60797,
+      "lon": 6.55428
+    },
+    {
+      "name": "Eduard Levy",
+      "type": "monument",
+      "km": 22.2,
+      "dist_m": 154,
+      "lat": 49.60544,
+      "lon": 6.55769
+    },
+    {
+      "name": "Nathan Wolf",
+      "type": "monument",
+      "km": 22.2,
+      "dist_m": 106,
+      "lat": 49.60625,
+      "lon": 6.55798
+    },
+    {
+      "name": "Sara Wolf",
+      "type": "monument",
+      "km": 22.2,
+      "dist_m": 107,
+      "lat": 49.60625,
+      "lon": 6.558
+    },
+    {
+      "name": "Adolf Wolf",
+      "type": "monument",
+      "km": 22.2,
+      "dist_m": 106,
+      "lat": 49.60625,
+      "lon": 6.55798
+    },
+    {
+      "name": "Paula Wolf",
+      "type": "monument",
+      "km": 22.2,
+      "dist_m": 106,
+      "lat": 49.60625,
+      "lon": 6.55798
+    },
+    {
+      "name": "Hedwig Wolf",
+      "type": "monument",
+      "km": 22.2,
+      "dist_m": 107,
+      "lat": 49.60625,
+      "lon": 6.558
+    },
+    {
+      "name": "Hugo Wolf",
+      "type": "monument",
+      "km": 22.2,
+      "dist_m": 107,
+      "lat": 49.60625,
+      "lon": 6.55799
+    },
+    {
+      "name": "Alice Wolf",
+      "type": "monument",
+      "km": 22.2,
+      "dist_m": 108,
+      "lat": 49.60625,
+      "lon": 6.55801
+    },
+    {
+      "name": "Leo-Marcel Wolf",
+      "type": "monument",
+      "km": 22.2,
+      "dist_m": 107,
+      "lat": 49.60625,
+      "lon": 6.55801
+    },
+    {
+      "name": "Silve Kurt Wolf",
+      "type": "monument",
+      "km": 22.2,
+      "dist_m": 106,
+      "lat": 49.60625,
+      "lon": 6.55798
+    },
+    {
+      "name": "Silve Wolf",
+      "type": "monument",
+      "km": 22.2,
+      "dist_m": 107,
+      "lat": 49.60625,
+      "lon": 6.558
+    },
+    {
+      "name": "Paul Levy",
+      "type": "monument",
+      "km": 22.2,
+      "dist_m": 156,
+      "lat": 49.60543,
+      "lon": 6.55771
+    },
+    {
+      "name": "Johanna Levy",
+      "type": "monument",
+      "km": 22.2,
+      "dist_m": 154,
+      "lat": 49.60544,
+      "lon": 6.55771
+    },
+    {
+      "name": "Adolph Joseph",
+      "type": "monument",
+      "km": 22.2,
+      "dist_m": 166,
+      "lat": 49.60542,
+      "lon": 6.55793
+    },
+    {
+      "name": "Sofie 'Selma' Joseph",
+      "type": "monument",
+      "km": 22.2,
+      "dist_m": 166,
+      "lat": 49.60542,
+      "lon": 6.55794
+    },
+    {
+      "name": "Elsa Rosina Joseph",
+      "type": "monument",
+      "km": 22.2,
+      "dist_m": 167,
+      "lat": 49.60541,
+      "lon": 6.55793
+    },
+    {
+      "name": "Meta Kahn",
+      "type": "monument",
+      "km": 22.3,
+      "dist_m": 272,
+      "lat": 49.60633,
+      "lon": 6.56072
+    },
+    {
+      "name": "Nathan Kahn",
+      "type": "monument",
+      "km": 22.3,
+      "dist_m": 270,
+      "lat": 49.60633,
+      "lon": 6.5607
+    },
+    {
+      "name": "Hilde Schmelzer",
+      "type": "monument",
+      "km": 22.3,
+      "dist_m": 271,
+      "lat": 49.60633,
+      "lon": 6.5607
+    },
+    {
+      "name": "Margot Schmelzer",
+      "type": "monument",
+      "km": 22.3,
+      "dist_m": 272,
+      "lat": 49.60633,
+      "lon": 6.56072
+    },
+    {
+      "name": "Heinrich Kahn",
+      "type": "monument",
+      "km": 22.3,
+      "dist_m": 273,
+      "lat": 49.60633,
+      "lon": 6.56074
+    },
+    {
+      "name": "Lambertusbrücke",
+      "type": "bridge",
+      "km": 24.7,
+      "dist_m": 33,
+      "lat": 49.62316,
+      "lon": 6.5719
+    },
+    {
+      "name": "Bismarckturm Schoden",
+      "type": "viewpoint",
+      "km": 25.6,
+      "dist_m": 168,
+      "lat": 49.63014,
+      "lon": 6.57829
+    },
+    {
+      "name": "Kath. Filialkirche St. Paulus und St. Maria Magdalena",
+      "type": "church",
+      "km": 26.5,
+      "dist_m": 155,
+      "lat": 49.63862,
+      "lon": 6.57712
+    },
+    {
+      "name": "II. Weltkrieg",
+      "type": "monument",
+      "km": 26.6,
+      "dist_m": 143,
+      "lat": 49.63866,
+      "lon": 6.57695
+    },
+    {
+      "name": "Drei-Skulpturenblick",
+      "type": "viewpoint",
+      "km": 28.5,
+      "dist_m": 250,
+      "lat": 49.64487,
+      "lon": 6.59354
+    },
+    {
+      "name": "Friedhofskapelle",
+      "type": "church",
+      "km": 29.9,
+      "dist_m": 250,
+      "lat": 49.65742,
+      "lon": 6.58891
+    },
+    {
+      "name": "Sankt Martin",
+      "type": "church",
+      "km": 30.0,
+      "dist_m": 247,
+      "lat": 49.65857,
+      "lon": 6.58879
+    },
+    {
+      "name": "Berta Meyer geb. Kallmann",
+      "type": "monument",
+      "km": 30.4,
+      "dist_m": 287,
+      "lat": 49.66094,
+      "lon": 6.58943
+    },
+    {
+      "name": "Edmund Meyer",
+      "type": "monument",
+      "km": 30.4,
+      "dist_m": 287,
+      "lat": 49.66094,
+      "lon": 6.58943
+    },
+    {
+      "name": "Gerda Meyer",
+      "type": "monument",
+      "km": 30.4,
+      "dist_m": 286,
+      "lat": 49.66094,
+      "lon": 6.58943
+    },
+    {
+      "name": "Julius Meyer",
+      "type": "monument",
+      "km": 30.4,
+      "dist_m": 287,
+      "lat": 49.66094,
+      "lon": 6.58943
+    },
+    {
+      "name": "Maria Meyer",
+      "type": "monument",
+      "km": 30.4,
+      "dist_m": 286,
+      "lat": 49.66094,
+      "lon": 6.58943
+    },
+    {
+      "name": "St. Marien",
+      "type": "church",
+      "km": 31.8,
+      "dist_m": 19,
+      "lat": 49.66754,
+      "lon": 6.57705
+    },
+    {
+      "name": "Ehrenmal",
+      "type": "monument",
+      "km": 34.0,
+      "dist_m": 254,
+      "lat": 49.66528,
+      "lon": 6.55988
+    },
+    {
+      "name": "Sankt-Nikolaus-Statue",
+      "type": "monument",
+      "km": 34.2,
+      "dist_m": 97,
+      "lat": 49.66212,
+      "lon": 6.55706
+    },
+    {
+      "name": "Maria Heimsuchung",
+      "type": "church",
+      "km": 34.2,
+      "dist_m": 72,
+      "lat": 49.66236,
+      "lon": 6.55738
+    },
+    {
+      "name": "St. Nikolaus",
+      "type": "church",
+      "km": 35.6,
+      "dist_m": 135,
+      "lat": 49.67354,
+      "lon": 6.56332
+    },
+    {
+      "name": "Alte Saarbrücke",
+      "type": "monument",
+      "km": 38.3,
+      "dist_m": 6,
+      "lat": 49.69795,
+      "lon": 6.5705
+    },
+    {
+      "name": "Konzer Moselbrücke",
+      "type": "bridge",
+      "km": 39.7,
+      "dist_m": 2,
+      "lat": 49.70549,
+      "lon": 6.57311
+    },
+    {
+      "name": "St. Michaels Kapelle",
+      "type": "church",
+      "km": 41.3,
+      "dist_m": 102,
+      "lat": 49.71334,
+      "lon": 6.58674
+    },
+    {
+      "name": "Schloss Monaise",
+      "type": "castle",
+      "km": 42.3,
+      "dist_m": 62,
+      "lat": 49.71728,
+      "lon": 6.59973
+    },
+    {
+      "name": "Eröffnung der Staustufe",
+      "type": "monument",
+      "km": 44.8,
+      "dist_m": 13,
+      "lat": 49.73025,
+      "lon": 6.62233
+    },
+    {
+      "name": "Konrad-Adenauer-Brücke",
+      "type": "bridge",
+      "km": 45.8,
+      "dist_m": 74,
+      "lat": 49.73922,
+      "lon": 6.62652
+    },
+    {
+      "name": "Islamisches Kulturzentrum Trier e.V.",
+      "type": "church",
+      "km": 47.0,
+      "dist_m": 24,
+      "lat": 49.75005,
+      "lon": 6.62473
+    },
+    {
+      "name": "Wilhelm Pfeil",
+      "type": "monument",
+      "km": 47.8,
+      "dist_m": 214,
+      "lat": 49.75702,
+      "lon": 6.62341
+    },
+    {
+      "name": "Buddhistisches Zentrum Trier",
+      "type": "church",
+      "km": 47.9,
+      "dist_m": 187,
+      "lat": 49.75826,
+      "lon": 6.62417
+    },
+    {
+      "name": "Kapelle",
+      "type": "church",
+      "km": 48.0,
+      "dist_m": 212,
+      "lat": 49.75914,
+      "lon": 6.62406
+    },
+    {
+      "name": "Andreas Hoevel",
+      "type": "monument",
+      "km": 48.4,
+      "dist_m": 43,
+      "lat": 49.76221,
+      "lon": 6.62804
+    },
+    {
+      "name": "Kaiser-Wilhelm-Brücke",
+      "type": "monument",
+      "km": 48.8,
+      "dist_m": 25,
+      "lat": 49.76516,
+      "lon": 6.63007
+    },
+    {
+      "name": "Kaiser-Wilhelm-Brücke",
+      "type": "bridge",
+      "km": 48.9,
+      "dist_m": 6,
+      "lat": 49.76427,
+      "lon": 6.632
+    },
+    {
+      "name": "Maria-Hilf-Kapelle",
+      "type": "monument",
+      "km": 49.1,
+      "dist_m": 263,
+      "lat": 49.76315,
+      "lon": 6.63774
+    },
+    {
+      "name": "Opfer Aktion T4",
+      "type": "monument",
+      "km": 49.1,
+      "dist_m": 261,
+      "lat": 49.7631,
+      "lon": 6.63769
+    },
+    {
+      "name": "Helena Meyer",
+      "type": "monument",
+      "km": 49.1,
+      "dist_m": 173,
+      "lat": 49.76308,
+      "lon": 6.63638
+    },
+    {
+      "name": "T4 Aktion Trier",
+      "type": "monument",
+      "km": 49.1,
+      "dist_m": 259,
+      "lat": 49.76313,
+      "lon": 6.63768
+    },
+    {
+      "name": "Bruder Peter Friedhofen",
+      "type": "monument",
+      "km": 49.1,
+      "dist_m": 259,
+      "lat": 49.76291,
+      "lon": 6.63757
+    },
+    {
+      "name": "Georg Schmitt Platz",
+      "type": "monument",
+      "km": 49.1,
+      "dist_m": 35,
+      "lat": 49.76352,
+      "lon": 6.63455
+    },
+    {
+      "name": "Damian Reis",
+      "type": "monument",
+      "km": 49.2,
+      "dist_m": 7,
+      "lat": 49.76426,
+      "lon": 6.63437
+    },
+    {
+      "name": "Georg schmitt",
+      "type": "monument",
+      "km": 49.2,
+      "dist_m": 26,
+      "lat": 49.76434,
+      "lon": 6.63464
+    }
+  ]
+}

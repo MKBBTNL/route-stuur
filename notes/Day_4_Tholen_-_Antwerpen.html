@@ -1,0 +1,214 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Day 4: Tholen - Antwerpen</title>
+<style>
+  :root { --red:#c0101d; --ink:#1b1b1b; --gray:#8a8a8a; --line:#e6e2d8; --paper:#faf9f6; }
+  * { box-sizing:border-box; }
+  body { font-family:-apple-system,Segoe UI,Arial,sans-serif; color:var(--ink);
+         background:var(--paper); margin:0; padding:28px; line-height:1.5; }
+  .sheet { max-width:760px; margin:0 auto; }
+  header { border-bottom:3px solid var(--red); padding-bottom:10px; margin-bottom:6px; }
+  h1 { font-size:23px; margin:0; color:var(--red); text-transform:uppercase; letter-spacing:.4px; }
+  .meta { color:var(--gray); font-size:13px; margin-top:3px; }
+  .nodes { font-size:14px; margin:14px 0; padding:8px 10px; background:#fff;
+            border:1px solid var(--line); border-radius:6px; }
+  h2 { font-size:13px; text-transform:uppercase; letter-spacing:.6px; color:var(--gray);
+        margin:22px 0 8px; }
+  .row { display:flex; gap:12px; padding:5px 0; border-bottom:1px solid var(--line); }
+  .km { flex:0 0 88px; color:var(--red); font-variant-numeric:tabular-nums; font-weight:600; font-size:13px; }
+  .cue { flex:1; }
+  .poi { background:#fff; border:1px solid var(--line); border-left:3px solid var(--red);
+          border-radius:6px; padding:9px 12px; margin:8px 0; }
+  .poi-h { display:flex; align-items:baseline; gap:8px; }
+  .tag { font-size:11px; text-transform:uppercase; letter-spacing:.5px; color:#fff;
+          background:var(--red); border-radius:3px; padding:1px 6px; }
+  .poi-n { font-weight:600; }
+  .poi-km { margin-left:auto; color:var(--gray); font-size:13px; font-variant-numeric:tabular-nums; }
+  .poi-d { color:#444; font-size:14px; margin-top:4px; }
+  @media print { body { background:#fff; padding:0; } .poi, .nodes { break-inside:avoid; } }
+</style></head>
+<body><div class="sheet">
+  <header><h1>Day 4: Tholen - Antwerpen</h1><div class="meta">53.8 km &nbsp;·&nbsp; signs &amp; notes only</div></header>
+  
+  <h2>Directions &amp; highlights</h2>
+  <div class="row"><span class="km">0.9 km</span><span class="cue">Linksaf naar Eendrachtsdijk</span></div>
+<div class="row"><span class="km">1.1 km</span><span class="cue">Rechtsaf naar Eendrachtsweg (follow 1.1 km)</span></div>
+<div class="row"><span class="km">2.2 km</span><span class="cue">Houd links aan</span></div>
+<div class="row"><span class="km">2.2 km</span><span class="cue">Houd rechts aan naar Noorder Kreekweg</span></div>
+<div class="row"><span class="km">2.6 km</span><span class="cue">Linksaf naar Noorder Kreekweg (follow 1.6 km)</span></div>
+<div class="row"><span class="km">4.3 km</span><span class="cue">Linksaf naar Tholenseweg</span></div>
+<div class="row"><span class="km">4.9 km</span><span class="cue">Rechtsaf naar Tholenseweg</span></div>
+<div class="row"><span class="km">4.9 km</span><span class="cue">Linksaf naar Tholenseweg</span></div>
+<div class="row"><span class="km">5.1 km</span><span class="cue">Linksaf naar Tholenseweg</span></div>
+<div class="row"><span class="km">5.2 km</span><span class="cue">Houd rechts aan naar Halsterseweg (follow 1.1 km)</span></div>
+<div class="row"><span class="km">6.3 km</span><span class="cue">Rechtsaf naar Halsterseweg</span></div>
+<div class="row"><span class="km">6.8 km</span><span class="cue">Rechtsaf</span></div>
+<div class="row"><span class="km">6.8 km</span><span class="cue">Ga rechtsaf</span></div>
+<div class="row"><span class="km">7.0 km</span><span class="cue">Ga linksaf</span></div>
+<div class="row"><span class="km">7.0 km</span><span class="cue">Rechtsaf naar Halsterseweg</span></div>
+<div class="row"><span class="km">7.7 km</span><span class="cue">Houd links aan naar Halsterseweg</span></div>
+<div class="row"><span class="km">7.8 km</span><span class="cue">Rechtsaf</span></div>
+<div class="row"><span class="km">7.9 km</span><span class="cue">Linksaf naar Burgemeester Stulemeijerlaan</span></div>
+<div class="row"><span class="km">8.2 km</span><span class="cue">Houd links aan naar Burgemeester Stulemeijerlaan</span></div>
+<div class="row"><span class="km">8.2 km</span><span class="cue">Linksaf naar Westersingel</span></div>
+<div class="row"><span class="km">8.2 km</span><span class="cue">Rechtsaf naar Steenbergsestraat</span></div>
+<div class="row"><span class="km">8.4 km</span><span class="cue">Sla rechtsaf naar de Moeregrebstraat</span></div>
+<div class="poi"><div class="poi-h"><span class="tag">note</span><span class="poi-n">Markiezenhof</span><span class="poi-km">8.4 km</span></div></div>
+<div class="row"><span class="km">8.6 km</span><span class="cue">Sla linksaf naar de Westersingel</span></div>
+<div class="row"><span class="km">8.8 km</span><span class="cue">Weg vervolgen naar de Zuid-Westsingel</span></div>
+<div class="row"><span class="km">9.0 km</span><span class="cue">Houd links aan naar Het Retranchement</span></div>
+<div class="row"><span class="km">9.7 km</span><span class="cue">Rechtsaf</span></div>
+<div class="row"><span class="km">10.3 km</span><span class="cue">Linksaf</span></div>
+<div class="row"><span class="km">10.4 km</span><span class="cue">Rechtsaf naar De Boulevard</span></div>
+<div class="row"><span class="km">10.4 km</span><span class="cue">Rechtsaf</span></div>
+<div class="row"><span class="km">10.5 km</span><span class="cue">Linksaf</span></div>
+<div class="row"><span class="km">10.5 km</span><span class="cue">Rechtsaf</span></div>
+<div class="row"><span class="km">10.8 km</span><span class="cue">Linksaf</span></div>
+<div class="row"><span class="km">10.8 km</span><span class="cue">Rechtsaf</span></div>
+<div class="row"><span class="km">11.1 km</span><span class="cue">Rechtsaf naar Lodijkepad</span></div>
+<div class="row"><span class="km">11.2 km</span><span class="cue">Linksaf naar Poppendijke</span></div>
+<div class="row"><span class="km">11.5 km</span><span class="cue">Houd links aan naar Beatrixpad</span></div>
+<div class="row"><span class="km">11.7 km</span><span class="cue">Houd links aan</span></div>
+<div class="row"><span class="km">11.9 km</span><span class="cue">Blijf op Fianestraat</span></div>
+<div class="row"><span class="km">12.9 km</span><span class="cue">Ga rechtsaf naar Vossenweg</span></div>
+<div class="row"><span class="km">13.8 km</span><span class="cue">Houd rechts aan naar Vossenweg</span></div>
+<div class="row"><span class="km">14.5 km</span><span class="cue">Rechtsaf naar Beukendreef (follow 1.3 km)</span></div>
+<div class="row"><span class="km">15.8 km</span><span class="cue">Linksaf naar Reimerswaalweg</span></div>
+<div class="row"><span class="km">16.0 km</span><span class="cue">Rechtsaf naar Langeweg (follow 1.9 km)</span></div>
+<div class="row"><span class="km">17.9 km</span><span class="cue">Linksaf naar Rijzendeweg</span></div>
+<div class="poi"><div class="poi-h"><span class="tag">note</span><span class="poi-n">Uitzichtpunt en informatiebord Slag om de Schelde ( met name Canadese invasie).</span><span class="poi-km">18.2 km</span></div><div class="poi-d">Oorloginfo met geluid bij het monument met het stuur
++ Rupsvoortuig
++ info over de slag bij de Schelde
++ uitzicht over Zeeland</div></div>
+<div class="row"><span class="km">18.3 km</span><span class="cue">Ga rechtsaf naar Vinkenslag</span></div>
+<div class="row"><span class="km">18.7 km</span><span class="cue">Rechtsaf naar Berglaan</span></div>
+<div class="row"><span class="km">18.8 km</span><span class="cue">Rechtsaf naar Berglaan</span></div>
+<div class="row"><span class="km">18.9 km</span><span class="cue">Houd links aan naar Berglaan</span></div>
+<div class="row"><span class="km">18.9 km</span><span class="cue">Linksaf naar Dorpsstraat</span></div>
+<div class="poi"><div class="poi-h"><span class="tag">note</span><span class="poi-n">War memorial Canadese soldaten</span><span class="poi-km">19.3 km</span></div></div>
+<div class="row"><span class="km">19.3 km</span><span class="cue">Sla rechtsaf naar de Onderstal</span></div>
+<div class="poi"><div class="poi-h"><span class="tag">note</span><span class="poi-n">Canadese tank</span><span class="poi-km">19.4 km</span></div><div class="poi-d">M4A1E9 Sherman tank</div></div>
+<div class="row"><span class="km">19.8 km</span><span class="cue">Flauwe bocht naar rechts naar het Kerkepadje</span></div>
+<div class="row"><span class="km">19.8 km</span><span class="cue">Weg vervolgen naar de Zouteweg</span></div>
+<div class="row"><span class="km">20.2 km</span><span class="cue">Sla linksaf</span></div>
+<div class="row"><span class="km">20.3 km</span><span class="cue">Sla rechtsaf</span></div>
+<div class="row"><span class="km">20.7 km</span><span class="cue">Sla rechtsaf naar de Ossendrechtseweg</span></div>
+<div class="row"><span class="km">21.2 km</span><span class="cue">Weg vervolgen naar het Calfven</span></div>
+<div class="row"><span class="km">21.6 km</span><span class="cue">Sla linksaf naar de Trambaan</span></div>
+<div class="row"><span class="km">21.6 km</span><span class="cue">Sla rechtsaf om op de Trambaan te blijven (follow 1.3 km)</span></div>
+<div class="row"><span class="km">22.9 km</span><span class="cue">Rechtsaf naar Trambaan</span></div>
+<div class="row"><span class="km">23.8 km</span><span class="cue">Rechtsaf naar Trambaan</span></div>
+<div class="row"><span class="km">23.9 km</span><span class="cue">Linksaf naar Burgemeester Voetenstraat</span></div>
+<div class="row"><span class="km">24.1 km</span><span class="cue">Rechtsaf naar Kerkstraat</span></div>
+<div class="row"><span class="km">24.1 km</span><span class="cue">Houd links aan naar Kerkstraat</span></div>
+<div class="row"><span class="km">24.6 km</span><span class="cue">Rechtsaf naar Looipad</span></div>
+<div class="row"><span class="km">24.8 km</span><span class="cue">Linksaf naar Looizicht</span></div>
+<div class="row"><span class="km">24.9 km</span><span class="cue">Rechtsaf naar Leempad</span></div>
+<div class="row"><span class="km">25.0 km</span><span class="cue">Sla linksaf naar de Leemberg</span></div>
+<div class="row"><span class="km">25.5 km</span><span class="cue">Sla rechtsaf naar het Hageland</span></div>
+<div class="row"><span class="km">25.8 km</span><span class="cue">Sla rechtsaf naar de Koeleweg</span></div>
+<div class="row"><span class="km">25.8 km</span><span class="cue">Sla linksaf naar het Hageland</span></div>
+<div class="row"><span class="km">26.3 km</span><span class="cue">Sla linksaf naar de Laagstraat</span></div>
+<div class="poi"><div class="poi-h"><span class="tag">note</span><span class="poi-n">Boerderijwinkel en toiletten</span><span class="poi-km">26.6 km</span></div></div>
+<div class="row"><span class="km">26.7 km</span><span class="cue">Sla rechtsaf om op de Laagstraat te blijven (follow 1.3 km)</span></div>
+<div class="row"><span class="km">28.0 km</span><span class="cue">Sla rechtsaf naar de Molenbosstraat</span></div>
+<div class="row"><span class="km">28.2 km</span><span class="cue">Sla linksaf naar de Pannenhoef</span></div>
+<div class="row"><span class="km">28.7 km</span><span class="cue">Sla rechtsaf naar de Putseweg/​de N289 (follow 1.1 km)</span></div>
+<div class="poi"><div class="poi-h"><span class="tag">note</span><span class="poi-n">Oorlog museum Ossendrecht</span><span class="poi-km">29.2 km</span></div></div>
+<div class="row"><span class="km">29.8 km</span><span class="cue">Sla rechtsaf (follow 1.1 km)</span></div>
+<div class="row"><span class="km">30.9 km</span><span class="cue">Weg vervolgen naar de Putseweg/​de N289 (follow 1.3 km)</span></div>
+<div class="row"><span class="km">32.2 km</span><span class="cue">Sla rechtsaf naar de Hazelaarlaan</span></div>
+<div class="row"><span class="km">32.3 km</span><span class="cue">Sla rechtsaf naar de Weg naar de Hooiweide</span></div>
+<div class="row"><span class="km">32.5 km</span><span class="cue">Houd rechts aan naar Hooiweide</span></div>
+<div class="row"><span class="km">32.6 km</span><span class="cue">Linksaf</span></div>
+<div class="row"><span class="km">32.6 km</span><span class="cue">Rechtsaf</span></div>
+<div class="row"><span class="km">32.9 km</span><span class="cue">Linksaf naar Lindekensdreef</span></div>
+<div class="row"><span class="km">33.6 km</span><span class="cue">Sla rechtsaf naar de Oud Broek</span></div>
+<div class="poi"><div class="poi-h"><span class="tag">note</span><span class="poi-n">Grens Nederland - Belgie</span><span class="poi-km">33.6 km</span></div><div class="poi-d">Aan de rechterkant van de weg is het Nederland, aan de linkerkant is het Belgie. 
+Leuk om de gasten aan de ene kant te laten staan en zelf naar de overkant te lopen en dan zeggen dat jij in Belgie bent! Ook hier Schengen uitleggen is leuk.</div></div>
+<div class="poi"><div class="poi-h"><span class="tag">note</span><span class="poi-n">Winkels en restaurantjes</span><span class="poi-km">33.6 km</span></div></div>
+<div class="poi"><div class="poi-h"><span class="tag">restroom</span><span class="poi-n">toilet</span><span class="poi-km">33.6 km</span></div><div class="poi-d">Wanneer je het vraagt mogen de gasten hier naar het toilet. Wel zelf op wat te drinken nemen dan.</div></div>
+<div class="poi"><div class="poi-h"><span class="tag">food</span><span class="poi-n">Het Koetshuis</span><span class="poi-km">33.6 km</span></div><div class="poi-d">Leuk terras en binnen bij het kasteel. 
++3236058485
+Woensdag gesloten, rest open vanaf 10.00 uur.</div></div>
+<div class="poi"><div class="poi-h"><span class="tag">note</span><span class="poi-n">Kasteel Ravenhof</span><span class="poi-km">33.6 km</span></div><div class="poi-d">Historische achtergrond
+Middeleeuwen: Oorspronkelijk bekend als Goet van Steenlant, een hoeve van de familie Van Steenland.
+
+1552: Cornelis van Tongerlo koopt het domein en bouwt een eerste kasteel, een zogenaamd “speelhuis” met grachten.
+
+1679: Balthasar Moretus, afstammeling van de beroemde Antwerpse drukker Jan Moretus, verwerft het domein. Het krijgt de naam Moretushof of Crayenhof.
+
+18e eeuw: Johannes Josephus Moretus laat het omliggende heidelandschap omvormen tot een barok park in de stijl van Versailles.
+
+1810: Het kasteel wordt herbouwd in neo-Louis XV-stijl door Philippe Antoine Joseph de Pret.
+
+20e eeuw: Charles Moretus Plantin voegt twee vleugels toe en is jarenlang burgemeester van Stabroek.
+
+Later: Het kasteel wordt bekend als Assumptiehof en gebruikt door katholieke organisaties. Sinds 1979 is het eigendom van de gemeente Stabroek.
+
+🌳 Het park en omgeving
+Het domein omvat een publiek park van 25 hectare, met wandelpaden die doorlopen in het Nederlandse natuurgebied Grenspark De Zoom–Kalmthoutse Heide.
+
+Bezienswaardigheden zijn onder andere:
+
+De Gloriëtte (een theepaviljoen in Louis XV-stijl)
+
+Barokke lanen en kunstmatige heuvels
+
+Het koetshuis, nu een gezellig café-restaurant</div></div>
+<div class="row"><span class="km">33.7 km</span><span class="cue">Sla linksaf om op de Oud Broek te blijven (follow 1.5 km)</span></div>
+<div class="poi"><div class="poi-h"><span class="tag">note</span><span class="poi-n">Grenspaal 258</span><span class="poi-km">33.7 km</span></div><div class="poi-d">Over de gehele grens tussen Belgie en Nederland zijn in het jaar 1844 grenspalen geplaatst nadat Belgie zelfstandig was geworden in 1830. 
+Historische context van de grenspalen
+1830: België verklaart zich onafhankelijk van Nederland.
+1839: Het Scheidingstraktaat van Londen erkent de Belgische onafhankelijkheid.
+1843: Het Verdrag van Maastricht beschrijft en bevestigt het grensverloop tussen België en Nederland.
+1844: In opdracht van beide landen worden 388 gietijzeren grenspalen en 356 hardstenen tussenstenen geplaatst langs de 458 km lange grens.
+🪧 Kenmerken van de grenspalen
+De gietijzeren palen zijn obeliskvormig, rusten op een achthoekige cementen sokkel en zijn bekroond met een gestileerde dennenappel.
+Elke paal draagt:
+- Het wapenschild van België en Nederland
+- Het jaartal 1843
+- Een uniek paalnummer</div></div>
+<div class="row"><span class="km">35.2 km</span><span class="cue">Linksaf naar Danckerse Weg</span></div>
+<div class="row"><span class="km">35.9 km</span><span class="cue">Blijf op Danckerse Weg (follow 1.0 km)</span></div>
+<div class="poi"><div class="poi-h"><span class="tag">note</span><span class="poi-n">Sluisbunker Stabroek</span><span class="poi-km">36.5 km</span></div><div class="poi-d">met anti-tank gracht, gebouwd door de Belgen in de tweede wereld oorlog om Antwerpen te beschermen.</div></div>
+<div class="row"><span class="km">36.9 km</span><span class="cue">Rechtsaf naar Hoogeind</span></div>
+<div class="row"><span class="km">36.9 km</span><span class="cue">Linksaf naar Hasenpad</span></div>
+<div class="row"><span class="km">37.6 km</span><span class="cue">Blijf op Hasenpad</span></div>
+<div class="poi"><div class="poi-h"><span class="tag">restroom</span><span class="poi-n">Openbaar toilet</span><span class="poi-km">45.9 km</span></div><div class="poi-d">Door poort eerste deur links (rechts van de poort wanneer je bij het kasteel staat.</div></div>
+<div class="poi"><div class="poi-h"><span class="tag">note</span><span class="poi-n">Waterkasteel hof van Veltwijck</span><span class="poi-km">45.9 km</span></div><div class="poi-d">Het Hof van Veltwijck in Ekeren begon als een klassiek speelhof, een type buitenverblijf dat in de 16e en 17e eeuw populair was bij rijke stedelingen uit Antwerpen. Deze speelhoven waren geen boerderijen of kastelen in de militaire zin, maar eerder luxueuze landgoederen bedoeld voor ontspanning, natuurbeleving en status.
+
+🏡 Wat is een speelhof?
+Een speelhof was een landelijk domein waar de elite zich kon terugtrekken uit de stad. Kenmerken waren:
+- Een stijlvol woonhuis of paviljoen
+- Siertuinen, vijvers en boomgaarden
+- Waterpartijen zoals grachten of vijvers
+- Een rustige, groene omgeving voor wandelen, jagen of tuinieren
+
+Het woord “spelen” verwijst hier niet naar kinderspel, maar naar het genieten van het buitenleven.
+
+🏰 Hof van Veltwijck als speelhof
+Het domein werd in de 16e eeuw ontwikkeld door rijke Antwerpse families als een lusthof buiten de stad.
+Historie van Hof van Veltwijck
+Oorsprong: Het domein gaat terug tot de 16e eeuw, toen het werd aangelegd als een buitenverblijf voor rijke Antwerpse families.
+
+Naam: De naam “Veltwijck” verwijst naar het oorspronkelijke landgoed dat in de middeleeuwen bekend stond als “Veltwijckhof”.
+
+Architectuur: Het huidige kasteel werd grotendeels herbouwd in de 17e eeuw en later aangepast in neo-Vlaamse renaissancestijl.
+
+Slotgracht: Het kasteel is volledig omgeven door water, wat het de uitstraling geeft van een echte waterburcht.
+
+🏛️ Functie en gebruik
+Sinds 1983 doet het kasteel dienst als districtshuis van Ekeren.
+
+Het gebouw herbergt administratieve diensten en wordt gebruikt voor ceremoniële gelegenheden, zoals huwelijken.</div></div>
+<div class="poi"><div class="poi-h"><span class="tag">restroom</span><span class="poi-n">Toilet</span><span class="poi-km">45.9 km</span></div><div class="poi-d">Door de poort eerst deur aan de linkerkant.</div></div>
+<div class="poi"><div class="poi-h"><span class="tag">note</span><span class="poi-n">Havenhuis</span><span class="poi-km">51.9 km</span></div><div class="poi-d">Het Havenhuis combineert een gerestaureerde brandweerkazerne uit de 20e eeuw met een futuristische bovenbouw ontworpen door de wereldberoemde architecte Zaha Hadid.
+
+De bovenbouw lijkt op een glazen schip of een diamant, en symboliseert Antwerpen als wereldhaven.
+
+Sinds de opening in 2016 is het een architecturaal icoon en een trekpleister voor bezoekers.
+
+Begane vloer kun je bezoeken tijdens kantooruren, er zit in het atrium ook een koffiebar.</div></div>
+
+</div></body></html>

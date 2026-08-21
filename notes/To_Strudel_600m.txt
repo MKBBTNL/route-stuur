@@ -1,0 +1,128 @@
+TO STRUDEL 600M    0.6 km    · signs & notes only ·
+
+DIRECTIONS
+  ★ 0.0 km  [note] 1272
+  ★ 0.0 km  [note] 1283
+  ★ 0.0 km  [note] 1293
+  ★ 0.0 km  [note] 1302
+  ★ 0.0 km  [note] 1312
+  ★ 0.0 km  [note] 1323
+  ★ 0.0 km  [note] 1333
+  ★ 0.0 km  [note] 1402
+  ★ 0.0 km  [note] Bakery Lasa
+  ★ 0.0 km  [note] Detour to Strudel!
+  ★ 0.0 km  [note] Glorenza
+  ★ 0.0 km  [dock/stay] Hotel Stocker S. Valentino Muta
+  ★ 0.0 km  [note] Kiosk Appels
+  ★ 0.0 km  [bike_shop] Park Bikes Glorenza
+  ★ 0.0 km  [bike_shop] Park Bikes Lasa — Bahnhofstrasse - Via Stazione
+  ★ 0.0 km  [dock/stay] Parkhotel Zur Linde Silandro
+  ★ 0.0 km  [note] Station Laas/Lasa
+  ★ 0.0 km  [note] Steep + Gravel
+  ★ 0.0 km  [note] Under the road
+  ★ 0.2 km  [note] Ferry Sirmione
+  ★ 0.2 km  [bike_shop] Park Bikes Sirmione
+  ★ 0.6 km  [note] 0011
+  ★ 0.6 km  [note] 0021
+  ★ 0.6 km  [note] 0041
+  ★ 0.6 km  [note] 0051
+  ★ 0.6 km  [note] 0062
+  ★ 0.6 km  [note] 0072
+  ★ 0.6 km  [note] 024
+  ★ 0.6 km  [note] 034
+  ★ 0.6 km  [note] 135
+  ★ 0.6 km  [note] 136
+  ★ 0.6 km  [note] 137
+  ★ 0.6 km  [note] 1412
+  ★ 0.6 km  [note] 1432
+  ★ 0.6 km  [note] 1461
+  ★ 0.6 km  [note] 1482
+  ★ 0.6 km  [note] 1492
+  ★ 0.6 km  [note] 1502
+  ★ 0.6 km  [note] 1511
+  ★ 0.6 km  [note] 1532
+  ★ 0.6 km  [note] 1541
+  ★ 0.6 km  [note] 1552
+  ★ 0.6 km  [note] 1572
+  ★ 0.6 km  [note] 1581
+  ★ 0.6 km  [note] 1943
+  ★ 0.6 km  [note] 1983
+  ★ 0.6 km  [note] 1993
+  ★ 0.6 km  [note] 2002
+  ★ 0.6 km  [note] 2012
+  ★ 0.6 km  [note] 2022
+  ★ 0.6 km  [note] 2042
+  ★ 0.6 km  [food] Bicigrill Duchi
+  ★ 0.6 km  [food] Bicigrill Faedo
+  ★ 0.6 km  [food] Bicigrill Nomi — 19-MEI-14 10:24:43
+  ★ 0.6 km  [food] Bicigrill Ora
+  ★ 0.6 km  [food] Bicigrill Rovereto
+  ★ 0.6 km  [note] Big Bench
+  ★ 0.6 km  [bike_shop] Bike Shop Carpentari Torbole
+  ★ 0.6 km  [bike_shop] Bike Shop Cicli Moser Trento
+  ★ 0.6 km  [bike_shop] Bike Shop Mountain And Bike Mori
+  ★ 0.6 km  [bike_shop] Bike Shop Velolake Torbole
+  ★ 0.6 km  [bike_shop] Bikepath of the Mincio
+  ★ 0.6 km  [note] Borghetto brug
+  ★ 0.6 km  [note] Café Terlano
+  ★ 0.6 km  [note] Castle Messner
+  ★ 0.6 km  [note] Castle Scaligero Valeggio
+  ★ 0.6 km  [note] Castle Sigmundskron
+  ★ 0.6 km  [dock/stay] City Hotel Merano
+  ★ 0.6 km  [note] DeSpar BZ
+  ★ 0.6 km  [bike_shop] Drop Off Garda
+  ★ 0.6 km  [note] EuroSpar BZ
+  ★ 0.6 km  [note] Ferry Peschiera Del Garda
+  ★ 0.6 km  [note] Ferry Torbole
+  ★ 0.6 km  [dock/stay] Grand Hotel TN
+  ★ 0.6 km  [note] Grens Trentino/Alto Adige
+  ★ 0.6 km  [dock/stay] Hotel America TN
+  ★ 0.6 km  [dock/stay] Hotel Caravel Torbole
+  ★ 0.6 km  [dock/stay] Hotel Puccini Peschiera — Puccini
+Via Puccini 2
+Peschiera Del Garda, Veneto, ITA
++39 0456401428
+  ★ 0.6 km  [dock/stay] Hotel Scala BZ
+  ★ 0.6 km  [note] Kiosk Ora
+  ★ 0.6 km  [note] Let op verkeer
+  ★ 0.6 km  [note] Mori
+  ★ 0.6 km  [note] Nave San Felice
+  ★ 0.6 km  [food] Nonna Giulia IJs!
+  ★ 0.6 km  [note] Otzi
+  ★ 0.6 km  [food] Papa's Café, Mantova
+  ★ 0.6 km  [bike_shop] Park Bikes Garda
+  ★ 0.6 km  [bike_shop] Park Bikes Lazise
+  ★ 0.6 km  [bike_shop] Park Bikes Naturno
+  ★ 0.6 km  [bike_shop] Park Bikes Peschiera
+  ★ 0.6 km  [note] Piazza Bra Verona
+  ★ 0.6 km  [note] Piazza del Teatro Merano
+  ★ 0.6 km  [note] Piazza Walther Bolzano
+  ★ 0.6 km  [bike_shop] Pick up Mantova
+  ★ 0.6 km  [note] Poli TN
+  ★ 0.6 km  [note] Quick descent
+  ★ 0.6 km  [food] Radbar Venosta — 07-MEI-13 16:03:24
+  ★ 0.6 km  [note] Radrest Vilpiano
+  ★ 0.6 km  [note] San Procolo Chapel
+  ★ 0.6 km  [note] Sharp turn (Left)
+  ★ 0.6 km  [note] Station Gargazzone
+  ★ 0.6 km  [note] Station Mantova
+  ★ 0.6 km  [note] Station Merano
+  ★ 0.6 km  [note] Station Ora
+  ★ 0.6 km  [note] Station Peschiera
+  ★ 0.6 km  [note] Station Rovereto
+  ★ 0.6 km  [note] Station Salorno
+  ★ 0.6 km  [note] Station San Michele a/a - Grumo
+  ★ 0.6 km  [note] Station Trento
+  ★ 0.6 km  [note] Station Verona Porta Nuova
+  ★ 0.6 km  [food] Strudel!!! Maragno
+  ★ 0.6 km  [note] To Borghetto
+  ★ 0.6 km  [note] Uitzicht vanaf Nago
+  ★ 0.6 km  [note] Walk1
+  ★ 0.6 km  [note] Walk2
+  ★ 0.6 km  [note] Walk3
+  ★ 0.6 km  [note] Walk4
+  ★ 0.6 km  [note] Walk5
+  ★ 0.6 km  [note] Walk6
+  ★ 0.6 km  [note] Waterdam Zoll
+  ★ 0.6 km  [note] WC Borghetto
+  ★ 0.6 km  [note] WC Terlano

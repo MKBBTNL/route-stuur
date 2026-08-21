@@ -1,0 +1,842 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Route Sheet Builder · Boat Bike Tours</title>
+<style>
+  :root{
+    --blue:#0E55A6; --dark:#043D7D; --green:#40D9AB; --red:#BF3B26;
+    --ink:#22252b; --muted:#6d7480; --line:#dfe4ea; --bg:#eef1f5; --card:#fff;
+    --font:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;font-family:var(--font);color:var(--ink);background:var(--bg);height:100vh;display:flex;flex-direction:column;overflow:hidden}
+  .bar{display:flex;align-items:center;gap:10px;padding:10px 16px;background:var(--dark);color:#fff;flex:none}
+  .bar h1{font-size:15px;margin:0;font-weight:700;letter-spacing:.3px}
+  .bar .sp{flex:1}
+  .bar select,.bar button{font:inherit;font-size:13px;border:0;border-radius:7px;padding:7px 11px;cursor:pointer}
+  .bar button{background:var(--blue);color:#fff}
+  .bar button.ghost{background:rgba(255,255,255,.14)}
+  .bar button:hover{filter:brightness(1.08)}
+  .bar .lang{color:var(--ink)}
+  main{flex:1;display:grid;grid-template-columns:minmax(360px,42%) 1fr;min-height:0}
+  .form{overflow:auto;padding:16px 18px;border-right:1px solid var(--line)}
+  .prev{overflow:auto;background:#dfe3e8;padding:18px;display:flex;justify-content:center}
+  .prev iframe{width:794px;min-height:1123px;border:0;background:#fff;box-shadow:0 3px 22px rgba(0,0,0,.16);transform-origin:top center}
+  fieldset{border:1px solid var(--line);border-radius:10px;margin:0 0 14px;padding:12px 14px;background:var(--card)}
+  legend{font-weight:700;font-size:12px;letter-spacing:.6px;text-transform:uppercase;color:var(--dark);padding:0 6px}
+  label{display:block;font-size:12px;color:var(--muted);margin:8px 0 3px}
+  input[type=text],input[type=number],textarea,select{width:100%;font:inherit;font-size:14px;padding:7px 9px;border:1px solid var(--line);border-radius:7px;background:#fff}
+  textarea{resize:vertical;line-height:1.45}
+  .row{display:flex;gap:8px}.row>*{flex:1}
+  .hint{font-size:11px;color:var(--muted);margin-top:4px}
+  .node-row,.block-card{border:1px solid var(--line);border-radius:8px;padding:8px;margin-top:8px;background:#fafbfc}
+  .node-row{display:grid;grid-template-columns:64px 60px 1fr auto auto auto;gap:6px;align-items:center}
+  .node-row label{margin:0;font-size:10px}
+  .node-row .cell{display:flex;flex-direction:column}
+  .chk{display:flex;align-items:center;gap:4px;font-size:11px;color:var(--muted)}
+  .mini{background:#eef1f5;color:var(--dark);border:1px solid var(--line);border-radius:6px;padding:6px 9px;font:inherit;font-size:12px;cursor:pointer}
+  .mini:hover{background:#e3e8ef}
+  .del{background:#fff;border:1px solid var(--line);color:var(--red);border-radius:6px;width:30px;height:30px;cursor:pointer;font-size:15px;line-height:1}
+  .addbtn{margin-top:10px;background:var(--blue);color:#fff;border:0;border-radius:7px;padding:8px 12px;font:inherit;font-size:13px;cursor:pointer}
+  .pill-colors{display:flex;gap:12px;margin-top:4px}
+  .pill-colors label{display:flex;align-items:center;gap:5px;margin:0;color:var(--ink);font-size:13px}
+  .swatch{width:14px;height:14px;border-radius:50%}
+  .zoom{display:flex;align-items:center;gap:6px;font-size:12px;color:#fff}
+  input[type=range]{width:90px}
+</style>
+</head>
+<body>
+
+<div class="bar">
+  <h1>Route Sheet Builder</h1>
+  <label class="zoom">zoom <input id="zoom" type="range" min="40" max="100" value="62"></label>
+  <span class="sp"></span>
+  <select id="lang" class="lang" title="Language — flips the fixed labels">
+    <option value="en" selected>English</option>
+    <option value="nl">Nederlands</option>
+    <option value="de">Deutsch</option>
+    <option value="fr">Français</option>
+  </select>
+  <button class="ghost" id="loadGpx">Load GPX</button>
+  <button class="ghost" id="loadRcn" title="Refresh the knooppunt-matching cache from a newer rcn_cache.json">Load knooppunten cache…</button>
+  <button class="ghost" id="importFrame">Import frame</button>
+  <button class="ghost" id="loadTpl">Load template…</button>
+  <button class="ghost" id="saveDraft">Save draft</button>
+  <button class="ghost" id="loadDraft">Load draft</button>
+  <button class="ghost" id="printBtn">Print / PDF</button>
+  <button id="exportBtn">Export sheet</button>
+</div>
+
+<main>
+  <div class="form" id="form">
+    <fieldset>
+      <legend>Header</legend>
+      <div class="row">
+        <div><label>Day number</label><input id="dayNum" type="number" min="1" placeholder="2"></div>
+        <div><label>Distance</label><input id="distance" type="text" placeholder="30 km"></div>
+      </div>
+      <div class="row">
+        <div><label>Origin</label><input id="origin" type="text" placeholder="Wijk bij Duurstede"></div>
+        <div><label>Destination</label><input id="dest" type="text" placeholder="Wageningen"></div>
+      </div>
+      <label>Route pill (short label)</label>
+      <input id="pillText" type="text" placeholder="Blue · short route">
+      <div class="pill-colors">
+        <label><input type="radio" name="pillColor" value="blue" checked><span class="swatch" style="background:#0E55A6"></span>Blue</label>
+        <label><input type="radio" name="pillColor" value="red"><span class="swatch" style="background:#BF3B26"></span>Red</label>
+      </div>
+      <label>Ship &amp; phone</label>
+      <input id="ship" type="text" placeholder="De Holland · +31 646 650 129">
+      <div class="row">
+        <div><label>QR code text</label><input id="qrCode" type="text" placeholder="LY5L5"></div>
+        <div><label>QR image</label><input id="qrImg" type="file" accept="image/*"></div>
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <legend>Harbours (footer)</legend>
+      <div class="row">
+        <div><label>Start harbour — optional</label><input id="startHarbour" type="text" placeholder="Wijk bij Duurstede, harbour"></div>
+        <div><label>Finish harbour — optional</label><input id="endHarbour" type="text" placeholder="Wageningen, quay"></div>
+      </div>
+      <div class="hint">Clarifies the footer only. Leave blank to reuse the title’s towns.</div>
+    </fieldset>
+
+    <fieldset>
+      <legend>Knooppunt ribbon</legend>
+      <div id="nodes"></div>
+      <button class="addbtn" id="addNode">+ Add node</button>
+      <div class="hint">kp = node number · km = distance so far · town optional · tick “end” for the final node · tick “ferry before” if you cross by veerpont between the previous node and this one.</div>
+    </fieldset>
+
+    <fieldset>
+      <legend>Today’s route (prose)</legend>
+      <textarea id="routeText" rows="8" placeholder="One paragraph per blank line.
+Use [kp 86 · 91] for blue node refs and *bold* for place names."></textarea>
+      <div class="hint">Blank line = new paragraph · <b>[…]</b> → blue knooppunt ref · <b>*…*</b> → bold.</div>
+      <button class="addbtn" id="insertCues" style="margin-top:8px">↳ Insert off-network cues</button>
+      <div class="hint">Adds a scaffold line for every stretch the route leaves the node network (from an imported frame), for you to fill with directions.</div>
+    </fieldset>
+
+    <fieldset>
+      <legend>Along the way (highlight blocks)</legend>
+      <div id="blocks"></div>
+      <button class="addbtn" id="addBlock">+ Add block</button>
+    </fieldset>
+  </div>
+
+  <div class="prev"><iframe id="preview" title="preview"></iframe></div>
+</main>
+
+<!-- the route note template (English). Loaded as text; the builder fills its tokens. -->
+<script type="text/html" id="template">
+<!DOCTYPE html>
+<!--
+  BOAT BIKE TOURS · ROUTE NOTE TEMPLATE
+  ══════════════════════════════════════════════════════════════════════
+  The house day-sheet, set up as a base to edit in VS Code.
+  routekit fills the FRAME automatically; you hand-author the MIDDLE.
+  (Token names below are written without their braces so this comment
+   isn't itself filled — in the body they look like LANG wrapped in {{ }}.)
+
+  routekit fills these on every build:
+      LANG      html language (en / nl / de)
+      DAY       eyebrow, e.g. "DAY 02"  (localised; blank if unknown)
+      TITLE     "Origin - Destination"
+      DISTANCE  e.g. "30 km"
+      TIMELINE  the knooppunt ribbon (dots · km · towns) — generated
+      ROUTE     a plain node-sequence DRAFT for you to rewrite
+      QR / QR_CODE   per-language QR image + code, or blank
+
+  You hand-author these (routekit leaves them blank; empty ones hide):
+      ROUTE_PILL  the coloured route pill text
+      SHIP        ship name + phone
+      HIGHLIGHTS  the "Onderweg" blocks (coffee / highlights / safety)
+
+  Brand-constant bits are plain literals below — edit them once and they
+  flow to every sheet: the LOGO, the footer labels, "scan for GPS", etc.
+  To preview: run  routekit build <route>.gpx  and open the .html it writes.
+-->
+<html lang="{{LANG}}">
+<head>
+<meta charset="utf-8">
+<title>{{TITLE}}</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@600;700;800&family=Albert+Sans:wght@400;500;600&display=swap');
+
+/* ═══════════════════════════  EDIT ME  ═══════════════════════════
+   The whole look lives here. Change a value once; it flows everywhere. */
+:root{
+  /* — brand palette — */
+  --blue:#0E55A6;      /* primary blue: node dots, accents               */
+  --dark:#043D7D;      /* dark blue: title, rules, final node            */
+  --green:#40D9AB;     /* teal: distance, bullets                        */
+  --red:#BF3B26;       /* warning red: "let op" pill/blocks              */
+  --ink:#303038;       /* body text                                      */
+  --soft:#EEF6FF;      /* soft fill                                      */
+  --line:#d7e3f2;      /* hairlines + node connector line                */
+  --gray:#7a8394;      /* muted captions                                 */
+  /* — type — */
+  --display:'Outfit',system-ui,sans-serif;      /* headings, numbers     */
+  --body:'Albert Sans',system-ui,sans-serif;    /* running text          */
+  --fs-read:18px;      /* main reading size (route prose, lists)         */
+  /* — knooppunt ribbon — */
+  --dot:40px;          /* node badge diameter                            */
+  --dot-fs:17px;       /* number size inside the badge                   */
+  /* — page — */
+  --pad:40px 52px;     /* A4 inner margins                               */
+}
+/* ═════════════════════════════════════════════════════════════════ */
+
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:var(--body);color:var(--ink);background:#e9edf2;padding:24px;font-size:var(--fs-read)}
+.page{width:794px;min-height:1123px;margin:0 auto;background:#fff;padding:var(--pad);box-shadow:0 2px 14px rgba(0,0,0,.12)}
+h1,h2,h3,.day{font-family:var(--display)}
+
+/* ── header ── */
+header{display:flex;justify-content:space-between;align-items:center;border-bottom:3px solid var(--dark);padding-bottom:16px;gap:22px}
+.logo{flex:none}.logo img{height:58px;display:block}
+.logo .wordmark{font:800 20px/1 var(--display);color:var(--dark);letter-spacing:.5px}  /* fallback if you don't paste a logo */
+.head-mid{flex:1;text-align:left}
+.day-row{display:flex;align-items:center;gap:10px;min-height:20px}
+.day{font-weight:800;color:var(--blue);font-size:13px;letter-spacing:3px}
+.route-pill{font:700 10px var(--display);letter-spacing:1px;text-transform:uppercase;color:#fff;background:var(--blue);border-radius:20px;padding:3px 11px;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+.route-pill:empty{display:none}
+.route-pill.red{background:var(--red)}
+h1{font-weight:700;color:var(--dark);font-size:25px;margin-top:5px;line-height:1.12}
+.dist{color:var(--green);font-weight:700;font-size:16px;margin-top:4px;font-family:var(--display)}
+.dist svg.mi{width:15px;height:15px;vertical-align:-2px;margin-right:4px;stroke:currentColor}
+.callship{font-size:12px;color:var(--dark);margin-top:7px}.callship b{font-family:var(--display);color:var(--blue)}
+.callship .ship:empty::before{content:"—";color:var(--gray);font-weight:400}
+.qr{flex:none;text-align:center}
+.qr .qrimg img{width:74px;height:74px;display:block;border-radius:6px;border:1px solid var(--line)}
+.qr .code{display:block;font:700 11px var(--display);color:var(--dark);margin-top:4px;letter-spacing:1px}
+.qr small{display:block;font-size:8px;color:var(--gray);letter-spacing:.5px}
+
+/* ── knooppunt ribbon (generated by routekit) ── */
+.timeline{margin:22px 0 4px}
+.tl-track{display:flex;flex-wrap:wrap;row-gap:26px}
+.node{flex:0 0 12.5%;text-align:center;position:relative;padding-top:2px}         /* 8 nodes per row */
+.node::before{content:"";position:absolute;top:calc(var(--dot)/2 - 1px);left:-50%;width:100%;height:2px;background:var(--line);z-index:0}
+.node:nth-child(8n+1)::before{display:none}
+.dot{position:relative;z-index:1;display:inline-flex;align-items:center;justify-content:center;
+     width:var(--dot);height:var(--dot);border-radius:50%;background:var(--blue);border:2px solid var(--blue);
+     color:#fff;font:700 var(--dot-fs) var(--display);margin:0 auto;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+.dot.end{background:var(--dark);border-color:var(--dark)}
+.node .km{display:block;font-size:11px;color:var(--gray);margin-top:5px;font-variant-numeric:tabular-nums}
+.node .town{display:block;font:700 11px var(--display);color:var(--dark);margin-top:2px;line-height:1.1}
+/* compact tiers: shrink the ribbon as it grows past ~3 rows (scaled from the 40px base) */
+.tl-track[data-rows="4"] .dot,.tl-track[data-rows="5"] .dot,.tl-track[data-rows="6"] .dot{width:34px;height:34px;font-size:15px}
+.tl-track[data-rows="4"],.tl-track[data-rows="5"],.tl-track[data-rows="6"]{row-gap:20px}
+.tl-track[data-rows="5"] .dot,.tl-track[data-rows="6"] .dot{width:30px;height:30px;font-size:13.5px}
+.tl-track[data-rows="5"],.tl-track[data-rows="6"]{row-gap:16px}
+.tl-track[data-rows="4"] .km,.tl-track[data-rows="5"] .km,.tl-track[data-rows="6"] .km{font-size:9.5px;margin-top:3px}
+.tl-track[data-rows="4"] .town,.tl-track[data-rows="5"] .town,.tl-track[data-rows="6"] .town{font-size:9.5px}
+
+/* ── ferry / veerpont crossing: dashed line + boat glyph on the connector
+   between this node and the previous one ── */
+.node.ferry::before{background:none;border-top:2px dashed var(--blue);height:0}
+.node:nth-child(8n+1).ferry::before{display:none}
+.node .ferry-boat{position:absolute;left:-50%;width:100%;top:calc(var(--dot)/2 - 10px);
+  display:flex;justify-content:center;z-index:1;pointer-events:none}
+.node .ferry-boat svg{width:19px;height:19px;background:#fff;color:var(--blue)}
+.node:nth-child(8n+1) .ferry-boat{display:none}
+.tl-track[data-rows="4"] .ferry-boat,.tl-track[data-rows="5"] .ferry-boat,.tl-track[data-rows="6"] .ferry-boat{top:calc(var(--dot)/2 - 8px)}
+.tl-track[data-rows="4"] .ferry-boat svg,.tl-track[data-rows="5"] .ferry-boat svg,.tl-track[data-rows="6"] .ferry-boat svg{width:15px;height:15px}
+
+/* ── section headings ── */
+h2{font-family:var(--display);font-weight:700;color:var(--dark);font-size:14px;letter-spacing:1.5px;text-transform:uppercase;margin:24px 0 10px;padding-bottom:5px;border-bottom:1px solid var(--line)}
+
+/* ── route prose (hand-authored middle) ── */
+.route:empty{display:none}
+.route p{font-size:var(--fs-read);line-height:1.6;margin-bottom:10px}
+.route .rk-draft{color:var(--gray);font-style:italic}   /* routekit's node-sequence draft */
+.jct{color:var(--blue);font-weight:600}
+
+/* ── "onderweg" info blocks (hand-authored middle) ── */
+.info{display:grid;grid-template-columns:1fr 1fr;gap:14px 26px;margin-top:6px}
+.info:empty{display:none}
+.block h3{font-family:var(--display);font-size:13px;font-weight:700;letter-spacing:.5px;margin-bottom:5px;display:flex;align-items:center;gap:7px}
+.block.lunch h3,.block.high h3{color:var(--dark)}.block.safe h3{color:var(--red)}
+.gi{width:15px;height:15px;flex:none}
+.block ul{list-style:none;font-size:15px;line-height:1.5}
+.block li{padding-left:12px;position:relative;margin-bottom:3px}
+.block li::before{content:"";position:absolute;left:0;top:8px;width:5px;height:5px;border-radius:50%;background:var(--green)}
+.block.safe li::before{background:var(--red)}
+
+/* ── footer ── */
+footer{display:flex;gap:60px;margin-top:24px;padding-top:14px;border-top:3px solid var(--dark);font-size:12px}
+footer .t{min-width:200px}
+footer .t b{display:block;font:700 10px var(--display);letter-spacing:1px;color:var(--blue)}
+footer .t svg.mi{width:13px;height:13px;vertical-align:-2px;margin-right:3px;color:var(--blue)}
+
+@media print{
+  body{background:#fff;padding:0}
+  .page{box-shadow:none;margin:0}
+  *{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+}
+</style>
+</head>
+<body>
+<div class="page">
+
+  <header>
+    <!-- LOGO · brand-constant, embedded as base64 so every sheet is self-contained
+         (survives PDF export, the cockpit download, moving the file). To swap it,
+         replace the data URI below with your own, or drop in <img src="img/your.png">
+         only if you always open sheets from the Toolset folder. -->
+    <div class="logo"><img src="data:image/png;base64,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" alt="Boat Bike Tours"></div>
+
+    <div class="head-mid">
+      <div class="day-row"><span class="day">{{DAY}}</span><span class="route-pill">{{ROUTE_PILL}}</span></div>
+      <h1>{{TITLE}}</h1>
+      <div class="dist"><svg class="mi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19.875 12c.621 0 1.125 .512 1.125 1.143v5.714c0 .631 -.504 1.143 -1.125 1.143h-15.875a1 1 0 0 1 -1 -1v-5.857c0 -.631 .504 -1.143 1.125 -1.143h15.75"/><path d="M9 12v2"/><path d="M6 12v3"/><path d="M12 12v3"/><path d="M18 12v3"/><path d="M15 12v2"/><path d="M3 3v4"/><path d="M3 5h18"/><path d="M21 3v4"/></svg>{{DISTANCE}}</div>
+      <div class="callship">{{L_TROUBLE}} <b>{{L_CALLSHIP}} <span class="ship">{{SHIP}}</span></b></div>
+    </div>
+
+    <div class="qr">
+      <span class="qrimg">{{QR}}</span>
+      <span class="code">{{QR_CODE}}</span><small>{{L_SCAN}}</small>
+    </div>
+  </header>
+
+  <!-- FRAME · generated by routekit -->
+  <div class="timeline">{{TIMELINE}}</div>
+
+  <!-- MIDDLE · hand-authored. routekit drops a plain draft in {{ROUTE}}; rewrite it in your own voice. -->
+  <h2>{{L_TODAY}}</h2>
+  <div class="route">{{ROUTE}}</div>
+
+  <h2>{{L_ALONG}}</h2>
+  <div class="info">{{HIGHLIGHTS}}</div>
+
+  <footer>
+    <div class="t"><svg class="mi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"/><circle cx="12" cy="10" r="3"/></svg><b>{{L_START}}</b>{{START}}</div>
+    <div class="t"><svg class="mi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"/><circle cx="12" cy="10" r="3"/></svg><b>{{L_FINISH}}</b>{{END}}</div>
+  </footer>
+
+</div>
+</body>
+</html>
+
+</script>
+
+<script>
+"use strict";
+/* ── plug-in seams (documented for future POI-master / QR integration) ──
+   Replace these stubs later to auto-suggest POIs, resolve per-language QR
+   codes, or inject HOUSE constants without touching the builder UI. */
+window.getPOIs   = async function(routeId){ return []; };            // future: POI master
+window.resolveQR = async function(lang, tourCode){ return null; };   // future: per-language QR
+window.HOUSE     = { ship_default:"", footer_note:"" };              // future: house tokens
+
+const LOC = {
+  en:{trouble:"Trouble en route?",callship:"Call your ship:",scan:"scan for GPS",today:"Today\u2019s route",along:"Along the way",start:"START",finish:"FINISH",day:"DAY"},
+  nl:{trouble:"Problemen onderweg?",callship:"Bel je schip:",scan:"scan voor GPS",today:"Route van vandaag",along:"Onderweg",start:"START",finish:"AANKOMST",day:"DAG"},
+  de:{trouble:"Probleme unterwegs?",callship:"Rufen Sie Ihr Schiff an:",scan:"f\u00fcr GPS scannen",today:"Heutige Route",along:"Unterwegs",start:"START",finish:"ZIEL",day:"TAG"},
+  fr:{trouble:"Un probl\u00e8me en route\u202f?",callship:"Appelez votre bateau\u202f:",scan:"scanner pour GPS",today:"Itin\u00e9raire du jour",along:"En chemin",start:"D\u00c9PART",finish:"ARRIV\u00c9E",day:"JOUR"}
+};
+const DAYWORD = { en:LOC.en.day, nl:LOC.nl.day, de:LOC.de.day, fr:LOC.fr.day };
+// Icons below are the real BBT glyph set (Lucide/Tabler-sourced, 24x24, 2px
+// stroke), recoloured to currentColor so each follows its block's heading
+// color. Trimmed back to the original 4 block types + ferry per Marc's call
+// (2026-08-20) -- the wider 16-icon set was tried and rolled back.
+const ICONS = {
+  coffee:    '<svg class="gi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M10 2v2"/><path d="M14 2v2"/><path d="M16 8a1 1 0 0 1 1 1v8a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V9a1 1 0 0 1 1-1h14a4 4 0 1 1 0 8h-1"/><path d="M6 2v2"/></svg>',
+  highlight: '<svg class="gi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M10 10h4"/><path d="M19 7V4a1 1 0 0 0-1-1h-2a1 1 0 0 0-1 1v3"/><path d="M20 21a2 2 0 0 0 2-2v-3.851c0-1.39-2-2.962-2-4.829V8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v11a2 2 0 0 0 2 2z"/><path d="M22 16 2 16"/><path d="M4 21a2 2 0 0 1-2-2v-3.851c0-1.39 2-2.962 2-4.829V8a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v11a2 2 0 0 1-2 2z"/><path d="M9 7V4a1 1 0 0 0-1-1H6a1 1 0 0 0-1 1v3"/></svg>',
+  safety:    '<svg class="gi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 9v4"/><path d="M10.363 3.591l-8.106 13.534a1.914 1.914 0 0 0 1.636 2.871h16.214a1.914 1.914 0 0 0 1.636-2.87l-8.106-13.536a1.914 1.914 0 0 0-3.274 0"/><path d="M12 16h.01"/></svg>',
+  ferry:     '<svg class="gi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 10.189V14"/><path d="M12 2v3"/><path d="M19 13V7a2 2 0 0 0-2-2H7a2 2 0 0 0-2 2v6"/><path d="M19.38 20A11.6 11.6 0 0 0 21 14l-8.188-3.639a2 2 0 0 0-1.624 0L3 14a11.6 11.6 0 0 0 2.81 7.76"/><path d="M2 21c.6.5 1.2 1 2.5 1 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1s1.2 1 2.5 1c2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1"/></svg>',
+  info:      '<svg class="gi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4"/><path d="M12 8h.01"/></svg>'
+};
+const BLOCK_TYPES = {
+  coffee:    { cls:"lunch", title:"Coffee & lunch" },
+  highlight: { cls:"high",  title:"Highlights" },
+  safety:    { cls:"safe",  title:"Take care" },
+  ferry:     { cls:"safe",  title:"Ferry crossing" },
+  info:      { cls:"high",  title:"Good to know" }
+};
+// ferry / veerpont glyph for the knooppunt ribbon -- the real brand icon
+// (Transport/Ferry.svg from the BBT glyph set), recoloured to currentColor
+// so it follows .ferry-boat svg's CSS color same as everything else here.
+const FERRY_ICON = '<span class="ferry-boat" title="veerpont"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 10.189V14"/><path d="M12 2v3"/><path d="M19 13V7a2 2 0 0 0-2-2H7a2 2 0 0 0-2 2v6"/><path d="M19.38 20A11.6 11.6 0 0 0 21 14l-8.188-3.639a2 2 0 0 0-1.624 0L3 14a11.6 11.6 0 0 0 2.81 7.76"/><path d="M2 21c.6.5 1.2 1 2.5 1 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1s1.2 1 2.5 1c2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1"/></svg></span>';
+
+// Snapshot of rcn_cache.json's node list (OSM rcn_ref junctions), embedded so the
+// builder stays a single self-contained file. Format: [kp_ref, lat, lon] per node.
+// This is a point-in-time copy -- rcn_cache.json itself grows as routekit.py is run
+// on new areas. Use "Load knooppunten cache..." above to refresh it for this session
+// from your current rcn_cache.json without needing a new build of this file.
+const RCN_NODES_DEFAULT = [["60",52.3994902,4.9206938],["16",52.4467072,4.8973053],["74",52.463581,4.8495506],["36",52.4119469,4.9314464],["20",52.4311626,4.9140306],["19",52.4348043,4.8987432],["64",52.4394076,4.8271553],["18",52.440355,4.8754753],["17",52.4501832,4.883336],["12",52.4614876,4.8745976],["21",52.4634906,4.9485571],["72",52.4661098,4.8219001],["50",52.4712332,4.8554019],["05",52.3804524,4.8994865],["55",52.4345783,4.8173985],["16",52.4457474,4.8943003],["15",52.4633638,4.9043152],["13",52.4717625,4.9047163],["04",52.4279312,4.9386135],["73",52.4716033,4.8161912],["61",52.3891053,4.9168487],["70",52.4408224,4.8265014],["70",52.4409526,4.8268607],["70",52.4410363,4.8266606],["60",52.3994478,4.9206264],["71",52.4578379,4.8137993],["59",52.4746806,6.0729039],["78",52.2926869,5.9957039],["66",52.241331,6.028275],["56",52.2456601,6.0998177],["69",52.2477856,6.0539418],["99",52.2494859,6.0608569],["61",52.2497115,6.1516286],["67",52.2514911,6.0367343],["24",52.2517543,6.1530832],["63",52.2517685,6.1605461],["52",52.2571475,6.0076963],["85",52.2581259,6.0402706],["13",52.2588924,5.9523528],["83",52.2694937,6.0432357],["86",52.2729095,6.0921063],["46",52.2806242,5.9205455],["18",52.2826927,6.0962452],["87",52.2837387,6.1043845],["66",52.2895754,6.1454573],["34",52.291882,6.0630059],["89",52.2952416,6.0964772],["88",52.2983007,6.0831557],["69",52.300137,6.1232097],["67",52.3028392,6.1476868],["77",52.3116182,6.1471138],["37",52.3125425,6.0105416],["98",52.3132387,5.9871559],["32",52.3151123,5.9528913],["72",52.3250396,6.1235777],["68",52.3309392,6.0531828],["13",52.3316221,6.0136622],["67",52.3345228,6.0419247],["56",52.3375151,6.1129505],["70",52.3412843,6.0938667],["70",52.3422986,6.0965151],["63",52.3422596,5.9524094],["05",52.3440618,5.9394092],["21",52.3441817,5.9379545],["69",52.3445568,6.0482345],["20",52.3482467,5.9181293],["62",52.3485296,5.9839396],["59",52.3524098,6.1078139],["41",52.3528697,6.1377456],["46",52.3564182,6.115408],["40",52.3594043,6.142443],["86",52.3615417,6.0321509],["26",52.3647483,5.9520788],["49",52.364831,6.1138966],["08",52.3650963,6.0733229],["61",52.369506,6.0019633],["97",52.3738216,6.0783746],["35",52.3742964,6.1500108],["58",52.3752165,6.0895499],["93",52.3756525,6.0519041],["51",52.3758707,6.0932327],["10",52.3772657,6.0890708],["14",52.3818396,6.0185465],["95",52.3818905,6.0171832],["30",52.3840685,6.136848],["94",52.3869393,6.0408669],["59",52.3884345,6.042364],["42",52.3891094,6.0464717],["29",52.3895992,6.1352468],["32",52.3904434,6.1287069],["31",52.3919219,6.1214262],["27",52.3934079,6.1224405],["91",52.3948564,6.053904],["61",52.4015217,6.1585301],["23",52.4016869,6.0610214],["GrootStokkert",52.4189174,6.0556481],["67",52.4231221,6.0806169],["65",52.4255396,6.0264443],["14",52.4276289,6.1587234],["12",52.4277289,6.1452588],["13",52.4287452,6.1518238],["19",52.4316374,6.0768811],["72",52.433009,6.0697764],["33",52.4386567,6.0838245],["71",52.4430372,6.073716],["11",52.445189,6.1258429],["14",52.4485483,5.9296694],["9",52.4511007,6.1598359],["36",52.4658667,6.094325],["19",52.4738141,6.1112459],["57",52.4748795,6.0432482],["58",52.4749855,6.0666453],["08",52.4752677,5.9292843],["75",52.4766048,5.933197],["99",52.4771002,6.0374608],["18",52.4798946,6.086626],["94",52.4861555,6.0592525],["48",52.4867719,5.9573168],["17",52.4877256,6.0785117],["70",52.4881687,6.1463477],["47",52.4911038,5.9866415],["92",52.4932996,6.0702652],["40",52.503929,6.1537698],["25",52.5063284,5.9335183],["41",52.5079965,6.15762],["51",52.5085912,6.1493491],["7",52.5105419,6.089954],["65",52.5106527,6.0949443],["66",52.5127766,6.1014434],["66",52.5132123,6.1022944],["43",52.5143613,5.9604107],["44",52.5184507,5.9553905],["76",52.5206777,6.0095769],["49",52.5218138,6.1504247],["63",52.5266959,6.0687051],["64",52.527107,6.0732265],["47",52.5280874,6.140184],["71",52.5362034,6.0782709],["67",52.5363189,6.1298305],["42",52.5398331,5.9635503],["62",52.5477132,6.0785394],["10",52.5477662,6.0948181],["68",52.55166,6.12801],["46",52.554829,5.9580043],["41",52.5586969,5.9140993],["41",52.5588182,5.9140597],["41",52.5589349,5.9151598],["41",52.5589917,5.9151253],["60",52.5597743,6.1174863],["45",52.5649057,5.9290363],["65",52.2551678,5.9818157],["19",52.2568681,5.9665834],["77",52.2645617,5.9681703],["76",52.2899929,5.9745386],["76",52.5208106,6.008317],["85",52.424394,6.066708],["44",52.3146602,5.9407179],["84",52.2678639,6.055991],["50",52.4641969,5.9740583],["88",52.4041218,6.0085605],["99",52.306706,6.0040569],["01",52.4449321,6.0282882],["96",52.3746886,5.9617937],["26",52.2474981,5.9428412],["81",52.2877617,6.0357535],["56",52.4450282,6.0194843],["54",52.4405074,6.0127661],["54",52.4402756,6.012853],["54",52.4402199,6.0125158],["40",52.4252901,6.0130521],["51",52.4691353,5.9857457],["14",52.2506615,6.1392805],["65",52.2817044,6.1569029],["65",52.2785891,6.1560679],["64",52.2576587,6.1499137],["39",52.4463613,6.0314986],["89",52.411535,6.0249215],["87",52.3910206,5.9735424],["56",52.3776053,5.9941628],["03",52.533176,6.014283],["05",52.4435018,5.9122682],["07",52.4511663,5.9421328],["30",52.4053055,6.0107382],["14",52.252454,6.1432391],["64",52.2576179,6.1497484],["64",52.2572093,6.1504141],["62",52.2555173,6.1629138],["55",52.2818453,6.1280113],["60",52.2980463,6.1128678],["68",52.3249873,6.1432952],["64",52.2572859,6.15051],["06",52.5397694,6.0116768],["24",52.2524848,6.1521427],["24",52.2524471,6.1520415],["24",52.2516801,6.1528899],["48",52.5178187,6.1374493],["74",52.3378286,6.1486121],["05",52.5162281,6.1282431],["55",52.2875988,6.0378659],["20",52.4839654,6.1359025],["54",52.3840819,6.1432631],["70",52.4882859,6.1460534],["47",52.3793612,5.9214625],["30",52.3810941,5.9135179],["67",52.5356635,6.1284167],["40",52.4252482,6.0136456],["50",52.5006472,6.1263349],["82",52.4431923,6.0714845],["04",52.3782126,6.0451556],["90",52.4091792,6.0584074],["80",52.4044725,6.0543591],["16",52.4171491,6.064147],["43",52.367785,6.0467482],["81",52.3975394,6.0107008],["10",52.4453131,6.1483761],["84",52.4248957,6.0354191],["64",52.3353912,5.9905102],["22",52.3867905,6.0023094],["92",52.491893,6.0708951],["55",52.4570567,5.9786294],["55",52.4571074,5.9784643],["90",52.48711,6.0508847],["56",52.3376361,6.1115288],["27",52.3872239,5.9988916],["57",52.2452145,6.0292658],["8",52.4613177,6.1522844],["30",52.3809506,5.9131361],["45",52.5642285,5.9281483],["38",52.3691722,6.0921498],["83",52.400906,6.002111],["30",52.3842579,6.136945],["91",52.2492757,6.0346629],["54",52.3838483,6.1431289],["54",52.3840154,6.1430332],["55",52.5135403,6.0894584],["60",52.4712258,6.0673673],["65",52.3277053,5.9458303],["51",52.3328439,6.0153434],["48",52.2584888,6.1273787],["28",52.3732663,6.0661413],["50",52.5023744,6.1309388],["74",52.4380965,6.0930783],["66",52.3981146,6.1014362],["86",52.4188237,6.0902031],["04",52.5474506,6.0416187],["92",52.4062253,6.0918329],["02",52.520461,6.0278765],["96",52.3805498,6.0719957],["78",52.4810199,6.0017282],["52",52.4559094,6.0010934],["52",52.4558421,6.0009145],["52",52.4556643,6.0010623],["20",52.3628719,6.0426791],["75",52.2906316,5.9576656],["21",51.9573149,5.5788212],["07",51.9450872,5.499245],["24",51.9484672,5.6195003],["13",51.9526908,5.5602493],["39",51.9534133,5.3544408],["52",51.954125,5.5773534],["32",51.9545134,5.6084618],["99",51.9554309,5.5777121],["98",51.9559145,5.561734],["62",51.9581224,5.5626456],["35",51.9588479,5.5793985],["78",51.9597725,5.487875],["73",51.9623962,5.6591428],["25",51.9635242,5.6597567],["09",51.9639524,5.5234059],["08",51.9651933,5.5222634],["93",51.9655036,5.3430088],["72",51.9664805,5.5806581],["53",51.9665484,5.6141447],["73",51.9673806,5.425837],["15",51.9739762,5.3444452],["28",51.9743084,5.634715],["30",51.9742946,5.586947],["45",51.975792,5.6505596],["77",51.9762632,5.4941357],["89",51.9764881,5.5430463],["76",51.9807594,5.4573962],["33",51.9818149,5.6066597],["12",51.9819838,5.6268203],["34",51.9824582,5.5695411],["13",51.9862887,5.6238069],["41",51.9869099,5.5051072],["13",51.9869792,5.3422619],["86",51.9888767,5.4010168],["47",51.9897376,5.6485678],["92",51.9909356,5.6476093],["49",51.9914627,5.5076584],["51",51.9930501,5.5951524],["27",51.9955932,5.6013639],["17",51.9965944,5.4558916],["91",51.9966956,5.4151729],["95",51.9983973,5.3575725],["02",51.9997087,5.6144521],["91",52.0011385,5.6370404],["21",52.0024877,5.3807685],["27",52.0049523,5.3453032],["29",52.0052345,5.6106027],["63",52.005533,5.4300458],["10",52.0087445,5.3984303],["18",52.0092355,5.4366203],["43",52.0103654,5.516215],["11",52.0124319,5.4074932],["25",52.0139796,5.586756],["09",52.014867,5.3530056],["61",52.0206895,5.3380963],["44",52.0222419,5.5265334],["08",52.0260426,5.3658855],["22",52.0266962,5.5873926],["47",52.0306154,5.5216392],["67",52.033843,5.4619447],["66",52.0402307,5.4915327],["68",52.0464552,5.5731911],["07",52.0468329,5.3928179],["82",52.0490352,5.4557298],["22",52.0515733,5.4816267],["83",52.0523109,5.4531869],["89",51.9764244,5.5431179],["40",51.9947549,5.5231048],["40",51.994649,5.5233507],["65",52.0003329,5.4749502],["18",52.0090089,5.43664],["73",52.0389412,5.5535308],["73",52.0391431,5.5539647],["73",52.038672,5.5538815],["93",52.0370349,5.5653834],["16",52.0110392,5.5179208],["12",52.0218964,5.4258111],["71",52.0271683,5.4263854],["20",52.0295749,5.4992043],["70",51.9691848,5.5659262],["85",52.0062355,5.5385593],["31",51.9661218,5.6179427],["99",51.9554569,5.5774668],["48",52.0350185,5.5251037],["39",52.0029653,5.5397444],["26",51.9850321,5.6149535],["46",52.0313823,5.53391],["99",51.9558464,5.577558],["74",51.9723552,5.4339919],["99",52.0496272,5.5414388],["29",52.0475933,5.4049432],["31",52.0164451,5.4139435],["31",52.0163407,5.4144602],["97",52.0321536,5.4152396],["79",51.9458251,5.4488803],["75",51.9630726,5.454144],["28",52.0324196,5.4165336],["93",52.0367846,5.5652215],["23",52.0514304,5.4917086],["53",52.0489242,5.4912719],["69",52.0198389,5.4429737],["96",51.9807971,5.6558897],["96",51.9807556,5.6555682],["70",52.0434908,5.3797361],["23",52.0414005,5.5996113],["15",51.9761389,5.5261233],["37",51.966381,5.5464781],["99",51.9558165,5.5778719],["32",51.9548178,5.6083926],["56",52.0483718,5.5722808],["37",51.9585014,5.3507106],["36",51.9598729,5.5599514],["36",51.959888,5.5602862],["36",51.9595553,5.5603673],["38",51.9776696,5.5651995],["52",52.0198047,5.4198442],["94",52.043305,5.534901],["18",52.0091094,5.4368136],["68",52.0219409,5.4473891],["24",52.0302685,5.5426798],["93",52.0370579,5.565941],["11",51.9795638,5.6179312],["88",52.043923,5.3327717],["31",52.0166638,5.414646],["64",51.972007,5.5642513],["18",52.0091286,5.4364395],["21",51.9572105,5.5785719],["21",51.9571905,5.5787911],["21",51.9573474,5.5785583],["45",52.0303548,5.3449978],["84",51.9835348,5.5012947],["84",51.9835994,5.5013588],["15",51.9741298,5.3446217],["42",52.0026372,5.4930941],["58",52.0492325,5.5584206],["32",51.9544747,5.6083704],["14",51.9746913,5.3444628],["36",51.9597861,5.5604505],["45",52.0278445,5.5604745],["81",52.0285647,5.5598174],["25",51.9637893,5.6596691],["24",52.0305583,5.5427029],["24",52.0303888,5.5423484],["15",51.9765302,5.525972],["81",52.028433,5.5595727],["81",52.0286268,5.55976],["81",52.028555,5.5594463],["23",52.0513827,5.491702],["45",52.0304928,5.345116],["59",52.0287412,5.5588567],["48",52.0395875,5.3459792],["48",52.0395501,5.3461526],["14",51.9747259,5.3443934],["14",51.974668,5.34439],["52",52.6320839,4.8312321],["72",52.6395168,4.7584031],["58",52.5565767,4.7960884],["58",52.556991,4.7946288],["57",52.5578948,4.7821257],["61",52.559458,4.8589547],["62",52.5610073,4.8312679],["55",52.5719108,4.7399115],["80",52.5784346,4.8077699],["82",52.5829299,4.8475034],["81",52.585875,4.8150527],["29",52.5897592,4.887877],["98",52.59032,4.7446803],["27",52.5998174,4.8761914],["28",52.5998582,4.8969727],["77",52.6008627,4.7887989],["79",52.611559,4.8199628],["01",52.6246483,4.8891287],["74",52.6301833,4.7494659],["03",52.6324386,4.7782652],["03",52.6324522,4.7780985],["73",52.6334852,4.7422243],["02",52.6338837,4.8755043],["02",52.6343011,4.8756778],["02",52.6348816,4.8751107],["51",52.6394316,4.7754596],["27",52.599867,4.8759973],["27",52.6001372,4.8768311],["98",52.5904562,4.7444208],["71",52.6490081,4.7428294],["22",52.6434323,4.8312086],["52",52.6327407,4.8316323],["50",52.633214,4.7548776],["50",52.6331027,4.7550516],["02",52.6269627,4.7728315],["02",52.6266704,4.7731688],["02",52.6264998,4.7727117],["76",52.584126,4.7794048],["17",52.6358438,4.8033054],["01",52.6328038,4.751442],["01",52.6328787,4.7515151],["27",52.6003012,4.8760748],["27",52.6002527,4.8767889],["27",52.6003748,4.8765658],["78",52.6161192,4.7973449],["56",52.5702473,4.7473484],["74",51.6974359,5.8689602],["48",51.6989013,5.7784019],["47",51.7007549,5.7288606],["77",51.7011644,5.837273],["20",51.7060764,5.7705894],["85",51.706487,5.724976],["21",51.709623,5.7562034],["68",51.7242018,5.8228407],["82",51.7260282,5.7205051],["33",51.7259845,5.8258294],["76",51.7260469,5.8431505],["69",51.7284244,5.8820199],["73",51.729581,5.8536221],["10",51.7303031,5.7733343],["04",51.7314693,5.8832209],["44",51.7317996,5.8866746],["81",51.7333903,5.7245051],["05",51.7369921,5.7101139],["67",51.7438731,5.7863149],["01",51.7441525,5.7449956],["45",51.7451851,5.8862887],["45",51.7456047,5.8870051],["02",51.7557107,5.7452016],["43",51.7561048,5.7931752],["50",51.7589822,5.8661933],["04",51.7595592,5.7413473],["15",51.7596157,5.7684419],["26",51.7630911,5.8353224],["27",51.7645237,5.8457409],["57",51.7659808,5.803333],["42",51.7669662,5.8050062],["03",51.7678949,5.7318505],["25",51.7684374,5.8246376],["83",51.7687182,5.754997],["82",51.7714641,5.738876],["47",51.7723876,5.7699052],["71",51.7215381,5.8875714],["72",51.7487835,5.8440543],["06",51.7509878,5.8411925],["06",51.7514055,5.8388083],["71",51.7212689,5.8878594],["44",51.7611396,5.8203863],["36",51.7180577,5.7481456],["71",51.7213725,5.8871673],["35",51.7154109,5.7384953],["29",51.7411089,5.7410454],["35",51.7152366,5.7383441],["11",51.724198,5.7714642],["02",51.7560383,5.7450785],["01",51.7145281,5.8163277],["02",51.7557219,5.7454929],["49",51.7021248,5.8006854],["66",51.7497616,5.7912557],["35",51.7695843,5.8529733],["08",51.7682299,5.8793644],["70",51.7703043,5.8804088],["29",51.7412199,5.7410669],["83",51.7232389,5.7208447],["07",51.729012,5.8734185],["09",51.7504527,5.8662161],["16",51.7564405,5.8727714],["16",51.7566006,5.872619],["80",51.7456405,5.7156565],["80",51.7451134,5.715618],["80",51.7450946,5.7155279],["80",51.7451794,5.7150416],["80",51.7453734,5.7149352],["80",51.7456765,5.7152996],["07",51.7290495,5.873365],["35",51.835024,6.0339683],["77",51.7624471,6.0261505],["41",51.7025486,5.9819205],["12",51.7060411,5.9378441],["36",51.7107612,6.0203975],["50",51.7125268,5.9845127],["70",51.7141014,5.9109422],["38",51.7172302,5.9508298],["35",51.7191377,6.02486],["22",51.7193139,6.0208241],["28",51.7237824,5.9159655],["27",51.725074,5.9254513],["48",51.726334,5.9523021],["41",51.730156,5.9137334],["37",51.7311,5.94134],["24",51.73368,5.9371599],["61",51.7556523,5.9133714],["80",51.7621572,5.9407496],["46",51.7644825,5.9072771],["82",51.7732217,5.947189],["87",51.7736001,5.9328392],["47",51.7741301,5.8974902],["81",51.7742342,5.9698161],["85",51.7751717,5.9800753],["32",51.7828092,5.8861608],["31",51.7878379,5.9174855],["84",51.7952188,5.9502491],["30",51.7971237,5.9061054],["68",51.8039059,5.9658574],["68",51.8055191,5.9656647],["09",51.8097067,5.8791444],["10",51.810137,5.8676413],["08",51.812741,5.8867686],["58",51.8140749,5.9103691],["60",51.820204,5.920548],["07",51.8208734,5.8809048],["07",51.8207398,5.8804831],["57",51.824531,5.9132222],["61",51.8279936,5.9270353],["62",51.8298089,5.9218709],["64",51.8303205,5.9379829],["63",51.8346218,5.9261257],["65",51.8378105,5.9937584],["51",51.8415612,5.9096632],["16",51.8466784,5.8760224],["02",51.8481673,5.8717067],["02",51.8485822,5.8722217],["02",51.8486037,5.8710456],["67",51.849183,5.9853997],["93",51.8525365,6.0302389],["99",51.8569618,5.9310972],["48",51.8586827,5.9014577],["52",51.859621,5.9252943],["17",51.833337,5.8586623],["67",51.8234679,5.9739634],["42",51.7380777,5.920123],["01",51.845624,5.8725585],["55",51.7436841,5.9844295],["79",51.74992,5.9586728],["79",51.7491713,5.9578121],["32",51.7830165,5.8879638],["32",51.785306,5.8872334],["45",51.8416473,5.8601151],["45",51.841493,5.8596025],["45",51.8418303,5.8584512],["34",51.783984,5.8680494],["69",51.8094131,6.0129555],["25",51.7594293,5.9223105],["17",51.8322823,5.8587296],["66",51.8370968,5.960024],["78",51.7662752,5.9905791],["35",51.8366186,6.0241592],["81",51.8447167,5.874013],["17",51.8331664,5.8589815],["01",51.8456294,5.8717963],["08",51.8129678,5.886472],["08",51.8125081,5.8865052],["08",51.8126308,5.8861163],["11",51.8085376,5.8571203],["11",51.8083844,5.8572303],["29",51.7960995,5.9296696],["28",51.7840223,5.9341812],["10",51.8100053,5.8677347],["45",51.8416099,5.8587576],["05",51.8260796,5.8683003],["15",51.828954,5.8937446],["15",51.8288243,5.8937471],["15",51.8288247,5.8939919],["38",51.7171442,5.9513133],["33",51.7780037,5.8932832],["40",51.7038078,5.9908656],["40",51.7036348,5.9910116],["23",51.7380125,5.9550004],["23",51.7380452,5.9551567],["21",51.7387368,5.9803111],["07",51.820612,5.8810049],["04",51.8301673,5.8744745],["09",51.8098327,5.8791305],["83",51.7838144,5.9707875],["59",51.8155233,5.9223001],["60",51.8201629,5.9204965],["57",51.8245244,5.9134625],["07",51.8203808,5.8805011],["30",51.7970224,5.9059227],["89",51.7668008,5.9367324],["88",51.7778919,5.9329784],["06",51.8165453,5.8669025],["45",51.8424079,5.8584218],["45",51.8420189,5.8583432],["45",51.8424854,5.8602965],["45",51.8427442,5.8597924],["31",51.7141874,6.0348224],["03",51.834643,5.8709958],["35",51.857118,5.8619221],["34",51.7837395,5.86817],["20",51.8486809,5.8557714],["80",51.8576834,5.8670926],["80",51.8583944,5.8695255],["37",51.7837713,6.0164929],["81",51.8445863,5.8734725],["86",51.7876048,5.9995014],["03",51.8346901,5.8712666],["60",51.8202642,5.92042],["18",51.7743737,5.9279635],["18",51.7742383,5.928121],["63",51.8346624,5.9258611],["66",51.8390317,5.9596435],["91",51.8075072,4.7640807],["84",51.8080948,4.6928506],["90",51.8143845,4.7661927],["80",51.8154707,4.7429573],["14",51.8167337,4.6661842],["79",51.8236761,4.7419155],["02",51.8248265,4.823199],["98",51.8248435,4.6826209],["98",51.8252192,4.6827977],["78",51.8265329,4.8311818],["50",51.8295367,4.80495],["99",51.830014,4.7285999],["77",51.8303334,4.8374401],["77",51.8306951,4.8373685],["10",51.8422532,4.7352016],["43",51.8595599,4.7047265],["18",51.8655695,4.674192],["08",51.8674723,4.7492932],["12",51.8703124,4.7895389],["12",51.8702107,4.7900384],["34",51.870708,4.7893694],["31",51.8707728,4.7799655],["30",51.8731731,4.7520013],["19",51.8745948,4.6757685],["19",51.8746745,4.6764818],["07",51.8804153,4.7415218],["32",51.8826219,4.7901125],["21",51.8828505,4.6684796],["13",51.8832621,4.8480845],["13",51.8834406,4.8479491],["13",51.8837984,4.8479953],["33",51.8840883,4.7962451],["17",51.8900948,4.8595424],["01",51.8911715,4.8633527],["05",51.8924894,4.7295287],["62",51.89468,4.6840447],["14",51.8971394,4.8340832],["64",51.9007799,4.7257655],["06",51.9165506,4.7879375],["60",51.9167439,4.7262246],["76",51.9210567,4.7851378],["25",51.928531,4.6944606],["37",51.930094,4.8137397],["35",51.9369363,4.7652792],["18",51.9420193,4.6718922],["10",51.9428563,4.8542081],["57",51.9437373,4.8511709],["57",51.9440338,4.8517602],["21",51.9445517,4.7100822],["34",51.9446405,4.8107668],["22",51.9478308,4.7185447],["33",51.9504096,4.8097382],["23",51.9362014,4.7170089],["88",51.8112205,4.668277],["11",51.8133875,4.684204],["11",51.8131818,4.6840374],["83",51.9288688,4.8337078],["72",51.9354271,4.73745],["88",51.8112357,4.668101],["36",51.9266272,4.7434395],["07",51.8816335,4.7402508],["40",51.8460907,4.7321074],["86",51.8154179,4.6790496],["10",51.8150787,4.6994658],["88",51.8109968,4.6681686],["89",51.8081395,4.7620927],["68",51.9244134,4.6863004],["11",51.8450186,4.7872944],["11",51.8450331,4.7870736],["42",51.8565365,4.6928429],["50",51.8239751,4.8045369],["04",51.8863173,4.6950675],["67",51.9093604,4.6846927],["24",51.9296734,4.7165741],["20",51.9350625,4.6857272],["87",51.8190834,4.6752963],["67",51.9239207,4.8177699],["82",51.92086,4.8201695],["09",51.8616751,4.7298726],["86",51.8155131,4.6791086],["41",51.8430016,4.6990188],["81",51.9019794,4.8433242],["97",51.8545408,4.6668169],["68",51.9057863,4.8397272],["42",51.8565582,4.6924449],["69",52.4305052,4.7829248],["99",52.437939,4.7158602],["38",52.4398771,4.7097759],["67",52.441137,4.745993],["65",52.4567765,4.73425],["07",52.46603,4.6992847],["08",52.4686855,4.7048896],["44",52.4739063,4.6856948],["39",52.4821583,4.7075039],["40",52.4849682,4.6968673],["40",52.484999,4.6972839],["40",52.485276,4.6970407],["92",52.4916726,4.7988979],["38",52.494782,4.7210168],["93",52.4964507,4.7960797],["90",52.4989491,4.7684346],["58",52.5030864,4.6879817],["86",52.5143119,4.7687014],["85",52.5172587,4.7456827],["14",52.5251124,4.7100905],["24",52.5288262,4.7155469],["02",52.5301445,4.7162832],["20",52.5333282,4.7068328],["60",52.5394168,4.8335934],["60",52.5402373,4.8365291],["22",52.5415018,4.6767291],["21",52.5424058,4.6819819],["54",52.549435,4.7278173],["26",52.5841108,4.6868384],["27",52.5908815,4.6929385],["99",52.5931347,4.7279258],["33",52.6072888,4.7132038],["09",52.4618408,4.7219704],["36",52.5055605,4.6966459],["28",52.594657,4.6799993],["17",52.5609255,4.6895876],["84",52.5260357,4.7385309],["10",52.4358519,4.7264446],["11",52.4318214,4.7227027],["68",52.4657598,4.771231],["66",52.4754586,4.7470605],["37",52.498058,4.7094194],["98",52.4337468,4.7051231],["59",52.5389485,4.8332368],["99",52.593229,4.727991],["95",52.4448015,4.6870898],["88",52.5180497,4.7842562],["94",52.4283525,4.6846125],["89",52.5198167,4.7921295],["63",52.4724115,4.7799325],["01",52.5350646,4.7153557],["18",52.5477314,4.691125],["10",52.5140261,4.6821451],["10",52.5144212,4.682243],["34",52.6000678,4.7033089],["91",52.4975107,4.7760439],["91",52.4976014,4.7760912],["19",52.5488788,4.7063804],["91",52.4966919,4.7779382],["92",52.4907735,4.7986932],["92",52.490583,4.7985131],["92",52.4908623,4.7983895],["92",52.4916501,4.799054],["32",52.6130097,4.6984979],["06",52.6347253,4.7133722],["87",52.5144696,4.7757014],["06",52.4784369,4.6854007],["10",52.51421,4.6818652],["94",52.4878273,4.8134217],["11",52.4313601,4.7245612],["10",52.5142314,4.6825135],["10",51.3671653,6.1710057],["79",51.3717209,6.0921128],["07",51.3745999,6.1689004],["43",51.3803043,6.1141823],["83",51.3978244,6.1423795],["77",51.398032,6.0475501],["96",51.416584,6.1611538],["84",51.4184155,6.1580455],["81",51.4195862,6.1474817],["82",51.4418042,6.127935],["92",51.4580894,6.1754279],["98",51.4598339,6.1705028],["91",51.4604878,6.1645406],["74",51.462633,6.0599223],["86",51.4631155,6.0848803],["93",51.4711717,6.1830832],["68",51.4808038,6.0574341],["56",51.4864777,6.1650532],["53",51.4931305,6.1462026],["69",51.49526,6.05623],["50",51.4953053,6.0461028],["54",51.4954045,6.0927034],["55",51.49695,6.1773101],["80",51.5110023,6.0364355],["52",51.5115882,6.1038908],["38",51.5179739,6.0749998],["51",51.5211214,6.0565016],["58",51.5226299,6.127484],["73",51.5266365,6.1908087],["08",51.5300463,6.0733897],["59",51.530346,6.1104544],["62",51.5348736,6.1370968],["15",51.534488,6.1238804],["27",51.5394888,6.1311783],["64",51.5463229,6.1582173],["75",51.5485535,6.1636251],["66",51.5492875,6.08753],["71",51.549893,6.098402],["61",51.5509021,6.0504384],["85",51.4450445,6.0994571],["70",51.4860381,6.1711598],["87",51.4544018,6.0516046],["11",51.3703067,6.1610309],["72",51.4657158,6.05898],["94",51.4715539,6.1895615],["28",51.4364293,6.1675172],["73",51.3653616,6.0913184],["78",51.3783915,6.0777853],["73",51.4372493,6.0642354],["10",51.5109392,6.1371998],["76",51.4147303,6.0440815],["76",51.4144352,6.0438534],["76",51.4147068,6.0431956],["75",51.4304808,6.0429326],["75",51.4305937,6.0428023],["44",51.4283816,6.0396197],["80",51.4151533,6.1144522],["44",51.4282416,6.0399046],["14",51.5307377,6.1174384],["06",51.3817144,6.1461231],["88",51.471861,6.0602112],["25",51.4742121,6.1794418],["89",51.4678466,6.1162863],["90",51.4698516,6.1245932],["06",51.3818983,6.1465178],["40",51.4031089,6.1240629],["26",51.4722869,6.1746489],["41",51.3961311,6.1053306],["42",51.4176702,6.0613377],["74",51.5073249,6.1691949],["74",51.5074609,6.1694593],["06",51.3819306,6.1462016],["88",51.4716084,6.0602165],["39",51.5371041,6.0644875],["07",51.5354305,6.0776034],["18",51.5332262,6.1118074],["12",51.5405168,6.0997822],["09",51.5013806,6.1573751],["57",51.4898973,6.1617988],["11",51.5198785,6.1174893],["09",51.5013659,6.1567825],["09",51.5015241,6.1569226],["13",51.5439425,6.0882164],["41",51.7733472,5.8091389],["93",51.7762783,5.7543764],["39",51.7826522,5.8355562],["77",51.7844489,5.7742333],["78",51.7875132,5.7636275],["85",51.7893246,5.7227399],["38",51.7971868,5.8394286],["88",51.8059033,5.7312594],["64",51.8106813,5.7299564],["12",51.8165276,5.8551331],["53",51.819342,5.7671403],["21",51.82846,5.8267352],["61",51.8342064,5.7300181],["24",51.8367592,5.8194317],["56",51.8379798,5.7490967],["60",51.8405929,5.7322672],["50",51.8408813,5.7867488],["27",51.8485815,5.8022039],["58",51.8507724,5.7224726],["95",51.8595663,5.7543526],["46",51.8601405,5.8162034],["19",51.8451047,5.854898],["75",51.8027826,5.7804778],["41",51.7739863,5.8078699],["83",51.8381549,5.8178679],["42",51.8434572,5.8541798],["42",51.8440756,5.854363],["84",51.7817123,5.7455635],["52",51.8250025,5.7932594],["50",51.8400204,5.7861165],["65",51.8444334,5.7940849],["49",51.8038506,5.8067883],["53",51.8174967,5.766402],["28",51.7811094,5.7958238],["99",51.7753169,5.7747284],["47",51.8551876,5.8220593],["47",51.8554268,5.8218343],["14",51.8078349,5.8231485],["63",51.8183063,5.7358214],["47",51.8549962,5.8216907],["97",51.8532739,5.7620687],["97",51.8528179,5.7626795],["97",51.8531991,5.7628669],["97",51.8529395,5.7620063],["57",51.8455942,5.7538654],["55",51.8218024,5.7386929],["37",51.7862202,5.8447404],["37",51.7863061,5.8443806],["37",51.7864731,5.8448081],["40",51.7941089,5.7999609],["22",51.8361689,5.8137832],["57",51.8463312,5.7536092],["57",51.8452308,5.7536053],["69",51.7919483,5.7800649],["44",51.8530053,5.8278603],["72",51.8492784,5.8304777],["18",51.8425082,5.8538304],["44",51.8534302,5.8282719],["79",51.8033174,5.7559088],["79",51.8034326,5.7553727],["51",51.8343116,5.7903971],["51",51.8344433,5.7905153],["13",51.8193959,5.8445061],["13",51.8193285,5.8447543],["23",51.8378087,5.803609],["18",51.8428064,5.8539878],["36",51.779903,5.8496363],["54",51.8113159,5.7783938],["79",51.8035915,5.7553604],["36",51.7797764,5.8494125],["76",51.7973457,5.7814227],["79",51.8034441,5.756012],["97",51.3952385,6.2036437],["44",51.452549,6.2036596],["30",51.573976,6.0854109],["95",51.4126669,6.1999041],["28",51.5569221,6.1373462],["45",51.5517983,6.1990944],["46",51.4756456,6.2100867],["47",51.4768237,6.2151759],["27",51.4413097,6.2045726],["29",51.5709044,6.1076472],["65",51.5644596,6.1042973],["67",51.5699824,6.0766025],["49",51.4972462,6.2038578],["34",51.4334171,6.2124224],["63",51.4999874,6.2030519],["39",51.3972619,6.2062836],["38",51.379256,6.2089212],["38",51.3791365,6.2089094],["39",51.3972204,6.2063695],["38",51.3792899,6.2090193],["33",51.953088,5.8176763],["21",51.9537442,5.8269138],["95",51.9557026,5.6919793],["32",51.9569444,5.7937547],["76",51.9583828,5.7314153],["75",51.9612011,5.7566902],["26",51.9630187,5.8110991],["81",51.9644073,5.687855],["61",51.9643141,5.6853016],["83",51.9651578,5.6733263],["87",51.9684481,5.8713269],["37",51.9688788,5.7851386],["59",51.9699525,5.8259753],["09",51.969952,5.768904],["27",51.9707264,5.8355307],["20",51.9722202,5.7310359],["53",51.97488,5.82363],["80",51.9761499,5.6927241],["80",51.9774561,5.8266825],["97",51.9784543,5.7249282],["11",51.9788672,5.7271213],["39",51.9791135,5.8455123],["08",51.980075,5.7548857],["07",51.9841315,5.7526648],["35",51.9855315,5.68099],["26",51.9879124,5.8596452],["44",51.9940263,5.8415019],["17",52.0025443,5.6851566],["17",52.0029694,5.68513],["95",52.0314632,5.6728263],["65",52.0413965,5.6918669],["26",52.0440978,5.6683578],["82",51.9904497,5.7413911],["85",52.0152193,5.7680548],["61",52.0491966,5.6660861],["05",52.0435819,5.8094037],["84",52.0123632,5.7525271],["12",52.0312696,5.7852905],["10",52.0257283,5.6728649],["95",52.0313065,5.6729767],["10",52.0254172,5.6722393],["95",52.0312578,5.6725735],["57",52.0121906,5.672829],["70",52.0288664,5.7914671],["70",52.0290819,5.7918177],["04",52.031704,5.8711229],["40",52.0332941,5.8331982],["52",51.9836506,5.882484],["64",52.0491599,5.7084319],["12",52.0309441,5.7851675],["87",51.982754,5.7619533],["41",51.9867592,5.7103856],["89",52.006255,5.7168477],["02",51.9728818,5.7351126],["35",51.9530312,5.7570002],["28",51.9670215,5.8780908],["97",52.0227895,5.8371793],["10",51.9821727,5.7617947],["46",52.0148541,5.876365],["38",51.9878911,5.8379647],["38",51.9880134,5.8380094],["52",51.983821,5.883037],["52",51.9838488,5.8827656],["50",51.9549806,5.694391],["45",52.0129202,5.8720783],["06",51.9702843,5.7218073],["35",51.9534202,5.7572049],["35",51.9531567,5.7574018],["66",52.0340407,5.6793837],["46",52.0147491,5.8759643],["02",51.9731409,5.7356872],["06",51.9702217,5.722263],["81",51.9821749,5.8234103],["34",52.0054847,5.7917839],["88",52.0173908,5.7264878],["10",51.9818715,5.7622664],["10",51.9822365,5.7618816],["95",52.0314445,5.6726511],["90",52.0311706,5.6708041],["91",51.941138,5.5960389],["92",51.9413465,5.5989789],["06",51.9430158,5.4977483],["36",52.5256325,5.468967],["39",52.5246014,5.4765817],["90",52.526812,5.4851444],["42",52.5301381,5.4868041],["18",52.5062794,5.7258547],["67",52.5078931,5.6379498],["30",52.5110792,5.4347799],["50",52.5208046,5.8145203],["96",52.5212681,5.8513723],["15",52.5261056,5.7208606],["34",52.52762,5.4356105],["68",52.5407893,5.8913598],["29",52.5453795,5.6667166],["67",52.5464425,5.8858309],["96",52.5586294,5.5051507],["27",52.5589686,5.6335133],["39",52.5259123,5.4762422],["51",52.5284624,5.5094119],["31",52.5098039,5.4494674],["48",52.5399338,5.5212006],["97",52.5483437,5.5232387],["35",52.5253312,5.4600891],["65",52.5188536,5.5113161],["52",52.5182835,5.5114878],["55",52.5051855,5.4749131],["95",52.5497294,5.4996365],["62",52.516787,5.5210745],["50",52.5292428,5.5190657],["48",52.5400952,5.5214051],["49",52.5405941,5.5684609],["21",52.5210099,5.5696909],["68",52.5160675,5.6408774],["14",52.5179879,5.6900845],["41",52.5485666,5.4643374],["37",52.5101996,5.4734888],["64",52.5066143,5.4830694],["52",52.5181778,5.5115286],["01",52.5393574,5.7258832],["87",52.5571186,5.6797618],["89",52.5468008,5.7050155],["28",52.5422585,5.6302748],["64",52.5069518,5.6364969],["32",52.5077003,5.6840344],["40",52.5471121,5.4554205],["44",52.5493047,5.4903059],["33",52.5241102,5.4359096],["03",52.5373163,5.7396301],["90",52.5410393,5.7876703],["91",52.5451614,5.8150871],["41",52.5057163,5.7787636],["17",52.5107456,5.7520463],["16",52.524087,5.735815],["90",52.5405148,5.7875488],["11",52.5318701,5.7027885],["12",52.527536,5.6946682],["13",52.5169617,5.7048476],["22",52.5109443,5.5712608],["69",52.5273407,5.9078854],["31",52.5108537,5.686194],["71",52.5482332,5.5378329],["69",52.5185469,5.6335129],["53",52.5231868,5.7052364],["02",52.5392022,5.7265874],["91",52.5456725,5.8150512],["08",52.5498198,5.8524788],["52",52.5239042,5.7152386],["43",52.5427058,5.4862719],["80",52.5511009,5.5668247],["92",52.5459118,5.8280527],["07",52.5465692,5.8292059],["99",52.5310059,5.7379563],["98",52.5227696,5.7854316],["95",52.5247089,5.8524295],["13",52.568476,5.9139343],["19",52.5043344,5.7107186],["64",52.5071048,5.6363672],["87",52.5566978,5.6810903],["26",52.5241785,5.905751],["24",52.5216717,5.8666114],["97",52.519546,5.8566012],["06",52.5673418,5.7984975],["10",52.5402468,5.5134939],["94",52.5436928,5.8522944],["66",52.5438214,5.8541593],["66",52.5437925,5.8537949],["93",52.5430823,5.8491059],["65",52.5458477,5.8643605],["83",52.5703861,5.630194],["84",52.5715231,5.6430116],["77",52.5809032,5.5625779],["33",52.5844966,5.8692373],["73",52.5910023,5.6055269],["34",52.5926343,5.8940559],["81",52.5933678,5.6199346],["79",52.5982275,5.6483942],["11",52.6049348,5.6431175],["35",52.6091496,5.8447177],["39",52.6134216,5.7392768],["68",52.6162117,5.6529555],["22",52.6190911,5.8451256],["61",52.6366543,5.7773895],["75",52.6376812,5.7715702],["52",52.6443289,5.722049],["21",52.6533321,5.7783196],["25",52.661785,5.5920818],["81",52.6646385,5.8081967],["89",52.6668746,5.6129214],["56",52.6677653,5.6180909],["68",52.6156602,5.6525068],["76",52.5721204,5.5682673],["47",52.6204785,5.7714893],["03",52.6647536,5.8986877],["98",52.6470756,5.7220372],["20",52.6677472,5.7752945],["37",52.65305,5.7750329],["88",52.5793031,5.7558443],["86",52.5884093,5.7106023],["78",52.5870982,5.5507103],["36",52.6608381,5.6036813],["54",52.6395762,5.8333602],["04",52.5790096,5.7689909],["05",52.5794939,5.7926246],["10",52.6448388,5.698691],["02",52.6562292,5.6047895],["94",52.6580777,5.63089],["45",52.6592489,5.5971051],["87",52.6580952,5.7752875],["70",52.5790511,5.610813],["82",52.581377,5.6252757],["85",52.6128987,5.7635712],["86",52.6632711,5.5934773],["26",52.6499112,5.6359426],["05",52.6472302,5.8538424],["38",52.6548633,5.8739093],["84",52.5723428,5.6450438],["84",52.5722891,5.645098]];
+let RCN_NODES = RCN_NODES_DEFAULT;
+let TEMPLATE = document.getElementById("template").textContent;
+
+const state = {
+  lang:"en", dayNum:"", origin:"", dest:"", distance:"",
+  pillText:"", pillColor:"blue", ship:"", qrCode:"", qrImg:"",
+  startHarbour:"", endHarbour:"", gaps:[],
+  nodes:[ blankNode(), blankNode(), blankNode() ],
+  routeText:"",
+  blocks:[ blankBlock() ]
+};
+function blankNode(){ return { kp:"", km:"", town:"", end:false, ferry:false }; }
+function blankBlock(){ return { type:"coffee", title:"", bullets:"" }; }
+
+/* ── helpers ── */
+const esc = s => (s==null?"":String(s)).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;");
+function pad2(n){ n=parseInt(n,10); return isNaN(n)?"":String(n).padStart(2,"0"); }
+
+/* ── token builders (mirror routekit) ── */
+function buildTimeline(nodes){
+  const ns = nodes.filter(n => String(n.kp).trim()!=="");
+  if(!ns.length) return "";
+  const rows = Math.max(2, Math.min(6, Math.ceil(ns.length/8)));
+  const cells = ns.map((n,i) => {
+    const end = (n.end || i===ns.length-1) ? " end" : "";
+    const isFerry = i>0 && n.ferry;
+    const ferryCls = isFerry ? " ferry" : "";
+    const ferryIcon = isFerry ? FERRY_ICON : "";
+    const town = n.town.trim() ? `<span class="town">${esc(n.town)}</span>` : "";
+    return `<div class="node${ferryCls}">${ferryIcon}<span class="dot${end}">${esc(n.kp)}</span><span class="km">${esc(n.km)}</span>${town}</div>`;
+  }).join("");
+  return `<div class="tl-track" data-rows="${rows}">${cells}</div>`;
+}
+function buildRoute(text){
+  const paras = text.split(/\n\s*\n/).map(p=>p.trim()).filter(Boolean);
+  return paras.map(p=>{
+    let h = esc(p).replace(/\n/g,"<br>");
+    h = h.replace(/\[([^\]]+)\]/g, '<span class="jct">$1</span>');
+    h = h.replace(/\*([^*]+)\*/g, '<b>$1</b>');
+    return `<p>${h}</p>`;
+  }).join("\n");
+}
+function buildBlocks(blocks){
+  const out = blocks.filter(b=>b.title.trim() || b.bullets.trim()).map(b=>{
+    const t = BLOCK_TYPES[b.type] || BLOCK_TYPES.info;
+    const title = esc(b.title.trim() || t.title);
+    const lis = b.bullets.split(/\n/).map(x=>x.trim()).filter(Boolean)
+                 .map(x=>`<li>${esc(x)}</li>`).join("");
+    return `<div class="block ${t.cls}"><h3>${ICONS[b.type]||""} ${title}</h3><ul>${lis}</ul></div>`;
+  });
+  return out.join("\n");
+}
+function distanceStr(d){
+  d=d.trim(); if(!d) return "";
+  return /^\d+([.,]\d+)?$/.test(d) ? d+" km" : d;
+}
+
+/* ── fill the template ── */
+function fillTemplate(){
+  let out = TEMPLATE;
+  const loc = LOC[state.lang] || LOC.en;
+  const day = state.dayNum!=="" ? `${DAYWORD[state.lang]||"DAY"} ${pad2(state.dayNum)}` : "";
+  const title = (state.origin || state.dest)
+      ? `${esc(state.origin)}${state.origin&&state.dest?" &#8594; ":""}${esc(state.dest)}` : "";
+  const qr = state.qrImg ? `<img src="${state.qrImg}" alt="QR">` : "";
+  const repl = {
+    "{{LANG}}": state.lang,
+    "{{DAY}}": esc(day),
+    "{{TITLE}}": title,
+    "{{DISTANCE}}": esc(distanceStr(state.distance)),
+    "{{TIMELINE}}": buildTimeline(state.nodes),
+    "{{ROUTE}}": buildRoute(state.routeText),
+    "{{HIGHLIGHTS}}": buildBlocks(state.blocks),
+    "{{ROUTE_PILL}}": esc(state.pillText),
+    "{{SHIP}}": esc(state.ship),
+    "{{QR}}": qr,
+    "{{QR_CODE}}": esc(state.qrCode),
+    "{{START}}": esc(state.startHarbour || state.origin),
+    "{{END}}": esc(state.endHarbour || state.dest),
+    "{{L_TROUBLE}}": loc.trouble, "{{L_CALLSHIP}}": loc.callship, "{{L_SCAN}}": loc.scan,
+    "{{L_TODAY}}": loc.today, "{{L_ALONG}}": loc.along, "{{L_START}}": loc.start, "{{L_FINISH}}": loc.finish
+  };
+  for(const k in repl) out = out.split(k).join(repl[k]);
+  if(state.pillColor==="red") out = out.replace('class="route-pill"','class="route-pill red"');
+  return out;
+}
+function render(){
+  document.getElementById("preview").srcdoc = fillTemplate();
+}
+
+/* ── dynamic editors ── */
+function renderNodes(){
+  const wrap = document.getElementById("nodes"); wrap.innerHTML="";
+  state.nodes.forEach((n,i)=>{
+    const row = document.createElement("div"); row.className="node-row";
+    const ferryDisabled = i===0;
+    row.innerHTML =
+      `<div class="cell"><label>kp</label><input type="text" data-f="kp" value="${esc(n.kp)}"></div>
+       <div class="cell"><label>km</label><input type="text" data-f="km" value="${esc(n.km)}"></div>
+       <div class="cell"><label>town (optional)</label><input type="text" data-f="town" value="${esc(n.town)}"></div>
+       <label class="chk" title="${ferryDisabled?'no previous node to cross from':'ferry crossing between the previous node and this one'}"><input type="checkbox" data-f="ferry" ${n.ferry?"checked":""} ${ferryDisabled?"disabled":""}>⛴ ferry before</label>
+       <label class="chk"><input type="checkbox" data-f="end" ${n.end?"checked":""}>end</label>
+       <button class="del" title="remove">×</button>`;
+    row.querySelectorAll("input[data-f]").forEach(inp=>{
+      inp.addEventListener("input",e=>{
+        const f=e.target.dataset.f;
+        state.nodes[i][f] = e.target.type==="checkbox" ? e.target.checked : e.target.value;
+        render();
+      });
+    });
+    row.querySelector(".del").addEventListener("click",()=>{ state.nodes.splice(i,1); if(!state.nodes.length)state.nodes.push(blankNode()); renderNodes(); render(); });
+    wrap.appendChild(row);
+  });
+}
+function renderBlocks(){
+  const wrap = document.getElementById("blocks"); wrap.innerHTML="";
+  state.blocks.forEach((b,i)=>{
+    const card = document.createElement("div"); card.className="block-card";
+    card.innerHTML =
+      `<div class="row">
+         <div><label>Type</label>
+           <select data-f="type">
+             <option value="coffee">☕ Coffee & lunch</option>
+             <option value="highlight">★ Highlights</option>
+             <option value="safety">⚠ Take care</option>
+             <option value="ferry">⛴ Ferry crossing</option>
+             <option value="info">ⓘ Good to know</option>
+           </select></div>
+         <div><label>Title (optional)</label><input type="text" data-f="title" value="${esc(b.title)}"></div>
+         <button class="del" title="remove">×</button>
+       </div>
+       <label>Bullets (one per line)</label>
+       <textarea data-f="bullets" rows="3">${esc(b.bullets)}</textarea>`;
+    card.querySelector('select[data-f="type"]').value = b.type;
+    card.querySelectorAll("[data-f]").forEach(inp=>{
+      const ev = inp.tagName==="SELECT" ? "change" : "input";
+      inp.addEventListener(ev,e=>{ state.blocks[i][e.target.dataset.f]=e.target.value; render(); });
+    });
+    card.querySelector(".del").addEventListener("click",()=>{ state.blocks.splice(i,1); if(!state.blocks.length)state.blocks.push(blankBlock()); renderBlocks(); render(); });
+    wrap.appendChild(card);
+  });
+}
+
+/* ── simple field wiring ── */
+function bind(id, key){
+  const el=document.getElementById(id);
+  el.addEventListener("input",()=>{ state[key]=el.value; render(); });
+}
+["dayNum","origin","dest","distance","pillText","ship","qrCode","routeText","startHarbour","endHarbour"].forEach(id=>bind(id,id));
+document.querySelectorAll('input[name="pillColor"]').forEach(r=>r.addEventListener("change",e=>{ state.pillColor=e.target.value; render(); }));
+document.getElementById("qrImg").addEventListener("change",e=>{
+  const f=e.target.files[0]; if(!f){state.qrImg="";render();return;}
+  const rd=new FileReader(); rd.onload=()=>{ state.qrImg=rd.result; render(); }; rd.readAsDataURL(f);
+});
+document.getElementById("lang").addEventListener("change",e=>{ state.lang=e.target.value; render(); });
+document.getElementById("addNode").addEventListener("click",()=>{ state.nodes.push(blankNode()); renderNodes(); render(); });
+document.getElementById("addBlock").addEventListener("click",()=>{ state.blocks.push(blankBlock()); renderBlocks(); render(); });
+
+/* ── Insert off-network cues into the prose (from the imported frame's gaps) ── */
+function cueForGap(g){
+  const span=(g.span_km!=null?g.span_km:(g.to_km-g.from_km)).toFixed(1);
+  if(g.kind==="start") return `Start: follow signs to [kp ${g.to}] (${span} km off the node network). — add directions —`;
+  if(g.kind==="end")   return `After [kp ${g.from}], leave the network for ${span} km to the finish. — add directions —`;
+  return `At [kp ${g.from}], leave the node network for ${span} km, rejoining at [kp ${g.to}]. — add directions —`;
+}
+document.getElementById("insertCues").addEventListener("click",()=>{
+  if(!state.gaps || !state.gaps.length){
+    alert("No off-network stretches known.\nImport a routekit frame first — divergences come from the engine. (A route that stays on the node network has none.)");
+    return;
+  }
+  const cues=state.gaps.map(cueForGap).join("\n\n");
+  state.routeText = state.routeText.trim() ? state.routeText.trim()+"\n\n"+cues : cues;
+  const ta=document.getElementById("routeText"); if(ta) ta.value=state.routeText;
+  render();
+});
+
+/* ── zoom the preview ── */
+const zoom=document.getElementById("zoom");
+zoom.addEventListener("input",()=>{ document.getElementById("preview").style.transform=`scale(${zoom.value/100})`; });
+
+/* ── Load GPX: fill title + distance, AND try to auto-fill the knooppunt
+   ribbon by matching the track against the local RCN node cache (RCN_NODES,
+   above) -- same geometry routekit.py's snap_coords/find_gaps use, ported to
+   JS so it can run right here in the browser. Ferry crossings are detected the
+   same way routekit.py does it (added 2026-08-20): a live Overpass lookup for
+   route=ferry ways near the track, ported to JS (fetchFerryWays /
+   findFerryCrossingsJS / applyFerryFlagsJS below) -- online-only, no cache, so
+   it silently degrades to "tick ferry before by hand" if offline or blocked.
+   If nothing matches nearby, the ribbon stays as-is and you can still fall back
+   to "Import frame" for a routekit-built .frame.json. */
+function havKm(a,b){const R=6371,r=Math.PI/180;const dLa=(b[0]-a[0])*r,dLo=(b[1]-a[1])*r;
+  const s=Math.sin(dLa/2)**2+Math.cos(a[0]*r)*Math.cos(b[0]*r)*Math.sin(dLo/2)**2;return 2*R*Math.asin(Math.sqrt(s));}
+function parseTitle(fname){
+  let n=fname.replace(/\.(gpx|tcx)$/i,"").replace(/_/g," ");
+  let origin=n,rest="";
+  if(n.includes(" - ")){const i=n.indexOf(" - ");origin=n.slice(0,i);rest=n.slice(i+3);}
+  let dest=rest;const m=rest.match(/(.*?)\s+\d+\s*km/i);if(m)dest=m[1];
+  origin=origin.replace(/\s*\(.*?\)/g,"").trim();
+  return [origin||"",(dest||"").trim()];
+}
+function parseGPX(text,fname){
+  const doc=new DOMParser().parseFromString(text,"application/xml");
+  let pts=[...doc.getElementsByTagName("trkpt")].map(t=>[parseFloat(t.getAttribute("lat")),parseFloat(t.getAttribute("lon"))]);
+  if(!pts.length){ // TCX
+    pts=[...doc.getElementsByTagName("Trackpoint")].map(t=>{const p=t.getElementsByTagName("Position")[0];if(!p)return null;
+      const la=p.getElementsByTagName("LatitudeDegrees")[0],lo=p.getElementsByTagName("LongitudeDegrees")[0];
+      return la&&lo?[parseFloat(la.textContent),parseFloat(lo.textContent)]:null;}).filter(Boolean);
+  }
+  let km=0;for(let i=1;i<pts.length;i++)km+=havKm(pts[i-1],pts[i]);
+  const [origin,dest]=parseTitle(fname);
+  return {origin,dest,km:Math.round(km*10)/10,ok:pts.length>1,pts};
+}
+
+/* ── knooppunt matching (ported from routekit.py: to_xy / seg_project /
+   snap_coords / find_gaps) -- equirectangular projection, fine at tour scale. */
+function toXY(lat,lon,lat0){
+  const R=6371000.0;
+  return [ (lon*Math.PI/180)*R*Math.cos(lat0*Math.PI/180), (lat*Math.PI/180)*R ];
+}
+function segProject(px,py,ax,ay,bx,by){
+  const dx=bx-ax, dy=by-ay, L2=dx*dx+dy*dy;
+  if(L2===0) return [Math.hypot(px-ax,py-ay), 0.0];
+  let t=((px-ax)*dx+(py-ay)*dy)/L2; t=Math.max(0,Math.min(1,t));
+  const fx=ax+t*dx, fy=ay+t*dy;
+  return [Math.hypot(px-fx,py-fy), t];
+}
+function cumDist(points){
+  const lat0=points.reduce((s,p)=>s+p[0],0)/points.length;
+  const xy=points.map(p=>toXY(p[0],p[1],lat0));
+  const cum=[0];
+  for(let i=1;i<xy.length;i++) cum.push(cum[i-1]+Math.hypot(xy[i][0]-xy[i-1][0],xy[i][1]-xy[i-1][1]));
+  return {xy,cum,lat0};
+}
+function bboxFor(points,pad=0.01){
+  const lats=points.map(p=>p[0]), lons=points.map(p=>p[1]);
+  return [Math.min(...lats)-pad, Math.min(...lons)-pad, Math.max(...lats)+pad, Math.max(...lons)+pad];
+}
+
+/* ── ferry detection (ported from routekit.py's fetch_ferry_ways /
+   find_ferry_crossings / apply_ferry_flags) -- a live Overpass lookup for
+   route=ferry ways near the track; a way "crosses" the track if both its shore
+   ends project onto the track within edgeM. Online-only: no offline cache for
+   this yet, unlike the knooppunt node network above. */
+const OVERPASS_MIRRORS=["https://overpass-api.de/api/interpreter","https://overpass.kumi.systems/api/interpreter"];
+async function fetchFerryWays(bbox){
+  const [s,w,n,e]=bbox;
+  const q=`[out:json][timeout:25];way["route"="ferry"](${s},${w},${n},${e});out geom;`;
+  let lastErr=null;
+  for(const url of OVERPASS_MIRRORS){
+    try{
+      const res=await fetch(url,{method:"POST",body:"data="+encodeURIComponent(q),
+        headers:{"Content-Type":"application/x-www-form-urlencoded"}});
+      if(!res.ok){ lastErr=new Error("HTTP "+res.status); continue; }
+      const js=await res.json();
+      return (js.elements||[]).filter(el=>el.geometry&&el.geometry.length>=2)
+        .map(el=>({name:(el.tags&&el.tags.name)||"", pts:el.geometry.map(g=>[g.lat,g.lon])}));
+    }catch(err){ lastErr=err; }
+  }
+  throw lastErr||new Error("ferry lookup failed");
+}
+function findFerryCrossingsJS(xy,cum,lat0,ferryWays,edgeM=400){
+  const crossings=[];
+  for(const way of ferryWays){
+    const pts=way.pts; if(!pts||pts.length<2) continue;
+    const ends=[pts[0],pts[pts.length-1]];
+    const along=ends.map(([la,lo])=>{
+      const [px,py]=toXY(la,lo,lat0);
+      let bestD=Infinity,bestAlong=0;
+      for(let i=0;i<xy.length-1;i++){
+        const [d,t]=segProject(px,py,xy[i][0],xy[i][1],xy[i+1][0],xy[i+1][1]);
+        if(d<bestD){ bestD=d; bestAlong=cum[i]+t*(cum[i+1]-cum[i]); }
+      }
+      return [bestD,bestAlong];
+    });
+    if(along[0][0]<=edgeM && along[1][0]<=edgeM){
+      const kms=[along[0][1]/1000, along[1][1]/1000].sort((a,b)=>a-b);
+      crossings.push({from_km:kms[0], to_km:kms[1], name:way.name||""});
+    }
+  }
+  crossings.sort((a,b)=>a.from_km-b.from_km);
+  return crossings;
+}
+function applyFerryFlagsJS(seq,crossings){
+  for(const h of seq) h.ferry = h.ferry||false;
+  for(const c of crossings){
+    const nxt=seq.find(h=>h.km>=c.to_km-0.05);
+    if(nxt && nxt!==seq[0]) nxt.ferry=true;
+  }
+  return seq;
+}
+function snapNodes(rcnNodes,bbox,xy,cum,lat0,thresholdM){
+  const [s,w,n,e]=bbox, hits=[];
+  for(const [kp,nlat,nlon] of rcnNodes){
+    if(!(nlat>=s && nlat<=n && nlon>=w && nlon<=e)) continue;
+    const [nx,ny]=toXY(nlat,nlon,lat0);
+    let bestD=Infinity, bestAlong=0;
+    for(let i=0;i<xy.length-1;i++){
+      const [d,t]=segProject(nx,ny,xy[i][0],xy[i][1],xy[i+1][0],xy[i+1][1]);
+      if(d<bestD){ bestD=d; bestAlong=cum[i]+t*(cum[i+1]-cum[i]); }
+    }
+    if(bestD<=thresholdM) hits.push({kp:String(kp), km:bestAlong/1000});
+  }
+  hits.sort((a,b)=>a.km-b.km);
+  const seq=[];
+  for(const h of hits) if(!seq.length || seq[seq.length-1].kp!==h.kp) seq.push(h);
+  return seq;
+}
+function findGapsJS(seq,totalKm,gapKm=2.5,edgeKm=0.8){
+  const gaps=[];
+  if(seq.length && seq[0].km>Math.max(gapKm,edgeKm))
+    gaps.push({kind:"start",from:"START",to:seq[0].kp,a_km:0,b_km:seq[0].km});
+  for(let i=0;i<seq.length-1;i++)
+    if(seq[i+1].km-seq[i].km>gapKm)
+      gaps.push({kind:"mid",from:seq[i].kp,to:seq[i+1].kp,a_km:seq[i].km,b_km:seq[i+1].km});
+  if(seq.length && (totalKm-seq[seq.length-1].km)>Math.max(gapKm,edgeKm))
+    gaps.push({kind:"end",from:seq[seq.length-1].kp,to:"FINISH",a_km:seq[seq.length-1].km,b_km:totalKm});
+  return gaps;
+}
+function matchKnooppunten(pts, totalKm, origin, dest, ferryWays){
+  const {xy,cum,lat0}=cumDist(pts);
+  const bbox=bboxFor(pts);
+  const seq=snapNodes(RCN_NODES,bbox,xy,cum,lat0,30);
+  if(!seq.length) return null;
+  let ferryCount=0;
+  if(ferryWays && ferryWays.length){
+    const crossings=findFerryCrossingsJS(xy,cum,lat0,ferryWays);
+    applyFerryFlagsJS(seq,crossings);
+    ferryCount=seq.filter(h=>h.ferry).length;
+  }
+  const gaps=findGapsJS(seq,totalKm,2.5,0.8).map(g=>({kind:g.kind,from:g.from,to:g.to,
+    from_km:Math.round(g.a_km*10)/10, to_km:Math.round(g.b_km*10)/10, span_km:Math.round((g.b_km-g.a_km)*10)/10}));
+  const nodes=seq.map((h,i)=>({kp:h.kp, km:Math.round(h.km*10)/10,
+    town: i===0 ? (origin||"") : (i===seq.length-1 ? (dest||"") : ""),
+    ferry: !!h.ferry}));
+  return {nodes,gaps,ferryCount};
+}
+
+document.getElementById("loadGpx").addEventListener("click",()=>{
+  const inp=document.createElement("input");inp.type="file";inp.accept=".gpx,.tcx";
+  inp.onchange=e=>{const f=e.target.files[0];if(!f)return;const rd=new FileReader();
+    rd.onload=async ()=>{const g=parseGPX(rd.result,f.name);
+      if(!g.ok){alert("No track found in that file.");return;}
+      if(g.origin)state.origin=g.origin; if(g.dest)state.dest=g.dest; if(g.km)state.distance=String(g.km);
+      let ferryWays=[], ferryErr=null;
+      try{ ferryWays=await fetchFerryWays(bboxFor(g.pts)); }
+      catch(err){ ferryErr=err; console.warn("ferry lookup failed (offline or blocked):",err); }
+      let matched=null;
+      try{ matched=matchKnooppunten(g.pts, g.km, state.origin, state.dest, ferryWays); }
+      catch(err){ console.warn("knooppunt matching failed:",err); }
+      if(matched){
+        applyFrame({origin:state.origin, dest:state.dest, distance_km:g.km, nodes:matched.nodes, gaps:matched.gaps});
+        const ferryMsg = matched.ferryCount
+          ? `${matched.ferryCount} ferry crossing${matched.ferryCount===1?"":"s"} detected (OSM) and ticked automatically.`
+          : (ferryErr
+              ? `Ferry lookup unavailable (offline or blocked) — tick "ferry before" by hand if this route crosses one.`
+              : `No ferry crossings detected nearby.`);
+        alert(`Filled title + distance + ${matched.nodes.length} knooppunten from the GPX `+
+              `(matched against the local RCN cache, ${matched.gaps.length} off-network gap(s)).\n${ferryMsg}`);
+      } else {
+        syncFields();render();
+        alert("Filled title + distance from the GPX.\nNo knooppunten matched nearby — this area may not be in the loaded RCN cache yet. "+
+              "Use “Load knooppunten cache…” to refresh it from your current rcn_cache.json, or “Import frame” if you have a routekit .frame.json.");
+      }
+    };rd.readAsText(f);};
+  inp.click();
+});
+document.getElementById("loadRcn").addEventListener("click",()=>{
+  const inp=document.createElement("input"); inp.type="file"; inp.accept=".json";
+  inp.onchange=e=>{ const f=e.target.files[0]; if(!f)return; const rd=new FileReader();
+    rd.onload=()=>{
+      try{
+        const j=JSON.parse(rd.result);
+        let flat;
+        if(Array.isArray(j)) flat=j;
+        else if(j && j.nodes && typeof j.nodes==="object") flat=Object.values(j.nodes).map(v=>[String(v[0]),Number(v[1]),Number(v[2])]);
+        else throw new Error("unrecognised cache shape");
+        RCN_NODES=flat;
+        alert(`Loaded ${flat.length} knooppunten into the cache for this session.\nRe-run "Load GPX" on your route(s) to pick up the refreshed data.`);
+      }catch(err){ alert("Could not read that cache file: "+err.message); }
+    }; rd.readAsText(f);
+  };
+  inp.click();
+});
+
+/* ── Import routekit frame: the node ribbon (+ frame fields) jumps in ──
+   Accepts routekit's <route>.frame.json, or a routekit .html sheet (ribbon scraped). */
+function applyFrame(fr){
+  if(fr.lang)state.lang=fr.lang;
+  if(fr.day_num!=null&&fr.day_num!=="")state.dayNum=String(fr.day_num);
+  if(fr.origin)state.origin=fr.origin;
+  if(fr.dest)state.dest=fr.dest;
+  if(fr.distance_km!=null&&fr.distance_km!=="")state.distance=String(fr.distance_km);
+  state.gaps = Array.isArray(fr.gaps) ? fr.gaps : [];
+  if(Array.isArray(fr.nodes)&&fr.nodes.length){
+    state.nodes=fr.nodes.map((n,i)=>({kp:String(n.kp||""),km:(n.km==null?"":String(n.km)),
+      town:n.town||"",end:i===fr.nodes.length-1,ferry:!!n.ferry}));
+  }
+  syncFields();renderNodes();render();
+}
+function frameFromHTML(text){
+  const d=new DOMParser().parseFromString(text,"text/html");
+  const nodes=[...d.querySelectorAll(".tl-track .node")].map(nd=>({
+    kp:(nd.querySelector(".dot")?.textContent||"").trim(),
+    km:(nd.querySelector(".km")?.textContent||"").trim(),
+    town:(nd.querySelector(".town")?.textContent||"").trim(),
+    ferry:nd.classList.contains("ferry")}));
+  const title=(d.querySelector("h1")?.textContent||"").trim();
+  let origin=title,dest="";const parts=title.split(/→|&#8594;|›|>/);
+  if(parts.length>=2){origin=parts[0].trim();dest=parts[1].trim();}
+  const dist=(d.querySelector(".dist")?.textContent||"").trim();
+  const day=(d.querySelector(".day")?.textContent||"").trim();const dm=day.match(/(\d+)/);
+  return {lang:d.documentElement.getAttribute("lang")||"en",origin,dest,
+    distance_km:(parseFloat(dist)||dist.replace(/[^\d.]/g,"")),nodes,day_num:dm?parseInt(dm[1]):null};
+}
+document.getElementById("importFrame").addEventListener("click",()=>{
+  const inp=document.createElement("input");inp.type="file";inp.accept=".json,.html,.htm";
+  inp.onchange=e=>{const f=e.target.files[0];if(!f)return;const rd=new FileReader();
+    rd.onload=()=>{let fr=null;
+      try{const j=JSON.parse(rd.result);if(j&&j.nodes)fr=j;}catch(_){}
+      if(!fr){try{fr=frameFromHTML(rd.result);}catch(err){alert("Could not read frame: "+err.message);return;}}
+      if(!fr.nodes||!fr.nodes.length){if(!confirm("No node ribbon found in that file. Import the other fields anyway?"))return;}
+      applyFrame(fr);
+    };rd.readAsText(f);};
+  inp.click();
+});
+
+/* ── load a different template file ── */
+document.getElementById("loadTpl").addEventListener("click",()=>{
+  const inp=document.createElement("input"); inp.type="file"; inp.accept=".html,.htm";
+  inp.onchange=e=>{ const f=e.target.files[0]; if(!f)return; const rd=new FileReader();
+    rd.onload=()=>{ TEMPLATE=rd.result; render(); alert("Template loaded."); }; rd.readAsText(f); };
+  inp.click();
+});
+
+/* ── export the finished sheet ── */
+function download(name, text, type){
+  const blob=new Blob([text],{type:type||"text/html"});
+  const a=document.createElement("a"); a.href=URL.createObjectURL(blob); a.download=name;
+  document.body.appendChild(a); a.click(); a.remove(); URL.revokeObjectURL(a.href);
+}
+document.getElementById("exportBtn").addEventListener("click",()=>{
+  const safe = ((state.origin||"route")+"_"+(state.dest||"")).replace(/[^\w\-]+/g,"_").replace(/^_|_$/g,"") || "route";
+  download(safe+".html", fillTemplate());
+});
+document.getElementById("printBtn").addEventListener("click",()=>{
+  const w=window.open("","_blank"); w.document.write(fillTemplate()); w.document.close(); w.focus();
+  setTimeout(()=>w.print(),400);
+});
+
+/* ── draft save / load (JSON) ── */
+document.getElementById("saveDraft").addEventListener("click",()=>{
+  download("route_draft.json", JSON.stringify(state,null,2), "application/json");
+});
+document.getElementById("loadDraft").addEventListener("click",()=>{
+  const inp=document.createElement("input"); inp.type="file"; inp.accept=".json";
+  inp.onchange=e=>{ const f=e.target.files[0]; if(!f)return; const rd=new FileReader();
+    rd.onload=()=>{ try{ Object.assign(state, JSON.parse(rd.result)); syncFields(); renderNodes(); renderBlocks(); render(); }
+                    catch(err){ alert("Could not read draft: "+err.message); } }; rd.readAsText(f); };
+  inp.click();
+});
+function syncFields(){
+  ["dayNum","origin","dest","distance","pillText","ship","qrCode","routeText","startHarbour","endHarbour"].forEach(id=>{ if(document.getElementById(id)) document.getElementById(id).value=state[id]||""; });
+  document.getElementById("lang").value=state.lang||"en";
+  const pc=document.querySelector(`input[name="pillColor"][value="${state.pillColor||"blue"}"]`); if(pc)pc.checked=true;
+}
+
+/* ── init ── */
+renderNodes(); renderBlocks(); render();
+document.getElementById("preview").style.transform=`scale(0.62)`;
+</script>
+</body>
+</html>

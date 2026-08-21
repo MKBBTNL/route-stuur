@@ -1,0 +1,78 @@
+BAD BREISIG - WINNINGEN    35.8 km    · signs & notes only ·
+
+DIRECTIONS
+  ★ 0.0 km  [note] Docking Bad Breisig — Start anchor at Bad Breisig. Source: Uploaded route GPX
+  ★ 0.0 km  [note] Bad Breisig Kurpark — Spa-town green space near the route; useful independent rest option. Source: Public spa-town reference; coordinate approximate
+  ★ 0.1 km  [note] Bad Breisig Rhine Promenade — Easy riverfront start or evening stroll area. Source: Placed on uploaded route geometry
+    1.2 km   Turn slight right onto L 87
+    1.3 km   Turn left
+    1.3 km   Turn right
+    1.6 km   Turn left onto Artilleriestraße (follow 1.4 km)
+    3.0 km   Turn left
+    3.1 km   Turn right onto Koblenzer Straße
+    4.1 km   Turn right
+  ★ 4.2 km  [note] Brohl-Lützing River Stop — Small Rhine village stop; practical pause before Andernach. Source: Placed near uploaded route geometry
+  ★ 4.2 km  [note] Vulkan-Express Brohl Station — Heritage railway option; check timetable before relying on it. Source: Public railway reference; optional off-route activity
+    4.3 km   Turn left
+    4.4 km   Turn right onto Koblenzer Straße (follow 5.3 km)
+  ★ 8.6 km  [note] Namedy Castle — Castle near Andernach; optional if guests want a cultural detour. Source: Public landmark reference; off-route effort
+    9.7 km   Turn slight left onto Philosophenweg (follow 1.6 km)
+  ★ 10.8 km  [note] Andernach Alter Krahnen — Historic Rhine crane and easy riverfront scouting stop. Source: Public landmark reference
+   11.2 km   Turn right
+   11.3 km   Turn left
+  ★ 11.5 km  [note] Andernach Old Town — Old-town area for independent food, coffee, and wandering. Source: Public city reference; coordinate approximate
+   11.6 km   Turn left onto Konrad-Adenauer-Allee
+   11.9 km   Turn right onto Hindenburgwall
+  ★ 12.1 km  [note] Andernach Geyser Center — Visitor center for the cold-water geyser; boat/tour timing required. Source: Andernach tourism reference
+   12.1 km   Turn left onto Koblenzer Straße (follow 3.3 km)
+   15.4 km   Turn left onto Neustraße
+   15.5 km   Turn right onto Neustraße
+   15.6 km   Turn left onto Bahnhofstraße
+   15.7 km   Turn right onto Bahnhofstraße
+   15.8 km   Turn left onto Fährstraße
+   16.0 km   Turn sharp right (follow 1.2 km)
+  ★ 16.1 km  [note] Neuwied Rhine Promenade — Larger town promenade; useful lunch or backup stop. Source: Public city reference; coordinate approximate
+  ★ 17.2 km  [note] Weißenthurm River Landmark — Rhine-side town marker on the ride corridor. Source: Placed near uploaded route geometry
+   17.2 km   Continue onto Schmittgasse
+   17.3 km   Turn left onto Hauptstraße (follow 1.3 km)
+   18.6 km   Keep right onto L 121 (follow 2.8 km)
+   21.4 km   Turn left
+   21.6 km   Turn right
+   22.0 km   Turn left onto L 121 (follow 1.5 km)
+   23.6 km   Turn left
+   23.6 km   Turn right
+   23.6 km   Turn slight left onto L 121
+  ★ 23.8 km  [note] Engers Palace — Baroque palace near the Rhine; optional cultural detour. Source: Public landmark reference
+   24.6 km   Continue onto Carl-Zeiss-Straße
+   24.8 km   Turn right onto Mailust
+   25.0 km   Turn right onto St.-Sebastianer-Straße
+  ★ 25.0 km  [note] Vallendar Riverside — Riverside pause north of Koblenz. Source: Placed near uploaded route geometry
+   25.9 km   Turn sharp left onto Weißenthurmer Straße
+   26.2 km   Turn right onto In der Flötz
+   26.5 km   Turn left onto Glismuotstraße
+   27.2 km   Turn right onto Metternicher Weg
+   27.6 km   At roundabout, take exit 1 onto Pfaffengasse
+   28.1 km   Turn left onto Oberdorfstraße
+   28.2 km   Turn left onto Trierer Straße
+   28.3 km   Turn right onto Raiffeisenstraße
+   29.1 km   Turn slight left
+   29.1 km   Turn right onto Winninger Straße and take B 416 toward Cochem (follow 1.8 km)
+  ★ 29.2 km  [note] Koblenz Deutsches Eck — Mosel/Rhine confluence; best self-guided Koblenz anchor. Source: Uploaded GPX 01; public tourism reference
+  ★ 29.2 km  [note] Koblenz Altstadt Food Area — Old-town food and pub area for independent choices. Source: Uploaded GPX 01
+  ★ 29.2 km  [note] Koblenz Hauptbahnhof — Main rail backup before the Mosel section. Source: Public station reference; coordinate approximate
+  ★ 29.2 km  [note] Moselweiß Riverfront — Quiet Mosel-side rest after Koblenz. Source: Placed near route corridor
+   30.9 km   Turn right onto Teichstraße
+   31.1 km   Turn left onto Servatiusstraße
+  ★ 31.1 km  [note] Koblenz-Güls Wine Village — Mosel wine-village area for a self-chosen pause. Source: Route-adjacent public place reference
+   31.3 km   Turn right onto Eisheiligenstraße
+   31.5 km   Turn slight left onto Eisheiligenstraße
+   31.5 km   Turn slight right onto Eisheiligenstraße
+   31.5 km   Turn left onto Gulisastraße (follow 2.0 km)
+   33.5 km   Keep right onto Röttgenweg (follow 1.9 km)
+   35.5 km   Turn right onto Bahnhofstraße
+   35.7 km   Turn left onto August-Horch-Straße
+  ★ 35.7 km  [note] Winningen Bahnhof — Rail backup near the Winningen finish. Source: Public station reference; coordinate approximate
+  ★ 35.7 km  [note] Winningen Wine Village — Historic Mosel wine village; good finish-area scouting option. Source: Official Winningen tourism reference
+   35.7 km   Turn left onto August-Horch-Straße
+   35.8 km   Turn left onto B 416
+  ★ 35.8 km  [note] Docking Winningen — Finish anchor at Winningen. Source: Uploaded route GPX

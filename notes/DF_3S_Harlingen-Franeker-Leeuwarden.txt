@@ -1,0 +1,291 @@
+DF 3S. HARLINGEN-FRANEKER-LEEUWARDEN    136.1 km    · signs & notes only ·
+
+DIRECTIONS
+  ★ 0.0 km  [note] 0145
+  ★ 0.0 km  [note] 02141
+  ★ 0.0 km  [note] Altijd Wad
+  ★ 0.0 km  [note] barge Harlingen — Multifunctionele Steiger Willemkade
+  ★ 0.0 km  [note] barge Terschelling
+  ★ 0.0 km  [note] Brandaris
+  ★ 0.0 km  [note] Veel eenden!
+  ★ 0.1 km  [note] Schip Willem Barentsz
+  ★ 0.4 km  [note] barge Harlingen 2
+  ★ 0.6 km  [note] 02112
+  ★ 0.6 km  [note] 02121
+  ★ 0.6 km  [note] 02211
+  ★ 0.6 km  [note] 04511
+  ★ 0.6 km  [note] 04521
+  ★ 0.6 km  [note] 04531
+  ★ 0.6 km  [note] 0863
+  ★ 0.6 km  [note] 0873
+  ★ 0.6 km  [note] 0923
+  ★ 0.6 km  [note] 0931
+  ★ 0.6 km  [note] 0941
+  ★ 0.6 km  [note] 0951
+  ★ 0.6 km  [note] 0961
+  ★ 0.6 km  [note] 0963
+  ★ 0.6 km  [note] 0971
+  ★ 0.6 km  [note] 0991
+  ★ 0.6 km  [note] 1001
+  ★ 0.6 km  [note] Alpaca World
+  ★ 0.6 km  [note] barge Enkhuizen Gependam
+  ★ 0.6 km  [note] barge Enkhuizen Harlinger steiger
+  ★ 0.6 km  [note] barge Makkum
+  ★ 0.6 km  [note] Café Hindeloopen
+  ★ 0.6 km  [note] Cheesefarm Nylander shop, Workum
+  ★ 0.6 km  [note] El Cafetìn, Workum
+  ★ 0.6 km  [note] Geese breeding
+  ★ 0.6 km  [note] Huis op zn Kop
+  ★ 0.6 km  [note] Hylpermolen
+  ★ 0.6 km  [note] It Fûgelhûs — Vogelmuseum
+  ★ 0.6 km  [note] Lions Workum
+  ★ 0.6 km  [note] Milk Tap, Makkum — generic
+  ★ 0.6 km  [note] Museum Hindeloopen
+  ★ 0.6 km  [note] Park Hindeloopen
+  ★ 0.6 km  [note] Park Hindeloopen haven
+  ★ 0.6 km  [note] Park Stavoren
+  ★ 0.6 km  [note] Park Workum
+  ★ 0.6 km  [note] Pick up Stavoren 1
+  ★ 0.6 km  [note] Pick up Stavoren 2
+  ★ 0.6 km  [note] Pick up Stavoren 3
+  ★ 0.6 km  [note] Red Cliff
+  ★ 0.6 km  [note] Skating Museum
+  ★ 0.6 km  [note] Sm5
+  ★ 0.6 km  [note] Stenen Man
+  ★ 0.6 km  [note] VodF Stavoren
+  ★ 0.6 km  [note] VodF Workum
+  ★ 0.6 km  [note] Zuiderzeemuseum, Enkhuizen
+  ★ 0.8 km  [note] 04421
+  ★ 0.8 km  [note] 04431
+  ★ 0.8 km  [note] 04441
+  ★ 0.8 km  [note] 121
+  ★ 0.8 km  [note] Greate Pier
+  ★ 0.8 km  [note] Sm1
+  ★ 0.8 km  [note] Trekwei 11
+  ★ 1.0 km  [note] Kaatser Hotze Schuil
+  ★ 1.6 km  [note] barge Harlingen Plankenpad
+  ★ 3.8 km  [note] 04411
+  ★ 6.0 km  [note] 0147
+  ★ 6.0 km  [note] 0450
+  ★ 6.0 km  [note] Bessenschuur
+  ★ 6.7 km  [note] 0148
+  ★ 6.7 km  [note] 02131
+  ★ 6.7 km  [note] 0437
+  ★ 6.7 km  [note] Cranberry farm
+  ★ 6.7 km  [note] Gloves
+  ★ 6.7 km  [note] Heartbreak hotel
+  ★ 6.7 km  [note] Heeren van der Schelling
+  ★ 6.7 km  [note] Kaap Hoorn
+  ★ 6.7 km  [note] Kerk Hoorn
+  ★ 6.7 km  [note] Koffiemolen
+  ★ 6.7 km  [note] Patatelier Midsland
+  ★ 6.7 km  [note] Pieter Peits Kaasboerderij
+  ★ 6.7 km  [note] Rustende jager
+  ★ 6.7 km  [note] Wrakkenmuseum
+  ★ 8.4 km  [note] Smal1
+  ★ 9.8 km  [note] Drinkwater Wijnaldum
+  ★ 10.2 km  [note] 1031
+  ★ 12.1 km  [note] 01521
+  ★ 13.6 km  [note] 0440
+  ★ 13.6 km  [note] De Gekroonde Leeuw, Arum — De Gekroonde Leeuw
+
+Arum, Friesland, NLD
+  ★ 13.6 km  [note] Huis Floris ouders
+  ★ 13.6 km  [note] It Skil, Arum
+  ★ 13.6 km  [note] Kaatsveld
+  ★ 13.6 km  [note] Klafa chocola
+  ★ 13.9 km  [note] 04451
+  ★ 13.9 km  [note] Sm2
+  ★ 15.1 km  [note] Bike Shop De Kroon, Bolsward
+  ★ 15.1 km  [note] Elfstedentocht monument — DF 1L. Stavoren-Makkum 49km 2023
+  ★ 15.1 km  [note] Several café's Bolsward
+  ★ 15.1 km  [note] Theetuin Anneke, Hitzum
+  ★ 16.1 km  [note] VodF Bolsward
+  ★ 16.8 km  [note] Keatsmuseum
+  ★ 16.8 km  [note] Poiesz Franeker
+  ★ 17.1 km  [note] Info Franeker
+  ★ 17.1 km  [note] Park Franeker
+  ★ 17.1 km  [note] Park Franeker 2
+  ★ 17.2 km  [note] Eise Eisinga Planetarium — €6.- per person
+  ★ 17.2 km  [note] Park Franeker 3
+  ★ 17.5 km  [note] Windmill, Wommels — generic
+  ★ 17.6 km  [note] Van der Woude, Franeker
+  ★ 18.5 km  [note] VodF Tzum
+  ★ 19.2 km  [note] Little bakery with coffee, Tzummarum
+  ★ 19.8 km  [note] Mariakerk Boer
+  ★ 21.3 km  [note] Piens
+  ★ 21.7 km  [note] St Gertrudiskerk
+  ★ 24.2 km  [note] 0157
+  ★ 25.4 km  [note] Smal2
+  ★ 26.1 km  [note] 0159
+  ★ 26.1 km  [note] Beeld Eise Eisinga
+  ★ 26.1 km  [note] De IJstuin, Dronryp — 06-27150225
+info@deijstuin.nl
+donderdag t/m zondag 10.00 – 18.00 uur en vrijdag tot 20.00 uur
+  ★ 29.7 km  [note] 1201
+  ★ 32.4 km  [note] Smal3
+  ★ 32.9 km  [note] 1191
+  ★ 34.4 km  [note] Kerk Blessum
+  ★ 35.0 km  [note] Smal4
+  ★ 35.2 km  [note] SUPERSMAL!!
+  ★ 36.1 km  [note] 1181
+  ★ 37.6 km  [note] It Holt, Deinum
+  ★ 42.3 km  [note] Bike Shop De Vries, Leeuwarden
+  ★ 42.7 km  [note] barge Leeuwarden
+  ★ 43.2 km  [note] Fountain1
+  ★ 44.3 km  [note] VodF Leeuwarden
+  ★ 45.2 km  [note] Park Leeuwarden
+  ★ 50.6 km  [note] 02152
+  ★ 51.1 km  [note] 01611
+  ★ 51.1 km  [note] Lytse Wielen, Leeuwarden
+  ★ 51.1 km  [note] Public toilets Kleine Wielen
+  ★ 51.9 km  [note] Aquazoo
+  ★ 52.3 km  [note] Kleine Wielen, Leeuwarden
+  ★ 55.4 km  [note] St Vitus
+  ★ 60.2 km  [note] Schalkediep, Suwald — Schalkediep
+Monnikenweg 5
+Suwâld, Friesland, 9265XL, NLD
+  ★ 60.2 km  [note] Zonnepont €1,-
+  ★ 62.5 km  [note] 01621
+  ★ 67.8 km  [note] Princenhof Alde Faenen — Parkeerplaats
+  ★ 68.0 km  [note] Multiple cafes Earnewâld
+  ★ 68.1 km  [note] 0216
+  ★ 73.1 km  [note] 0217
+  ★ 78.9 km  [note] Ferry Sytebuorren €1,-
+  ★ 81.8 km  [note] Ferry De Burd €1.50
+  ★ 82.2 km  [note] To ferry Grou
+  ★ 82.3 km  [note] Let op Ferry Grou — Yn'e Lijte
+  ★ 82.4 km  [note] Ferry Grou
+  ★ 82.9 km  [note] barge Grou
+  ★ 84.1 km  [note] VodF Grou
+  ★ 90.6 km  [note] 1331
+  ★ 90.6 km  [note] Auto Akkrum
+  ★ 90.6 km  [note] Coopersburg
+  ★ 90.6 km  [note] Doopsgez kerk
+  ★ 90.6 km  [note] Manke Meine Kromme Knillis
+  ★ 90.6 km  [note] Terptsjerke
+  ★ 90.6 km  [note] Welgelegen
+  ★ 90.6 km  [note] Theeschenkerij Nije Skou — Theeschenkerij Nije Skou
+Vegelinsweg 33
+Vegelinsoord, Friesland, 8467SN, NLD
+  ★ 91.7 km  [note] IJsboerderij Akkrum
+  ★ 93.8 km  [note] 1321
+  ★ 93.8 km  [note] Pontje Terherne — Terhernster Veer en Fietsroute en Pad (Fietsen Toegestaan)
+  ★ 93.9 km  [note] Public toilets Terherne
+  ★ 93.9 km  [note] Schippershuis en Gouden Leeuw — Veerhuis Kameleon
+
+Terherne, Friesland, NLD
+  ★ 94.0 km  [note] Roos pannenkoeken
+  ★ 94.1 km  [note] Pastorij
+  ★ 94.9 km  [note] Salt
+  ★ 95.7 km  [note] Picknickers
+  ★ 95.8 km  [note] 01651
+  ★ 95.8 km  [note] Smal5
+  ★ 97.7 km  [note] KopHalsRomp
+  ★ 98.1 km  [note] 131
+  ★ 100.2 km  [note] To Klokkenstoel Goingarijp
+  ★ 100.5 km  [note] Klokkenstoel Goingarijp
+  ★ 102.1 km  [note] Pont Broek
+  ★ 104.7 km  [note] Klokkenstoel Broek
+  ★ 104.8 km  [note] To Klokkenstoel Broek
+  ★ 105.7 km  [note] DE fabriek
+  ★ 105.7 km  [note] De Groene Molen, Joure
+  ★ 106.4 km  [note] Anne Klare Joure — Herberg Joure
+Zijl 1
+Joure, Friesland, 8501AZ, NLD
+  ★ 106.4 km  [note] 0168
+  ★ 106.5 km  [note] Heremapark
+  ★ 106.5 km  [note] Park Joure
+  ★ 106.6 km  [note] Park Joure 2
+  ★ 107.1 km  [note] 0218
+  ★ 107.2 km  [note] Aldi Joure
+  ★ 110.7 km  [note] Smal6
+  ★ 114.3 km  [note] 01731
+  ★ 116.2 km  [note] Smal7
+  ★ 117.3 km  [note] Let op naar rechts! — Gebied
+  ★ 120.7 km  [note] 0219
+  ★ 120.7 km  [note] Ferry Boornzwaag €1
+  ★ 120.7 km  [note] Helder
+  ★ 121.8 km  [note] Langweerdermolen
+  ★ 122.9 km  [note] barge Lemmer
+  ★ 122.9 km  [note] Fietspad ri Urk
+  ★ 122.9 km  [note] Foto Wouda Gemaal
+  ★ 122.9 km  [note] Gemaal Wouda
+  ★ 122.9 km  [note] Re naar Gemaal
+  ★ 122.9 km  [note] Strand Lemmer
+  ★ 122.9 km  [note] VodF St Nicolaasga
+  ★ 124.1 km  [note] 0871
+  ★ 124.1 km  [note] Bakkerij Oranjekoek
+  ★ 124.1 km  [note] De Zeven Wouden, Sloten
+  ★ 124.1 km  [note] Park Sloten
+  ★ 124.1 km  [note] Park Sloten centrum
+  ★ 124.1 km  [note] Public toilets Sloten
+  ★ 124.9 km  [note] 0177
+  ★ 124.9 km  [note] 091
+  ★ 124.9 km  [note] 0973
+  ★ 124.9 km  [note] 0992
+  ★ 124.9 km  [note] 10012
+  ★ 124.9 km  [note] Balk — Bebouwde Kom
+  ★ 124.9 km  [note] Balkerstrand
+  ★ 124.9 km  [note] Bike Shop Fietshoekje Oudemirdum
+  ★ 124.9 km  [note] Boschlust
+  ★ 124.9 km  [note] Buurtsuper Oudemirdum
+  ★ 124.9 km  [note] IJsboerderij Buterkamp, Oudemirdum
+  ★ 124.9 km  [note] Keimpe
+  ★ 124.9 km  [note] Klokkenstoel Mirns
+  ★ 124.9 km  [note] LI naar IJs
+  ★ 124.9 km  [note] Park Balk
+  ★ 124.9 km  [note] Park Balk 2
+  ★ 124.9 km  [note] Park Balk 3
+  ★ 125.0 km  [note] 01761
+  ★ 125.0 km  [note] De Watersport
+  ★ 125.0 km  [note] Molen t Lam+shop
+  ★ 125.0 km  [note] Park Woudsend
+  ★ 125.7 km  [note] Ferry Langweer €1,20
+  ★ 128.6 km  [note] 01741
+  ★ 132.9 km  [note] barge Sneek 2
+  ★ 134.7 km  [note] Huis Jens
+  ★ 135.5 km  [note] 0220
+  ★ 135.5 km  [note] 01751
+  ★ 135.5 km  [note] 0446
+  ★ 135.5 km  [note] 0447
+  ★ 135.5 km  [note] 0448
+  ★ 135.5 km  [note] 1221
+  ★ 135.5 km  [note] 1231
+  ★ 135.5 km  [note] 1241
+  ★ 135.5 km  [note] 125
+  ★ 135.5 km  [note] 1261
+  ★ 135.5 km  [note] 127
+  ★ 135.5 km  [note] All Joor's, Oudega — Bebouwde Kom
+  ★ 135.5 km  [note] Andries v Netten
+  ★ 135.5 km  [note] Beekhuizen, IJlst
+  ★ 135.5 km  [note] Bike Shop Jan Terpstra, Sneek
+  ★ 135.5 km  [note] By Us Thus, Oudega
+  ★ 135.5 km  [note] Cafe-Restaurant D'ald Herberch, Gaastmeer — Cafe-Restaurant D'ald Herberch
+Munkedyk 46
+Gaastmeer, Friesland, 8611JR, NLD
+  ★ 135.5 km  [note] Café's Koudum
+  ★ 135.5 km  [note] Cheesefarm De Nylander, Workum
+  ★ 135.5 km  [note] Ferry Gaastmeer-Heidenskip — 1€ / not between 1200 and 1300.
+  ★ 135.5 km  [note] Fierljeppen — Ook WC
+  ★ 135.5 km  [note] Greonterp klokkentoren
+  ★ 135.5 km  [note] Molen De Rat
+  ★ 135.5 km  [note] Nooitgedacht
+  ★ 135.5 km  [note] Oudegaastermolen
+  ★ 135.5 km  [note] Paling
+  ★ 135.5 km  [note] Park Koudum
+  ★ 135.5 km  [note] Park Oudega — Bebouwde Kom
+  ★ 135.5 km  [note] Several café's Koudum
+  ★ 135.5 km  [note] Sm3
+  ★ 135.5 km  [note] Sm4
+  ★ 135.5 km  [note] Smal8 — Gebied
+  ★ 135.5 km  [note] St Vituskerk
+  ★ 135.5 km  [note] Stadsherberg Het Wapen Van Ijlst — Stadsherberg Het Wapen Van Ijlst
+Galamagracht 1 Fl 
+Ijlst, Friesland, 8651 EB, NLD
++31 515 531315
+  ★ 135.5 km  [note] Terpensmolen
+  ★ 135.5 km  [note] Use underpass
+  ★ 135.5 km  [note] Utherne IJlst
+  ★ 135.7 km  [note] VodF Sneek
+  ★ 136.1 km  [note] barge Sneek 1

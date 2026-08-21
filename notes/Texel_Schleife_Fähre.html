@@ -1,0 +1,135 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Texel (Schleife Fähre)</title>
+<style>
+  :root { --red:#c0101d; --ink:#1b1b1b; --gray:#8a8a8a; --line:#e6e2d8; --paper:#faf9f6; }
+  * { box-sizing:border-box; }
+  body { font-family:-apple-system,Segoe UI,Arial,sans-serif; color:var(--ink);
+         background:var(--paper); margin:0; padding:28px; line-height:1.5; }
+  .sheet { max-width:760px; margin:0 auto; }
+  header { border-bottom:3px solid var(--red); padding-bottom:10px; margin-bottom:6px; }
+  h1 { font-size:23px; margin:0; color:var(--red); text-transform:uppercase; letter-spacing:.4px; }
+  .meta { color:var(--gray); font-size:13px; margin-top:3px; }
+  .nodes { font-size:14px; margin:14px 0; padding:8px 10px; background:#fff;
+            border:1px solid var(--line); border-radius:6px; }
+  h2 { font-size:13px; text-transform:uppercase; letter-spacing:.6px; color:var(--gray);
+        margin:22px 0 8px; }
+  .row { display:flex; gap:12px; padding:5px 0; border-bottom:1px solid var(--line); }
+  .km { flex:0 0 88px; color:var(--red); font-variant-numeric:tabular-nums; font-weight:600; font-size:13px; }
+  .cue { flex:1; }
+  .poi { background:#fff; border:1px solid var(--line); border-left:3px solid var(--red);
+          border-radius:6px; padding:9px 12px; margin:8px 0; }
+  .poi-h { display:flex; align-items:baseline; gap:8px; }
+  .tag { font-size:11px; text-transform:uppercase; letter-spacing:.5px; color:#fff;
+          background:var(--red); border-radius:3px; padding:1px 6px; }
+  .poi-n { font-weight:600; }
+  .poi-km { margin-left:auto; color:var(--gray); font-size:13px; font-variant-numeric:tabular-nums; }
+  .poi-d { color:#444; font-size:14px; margin-top:4px; }
+  @media print { body { background:#fff; padding:0; } .poi, .nodes { break-inside:avoid; } }
+</style></head>
+<body><div class="sheet">
+  <header><h1>Texel (Schleife Fähre)</h1><div class="meta">43.5 km &nbsp;·&nbsp; signs &amp; notes only</div></header>
+  
+  <h2>Directions &amp; highlights</h2>
+  <div class="poi"><div class="poi-h"><span class="tag">ferry</span><span class="poi-n">Ferry Texel - Den Helder</span><span class="poi-km">0.1 km</span></div><div class="poi-d">Departures at 3- 4 - 5pm
+Last option at 5pm</div></div>
+<div class="poi"><div class="poi-h"><span class="tag">ferry</span><span class="poi-n">Ferry Den Helder - Texel</span><span class="poi-km">0.1 km</span></div><div class="poi-d">Departures: 8:30h, 9:30h, ...</div></div>
+<div class="poi"><div class="poi-h"><span class="tag">dock/stay</span><span class="poi-n">Mooring Flaneerkade, Den Helder</span><span class="poi-km">0.1 km</span></div></div>
+<div class="poi"><div class="poi-h"><span class="tag">dock/stay</span><span class="poi-n">Mooring Het Nieuwe Diep, Den Helder</span><span class="poi-km">0.1 km</span></div></div>
+<div class="row"><span class="km">0.3 km</span><span class="cue">Links abbiegen (follow 1.2 km)</span></div>
+<div class="row"><span class="km">1.5 km</span><span class="cue">Dem Straßenverlauf folgen (follow 1.6 km)</span></div>
+<div class="row"><span class="km">3.1 km</span><span class="cue">Rechts abbiegen</span></div>
+<div class="row"><span class="km">3.7 km</span><span class="cue">Rechts abbiegen auf Naalrand</span></div>
+<div class="poi"><div class="poi-h"><span class="tag">bar</span><span class="poi-n">Inn de Knip</span><span class="poi-km">3.8 km</span></div><div class="poi-d">Café Terrace</div></div>
+<div class="row"><span class="km">3.9 km</span><span class="cue">Links abbiegen auf De Naal</span></div>
+<div class="row"><span class="km">3.9 km</span><span class="cue">Links abbiegen auf Herenstraat</span></div>
+<div class="row"><span class="km">4.2 km</span><span class="cue">Dem Straßenverlauf von Klif folgen</span></div>
+<div class="row"><span class="km">4.6 km</span><span class="cue">Rechts abbiegen auf Rommelpot (follow 1.9 km)</span></div>
+<div class="row"><span class="km">6.5 km</span><span class="cue">Links abbiegen auf Jan Ayeslag</span></div>
+<div class="row"><span class="km">6.7 km</span><span class="cue">Rechts abbiegen auf Rozendijk (follow 1.0 km)</span></div>
+<div class="row"><span class="km">7.8 km</span><span class="cue">Links abbiegen auf Rozendijk</span></div>
+<div class="row"><span class="km">8.3 km</span><span class="cue">Links abbiegen (follow 2.8 km)</span></div>
+<div class="row"><span class="km">11.1 km</span><span class="cue">Leicht links abbiegen auf Randweg</span></div>
+<div class="row"><span class="km">11.6 km</span><span class="cue">Links abbiegen</span></div>
+<div class="row"><span class="km">11.7 km</span><span class="cue">Links abbiegen auf Ruijslaan</span></div>
+<div class="row"><span class="km">11.9 km</span><span class="cue">Links abbiegen</span></div>
+<div class="poi"><div class="poi-h"><span class="tag">see</span><span class="poi-n">Ecomare Texel</span><span class="poi-km">12.0 km</span></div><div class="poi-d">Seal rescue centre, aquarium &amp; nature museum. Restroom is free</div></div>
+<div class="poi"><div class="poi-h"><span class="tag">food</span><span class="poi-n">Beach pavilion Paal 17</span><span class="poi-km">12.0 km</span></div></div>
+<div class="poi"><div class="poi-h"><span class="tag">swimming</span><span class="poi-n">Beach and restaurant</span><span class="poi-km">12.0 km</span></div></div>
+<div class="row"><span class="km">12.0 km</span><span class="cue">Rechts abbiegen auf Ruijslaan</span></div>
+<div class="row"><span class="km">12.2 km</span><span class="cue">Links abbiegen auf Ruijslaan (follow 1.1 km)</span></div>
+<div class="row"><span class="km">13.3 km</span><span class="cue">Links abbiegen</span></div>
+<div class="row"><span class="km">13.8 km</span><span class="cue">Links abbiegen</span></div>
+<div class="row"><span class="km">14.4 km</span><span class="cue">Rechts abbiegen</span></div>
+<div class="row"><span class="km">14.6 km</span><span class="cue">Links abbiegen auf Ruijslaan (follow 2.4 km)</span></div>
+<div class="poi"><div class="poi-h"><span class="tag">swimming</span><span class="poi-n">Beach De Koog</span><span class="poi-km">15.0 km</span></div></div>
+<div class="poi"><div class="poi-h"><span class="tag">food</span><span class="poi-n">Café, Bar, Restaurants</span><span class="poi-km">15.1 km</span></div></div>
+<div class="row"><span class="km">17.0 km</span><span class="cue">Dem Straßenverlauf folgen</span></div>
+<div class="row"><span class="km">17.8 km</span><span class="cue">Rechts abbiegen (follow 1.4 km)</span></div>
+<div class="row"><span class="km">19.2 km</span><span class="cue">Rechts abbiegen auf Oude Dijkje</span></div>
+<div class="row"><span class="km">19.3 km</span><span class="cue">Links abbiegen auf Waalenburgerdijkje</span></div>
+<div class="row"><span class="km">20.0 km</span><span class="cue">Links abbiegen auf Pijpersdijk</span></div>
+<div class="row"><span class="km">20.1 km</span><span class="cue">Rechts abbiegen (follow 1.1 km)</span></div>
+<div class="poi"><div class="poi-h"><span class="tag">see</span><span class="poi-n">Old seadike (1436)</span><span class="poi-km">20.6 km</span></div></div>
+<div class="row"><span class="km">21.2 km</span><span class="cue">Rechts abbiegen auf Nieuwlanderweg</span></div>
+<div class="row"><span class="km">22.1 km</span><span class="cue">Rechts halten</span></div>
+<div class="row"><span class="km">22.1 km</span><span class="cue">Rechts abbiegen auf Burgerdijk</span></div>
+<div class="row"><span class="km">23.0 km</span><span class="cue">Links abbiegen</span></div>
+<div class="row"><span class="km">23.6 km</span><span class="cue">Rechts abbiegen</span></div>
+<div class="row"><span class="km">23.8 km</span><span class="cue">Dem Straßenverlauf folgen</span></div>
+<div class="row"><span class="km">23.8 km</span><span class="cue">Links abbiegen auf Kogerstraat</span></div>
+<div class="row"><span class="km">24.0 km</span><span class="cue">In den Kreisverkehr einfahren</span></div>
+<div class="row"><span class="km">24.4 km</span><span class="cue">Links abbiegen auf Burgerhoutstraat</span></div>
+<div class="poi"><div class="poi-h"><span class="tag">see</span><span class="poi-n">Oudheidkamer Museum</span><span class="poi-km">24.4 km</span></div><div class="poi-d">historic museum Texel</div></div>
+<div class="poi"><div class="poi-h"><span class="tag">food</span><span class="poi-n">Den Burg: coffee, food, ice cream, bakery</span><span class="poi-km">24.5 km</span></div></div>
+<div class="poi"><div class="poi-h"><span class="tag">note</span><span class="poi-n">Den Burg</span><span class="poi-km">24.5 km</span></div><div class="poi-d">Main town of Texel</div></div>
+<div class="row"><span class="km">24.6 km</span><span class="cue">Dem Straßenverlauf von Wilhelminalaan folgen</span></div>
+<div class="poi"><div class="poi-h"><span class="tag">bike_parking</span><span class="poi-n">Bike Parking (lock !)</span><span class="poi-km">24.6 km</span></div></div>
+<div class="row"><span class="km">24.6 km</span><span class="cue">Rechts abbiegen auf Wilhelminalaan</span></div>
+<div class="row"><span class="km">24.9 km</span><span class="cue">Links abbiegen auf Drijverstraat</span></div>
+<div class="row"><span class="km">25.0 km</span><span class="cue">Rechts abbiegen auf Burdetstraat</span></div>
+<div class="row"><span class="km">25.3 km</span><span class="cue">Leicht links abbiegen auf Vuurbaeck</span></div>
+<div class="row"><span class="km">25.3 km</span><span class="cue">Rechts abbiegen auf Hallerweg</span></div>
+<div class="row"><span class="km">25.3 km</span><span class="cue">Links abbiegen auf Hallerweg</span></div>
+<div class="row"><span class="km">25.5 km</span><span class="cue">Links abbiegen auf Kadijksweg</span></div>
+<div class="row"><span class="km">26.0 km</span><span class="cue">Links abbiegen auf Marsweg (follow 1.1 km)</span></div>
+<div class="row"><span class="km">27.0 km</span><span class="cue">Rechts abbiegen auf Tienhoven</span></div>
+<div class="row"><span class="km">28.0 km</span><span class="cue">Rechts abbiegen auf Waalderweg</span></div>
+<div class="row"><span class="km">28.1 km</span><span class="cue">Links abbiegen auf Bomendiek</span></div>
+<div class="row"><span class="km">28.4 km</span><span class="cue">Rechts abbiegen auf Hogereind</span></div>
+<div class="poi"><div class="poi-h"><span class="tag">see</span><span class="poi-n">Museum Waelstee</span><span class="poi-km">28.5 km</span></div><div class="poi-d">local history, coffee, WC</div></div>
+<div class="poi"><div class="poi-h"><span class="tag">coffee</span><span class="poi-n">Hotel Rebecca</span><span class="poi-km">28.7 km</span></div></div>
+<div class="row"><span class="km">28.8 km</span><span class="cue">Links abbiegen</span></div>
+<div class="row"><span class="km">28.8 km</span><span class="cue">Rechts halten</span></div>
+<div class="row"><span class="km">28.8 km</span><span class="cue">Rechts abbiegen</span></div>
+<div class="row"><span class="km">29.2 km</span><span class="cue">Rechts abbiegen (follow 2.3 km)</span></div>
+<div class="row"><span class="km">31.5 km</span><span class="cue">Links abbiegen auf Dijkmanshuizen (follow 1.2 km)</span></div>
+<div class="poi"><div class="poi-h"><span class="tag">coffee</span><span class="poi-n">Café&#x27;s Oosterend</span><span class="poi-km">32.7 km</span></div></div>
+<div class="row"><span class="km">32.8 km</span><span class="cue">Rechts abbiegen (follow 2.9 km)</span></div>
+<div class="row"><span class="km">35.6 km</span><span class="cue">Rechts abbiegen</span></div>
+<div class="row"><span class="km">35.7 km</span><span class="cue">Rechts abbiegen auf Haven</span></div>
+<div class="row"><span class="km">35.8 km</span><span class="cue">Leicht links abbiegen auf Haven</span></div>
+<div class="poi"><div class="poi-h"><span class="tag">dock/stay</span><span class="poi-n">Docking Oudeschild</span><span class="poi-km">36.2 km</span></div></div>
+<div class="row"><span class="km">36.4 km</span><span class="cue">Links abbiegen auf Laagwaalderweg</span></div>
+<div class="row"><span class="km">36.5 km</span><span class="cue">Leicht links abbiegen auf Barentszstraat</span></div>
+<div class="poi"><div class="poi-h"><span class="tag">coffee</span><span class="poi-n">Oudeschild, cafes</span><span class="poi-km">36.5 km</span></div></div>
+<div class="poi"><div class="poi-h"><span class="tag">see</span><span class="poi-n">Museum Kaap Skil</span><span class="poi-km">36.5 km</span></div><div class="poi-d">historic maritime museum</div></div>
+<div class="row"><span class="km">36.6 km</span><span class="cue">Rechts abbiegen auf De Houtmanstraat</span></div>
+<div class="row"><span class="km">36.9 km</span><span class="cue">Rechts abbiegen auf Wijde Steeg</span></div>
+<div class="row"><span class="km">37.0 km</span><span class="cue">Links abbiegen auf Trompstraat</span></div>
+<div class="row"><span class="km">37.4 km</span><span class="cue">Links abbiegen auf Het Buurtje</span></div>
+<div class="row"><span class="km">37.7 km</span><span class="cue">Rechts abbiegen auf Redoute (follow 1.5 km)</span></div>
+<div class="poi"><div class="poi-h"><span class="tag">see</span><span class="poi-n">Fort De Schans</span><span class="poi-km">38.5 km</span></div></div>
+<div class="poi"><div class="poi-h"><span class="tag">bar</span><span class="poi-n">Texel special beer brewery</span><span class="poi-km">38.6 km</span></div></div>
+<div class="row"><span class="km">39.1 km</span><span class="cue">Links abbiegen</span></div>
+<div class="poi"><div class="poi-h"><span class="tag">see</span><span class="poi-n">Fortress Redoute</span><span class="poi-km">39.4 km</span></div><div class="poi-d">built 1574</div></div>
+<div class="row"><span class="km">39.6 km</span><span class="cue">Links halten</span></div>
+<div class="row"><span class="km">39.7 km</span><span class="cue">Rechts halten (follow 2.8 km)</span></div>
+<div class="poi"><div class="poi-h"><span class="tag">see</span><span class="poi-n">Cheese farm Wezenspyk Texel</span><span class="poi-km">41.3 km</span></div></div>
+<div class="row"><span class="km">42.5 km</span><span class="cue">Leicht links abbiegen</span></div>
+<div class="row"><span class="km">42.7 km</span><span class="cue">Rechts halten auf Noorder Haaks</span></div>
+<div class="row"><span class="km">43.0 km</span><span class="cue">Links abbiegen auf De Dageraad</span></div>
+<div class="row"><span class="km">43.2 km</span><span class="cue">Rechts abbiegen</span></div>
+<div class="row"><span class="km">43.4 km</span><span class="cue">Links abbiegen</span></div>
+
+</div></body></html>

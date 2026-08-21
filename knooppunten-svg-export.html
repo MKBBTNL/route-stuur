@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Knooppunten SVG-export — schone knooppuntenreeks</title>
+<style>
+  :root{
+    --red:#c0101d; --ink:#1b1b1b; --gray:#8a8a8a;
+    --line:#e2ded5; --paper:#faf9f6; --card:#fff;
+  }
+  *{box-sizing:border-box;margin:0;padding:0;}
+  body{font-family:'Segoe UI',Arial,Helvetica,sans-serif;background:var(--paper);color:var(--ink);line-height:1.5;padding:24px;}
+  .wrap{max-width:900px;margin:0 auto;}
+  header{border-bottom:3px solid var(--red);padding-bottom:12px;margin-bottom:20px;}
+  h1{font-size:26px;color:var(--red);text-transform:uppercase;letter-spacing:.5px;}
+  .sub{color:#5a6472;font-size:14px;margin-top:4px;}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:18px;margin-bottom:16px;}
+  label{display:block;font-weight:600;font-size:13px;margin-bottom:6px;}
+  textarea,input[type=text],select{width:100%;font-family:'Consolas',monospace;font-size:13px;
+    border:1px solid var(--line);border-radius:6px;padding:10px;background:#fff;}
+  textarea{min-height:90px;resize:vertical;}
+  .hint{font-size:12px;color:var(--gray);margin-top:6px;}
+  .row{display:flex;gap:12px;flex-wrap:wrap;align-items:flex-end;}
+  .row>div{flex:1;min-width:160px;}
+  button{background:var(--red);color:#fff;border:none;border-radius:6px;padding:10px 18px;
+    font-size:14px;font-weight:600;cursor:pointer;}
+  button.ghost{background:#fff;color:var(--red);border:1.5px solid var(--red);}
+  .btns{display:flex;gap:10px;flex-wrap:wrap;margin-top:8px;}
+  .preview{background:#fff;border:1px solid var(--line);border-radius:10px;padding:12px;overflow:auto;}
+  .preview svg{max-width:100%;height:auto;}
+  .meta{font-size:12px;color:var(--gray);margin-top:8px;}
+  code{background:#f0eee8;padding:1px 5px;border-radius:3px;font-size:12px;}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Knooppunten SVG-export</h1>
+    <div class="sub">Een schone reeks knooppunten — zoals op de routebriefjes — als los .svg-bestand. Print op A-formaat: breedte vast, hoogte groeit mee met het aantal knooppunten.</div>
+  </header>
+
+  <div class="card">
+    <label for="seq">Knooppuntenreeks</label>
+    <textarea id="seq" spellcheck="false">12 74 11 43 42 45 19 7 6 26 25 9 73 72 70 | veerpont | 91 66 65 64 61 7 6 05 15 04 16 84 98 88 87 86 83 62 63</textarea>
+    <div class="hint">Scheid knooppunten met spaties, komma's of ·. Zet een veerpont ertussen met <code>| veerpont |</code> of los <code>|</code>. Plaatsnaam bij een knoop: <code>65:Holterberg</code>. Km-label: <code>65@36.5</code>. Combineren mag: <code>65@36.5:Holterberg</code>.</div>
+  </div>
+
+  <div class="card">
+    <div class="row">
+      <div>
+        <label for="paper">Papierbreedte</label>
+        <select id="paper">
+          <option value="794">A4 staand (210 mm)</option>
+          <option value="1123">A4 liggend / A3 staand (297 mm)</option>
+          <option value="1587">A3 liggend (420 mm)</option>
+          <option value="559">A5 staand (148 mm)</option>
+        </select>
+      </div>
+      <div>
+        <label for="startg">Start/finish-glyph</label>
+        <select id="startg">
+          <option value="both">Start én finish (schip + fiets)</option>
+          <option value="none">Geen</option>
+        </select>
+      </div>
+    </div>
+    <div class="btns">
+      <button onclick="build()">Bijwerken</button>
+      <button class="ghost" onclick="dl()">Download .svg</button>
+    </div>
+  </div>
+
+  <div class="preview" id="prev"></div>
+  <div class="meta" id="meta"></div>
+</div>
+
+<script>
+/* kp_shared.js — shared node-chain rendering core.
+   Glyphs updated: veerpont marker = bike-ferry, start/finish = dock + ferry
+   (mirrored at finish). Palette from the ANWB briefje: red #c0101d, ink #1b1b1b. */
+(function (root) {
+  const C = { red:'#c0101d', ink:'#1b1b1b', gray:'#8a8a8a', white:'#ffffff' };
+  const R = 26, STROKE = 2.6;
+  const GAP_ARROW = 20, GAP_FERRY = 58, ROW_H = 116, MARGIN_X = 46, START_W = 60, TOP_PAD = 30;
+  const esc = s => String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+
+  function node(cx, cy, kp, km, place){
+    let s='';
+    if(place) s+=`<text x="${cx}" y="${cy-R-11}" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="700" fill="${C.red}">${esc(place)}</text>`;
+    s+=`<circle cx="${cx}" cy="${cy}" r="${R}" fill="${C.white}" stroke="${C.red}" stroke-width="${STROKE}"/>`;
+    s+=`<text x="${cx}" y="${cy+7}" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="21" font-weight="700" fill="${C.red}">${esc(kp)}</text>`;
+    if(km!==''&&km!=null) s+=`<text x="${cx}" y="${cy+R+17}" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="11" fill="${C.gray}">${esc(km)}</text>`;
+    return s;
+  }
+  function arrow(x1, cy, x2){
+    const hx=x2;
+    return `<line x1="${x1}" y1="${cy}" x2="${x2-7}" y2="${cy}" stroke="${C.red}" stroke-width="2.4"/>`
+         + `<path d="M ${hx-8} ${cy-5} L ${hx} ${cy} L ${hx-8} ${cy+5} Z" fill="${C.red}"/>`;
+  }
+
+  // bike-ferry glyph (front view, small). Drawn in a 48x45 local box, centred
+  // on (cx,cy) and scaled. col sets the colour; s scales the whole thing.
+  function boat(cx, cy, col, s){
+    const c = col||C.red; const S=(s||1)*0.82; const gcx=24, gcy=22;
+    const body =
+        `<path d="M22 7 L22 4 A2.4 2.4 0 0 1 26.8 4 L26.8 7"/>`
+      + `<path d="M16 8 L32 8 L35 17 L13 17 Z"/>`
+      + `<line x1="17.5" y1="12.5" x2="30.5" y2="12.5"/>`
+      + `<path d="M13 17 L6 21 L24 24 L42 21 L35 17"/>`
+      + `<path d="M10 22.5 L24 25 L38 22.5"/>`
+      + `<path d="M6 21 L9.5 38 M38.5 38 L42 21"/>`
+      + `<path d="M9.5 38 Q24 43 38.5 38"/>`
+      + `<g stroke-width="1.9"><circle cx="18.5" cy="33" r="3.6"/><circle cx="29.5" cy="33" r="3.6"/>`
+      + `<path d="M18.5 33 L23.5 27 L29.5 33 M23.5 27 L27 27 M23.5 27 L20.5 33"/></g>`;
+    return `<g transform="translate(${cx} ${cy}) scale(${S}) translate(${-gcx} ${-gcy})" `
+      + `fill="none" stroke="${c}" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">${body}</g>`;
+  }
+
+  function ferry(x1, cy, x2, label){
+    const mid=(x1+x2)/2;
+    let s=`<line x1="${x1}" y1="${cy}" x2="${x2}" y2="${cy}" stroke="${C.red}" stroke-width="2.2" stroke-dasharray="5 4"/>`;
+    s+=boat(mid, cy-2, C.red, 1);
+    if(label) s+=`<text x="${mid}" y="${cy+26}" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="10" font-style="italic" fill="${C.gray}">${esc(label)}</text>`;
+    return s;
+  }
+
+  // start/finish dock glyph (pier + ferry + waterline) in a 60x44 local box,
+  // centred on (cx,cy). mirror=true flips it horizontally (finish bookend).
+  function dockGlyph(cx, cy, mirror, col){
+    const c = col||C.ink; const S=0.82; const gcx=30, gcy=22;
+    const body =
+        `<path d="M4 19 L27 19"/><path d="M4 24 L27 24"/>`
+      + `<line x1="10" y1="24" x2="10" y2="33"/><line x1="22" y1="24" x2="22" y2="33"/>`
+      + `<line x1="10" y1="29.5" x2="22" y2="29.5"/>`
+      + `<path d="M43 8 L43 5.5 A2 2 0 0 1 47 5.5 L47 8"/>`
+      + `<path d="M38 9 L52 9 L54.5 17 L35.5 17 Z"/>`
+      + `<path d="M35.5 17 L31 21 L45 25 L59 21 L54.5 17"/>`
+      + `<path d="M34 20.5 L45 24 L56 20.5"/>`
+      + `<path d="M31 21 L34.5 33 M55.5 33 L59 21"/>`
+      + `<path d="M34.5 33 Q45 37 55.5 33"/>`
+      + `<path d="M2 38 Q8 35.5 14 38 T26 38 T38 38 T50 38 T60 38"/>`;
+    const t = mirror ? `translate(${cx} ${cy}) scale(${-S} ${S}) translate(${-gcx} ${-gcy})`
+                     : `translate(${cx} ${cy}) scale(${S}) translate(${-gcx} ${-gcy})`;
+    return `<g transform="${t}" fill="none" stroke="${c}" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">${body}</g>`;
+  }
+
+  function layout(seq, contentW, opts={}){
+    const startX = MARGIN_X + (opts.startGlyph!==false ? START_W : 0);
+    const rows=[]; let row=[]; let x=startX;
+    const rowMaxX = contentW - MARGIN_X;
+    for(let i=0;i<seq.length;i++){
+      const it=seq[i];
+      if(it.t!=='node') continue;
+      const prev = seq[i-1];
+      const ferryBefore = prev && prev.t==='ferry' ? prev : null;
+      const gapBefore = row.length===0 ? 0 : (ferryBefore?GAP_FERRY:GAP_ARROW);
+      const needRight = x + gapBefore + 2*R;
+      let leadFerry=null;
+      if(row.length && needRight > rowMaxX){
+        rows.push(row); row=[]; x=startX;
+        if(ferryBefore){ leadFerry=ferryBefore; x += GAP_FERRY; }
+      } else { x += gapBefore; }
+      const cx = x + R;
+      const item={...it,_cx:cx,_cy:0,_ferryBefore: leadFerry?null:ferryBefore,_ferryLead: leadFerry};
+      row.push(item); x = cx + R;
+    }
+    if(row.length) rows.push(row);
+    return rows;
+  }
+
+  function render(seq, opts={}){
+    const contentW = opts.width || 794;
+    const showStart = opts.startGlyph!==false, showFinish= opts.finishGlyph!==false;
+    const rows = layout(seq, contentW, opts);
+    const H = TOP_PAD + rows.length*ROW_H + 8;
+    let body='';
+    rows.forEach((row,ri)=>{
+      const cy = TOP_PAD + ri*ROW_H + R + 14;
+      row.forEach(it=>it._cy=cy);
+      for(let i=0;i<row.length;i++){
+        const it=row[i], prev=row[i-1];
+        if(prev){
+          if(it._ferryBefore) body+=ferry(prev._cx+R, cy, it._cx-R, it._ferryBefore.label);
+          else body+=arrow(prev._cx+R, cy, it._cx-R);
+        } else if(it._ferryLead){
+          body+=ferry(MARGIN_X, cy, it._cx-R, it._ferryLead.label);
+        }
+      }
+      row.forEach(it=>body+=node(it._cx,cy,it.kp,it.km,it.place));
+      if(ri<rows.length-1){
+        const last=row[row.length-1];
+        body+=`<path d="M ${last._cx+R+8} ${cy-4} L ${last._cx+R+15} ${cy+3} L ${last._cx+R+22} ${cy-4}" fill="none" stroke="${C.red}" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>`;
+      }
+    });
+    if(showStart && rows.length) body+=dockGlyph(MARGIN_X+24, rows[0][0]._cy, false);
+    if(showFinish && rows.length){
+      const lastRow=rows[rows.length-1], last=lastRow[lastRow.length-1];
+      body+=dockGlyph(last._cx+R+ (last._cx+R+64<contentW?42:24), last._cy, true);
+    }
+    const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${contentW} ${H}" width="${contentW}" height="${H}" font-family="Arial,Helvetica,sans-serif"><rect width="${contentW}" height="${H}" fill="${C.white}"/>`+body+`</svg>`;
+    return {svg, width:contentW, height:H, rows:rows.length};
+  }
+
+  const api={C,R,ROW_H,MARGIN_X,esc,node,arrow,ferry,boat,dockGlyph,layout,render};
+  if(typeof module!=='undefined'&&module.exports) module.exports=api;
+  root.KP=api;
+})(typeof window!=='undefined'?window:globalThis);
+
+</script>
+<script>
+function parseSeq(txt){
+  const raw = txt.replace(/\|\s*veerpont\s*\|/gi,' | ')
+                 .split(/[\s,·]+/).filter(Boolean);
+  const seq=[];
+  for(const tok of raw){
+    if(tok==='|'){ seq.push({t:'ferry',label:'veerpont'}); continue; }
+    let kp=tok, km='', place='';
+    const pm=kp.split(':'); if(pm.length>1){ place=pm[1]; kp=pm[0]; }
+    const am=kp.split('@'); if(am.length>1){ km=am[1]; kp=am[0]; }
+    if(kp) seq.push({t:'node',kp,km,place});
+  }
+  return seq.filter((s,i)=> !(s.t==='ferry' && (i===0 || i===seq.length-1)));
+}
+let lastSVG='';
+function build(){
+  const seq=parseSeq(document.getElementById('seq').value);
+  const width=+document.getElementById('paper').value;
+  const sf=document.getElementById('startg').value;
+  const opts={width, startGlyph: sf!=='none', finishGlyph: sf!=='none'};
+  const {svg,height,rows}=KP.render(seq,opts);
+  lastSVG=svg;
+  document.getElementById('prev').innerHTML=svg;
+  const n=seq.filter(s=>s.t==='node').length, f=seq.filter(s=>s.t==='ferry').length;
+  document.getElementById('meta').textContent=
+    `${n} knooppunten${f?', '+f+' veerpont(en)':''} · ${rows} rijen · ${width}×${height}px`;
+}
+function dl(){
+  if(!lastSVG) build();
+  const blob=new Blob([lastSVG],{type:'image/svg+xml'});
+  const a=document.createElement('a');
+  a.href=URL.createObjectURL(blob); a.download='knooppuntenreeks.svg'; a.click();
+  URL.revokeObjectURL(a.href);
+}
+build();
+</script>
+</body>
+</html>

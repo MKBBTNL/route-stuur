@@ -1,0 +1,1450 @@
+stem,n_routes,has_EN,assigned_EN,has_DE,assigned_DE,has_NL,assigned_NL,has_FR,assigned_FR,has_OTHER,assigned_OTHER,covered_any,example_ids
+!!!nog fietsroute!!! day : schoonhoven - kinderdijk - dordrecht (van)(x),1,,,,,,,,,Y,,,54958568
+(unnamed),1,,,,,,,,,Y,,,54826047
+aalter-brug - bruges,2,Y,Y,Y,,,,,,,,Y,"26848645,53677114"
+aalter-brug - ghent (city),1,Y,,,,,,,,,,,31540094
+aalter-brug - ghent (stadt),1,,,Y,,,,,,,,,53677206
+aalterbrug - brugge,3,Y,,Y,,,,,,Y,,,"55451583,55680225,55695403"
+aalterbrug - brugge ' t zand (via boskampveld),1,,,,,,,,,Y,,,55326882
+aambeeld - einstein,1,,,,,,,,,Y,,,56008109
+abbeville - long,2,Y,Y,,,,,,,,,Y,"50029518,53899206"
+abbeville - saint-valery (loop),6,Y,Y,,,,,,,,,Y,"49297091,49940887,53899204,53899205"
+ablon - melun,1,Y,,,,,,,,,,,28437321
+akersloot - amsterdam (oosterdok),2,Y,,Y,,,,,,,,,"53331783,53665503"
+akersloot - amsterdam (oosterdok) (before april),2,Y,,,,,,,,,,,"50264683,50264946"
+akersloot - amsterdam (oosterdok) (before april) (white label),2,Y,,,,,,,,,,,"54360761,54360762"
+akersloot - amsterdam (oosterdok) (vor dem . april),2,,,Y,,,,,,,,,"53665518,53665522"
+akersloot - amsterdam (oosterdok) (white label),1,Y,,,,,,,,,,,54360760
+alblasserdam - kinderdijk - gouda,3,Y,Y,Y,,,,,,,,Y,"26920965,38398102,53665232"
+alblasserdam - kinderdijk - gouda (via schoonhoven),1,Y,Y,,,,,,,,,Y,53330077
+alblasserdam - kinderdijk - gouda (über schoonhoven),1,,,Y,,,,,,,,,53665234
+alblasserdam - kinderdijk - gouda - schoonhoven,1,,,Y,,,,,,,,,26920960
+alblasserdam - kinderdijk - gouda - schoonhoven nld,1,,,,,,,,,Y,,,49523350
+alblasserdam - kinderdijk - gouda / mi,1,Y,Y,,,,,,,,,Y,26920266
+alblasserdam - kinderdijk - nieuwpoort (via gouda) / mi,2,Y,,Y,,,,,,,,,"54650013,54650038"
+alblasserdam - kinderdijk - nieuwpoort (via gouda) / mi nld,1,,,,,,,,,Y,,,54734652
+alblasserdam - kinderdijk - schoonhoven (via gouda) / mi,1,Y,,,,,,,,,,,26548732
+alf - bernkastel kues,1,Y,Y,,,,,,,,,Y,55599973
+alf - bernkastel kues (traced),1,Y,,,,,,,,,,,55924785
+alf - bernkastel-kues,2,Y,,Y,,,,,,,,,"55992071,55992441"
+alf - cochem,2,Y,,Y,,,,,,,,,"55992660,55992873"
+alken - cochem (via eltz),1,Y,,,,,,,,,,,29495469
+alken - cochem (über eltz),1,,,Y,,,,,,,,,53814364
+alken - kobern - winningen - koblenz,1,Y,Y,,,,,,,,,Y,51699437
+alken - kobern - winningen - koblenz (traced),1,Y,,,,,,,,,,,55924749
+alkmaar - amsterdam (buiksloterweg),1,Y,,,,,,,,,,,54596408
+alkmaar - amsterdam (buiksloterweg) (via schermer),1,Y,,,,,,,,,,,54609300
+alkmaar - amsterdam (minerva),1,Y,,,,,,,,,,,54502072
+alkmaar - amsterdam (minerva) (via schermer),1,Y,,,,,,,,,,,54502069
+alkmaar - amsterdam (minerva) (via schermer) (before april),1,Y,,,,,,,,,,,54502067
+alkmaar - amsterdam (oosterdok),2,Y,,Y,,,,,,,,,"45160527,53665498"
+alkmaar - amsterdam (oosterdok) (via schermer),1,Y,,,,,,,,,,,29179529
+alkmaar - amsterdam (oosterdok) (via schermer) (before april),1,Y,,,,,,,,,,,53543790
+alkmaar - amsterdam (oosterdok) (via schermer) (before april) (white label),1,Y,,,,,,,,,,,54360763
+alkmaar - amsterdam (oosterdok) (via schermer) (white label),1,Y,,,,,,,,,,,54360759
+alkmaar - amsterdam (oosterdok) (via volendam),1,Y,,,,,,,,,,,49098613
+alkmaar - amsterdam (oosterdok) (via volendam) (white label),1,Y,,,,,,,,,,,54360764
+alkmaar - amsterdam (oosterdok) (white label),1,Y,,,,,,,,,,,54360758
+alkmaar - amsterdam (oosterdok) (über schermer),1,,,Y,,,,,,,,,53665499
+alkmaar - amsterdam (oosterdok) (über schermer) (vor dem . april),1,,,Y,,,,,,,,,53665528
+alkmaar - amsterdam (oosterdok) (über volendam) poi,1,,,Y,,,,,,,,,53665532
+alkmaar - den helder,2,Y,Y,Y,,,,,,,,Y,"49075457,53680666"
+alkmaar - den helder (n),2,Y,,Y,,,,,,,,,"31327316,54393525"
+alkmaar - den helder nld,1,,,,,,,,,Y,,,54221142
+alkmaar - dunes (loop via bergen & egmond),1,Y,,,,,,,,,,,49133508
+alkmaar - dunes (loop via bergen & schoorl) (n),1,Y,,,,,,,,,,,49228113
+alkmaar - dunes (loop via bergen & schoorl) (n) (white label),1,Y,,,,,,,,,,,54360757
+alkmaar - dunes (loop via bergen) (n),1,Y,Y,,,,,,,,,Y,49227975
+"alkmaar - dunes (loop via bergen, schoorl & egmond)",1,Y,,,,,,,,,,,49133472
+alkmaar - dunes (rondrit via bergen & egmond) nld2026,1,,,,,,,,,Y,,,49812038
+alkmaar - dunes (rondrit via bergen & schoorl) nld,1,,,,,,,,,Y,,,54221145
+alkmaar - dunes (rondrit via bergen) nld,1,,,,,,,,,Y,,,54221401
+alkmaar - dunes (rondrit via bergen) nld q,1,,,,,,,,,Y,,,54221148
+"alkmaar - dunes (rondrit via bergen, schoorl & egmond) nld",1,,,,,,,,,Y,,,49812043
+alkmaar - dunes (schleife über bergen & egmond),1,,,Y,,,,,,,,,53680522
+"alkmaar - dunes (schleife über bergen, schoorl & egmond)",1,,,Y,,,,,,,,,53680524
+alkmaar - dünen (schleife über bergen & schoorl) (n),2,,,Y,,,,,,,,,"53665491,54393508"
+alkmaar - egmond - zaanse schans via hortus cue,1,Y,,,,,,,,,,,49610230
+alkmaar - haarlem (city),2,Y,Y,Y,,,,,,,,Y,"54782493,54800900"
+alkmaar - heiloo - zaanse schans via hortus,1,Y,,,,,,,,,,,49610229
+alkmaar - hoorn,1,Y,Y,,,,,,,,,Y,50890551
+alkmaar - sint maartensvlotbrug,2,Y,Y,Y,,,,,,,,Y,"31327320,53680662"
+alkmaar - sint maartensvlotbrug nld,1,,,,,,,,,Y,,,54221040
+alkmaar - zaandam (via egmond binnen),1,Y,,,,,,,,,,,53535791
+alkmaar - zaandam (via egmond binnen) nld,1,,,,,,,,,Y,,,54353983
+alkmaar - zaandam (via egmond),1,Y,,,,,,,,,,,49172310
+alkmaar - zaandam (via egmond) nld,1,,,,,,,,,Y,,,54353974
+alkmaar - zaandam (via heiloo),1,Y,,,,,,,,,,,49173252
+alkmaar - zaandam (via heiloo) nld,1,,,,,,,,,Y,,,54353978
+alkmaar - zaandam (via schermer),1,Y,,,,,,,,,,,53517551
+alkmaar - zaandam (via schermer) nld,1,,,,,,,,,Y,,,54353976
+alkmaar - zaandam (über egmond binnen),1,,,Y,,,,,,,,,53680508
+alkmaar - zaandam (über egmond),1,,,Y,,,,,,,,,53680510
+alkmaar - zaandam (über heiloo),1,,,Y,,,,,,,,,53680511
+alkmaar - zaandam (über schermer),1,,,Y,,,,,,,,,53680512
+alkmaar - zaanse schans - (via schermer) (before april),1,Y,,,,,,,,,,,54554549
+alkmaar - zaanse schans - amsterdam (minerva),2,Y,,Y,,,,,,,,,"54563880,54563956"
+alkmaar - zaanse schans - amsterdam (oosterdok),2,Y,,Y,,,,,,,,,"55915172,55915402"
+alkmaar - zaanse schans - zaandam (via egmond binnen),1,Y,,,,,,,,,,,53517876
+alkmaar - zaanse schans - zaandam (via egmond),1,Y,,,,,,,,,,,31427203
+alkmaar - zaanse schans - zaandam (via heiloo),1,Y,,,,,,,,,,,31432899
+alkmaar - zaanse schans - zaandam (via schermer),1,Y,,,,,,,,,,,53536935
+alkmaar - zaanse schans - zaandam (via schermer) (before april),1,Y,,,,,,,,,,,53535441
+alkmaar - zaanse schans - zaandam (über egmond binnen),1,,,Y,,,,,,,,,53680514
+alkmaar - zaanse schans - zaandam (über egmond),1,,,Y,,,,,,,,,53680516
+alkmaar - zaanse schans - zaandam (über heiloo),1,,,Y,,,,,,,,,53680517
+alkmaar - zaanse schans - zaandam (über schermer),2,,,Y,,,,,,,,,"53668200,53774140"
+alkmaar - zaanse schans - zaandam (über schermer) (vor dem . april),1,,,Y,,,,,,,,,53680520
+alkmaar polder-windmill loop,2,Y,Y,Y,,,,,,,,Y,"54664318,54664344"
+alphen a/d rijn - gouda,2,Y,,,,,,,,,,,"49094075,49094310"
+alphen a/d rijn - kudelstaart,4,Y,Y,Y,,,,,,,,Y,"26769824,26769826,53665255,53665261"
+alphen a/d rijn - kudelstaart (white label),2,Y,,,,,,,,,,,"54360738,54360739"
+alphen a/d rijn - oude wetering,2,Y,,,,,,,,,,,"49094508,49094619"
+alphen a/d rijn - oude wetering (white label),2,Y,,,,,,,,,,,"54360741,54360742"
+alphen a/d rijn - oude wetering poi,2,,,Y,,,,,,,,,"53665558,53665577"
+alphen a/d rijn - uithoorn,4,Y,Y,Y,,,,,,,,Y,"54152896,54152898,54338085,54338089"
+alphen a/d rijn - uithoorn (white label),2,Y,,,,,,,,,,,"54360771,54360772"
+alt: alkmaar - hoorn,9,Y,,Y,,,,,,,,,"55781221,55781293,55781397,55781407"
+alt: alkmaar - hoorn nld,3,,,,,,,,,Y,,,"55787972,55787973,55787976"
+amiens - corbie,2,Y,Y,,,,,,,,,Y,"50029963,53899210"
+amiens - corbie (via moreuil),2,Y,Y,,,,,,,,,Y,"50029949,53899211"
+amiens - samara,4,Y,Y,,,,,,,,,Y,"49293250,49940703,53899246,53899247"
+amsterdam (buiksloterweg) - zaanse schans,4,Y,,Y,,,,,,,,,"26537140,26769817,53665466,53665469"
+amsterdam (buiksloterweg) - zaanse schans (white label),2,Y,Y,,,,,,,,,Y,"54360745,54360746"
+amsterdam (buiksloterweg) - zaanse schans - purmerend,2,Y,Y,Y,,,,,,,,Y,"31294794,53665471"
+amsterdam (buiksloterweg) - zaanse schans - purmerend (white label),1,Y,Y,,,,,,,,,Y,54360748
+amsterdam (buiksloterweg) - zaanse schans - zaandam,2,Y,,Y,,,,,,,,,"53994101,53994178"
+amsterdam (buiksloterweg) - zaanse schans - zaandam (white label),1,Y,Y,,,,,,,,,Y,54360747
+amsterdam (hoxten) - breukelen,1,,,Y,Y,,,,,,,Y,55679145
+amsterdam (hoxten) - naarden - diemen,3,Y,,Y,Y,,,,,,,Y,"53839238,53844937,53851829"
+amsterdam (hoxten) -breukelen,1,Y,,,,,,,,,,,55138421
+amsterdam (hoxton hotel) - breukelen km (copy),1,Y,,,,,,,,,,,55140465
+amsterdam (hoxton) - breukelen,6,Y,,Y,Y,,,,,,,Y,"55138425,55140588,55140931,55191934"
+amsterdam (hoxton) - breukelen - (copy),1,Y,,,,,,,,,,,55140913
+amsterdam (hoxton) - breukelen km,1,Y,,,,,,,,,,,55140231
+amsterdam (minerva) - haarlem (loop),3,Y,Y,,,,,,,,,Y,"42508167,52509702,55469680"
+amsterdam (minerva) - haarlem - zaandam,2,Y,,,,,,,,,,,"50879561,54351790"
+amsterdam (minerva) - waterland (loop),3,Y,Y,,,,,,,,,Y,"26773939,51081238,55469711"
+"amsterdam (minerva) - zaandam ,",1,Y,,,,,,,,,,,42967423
+amsterdam (minervahaven) - muiden loop,2,,,Y,,,,,,Y,,,"54573601,54573974"
+amsterdam (minervahaven) - muiden loop nld,1,,,,,,,,,Y,,,54574082
+amsterdam (oosterdok) - zaanse schans - haarlem,1,Y,Y,,,,,,,,,Y,55073297
+amsterdam (oosterdok) - zaanse schans - haarlem (city),2,Y,Y,Y,,,,,,,,Y,"55204280,55647848"
+amsterdam (ponthaven) - zaanse schans loop,2,Y,,Y,,,,,,,,,"54689400,54689545"
+amsterdam (veemkade) - zaanse schans - haarlem (city),1,Y,Y,,,,,,,,,Y,55820434
+amsterdam fietsen,1,,,,,,,,,Y,,,54428643
+andernach - boppard,1,Y,Y,,,,,,,,,Y,56125488
+antwerp - dendermonde,2,Y,Y,Y,,,,,,,,Y,"31554711,53677080"
+antwerp - dendermonde (via waterbus),1,Y,Y,,,,,,,,,Y,31554812
+antwerp - dendermonde (über waterbus),1,,,Y,,,,,,,,,53677083
+antwerp - st. amands,2,Y,,Y,,,,,,,,,"33567537,53677130"
+antwerp - st. amands (mit waterbus),1,,,Y,,,,,,,,,53677132
+antwerp - st. amands (via waterbus),1,Y,Y,,,,,,,,,Y,31555120
+antwerp - st. amands (x),3,Y,,Y,,,,,,,,,"53518100,53844940,53852922"
+antwerp - terneuzen,1,Y,,,,,,,,,,,53702380
+antwerpen (loop city),1,Y,,,,,,,,,,,55708413
+antwerpen - baasrode,2,Y,Y,Y,,,,,,,,Y,"55991544,55991725"
+antwerpen - kreekrak,2,Y,,Y,,,,,,,,,"55931255,55931355"
+"antwerpen - kreekrak (alternative, )",1,,,,,,,,,Y,,,55929036
+antwerpen - st. amands,3,Y,,Y,,,,,,Y,,,"55884038,55915895,55915936"
+antwerpen - st. amands (kruibeke ferry),2,Y,,Y,,,,,,,,,"55915884,55915928"
+antwerpen - st. amands (temse vita scheldebad),3,Y,,Y,Y,,,,,Y,,Y,"55451534,55680113,55695442"
+antwerpen - st. amands (toulet),1,,,,,,,,,Y,,,55326888
+antwerpen - tholen,3,Y,,Y,,,,,,,,,"55929046,55930853,55930920"
+antwerpen - tholen - dordrecht,1,,,,,,,,,Y,,,55883692
+arcen - cuijk,2,Y,Y,Y,,,,,,,,Y,"44992477,53668499"
+arcen - roermond,2,Y,,Y,,,,,,,,,"38193639,53668535"
+arles - chateau du beaux - tarascon,1,Y,,,,,,,,,,,55616828
+arles - tarascon,1,Y,,,,,,,,,,,55616901
+arleux - don (via mine museum),1,,,,,,,,,Y,,,49434591
+arleux - havrincourt (via canal & vaucelles),1,Y,,,,,,,,,,,55331502
+arleux - havrincourt (via canal st-quentin),1,Y,Y,,,,,,,,,Y,55317280
+arleux - havrincourt (via masnière),2,Y,Y,,,,,,,,,Y,"41409908,53899239"
+arleux - havrincourt (via vaucelles),2,Y,Y,,,,,,,,,Y,"26957550,53899240"
+"arnhem - giesbeek - doesburg ,",1,,,,,,,,,Y,,,54841359
+arnhem - millingen a.d. rijn - nijmegen - arnhem,2,Y,,,,,,,,,,,"54975981,55204253"
+arnhem - tolkamer - nijmegen - arnhem,2,Y,,,,,,,,,,,"54976438,55204254"
+"arnhem posbank doesburg ,",1,,,,,,,,,Y,,,54841216
+arnhem-mijmegen nassau,1,,,,,,,,,Y,,,55061542
+aschach - schlögen / mi,1,Y,,,,,,,,,,,50554365
+aschaffenburg - frankfurt,2,Y,,Y,,,,,,,,,"43310532,53814343"
+aschaffenburg - freudenberg,2,Y,,Y,Y,,,,,,,Y,"53806297,55551836"
+aschaffenburg - miltenberg,1,Y,Y,,,,,,,,,Y,54415865
+asia to kattendijkdok .,1,Y,,,,,,,,,,,55569587
+auvers-sur-oise - paris (bougival),1,Y,Y,,,,,,,,,Y,31596049
+auvers-sur-oise - paris (bougival) (via ax majeur),1,Y,Y,,,,,,,,,Y,31596014
+auvers-sur-oise - paris (bougival) (via ax majeur) rain route,1,Y,Y,,,,,,,,,Y,55449938
+auxerre (loop) (t),1,Y,,,,,,,,,,,55804412
+auxerre (loop) (via irancy & pelgrimsherberg) (t),1,Y,,,,,,,,,,,55804348
+auxerre - irancy (loop),1,Y,Y,,,,,,,,,Y,41658564
+auxerre - joigny,2,Y,Y,,,,,,,,,Y,"32069739,39609937"
+auxerre - joigny (t),1,Y,,,,,,,,,,,55804429
+auxerre - vincelottes (loop),1,Y,Y,,,,,,,,,Y,42998918
+avignon - l'isle-sur-la-sorgue loop,2,,,,,,,,,Y,,,"55505353,55616462"
+avignon - pont du gard - tarascon,2,Y,Y,,,,,,,Y,,Y,"55504926,55616461"
+avignon loop old city,2,Y,,,,,,,,,,,"54691660,55616448"
+avignon to l'isle-sur-la-sorgue loop,2,,,,,,,,,Y,,,"54752699,55616454"
+avignon to tarascon via pujaut and pont du gard track base,2,,,,,,,,,Y,,,"54752708,55616455"
+bad breisig - winningen,4,Y,,Y,,,,,,,,,"55312112,55487419,55487487,55567895"
+bad breisig - winningen (traced),1,Y,,,,,,,,,,,55924775
+bad breisig - winningen nld,1,,,,,,,,,Y,,,55568664
+bamberg - hassfurt - schweinfurt,2,Y,,,,,,,,,,,"54319437,54343721"
+bamberg - hassfurt - schweinfurt (new start),1,Y,,,,,,,,,,,54319470
+bamberg - schweinfurt,1,Y,,,,,,,,,,,54319357
+beaumont - chantilly - pont-ste-maxence,1,Y,Y,,,,,,,,,Y,44574990
+bergen op zoom - antwerpen,1,,,,,,,,,Y,,,55465213
+bergen op zoom - antwerpen over woensdrecht,1,,,,,,,,,Y,Y,Y,55465210
+bergen op zoom - kreekrak (east),1,Y,,,,,,,,,,,42684471
+bergen op zoom - kreekrak (ost),1,,,Y,,,,,,,,,53677135
+bernkastel-kues - alf,2,Y,,Y,,,,,,,,,"55992544,55992992"
+bernkastel-kues - schweich,2,Y,Y,Y,,,,,,,,Y,"26571090,53805809"
+bernkastel-kues - zell,2,Y,Y,Y,,,,,,,,Y,"29339045,53805745"
+beverwijk - alkmaar,2,Y,,Y,,,,,,,,,"54473490,54536674"
+bikefittingride aschaffenburg / miles,1,,,,,,,,,Y,,,49967945
+bléharies - pont-malin,1,Y,Y,,,,,,,,,Y,41403997
+bléharies - pont-malin (via lewarde),1,Y,Y,,,,,,,,,Y,41404012
+boppard - winningen,1,Y,Y,,,,,,,,,Y,56125478
+born - eijsden - maastricht nld,2,,,,,,,,,Y,,,"54906250,54906278"
+born - eisden - maastricht,2,Y,,Y,,,,,,,,,"54906414,54907238"
+born - eisden - maastricht nld,1,,,,,,,,,Y,,,44666741
+born - zutendaal - maastricht,2,Y,,Y,,,,,,,,,"54906352,54907162"
+born - zutendaal - maastricht nld,3,,,,,,,,,Y,,,"44110014,54906248,54906276"
+bosrandbrug - amsterdam (oosterdok),4,Y,Y,Y,,,,,,,,Y,"31705543,47018629,53665246,53665250"
+bosrandbrug - amsterdam (veemkade),2,Y,Y,,,,,,,,,Y,"55819916,55819929"
+breukelen - amsterdam,2,Y,,Y,Y,,,,,,,Y,"55377858,55678271"
+breukelen - amsterdam (buiksloterweg),2,,,Y,,,,,,,,,"54337870,54337874"
+breukelen - amsterdam (buiksloterweg) (white label),2,Y,,,,,,,,,,,"54360776,54360777"
+breukelen - amsterdam (fort uitermeer),2,Y,,Y,,,,,,,,,"55377847,55678261"
+breukelen - amsterdam (hoxten),4,Y,,Y,,,,,,,,,"53839192,53844936,53844968,53844981"
+breukelen - amsterdam (minervahaven),5,Y,,Y,,,,,,,,,"31571497,31571509,47880725,53677272"
+breukelen - amsterdam (oosterdok),4,Y,Y,Y,,,,,,,,Y,"31571526,31571536,53668290,53677232"
+breukelen - amsterdam (tolhuis),1,Y,,,,,,,,,,,55226763
+breukelen - muiden,1,,,,,,,,,Y,,,55883707
+breukelen - nigtevecht (rs),1,Y,,,,,,,,,,,45002540
+breukelen - utrecht (alt),1,Y,,,,,,,,,,,49760151
+breukelen - utrecht (centrum) / 22mi,1,Y,Y,,,,,,,,,Y,26544361
+breukelen - utrecht (centrum)(epr) / 22mi,2,Y,,Y,,,,,,,,,"55806616,55806764"
+breukelen - utrecht (centrum)(epr) / 22mi nld,1,,,,,,,,,Y,,,55806814
+breukelen - utrecht (neude),1,,,Y,,,,,,,,,26920953
+breukelen - utrecht (neude) / 10mi,1,Y,Y,,,,,,,,,Y,26544454
+breukelen - utrecht (neude) nld,2,,,,,,,,,Y,,,"49523012,49523229"
+breukelen - vreeland - utrecht (neude),1,,,Y,,,,,,,,,26920950
+breukelen - zaandam,2,Y,,,,,,,,,,,"54311578,54311581"
+bruges (city centre) - lovendegem,1,Y,,,,,,,,,,,55376518
+bruges - blankenberge (loop),2,Y,,Y,Y,,,,,,,Y,"55680260,55695391"
+bruges - blankenberge loop,2,Y,,Y,Y,,,,,,,Y,"53844945,53853263"
+bruges - blankenberge loop ( ),1,Y,,,,,,,,,,,55451592
+bruges - damme,3,Y,,Y,Y,,,,,Y,,Y,"55451579,55680241,55695412"
+bruges - damme (loop),5,Y,Y,Y,Y,,,,,,,Y,"29010740,53844944,53846187,53853120"
+bruges - damme (schleife),1,,,Y,,,,,,,,,53677094
+bruges - ghent (city) (via aalter-brug),1,Y,Y,,,,,,,,,Y,41699453
+bruges - ghent (city) (via bulskampveld),1,Y,Y,,,,,,,,,Y,49141390
+bruges - ghent (stadt) (über aalter-brug),1,,,Y,,,,,,,,,53677211
+bruges - ghent (stadt) (über bulskampveld),1,,,Y,,,,,,,,,53677208
+bruges - haan (loop),1,Y,Y,,,,,,,,,Y,26848655
+bruges - haan (loop) (x),1,Y,,,,,,,,,,,53518103
+bruges - haan (schleife),1,,,Y,,,,,,,,,53677087
+bruges - lissewege (loop),1,Y,Y,,,,,,,,,Y,26848663
+bruges - lissewege (schleife),1,,,Y,,,,,,,,,53677090
+bruges - lovendegem,2,Y,,Y,,,,,,,,,"53839173,53846208"
+bruges - sluis (loop),1,Y,Y,,,,,,,,,Y,44702420
+bruges bikeparking 't zand - dockingplace ship,1,,,,,,,,,Y,,,55451588
+bruges city centre - lovendegem,1,,,Y,Y,,,,,,,Y,55677729
+brugge 't zand - ligplaats schip,1,,,,,,,,,Y,,,55326857
+brugge - blankenberge,1,,,,,,,,,Y,,,55884024
+brugge - gent centrum,1,,,,,,,,,Y,,,55883686
+brugge - gent merelbeke,1,,,,,,,,,Y,,,55883699
+brügge - gent stadtmitte,1,,,Y,,,,,,,,,26883464
+busje dag mag x: brugge - blankenberge vv,1,,,,,,,,,Y,,,55027908
+busje dag mag x: gent - brugge,1,,,,,,,,,Y,,,55027870
+busje dag mag x: muiden - breukelen - ligplaats nieuwegein,1,,,,,,,,,Y,,,55027739
+busje dag mag x: schoonhoven - kinderdijk - dordrecht - willemstad,1,,,,,,,,,Y,,,55027701
+busje dag mag x: tholen - antwerpen,1,,,,,,,,,Y,,,55027667
+caderousse to avignon via orange and chateauneuf-du-pape track base,2,,,,,,,,,Y,,,"54752690,55616453"
+cappy - corbie,2,Y,Y,,,,,,,,,Y,"49290619,53899242"
+cappy - corbie (via thiepval),2,Y,Y,,,,,,,,,Y,"49290631,53899243"
+chablis (loop) (t),1,Y,,,,,,,,,,,55804437
+chateau neuf du pape - viviers,1,Y,,,,,,,,,,,55618315
+chavanay - tournon,1,Y,,,,,,,,,,,55616445
+chavanay - tournon ev17,1,Y,Y,,,,,,,,,Y,54691401
+"château landon (walk) ,",1,,,,,,,,,Y,,,37018463
+château-thierry - la ferté,2,Y,Y,,,,,,,,,Y,"31571004,44936014"
+cochem - alf,2,Y,,Y,,,,,,,,,"55991161,55992252"
+cochem - beilstein,1,Y,,,,,,,,,,,29303767
+cochem - koblenz,2,Y,Y,Y,Y,,,,,,,Y,"53529607,55825002"
+cochem - koblenz (traced),1,Y,,,,,,,,,,,55924806
+cochem - koblenz nld,1,,,,,,,,,Y,,,55824980
+cochem - treis-garden (loop via wine tasting),1,Y,Y,,,,,,,,,Y,47386282
+cochem - treis-garden (rundgang über weinprobe),1,,,Y,,,,,,,,,53805725
+cochem - zell,2,Y,Y,Y,,,,,,,,Y,"53805812,55992185"
+cochem-beilstein-ediger eller-bremm-cochem (traced),1,,,,,,,,,Y,,,55924755
+cologne - bonn,3,Y,,Y,,,,,,,,,"19353605,54749807,54768540"
+comines - kortrijk - harelbeke,4,Y,Y,,,,,,,,,Y,"50032621,50040474,53899219,53899220"
+comines - kortrijk - harelbeke (via tyne cot),2,Y,Y,,,,,,,,,Y,"50032598,53899221"
+compiègne - pont-l'évêque,1,Y,Y,,,,,,,,,Y,31599948
+compiègne - pont-l'évêque (via attichy),1,Y,Y,,,,,,,,,Y,31599992
+compiègne - pont-sainte-maxence,1,Y,Y,,,,,,,,,Y,26575876
+compiègne - pont-ste-maxence,1,Y,,,,,,,,,,,53469343
+compiègne - soissons,1,Y,,,,,,,,,,,38685281
+copenhagen - helsingør,2,Y,,Y,Y,,,,,,,Y,"50952514,53684541"
+corbie - amiens,2,Y,Y,,,,,,,,,Y,"49293254,53899244"
+corbie - amiens (via moreuil),2,Y,Y,,,,,,,,,Y,"49296021,53899245"
+corbie - cappy,2,Y,Y,,,,,,,,,Y,"50030734,53899212"
+corbie - cappy (via thiepval),2,Y,Y,,,,,,,,,Y,"50030721,53899213"
+corinth-loutraki-perachora-corinth,1,,,,,,,,,Y,,,53932630
+cote rotie loop ( ^ avg %),2,,,,,,,,,Y,Y,Y,"54893821,55616457"
+cote rotie loop to tournon-sur-rhone track base,2,,,,,,,,,Y,,,"54752674,55616451"
+creil - auvers-sur-oise,1,Y,,,,,,,,,,,26578715
+cres - martinšćica,1,Y,,,,,,,,,,,49206530
+cres - martinščica,1,,,,,,,,,Y,,,55428349
+cuijk - arcen,2,Y,,Y,,,,,,,,,"38193638,53668534"
+cuijk - arnhem,1,Y,,,,,,,,,,,55174994
+cuijk - arnhem deu2026,1,,,,,,,,,Y,,,55175043
+cuijk - grave - cuijk,2,Y,,Y,,,,,,,,,"54906763,54907421"
+cuijk - grave - cuijk nld,3,,,,,,,,,Y,,,"50377327,54906266,54906293"
+cuijk - groesbeek - arnhem,9,Y,,Y,,,,,,Y,,,"54873141,54906269,54906298,54906695"
+cuijk - groesbeek - arnhem 2026ll,1,Y,,,,,,,,,,,55025129
+cuijk - groesbeek - arnhem nld,4,,,,,,,,,Y,,,"44414746,54906259,54906286,55204247"
+cuijk - groesbeek - nijmegen,2,Y,,Y,,,,,,,,,"55205561,55207045"
+cuijk - groesbeek - nijmegen - arnhem nld,4,,,,,,,,,Y,,,"54408004,54906260,54906287,55204248"
+cuijk - groesbeek - nijmegen nld,2,,,,,,,,,Y,,,"34468328,55204236"
+cuijk - kleve - cuijk,2,Y,,Y,,,,,,,,,"54906777,54907408"
+cuijk - kleve - cuijk nld,3,,,,,,,,,Y,,,"49291974,54906265,54906292"
+cuijk - kranenburg (d) - nijmegen - arnhem,4,Y,,Y,,,,,,,,,"54906657,54907374,55205755,55207071"
+cuijk - kranenburg (d) - nijmegen - arnhem nld,4,,,,,,,,,Y,,,"54408248,54906261,54906288,55204246"
+cuijk - kranenburg (d) - nijmegen - arnhem nld michiel,1,,,,,,,,,Y,,,54476690
+cuijk - kranenburg (d) - nijmegen vlak,2,Y,,Y,,,,,,,,,"55205746,55207061"
+cuijk - kranenburg (d) - nijmegen vlak nld,2,,,,,,,,,Y,,,"34468448,55204237"
+cuijk - lith,1,,,Y,,,,,,,,,53668501
+cuijk - lith (alternative),1,Y,,,,,,,,,,,55108811
+cuijk - lith (deviations ),1,Y,Y,,,,,,,,,Y,26660826
+cuijk - venlo,2,Y,,Y,,,,,,,,,"54906509,54907277"
+cuijk - venlo nld,3,,,,,,,,,Y,,,"49226615,54906253,54906281"
+cépoy - neronville,4,Y,,Y,,,,,,,,,"31563702,31563862,55988793,55988846"
+dag : gent stad - cruise dok (van)(x),2,,,,,,,,,Y,,,"54958360,54958369"
+dag amsterdam,1,,,,,,,,,Y,,,54082165
+dag haarlem - amsterdam,1,,,,,,,,,Y,,,54082601
+"dag mag x: evergem - gent city ( , )",1,,,,,,,,,Y,,,55192864
+dag mag x: merelbeke - gent city,1,,,,,,,,,Y,,,55192880
+dag mag x: tholen - antwerpen,1,,,,,,,,,Y,,,54958456
+dag zaandam - haarlem,1,,,,,,,,,Y,,,54082213
+danube island - tulln / mi,1,Y,,,,,,,,,,,50553936
+danube island - tulln / mi (rain alternative),1,Y,,,,,,,,,,,50936907
+day : aalterbrug - brugge ' t zand (via boskampveld) (van)(x),1,,,,,,,,,Y,,,54958497
+day : alt isenhagen - weißes moor - wolfsburg ( ),2,,,,,,,,,Y,Y,Y,"55093250,55191165"
+day : amsterdam - breukelen (van)(x),1,,,,,,,,,Y,,,54958505
+day : antwerpen - st. amands (van)(x),1,,,,,,,,,Y,,,54958473
+day : antwerpen - tholen - dordrecht (van)(x),1,,,,,,,,,Y,,,54957853
+day : bad bevensen - meevaren - alt isenhagen,1,,,,,,,,,Y,Y,Y,55010671
+day : berlin - spandau castle,1,,,,,,,,,Y,Y,Y,55662863
+day : brandeburg - potsdam ( ),1,,,,,,,,,Y,Y,Y,55188659
+day : brugge 't zand - ligplaats schip (van)(x),1,,,,,,,,,Y,,,54958516
+day : brugge - gent centrum (van)(x),1,,,,,,,,,Y,,,54958078
+day : brugge - gent merelbeke (van)(x),1,,,,,,,,,Y,,,54957829
+day : calvorde (outside wolfsburg) to magdeburg ( ),1,,,,,,,,,Y,Y,Y,55330469
+day : dendermonde - gent city ( ) zonder appels(van)(x),1,,,,,,,,,Y,,,54958469
+day : gent stad - dendermonde - st. amands (van) (x),1,,,,,,,,,Y,,,54957821
+day : genthin - brandenburg ( ),1,,,,,,,,,Y,Y,Y,55188374
+day : hamburg - geesthacht,1,,,,,,,,,Y,Y,Y,55009697
+day : hamburg - geesthacht (shorter),1,,,,,,,,,Y,Y,Y,55010103
+day : luneberg ( ),1,,,,,,,,,Y,Y,Y,55330251
+day : luneberg old town (route ),1,,,,,,,,,Y,,,55453247
+day : lübeck - travemünde (coastal),1,,,,,,,,,Y,Y,Y,54738551
+day : lübeck -donnerschleuse- witzeeze,1,,,,,,,,,Y,,,55469267
+day : lüneburg - lauenburg cycle east (new),1,,,,,,,,,Y,,,55453579
+day : lüneburg harbor - bad bevensen,1,,,,,,,,,Y,Y,Y,55010301
+day : lüneburg old town (route ),1,,,,,,,,,Y,Y,Y,55453382
+day : magdeburg - genthin ( ),1,,,,,,,,,Y,Y,Y,55188246
+day : potsdam - 1st leg -berlijn (approx. ),1,,,,,,,,,Y,,,55192071
+day : potsdam - berlijn (west: spandau / lindenufer area) approx.,1,,,,,,,,,Y,Y,Y,55188910
+day : potsdam - leg -kladow-berlijn (approx. )),1,,,,,,,,,Y,,,55192158
+day : spandau-berlin (estimate),1,,,,,,,,,Y,Y,Y,55662858
+day : st. amands - antwerpen (van)(x),1,,,,,,,,,Y,,,54957845
+day : tholen - antwerpen (van)(x),1,,,,,,,,,Y,,,54958531
+day : witzeeze - geesthacht ( +-),1,,,,,,,,,Y,Y,Y,55469447
+day : wolfsburg - magdeburg,1,,,,,,,,,Y,,,55104244
+day long wormerveer - zaanse schans - amsterdam,1,,,,,,,,,Y,,,54993789
+day mag x: breukelen - muiden (van)(x),1,,,,,,,,,Y,,,54957895
+day mag x: dendermonde - gent (van)(x),1,,,,,,,,,Y,,,54957910
+day mag x: dordrecht - schoonhoven (van)(x),1,,,,,,,,,Y,,,54957875
+day mag x: muiden - breukelen - ligplaats vreeswijk (van)(x),1,,,,,,,,,Y,,,54957907
+day mag x: schoonhoven - utrecht (van)(x),1,,,,,,,,,Y,,,54957863
+day short lemmer - sneek,1,,,,,,,,,Y,,,55024434
+day short lemmer sneek,2,,,,,,,,,Y,,,"54993981,55007896"
+day witzeeze - molln - donnerschleuse,1,,,,,,,,,Y,,,55468644
+day witzeeze lock - donnerschleuse lock,1,,,,,,,,,Y,Y,Y,55453702
+deinze - bruges,4,Y,Y,,,,,,,,,Y,"49434614,49434619,53899223,53899224"
+deinze - ghent,1,Y,,,,,,,,,,,53495025
+den helder - alkmaar,2,Y,,Y,,,,,,,,,"31430994,53680658"
+den helder - anna paulowna (loop),1,Y,,,,,,,,,,,49578546
+den helder - anna paulowna (schleife),1,,,Y,,,,,,,,,53680643
+den helder - enkhuizen,1,,,,,,,,,Y,,,54129347
+den helder - schoorl,2,Y,,Y,,,,,,,,,"54646546,54646902"
+den helder - schoorl (via anna paulowna),2,Y,,Y,,,,,,,,,"54648486,54648502"
+den helder - sint maartensvlotbrug (via anna paulowna),1,Y,,,,,,,,,,,41757947
+den helder - sint maartensvlotbrug (via coast),1,Y,,,,,,,,,,,53522747
+den helder - sint maartensvlotbrug (über anna paulowna),1,,,Y,,,,,,,,,53680657
+den helder - sint maartensvlotbrug (über die küste),1,,,Y,,,,,,,,,53680655
+"den helder: ferry - ship ,",1,Y,,,,,,,,,,,49378071
+"den helder: fähre - shiff ,",1,,,Y,,,,,,,,,53680647
+"den helder: shiff - fähre ,",1,,,Y,,,,,,,,,53680650
+"den helder: ship - ferry ,",1,Y,Y,,,,,,,,,Y,32355971
+"den helder: ship - veerboot , nld",1,,,,,,,,,Y,,,54221125
+den helder: veerboot - ship nld,1,,,,,,,,,Y,,,54221123
+denain - tournai (via marchiennes & saint-amand),1,Y,Y,,,,,,,,,Y,41445529
+denain - tournai (via marchiennes),1,Y,,,,,,,,,,,26560329
+denain - tournai (via saint-amands),1,Y,Y,,,,,,,,,Y,26925532
+dendermonde - antwerp,2,Y,Y,Y,,,,,,,,Y,"31571313,53677193"
+dendermonde - antwerp (mit waterbus) +,1,,,Y,,,,,,,,,53677194
+dendermonde - antwerp (via waterbus) +,1,Y,Y,,,,,,,,,Y,31571337
+dendermonde - gent (merelbeke),1,,,,,,,,,Y,,,55884055
+dendermonde - gent city ( ),1,,,,,,,,,Y,,,55326863
+dendermonde - gent city centre que,1,,,Y,,,,,,,,,26882952
+dendermonde - gent innenstadt,1,,,Y,,,,,,,,,26882950
+dendermonde - ghent (city),2,Y,Y,,,,,,,,,Y,"31465355,43547879"
+dendermonde - ghent (city) (x),3,Y,,Y,,,,,,,,,"53518101,53844941,53852934"
+dendermonde - ghent (stadt),2,,,Y,,,,,,,,,"53677126,53677156"
+dendermonde - ghent city centre (alt),1,Y,,,,,,,,,,,47414579
+dendermonde - ghent city centre alt,1,Y,,,,,,,,,,,47414497
+deventer - almen - zutphen,2,Y,,Y,,,,,,,,,"55226493,55342867"
+deventer - almen - zutphen nld,1,,,,,,,,,Y,,,34466901
+deventer - hattem - kampen,2,Y,,Y,,,,,,,,,"55506259,55570868"
+deventer - kampen,2,Y,Y,Y,,,,,,,,Y,"50375800,56054082"
+deventer - olst - veluwe - zwolle,1,Y,,,,,,,,,,,55226999
+deventer - olst - veluwe - zwolle nld,1,,,,,,,,,Y,,,34434118
+deventer - raalte - zwolle,2,Y,,Y,,,,,,,,,"55225388,55342751"
+deventer - raalte - zwolle nld,1,,,,,,,,,Y,,,34467155
+deventer - twello/bussloo - zutphen,2,Y,,Y,,,,,,,,,"55226473,55342863"
+deventer - twello/bussloo - zutphen nld,1,,,,,,,,,Y,,,34466790
+deventer - wijhe - ijsseldal - zwolle,2,Y,,Y,,,,,,,,,"55225358,55342721"
+deventer - wijhe - ijsseldal - zwolle nld,1,,,,,,,,,Y,,,34434198
+deventer - zwolle - kampen,2,Y,,Y,,,,,,,,,"55240719,55570878"
+deventer - zwolle - kampen nld,1,,,,,,,,,Y,,,50667539
+docking bruges - bruges city centre ('t zand),1,,,,,,,,,Y,,,55376565
+doesburg - deventer (via wichmond & zutphen),1,Y,Y,,,,,,,,,Y,29068208
+doesburg - deventer (via zutphen),1,Y,,,,,,,,,,,49182580
+doesburg - deventer (über wichmond & zutphen),1,,,Y,Y,,,,,,,Y,53668747
+doesburg - deventer (über zutphen),1,,,Y,Y,,,,,,,Y,53668743
+doesburg - doetinchem - doesburg,2,Y,,Y,,,,,,,,,"55240793,55342873"
+doesburg - doetinchem - doesburg nld,2,,,,,,,,,Y,,,"48989878,55204251"
+doesburg - gaanderen - doesburg,2,Y,,Y,,,,,,,,,"55240810,55342880"
+doesburg - gaanderen - doesburg nld,2,,,,,,,,,Y,,,"48989960,55204252"
+doesburg - ruurlo - lochem,2,Y,,Y,,,,,,,,,"55225233,55342700"
+doesburg - ruurlo- lochem nld,1,,,,,,,,,Y,,,34432210
+doesburg - veluwezoom (posbank) - arnhem,1,Y,,,,,,,,,,,55226971
+doesburg - veluwezoom (posbank) - arnhem - nld,1,,,,,,,,,Y,,,34466967
+doesburg - vorden - lochem,3,Y,,Y,,,,,,,,,"55223830,55243904,55342686"
+doesburg - vorden - lochem nld,1,,,,,,,,,Y,,,34434324
+doesburg - westervoort - arnhem,1,Y,,,,,,,,,,,55226934
+doesburg - westervoort - arnhem nld,1,,,,,,,,,Y,,,34482223
+doesburg - zutphen,2,Y,,Y,,,,,,,,,"28962767,53668712"
+doesburg - zutphen (via vorden),1,Y,Y,,,,,,,,,Y,28962804
+doesburg - zutphen (über vorden),1,,,Y,,,,,,,,,53668714
+dolce via base route track base,2,,,,,,,,,Y,,,"54752683,55616452"
+don - arleux (via lens / vimy),2,Y,,,,,,,,,,,"49672078,53899238"
+don - arleux (via lens),2,Y,Y,,,,,,,,,Y,"49290310,53899237"
+don - arleux (via lewarde),2,Y,Y,,,,,,,,,Y,"49290379,53899236"
+dordrecht - schoonhoven,9,Y,,Y,,,,,,Y,,,"55376563,55601964,55677861,55881352"
+dordrecht - schoonhoven (papendrecht ferry),1,,,Y,,,,,,,,,55880633
+dordrecht - schoonhoven (via biesbosch),1,Y,,,,,,,,,,,56137621
+dordrecht // alblasserdam - kinderdijk - schoonhoven,3,Y,Y,Y,Y,,,,,,,Y,"31544016,53677237,53851702"
+dordrecht // alblasserdam - kinderdijk - schoonhoven (x),1,,,Y,,,,,,,,,53851706
+dordrecht // alblasserdam - kinderdijk - utrecht,1,Y,,,,,,,,,,,55693597
+dordrecht // alblasserdam - kinderdijk - vianen,2,Y,Y,Y,,,,,,,,Y,"26884044,53677235"
+dordrecht // alblasserdam - kinderdijk - vreeswijk,2,Y,,Y,,,,,,,,,"51839345,53677266"
+dordrecht // alblasserdam - urecht (centrum) (via kinderdijk - roosevelt),1,,,,,,,,,Y,Y,Y,55834573
+dormans - epernay (high - challenging),1,Y,Y,,,,,,,,,Y,53470002
+dormans - epernay (high),1,Y,Y,,,,,,,,,Y,43199162
+dormans - epernay (low),1,Y,Y,,,,,,,,,Y,43199102
+douai - lille,2,Y,Y,,,,,,,,,Y,"50031485,53899217"
+douai - lille (via lens),2,Y,Y,,,,,,,,,Y,"50031384,53899218"
+düsseldorf - cologne,2,Y,,,,,,,,,,,"19353670,54768558"
+elburg - harderwijk (via veluwe),1,Y,,,,,,,,,,,47297291
+elburg - harderwijk (über veluwe),1,,,Y,,,,,,,,,53677308
+enkhuizen (loop),1,,,,,,,,,Y,,,55920551
+enkhuizen - hoorn,2,Y,,Y,,,,,,,,,"33120569,54520817"
+enkhuizen - hoorn (via blokker),1,Y,,,,,,,,,,,38338686
+enkhuizen - hoorn (via coast),1,Y,,,,,,,,,,,28988081
+enkhuizen - hoorn (über blokker),1,,,Y,,,,,,,,,53683936
+enkhuizen - hoorn (über die küste),1,,,Y,,,,,,,,,53683935
+enkhuizen - hoorn nld,1,,,,,,,,,Y,,,54520915
+enkhuizen - medemblik (via coast),1,Y,,,,,,,,,,,19544474
+enkhuizen - medemblik (via kust) nld,1,,,,,,,,,Y,,,54374287
+enkhuizen - medemblik (via twisk),1,Y,Y,,,,,,,,,Y,19544568
+enkhuizen - medemblik (via twisk) nld,1,,,,,,,,,Y,,,54374289
+enkhuizen - medemblik (über die küste),1,,,Y,,,,,,,,,53683933
+enkhuizen - medemblik (über twisk),1,,,Y,,,,,,,,,53683934
+enkhuizen - zaanse schans,1,Y,,,,,,,,,,,54521020
+epernay (loop via winelands & ay),1,Y,Y,,,,,,,,,Y,44935634
+"epernay (loop via winelands, ay & mareuil-sur-ay)",1,Y,Y,,,,,,,,,Y,44935654
+"epernay (loop, flat via ay & mareuil-sur-ay)",1,Y,Y,,,,,,,,,Y,44929384
+epernay - dormans (high - challenging),1,Y,,,,,,,,,,,53470020
+epernay - dormans (high),1,Y,,,,,,,,,,,31570870
+epernay - dormans (low),1,Y,Y,,,,,,,,,Y,43276502
+epernay - mont st pierre (low),1,Y,,,,,,,,,,,31570944
+epernay - mont-st-pierre (high),1,Y,Y,,,,,,,,,Y,28997700
+"evergem - gent city ( , )",1,,,,,,,,,Y,,,55362400
+evry - melun,2,Y,,Y,,,,,,,,,"28180519,55989893"
+franeker - harlingen (centre),2,Y,,Y,,,,,,,,,"55927110,55927123"
+franeker - kornwerderzand,2,Y,,Y,,,,,,,,,"55910163,55910191"
+franeker - leeuwarden,2,Y,,Y,,,,,,,,,"55929988,56136502"
+frankfurt - mainz,2,Y,,Y,,,,,,,,,"43310508,53814345"
+freudenberg – aschaffenburg,2,Y,,Y,,,,,,,,,"49471564,53806307"
+frise - péronne - ytres,2,Y,Y,,,,,,,,,Y,"50030812,53899214"
+geesthacht - steinweider hafen,1,,,,,,,,,Y,,,54859733
+gent (city center) - dendermonde,1,Y,,,,,,,,,,,55374250
+gent (city) - dendermonde (gps-only),1,Y,,,,,,,,,,,55192990
+gent (city) - gent (evergem),1,,,Y,,,,,,,,,44719223
+gent (city) - gent (lovendegem),1,,,Y,,,,,,,,,44719219
+gent (evergem) - bruges (via bulskampveld),2,Y,,Y,Y,,,,,,,Y,"53844943,53853082"
+gent (evergem) - oudenaarde,2,,,Y,,,,,,,,,"34552253,34552387"
+gent (merelbeke) - stadtmitte - oudenaarde,1,,,Y,,,,,,,,,32079591
+gent - brugge,1,,,,,,,,,Y,,,55884032
+gent city - dendermonde,2,,,Y,,,,,,Y,,,"55365488,55677765"
+gent cruise dok - gent city,1,,,,,,,,,Y,,,55362394
+gent merelbeke- dendermonde - st. amands,1,,,,,,,,,Y,,,55883679
+gent stad - cruise dok,1,,,,,,,,,Y,,,55326861
+"ghent (city) - evergem ,",1,Y,,,,,,,,,,,44712837
+ghent (city) - lovendegem,1,Y,Y,,,,,,,,,Y,44712627
+"ghent (city) - merelbeke ,",3,Y,,Y,,,,,,,,,"44712686,53844942,53852990"
+ghent (evergem) - bruges,2,Y,,Y,,,,,,,,,"29529920,53677181"
+ghent (evergem) - bruges (x),1,Y,,,,,,,,,,,53518107
+ghent (evergem) - deinze,1,Y,,,,,,,,,,,45432938
+ghent (evergem) - oudenaarde,2,Y,,,,,,,,,,,"31620647,34543148"
+ghent (lovendegem) - bruges (via aalter-brug),1,Y,,,,,,,,,,,29011637
+ghent (lovendegem) - bruges (via bulskampveld),1,Y,Y,,,,,,,,,Y,31612237
+ghent (lovendegem) - bruges (über bulskampveld),1,,,Y,,,,,,,,,53677109
+ghent (merelbeke) - dendermonde,2,Y,Y,Y,,,,,,,,Y,"31540193,53677203"
+ghent (merelbeke) - ghent centre - oudenaarde,1,Y,,,,,,,,,,,31594931
+ghent (merelbeke) - oudenaarde (via deinze),1,Y,,,,,,,,,,,41402896
+ghent (merelbeke) - oudenaarde (via gavere),1,Y,,,,,,,,,,,41402920
+ghent (merelbeke) - oudenaarde (via ghent city & deinze),1,Y,Y,,,,,,,,,Y,55265628
+ghent (merelbeke) - st amands,2,Y,,Y,,,,,,,,,"26889857,53677198"
+"ghent (stadt) - evergem ,",1,,,Y,,,,,,,,,53677119
+ghent (stadt) - lovendegem,1,,,Y,,,,,,,,,53677116
+"ghent (stadt) - merelbeke ,",1,,,Y,,,,,,,,,53677122
+ghent - mooring evergem,1,,,,,,,,,Y,,,55326877
+ghent - mooring lovendegem,1,,,,,,,,,Y,,,55326872
+giethoorn - vollehove,3,Y,Y,Y,,,,,,,,Y,"40760446,40760519,53677329"
+giethoorn - vollenhove,1,,,Y,,,,,,,,,53677330
+gorinchem - vianen,2,Y,Y,Y,,,,,,,,Y,"25306306,53668515"
+gorinchem - vianen (alternative),1,Y,Y,,,,,,,,,Y,55190414
+"gouda (city) - gouda (julianasluis) , / , mi",1,Y,,,,,,,,,,,50110516
+gouda - albasserdam (via kinderdijk),1,,,Y,,,,,,,,,55879678
+gouda - alblassserdam (via schoonhoven & kinderdijk),1,,,Y,,,,,,,,,55879868
+gouda - kudelstaart,3,Y,Y,Y,,,,,,,,Y,"19438807,53665236,53665238"
+gouda - kudelstaart (white label),1,Y,,,,,,,,,,,54360740
+gouda - oude wetering,1,Y,,,,,,,,,,,53324046
+gouda - oude wetering (white label),1,Y,,,,,,,,,,,54360743
+gouda - oude wetering poi,1,,,Y,,,,,,,,,53665586
+gouda - uithoorn,2,Y,Y,Y,,,,,,,,Y,"54152900,54338105"
+gouda - uithoorn (via nieuweveen),1,Y,,,,,,,,,,,55073515
+gouda - uithoorn (via nieuwkoopse plassen),1,Y,,,,,,,,,,,55073479
+gouda - uithoorn (white label),1,Y,,,,,,,,,,,54360773
+gouda - uithoorn uzepia,1,Y,,,,,,,,,,,54915433
+gouda - utrecht,1,,,Y,,,,,,,,,26920970
+gouda - utrecht / mi,1,Y,Y,,,,,,,,,Y,26920390
+gouda - utrecht nld,1,,,,,,,,,Y,,,49523364
+gouda - vouwenakker (roeivereniging),1,Y,,,,,,,,,,,19453715
+gouda - vreeswijk,2,Y,,Y,,,,,,,,,"53330377,53668284"
+grave - appeltern-wageningen nld,1,,,,,,,,,Y,,,56146397
+grave - groesbeek - nijmegen nld,1,,,,,,,,,Y,,,55224384
+grave - nijmegen - wageningen nld,1,,,,,,,,,Y,,,56146005
+grave - wageningen nld,1,,,,,,,,,Y,,,56146476
+grou - sneek,5,Y,,Y,,,,,,,,,"53684155,55889010,55889012,56111478"
+grou - sneek nld,2,,,,,,,,,Y,Y,Y,"38871289,38871293"
+grou-heeg,4,Y,,Y,,,,,,,,,"54313953,54313954,54314305,54314347"
+grou-heeg nld,2,,,,,,,,,Y,Y,Y,"54314509,54314550"
+haarlem (city) - keukenhof - leiden,1,Y,,,,,,,,,,,19010634
+haarlem (city) - keukenhof - leiden (via dunes),1,Y,,,,,,,,,,,53324150
+haarlem (city) - keukenhof - leiden (via dunes) (white label),1,Y,,,,,,,,,,,54360734
+haarlem (city) - keukenhof - leiden (white label),1,Y,,,,,,,,,,,54360733
+haarlem (city) - leiden (via cruquius),1,Y,Y,,,,,,,,,Y,32028085
+haarlem (city) - leiden (via dunes),1,Y,Y,,,,,,,,,Y,46285906
+haarlem (city) - zaanse schans -amsterdam (oosterdok),1,,,Y,,,,,,,,,55896328
+haarlem (loop via flowerfeld & beach),1,,,,,,,,,Y,,,54646163
+haarlem (schleife über blumenfelder und strand),1,,,Y,,,,,,,,,54655047
+haarlem (spaarndamseweg) - alkmaar,1,,,Y,,,,,,,,,53774112
+haarlem (spaarndamseweg) - alkmaar (via dunes),1,Y,,,,,,,,,,,53538533
+haarlem (spaarndamseweg) - alkmaar (via heiloo),1,Y,Y,,,,,,,,,Y,54535033
+haarlem (spaarndamseweg) - alkmaar peter-niels,2,Y,,,,,,,,,,,"54655609,54667144"
+haarlem (spaarndamseweg) - amsterdam,2,Y,,,,,,,,,,,"49174660,49174875"
+haarlem (spaarndamseweg) - amsterdam nld,2,,,,,,,,,Y,,,"49812072,49812074"
+haarlem (spaarndamseweg) - keukenhof (loop),2,Y,,Y,,,,,,,,,"26920545,53774081"
+haarlem (spaarndamseweg) - keukenhof (rondrit) nld,1,,,,,,,,,Y,,,49812065
+haarlem (spaarndamseweg) - keukenhof - leiden,1,Y,,,,,,,,,,,53994388
+haarlem (spaarndamseweg) - keukenhof - leiden (via dunes),1,Y,,,,,,,,,,,53994387
+haarlem (spaarndamseweg) - keukenhof - leiden (via dunes) (white label),1,Y,,,,,,,,,,,54360770
+haarlem (spaarndamseweg) - keukenhof - leiden (white label),1,Y,Y,,,,,,,,,Y,54360769
+haarlem (spaarndamseweg) - keukenhof - oude wetering,2,Y,,,,,,,,,,,"26516195,31452816"
+haarlem (spaarndamseweg) - keukenhof - oude wetering (white label),2,Y,Y,,,,,,,,,Y,"54360765,54360766"
+haarlem (spaarndamseweg) - keukenhof - oude wetering poi,2,,,Y,,,,,,,,,"53668171,53668174"
+haarlem (spaarndamseweg) - zaanse schans (loop),2,Y,,,,,,,,,,,"51950902,51953437"
+haarlem (spaarndamseweg) - zaanse schans (loop) (copy),1,Y,,,,,,,,,,,54852647
+haarlem (stadt) - keukenhof - leiden,1,,,Y,,,,,,,,,53665442
+haarlem (stadt) - keukenhof - leiden (durch dünen),1,,,Y,,,,,,,,,53665445
+haarlem (stadt) - leiden (durch dünen),1,,,Y,,,,,,,,,53665222
+haarlem (stadt) - leiden (über cruquius),1,,,Y,,,,,,,,,53665215
+haarlem - alkmaar,1,,,Y,,,,,,,,,53668194
+haarlem - alkmaar (via heiloo),1,Y,,,,,,,,,,,54535028
+haarlem - amsterdam,4,,,Y,,,,,,,,,"53668264,53668265,54572293,54572308"
+haarlem - keukenhof (schleife),1,,,Y,,,,,,,,,53665636
+haarlem - keukenhof - haarlem,1,,,Y,,,,,,,,,26920972
+haarlem - nordsee - haarlem,2,,,Y,Y,,,,,,,Y,"26578994,26920976"
+haarlem - zaanse schans - amsterdam (tolhuis),2,Y,,Y,,,,,,,,,"54799748,54800841"
+haarlem haarlem (spaarndamseweg) - north sea (loop) / mi,1,Y,Y,,,,,,,,,Y,26528912
+haarlem haarlem (spaarndamseweg) - north sea (loop) / mi - north sea (loop) / mi,1,Y,Y,,,,,,,,,Y,26921011
+halfweg - zaanse schans,1,Y,,,,,,,,,,,54648411
+hansweert - zandvliet kust,1,,,,,,,,,Y,Y,Y,53837389
+harderwijk - huizen (via putten - spakenburg),1,Y,,,,,,,,,,,32188212
+harderwijk - huizen (via spakenburg),1,Y,,,,,,,,,,,49521969
+harderwijk - huizen (über putten - spakenburg),1,,,Y,,,,,,,,,53668755
+harderwijk - huizen (über spakenburg),1,,,Y,,,,,,,,,53668750
+harderwijk - spakenburg (via putten),1,Y,Y,,,,,,,,,Y,39329822
+harderwijk - spakenburg (via veluwe & nijkerk),1,Y,Y,,,,,,,,,Y,26806064
+harderwijk - spakenburg (über putten),1,,,Y,,,,,,,,,53668731
+harderwijk - spakenburg (über veluwe & nijkerk),1,,,Y,,,,,,,,,53668732
+harelbeke - deinze michiel,1,Y,,,,,,,,,,,49434634
+harelbeke - oudenaarde - deinze,2,Y,Y,,,,,,,,,Y,"49440887,53899222"
+harlingen - franeker - leeuwarden,6,Y,,Y,,,,,,,,,"34570310,34570313,53684147,53684150"
+harlingen - franeker - leeuwarden nld,2,,,,,,,,,Y,Y,Y,"38871274,38871276"
+harlingen - franeker - makkum (via bolsward),1,Y,Y,,,,,,,,,Y,50251101
+harlingen - franeker - makkum (via bolsward) nld,1,,,,,,,,,Y,,,54374300
+harlingen - franeker - makkum (via coast),1,Y,,,,,,,,,,,41669835
+harlingen - franeker - makkum (via kust) nld,1,,,,,,,,,Y,,,54374297
+harlingen - franeker - makkum (via pingjum),1,Y,,,,,,,,,,,41669837
+harlingen - franeker - makkum (via pingjum) nld,1,,,,,,,,,Y,,,54374301
+harlingen - franeker - makkum (über bolsward),1,,,Y,,,,,,,,,53684039
+harlingen - franeker - makkum (über die küste),1,,,Y,,,,,,,,,53684037
+harlingen - franeker - makkum (über pingjum),1,,,Y,,,,,,,,,53684108
+harlingen - kornwerderzand,8,Y,,Y,Y,,,,,,,Y,"53520134,53522464,53782232,53782233"
+hasselt - maastricht (rs),1,Y,,,,,,,,,,,44992369
+hassfurt - bamberg,2,Y,,Y,,,,,,,,,"26632317,53806290"
+hassfurt - schweinfurt,2,Y,,Y,,,,,,,,,"49434216,53806298"
+haudival - péronne (via ham & péronne),1,Y,Y,,,,,,,,,Y,28729101
+haudival - péronne (via ham),1,Y,,,,,,,,,,,31600185
+havrincourt - arleux (via masnières),1,Y,Y,,,,,,,,,Y,41455218
+havrincourt - arleux (via vaucelles and canal),1,Y,,,,,,,,,,,52841713
+havrincourt - arleux (via vaucelles),1,Y,Y,,,,,,,,,Y,26617076
+havrincourt - cambrai - douai,2,Y,Y,,,,,,,,,Y,"50031097,53899216"
+havrincourt - douai,2,Y,Y,,,,,,,,,Y,"49434555,53899215"
+havringcourt - douai,1,Y,,,,,,,,,,,50031347
+haßfurt - bamberg,1,Y,Y,,,,,,,,,Y,55927455
+haßfurt-bamberg,1,Y,Y,,,,,,,,,Y,54345203
+heeg galamadammen,2,Y,,Y,,,,,,,,,"54313955,54314386"
+heeg galamadammen nld,1,,,,,,,,,Y,,,54314562
+heeg-balk-stavoren,2,Y,,Y,,,,,,,,,"54313957,54314318"
+heeg-balk-stavoren nld,1,,,,,,,,,Y,,,54314581
+heeg-stavoren,2,Y,,Y,,,,,,,,,"54313958,54314353"
+heeg-stavoren nld,1,,,,,,,,,Y,Y,Y,54314590
+helsingborg (loop),3,Y,,Y,,,,,,,,,"50952582,54387007,55570361"
+helsingborg (schleife),1,,,Y,,,,,,,,,53684533
+helsingborg - landskrona,2,Y,,Y,Y,,,,,,,Y,"49322976,53684531"
+helsingør (loop),2,Y,,,,,,,,,,,"49322962,50952428"
+helsingør (schleife),2,,,Y,Y,,,,,,,Y,"53684535,53684538"
+heusden - gorinchem (rs),1,Y,,,,,,,,,,,44992898
+heusden - loonse & drunense duinen - heusden,5,Y,,Y,,,,,,,,,"55205433,55205476,55206956,55206966"
+heusden - loonse & drunense duinen - heusden kort nld,2,,,,,,,,,Y,,,"34468209,55204234"
+heusden - loonse & drunense duinen - heusden nld,2,,,,,,,,,Y,,,"34468107,55204235"
+hoorn (loop),1,Y,Y,,,,,,,,,Y,47686375
+hoorn (schleife),1,,,Y,,,,,,,,,53683940
+hoorn - alkmaar - schoorl,4,Y,,Y,,,,,,,,,"49611570,49618727,49672937,49681573"
+hoorn - alkmaar - schoorl (copy),1,Y,,,,,,,,,,,50890476
+hoorn - enkhuizen (via coast),2,Y,Y,,,,,,,,,Y,"27138290,54994027"
+hoorn - enkhuizen (via kust) nld,1,,,,,,,,,Y,,,54221035
+hoorn - enkhuizen (via medemblik),2,Y,Y,,,,,,,,,Y,"48302657,54993996"
+hoorn - enkhuizen (via medemblik) nld,2,,,,,,,,,Y,,,"49812029,54221027"
+hoorn - enkhuizen (via midwoud),1,Y,Y,,,,,,,,,Y,29122747
+hoorn - enkhuizen (via midwoud) nld,2,,,,,,,,,Y,,,"49812023,54221031"
+hoorn - enkhuizen (über die küste),1,,,Y,Y,,,,,,,Y,53677358
+hoorn - enkhuizen (über medemblik),1,,,Y,,,,,,,,,53683938
+hoorn - enkhuizen (über midwoud),1,,,Y,,,,,,,,,53677355
+hoorn - medemblik,2,Y,,,,,,,,,,,"50890872,50942520"
+hoorn - medemblik (n),1,,,Y,,,,,,,,,54393733
+hoorn - medemblik - hoorn,2,Y,,Y,,,,,,,,,"54572759,54572774"
+hoorn - medemblik nld,1,,,,,,,,,Y,,,54221037
+hoorn - volendam,2,Y,Y,Y,,,,,,,,Y,"28988159,53683942"
+hoorn - zaanse schans,3,Y,,Y,,,,,,,,,"54521110,54521254,54521270"
+hoorn - zaanse schans nld,1,,,,,,,,,Y,,,54521305
+huizen - amsterdam (buiksloterweg),1,,,Y,,,,,,,,,53668735
+huizen - amsterdam (minerva & buiksloterweg) (via crailoo) nld,1,,,,,,,,,Y,,,54221018
+huizen - amsterdam (minerva & buiksloterweg) nld,1,,,,,,,,,Y,,,54221015
+huizen - amsterdam (minerva),2,Y,,Y,,,,,,,,,"49499301,53668739"
+huizen - amsterdam (minerva) (via crailoo),1,Y,,,,,,,,,,,32188339
+huizen - amsterdam (minerva) (über crailoo),1,,,Y,,,,,,,,,53668740
+huizen - amsterdam (oosterdok) (via crailoo),1,,,Y,,,,,,,,,53668738
+huizen - amsterdam (tolhuis-buikslotermeer),1,,,Y,Y,,,,,,,Y,55135334
+huizen - amsterdam (tolhuis-buikslotermeer) (via crailoo),1,,,Y,,,,,,,,,55135351
+huizen - amsterdam (tolhuis-buiksloterweg),1,Y,Y,,,,,,,,,Y,32188490
+huizen - amsterdam (tolhuis-buiksloterweg) (via crailoo),1,Y,Y,,,,,,,,,Y,49499230
+huizen - utrecht alt,1,Y,,,,,,,,,,,51853957
+huizen - zaandam,2,Y,,Y,,,,,,,,,"54091379,54393773"
+huizen - zaandam nld,1,,,,,,,,,Y,,,54221011
+joigny (loop to winery),1,Y,Y,,,,,,,,,Y,34304345
+joigny - auxerre,2,Y,,,,,,,,,,,"34339974,39435878"
+joigny - auxerre (t),1,Y,,,,,,,,,,,55804396
+joigny - villeneuve-sur-yonne,1,Y,,,,,,,,,,,32070435
+joigny - villeneuve-sur-yonne (hilly),1,Y,,,,,,,,,,,53491939
+joigny - villeneuve-sur-yonne (t),2,Y,,,,,,,,,,,"55804337,55804434"
+kampen - elburg - kampen,2,Y,,Y,,,,,,,,,"55242871,55342785"
+kampen - elburg - kampen nld,1,,,,,,,,,Y,,,50984237
+kampen - harderwijk (via elburg),1,Y,Y,,,,,,,,,Y,49470175
+"kampen - harderwijk (via flevoland, elburg & nunspeet)",1,Y,,,,,,,,,,,49470402
+kampen - harderwijk (über elburg),1,,,Y,Y,,,,,,,Y,53668728
+"kampen - harderwijk (über flevoland, elburg & nunspeet)",1,,,Y,Y,,,,,,,Y,53668730
+kampen - hattem (loop),1,Y,Y,,,,,,,,,Y,51719996
+kampen - reevesluis - elburg - harderwijk,1,Y,,,,,,,,,,,32199988
+kampen - schokland (loop),2,Y,,Y,,,,,,,,,"50375527,55570859"
+kampen - zwolle - hattem - kampen,2,Y,,Y,,,,,,,,,"55240707,55342772"
+kampen - zwolle - hattem - kampen nld,1,,,,,,,,,Y,,,46008749
+kampen ijsel loop nld,2,,,,,,,,,Y,,,"54690686,54690714"
+karlstadt - lohr,2,Y,,Y,,,,,,,,,"49471436,53806303"
+karlstadt - würzburg,2,Y,Y,Y,Y,,,,,,,Y,"26632242,53806295"
+keukenhof - beverwijk,2,Y,,Y,,,,,,,,,"54472731,54536660"
+kitzingen - schweinfurt,3,Y,Y,Y,Y,,,,,,,Y,"49993933,53806292,55645515"
+kitzingen - würzburg,1,,,Y,,,,,,,,,53806300
+kobern gondorf - cochem (via eltz) (traced),1,Y,,,,,,,,,,,55924762
+kobern-gondorf - treis-karden (via eltz) (traced),1,Y,,,,,,,,,,,55924758
+"koblenz (city walk, ehrenbreitstein)",1,Y,,,,,,,,,,,50757084
+koblenz (loop),1,Y,,,,,,,,,,,50773344
+koblenz (schleife),1,,,Y,,,,,,,,,53814299
+koblenz - sankt goar,2,Y,Y,Y,Y,,,,,,,Y,"26633088,53814283"
+kreekrak (east) - tholen,2,Y,Y,,,,,,,,,Y,"31540619,31540657"
+kreekrak (east) - tholen (x),1,Y,,,,,,,,,,,53838296
+kreekrak (ost) - tholen,2,,,Y,,,,,,,,,"53677243,53677252"
+kreekrak (ost) - tholen (x),1,,,Y,,,,,,,,,53851675
+kreekrak (west) - tholen,4,Y,Y,Y,,,,,,,,Y,"26884023,26884030,53677260,53677263"
+kreekrak - tholen,2,Y,,Y,Y,,,,,,,Y,"55376552,55677851"
+krems - melk / mi,1,Y,,,,,,,,,,,50554298
+krk - kaštel salatić - kornić - punat - krk,2,,,,,,,,,Y,,,"55377734,55428345"
+krk - omišalj,2,Y,,,,,,,,Y,,,"49753703,55428352"
+"kudelstaart - royal flora - aalsmeerderbrug ,",2,Y,,Y,,,,,,,,,"53665243,54360744"
+kwaadmechelen - hasselt (rs),1,Y,,,,,,,,,,,42096505
+königswinter - andernach,1,Y,,,,,,,,,,,56125058
+køge - copenhagen kastellet .,2,Y,,Y,,,,,,,,,"42912969,46561700"
+køge - stevns klint (loop),2,Y,,,,,,,,,,,"49322986,52592882"
+køge - stevns klint (schleife),2,,,Y,Y,,,,,,,Y,"53684523,53684524"
+køge - viking museum & vallo (loop),3,Y,,,,,,,,,,,"46869067,54387368,54402315"
+køge - viking museum & vallo (loop) (ccw),4,Y,Y,Y,,,,,,,,Y,"55240286,55240355,55240519,55240525"
+køge - viking museum & vallo (schleife),1,,,Y,,,,,,,,,53684525
+la ferte - meaux,2,Y,Y,,,,,,,,,Y,"44936776,53451897"
+la ferté - château-thierry,2,Y,Y,,,,,,,,,Y,"31568705,44935955"
+la voulte-sur-rhône – tournon-sur-rhône,1,Y,,,,,,,,,,,55617396
+lagny (loop via castles),1,,,,,,,,,Y,Y,Y,43274207
+lagny (loop via champs-sur-marne),1,Y,Y,,,,,,,,,Y,44942344
+lagny - meaux (gravel),1,Y,Y,,,,,,,,,Y,28962067
+lagny - meaux (tarmac),1,Y,Y,,,,,,,,,Y,43198763
+lagny - meaux dag,1,Y,Y,,,,,,,,,Y,53900784
+lagny - paris,1,Y,,,,,,,,,,,43278541
+lamastre - la voulte sur rhône (la dolce via),2,Y,Y,,,,,,,,,Y,"55380990,55616459"
+"lauenburg-mölln, germany option",2,,,,,,,,,Y,Y,Y,"54679929,54735218"
+"lauenburg-mölln, germany, option",1,,,,,,,,,Y,Y,Y,54859310
+le pouzin - viviers ev17,1,Y,,,,,,,,,,,54691487
+leeuwarden - grou,2,Y,,Y,,,,,,,,,"34570856,53684153"
+leeuwarden - grou ** km alt,1,Y,,,,,,,,,,,55887997
+leeuwarden - grou nld,1,,,,,,,,,Y,Y,Y,38871282
+lehmen - kobern - winningen - koblenz,2,Y,,Y,Y,,,,,,,Y,"53657634,53657859"
+leiden - delft (via den haag),1,Y,Y,,,,,,,,,Y,27286956
+leiden - delft (via zoetermeer),1,Y,Y,,,,,,,,,Y,19579563
+leiden - delft (über den haag),1,,,Y,,,,,,,,,53665225
+leiden - delft (über zoetermeer),1,,,Y,,,,,,,,,53665224
+leiden - delft - rotterdam (cool- & maashaven),1,Y,Y,,,,,,,,,Y,54392751
+leiden - delft - rotterdam (coolhaven),2,Y,,Y,,,,,,,,,"53330276,53668278"
+leiden - gouda,4,Y,Y,Y,,,,,,,,Y,"19010780,46084169,53665448,53665450"
+leiden - gouda (white label),2,Y,,,,,,,,,,,"54360735,54360736"
+leiden - gouda zoeterwoude,1,Y,Y,,,,,,,,,Y,54915153
+leiden - haarlem (stadt) (über cruquius),1,,,Y,,,,,,,,,55895891
+leiden - haarlem (stadt)(durch dünen),1,,,Y,,,,,,,,,55895786
+lelystad - blocq van kuffeler,4,Y,Y,Y,,,,,,,,Y,"27138465,29204691,53677333,53677337"
+lemmer - sneek,10,Y,,Y,Y,,,,,,,Y,"53519187,53519193,53520511,53684132"
+lemmer - stavoren,4,Y,,Y,,,,,,,,,"52683725,52683750,53684128,53684130"
+lemmer - stavoren nld,2,,,,,,,,,Y,,,"54374307,54374309"
+lemmer loop (via starnuman bossen),1,,,,,,,,,Y,,,55583085
+leros (agia marina-saraya resort),1,,,,,,,,,Y,,,55153684
+leros hike1 (xirokampos-panagia karavoudena-italian building),1,,,,,,,,,Y,,,55154842
+leros loop (island's north),1,,,,,,,,,Y,,,55153985
+leros loop (islands' south),1,,,,,,,,,Y,,,55154737
+lith - cuijk,2,Y,,Y,,,,,,,,,"25208723,53668529"
+lith - cuijk (alternative),1,Y,,,,,,,,,,,55216983
+lith - den bosch - heusden (rs),1,Y,,,,,,,,,,,44992794
+lochem - bathmen - epse - deventer,2,Y,,Y,,,,,,,,,"55225292,55342706"
+lochem - bathmen - epse - deventer nld,1,,,,,,,,,Y,,,34433598
+lochem - holterberg - deventer,2,Y,,Y,,,,,,,,,"55225320,55342711"
+lochem - holterberg - deventer nld,1,,,,,,,,,Y,,,34433224
+lohr - karlstadt - wurzburg,1,Y,,,,,,,,,,,55812263
+lohr-wertheim,1,,,,,,,,,Y,,,55957045
+long - abbeville,4,Y,Y,,,,,,,,,Y,"49296004,49977604,53899249,53899250"
+long - samara,2,Y,Y,,,,,,,,,Y,"50029634,53899208"
+long sint maartensvlotbrug - alkmaar,1,Y,,,,,,,,,,,54993767
+lovendegem - gent city,1,,,,,,,,,Y,,,55362410
+lovendegem - sas van gent,1,Y,,,,,,,,,,,44015659
+lovendegem - terneuzen,2,Y,,,,,,,,,,,"44016357,51933657"
+lošinj loop,1,Y,,,,,,,,,,,55435392
+lummen - hasselt (kanaalkom) (rs),1,Y,,,,,,,,,,,52294298
+luneberg hafer,1,,,,,,,,,Y,,,54676169
+luneberg hafer option,1,,,,,,,,,Y,Y,Y,54736466
+luneburg option (not to exciting),1,,,,,,,,,Y,,,54680386
+lübeck - mölln,1,,,,,,,,,Y,Y,Y,54861226
+lübeck to mölln- option,1,,,,,,,,,Y,Y,Y,54753279
+maasbracht - thorn,2,Y,,Y,,,,,,,,,"54906625,54907335"
+maasbracht - thorn nld,2,,,,,,,,,Y,,,"54906258,54906285"
+maastricht - bilzen (belgië) - maastricht,2,Y,,Y,,,,,,,,,"54906474,54907253"
+maastricht - bilzen(belgië) - maastricht nld,3,,,,,,,,,Y,,,"45028378,54906251,54906279"
+maastricht - margraten/valkenburg - maastricht,1,Y,,,,,,,,,,,54907267
+maastricht-margraten/valkenburg-maastricht,1,,,Y,,,,,,,,,55342355
+maastricht-margraten/valkenburg-maastricht nld,3,,,,,,,,,Y,,,"45028842,54906252,54906280"
+mains - oberwesel,1,Y,,,,,,,,,,,55107485
+mainz - frankfurt,2,Y,Y,Y,Y,,,,,,,Y,"19353574,53814294"
+mainz - rüdesheim (entlang fluss),1,,,Y,,,,,,,,,53814355
+mainz - rüdesheim (via monastery),1,Y,,,,,,,,,,,43310501
+mainz - rüdesheim (via monastery) (traced),1,Y,,,,,,,,,,,55924799
+mainz - rüdesheim (via river),1,Y,,,,,,,,,,,43310487
+mainz - rüdesheim (via winelands),1,Y,,,,,,,,,,,51406196
+mainz - rüdesheim (über kloster),1,,,Y,,,,,,,,,53814357
+mainz - rüdesheim (über weinregionen),1,,,Y,,,,,,,,,53814347
+mainz - winningen - burg eltz - treis - karden (via eltz),1,,,Y,,,,,,,,,53657793
+mainz - winningen - burg eltz - treis - karden (via eltz) nld,2,,,,,,,,,Y,,,"55568512,55568526"
+mainz - winningen - burg eltz - treis - karden (über eltz),1,,,Y,Y,,,,,,,Y,53657973
+mainz - winningen - burg eltz - treis karden (via alken),1,Y,,,,,,,,,,,53657631
+mainz - winningen - burg eltz - treis karden (via alken) (traced),1,Y,,,,,,,,,,,55924782
+mainz - winningen - burg eltz - treis- karden (via alken) nld,1,,,,,,,,,Y,,,55568534
+mainz - winningen - burg eltz - treis- karden (über alken),1,,,Y,Y,,,,,,,Y,53657813
+mainz - winningen - burg eltz - treis-karden (via eltz),1,Y,Y,,,,,,,,,Y,53657630
+mainz - winningen - burg eltz - treis-karden (via eltz) (traced),1,Y,,,,,,,,,,,55924778
+mainz- winningen- burg eltz -treis-karden,1,Y,,,,,,,,,,,53609433
+mainz- winningen-burg thurant -treis- karden,1,Y,,,,,,,,,,,53609575
+makkum - franeker - harlingen (via bolsward),1,Y,,,,,,,,,,,55597280
+makkum - franeker - harlingen (via kust),1,Y,Y,,,,,,,,,Y,55597217
+makkum - stavoren,4,Y,Y,Y,,,,,,,,Y,"19578005,26559860,53684114,53684116"
+makkum - stavoren nld,2,,,,,,,,,Y,,,"54374303,54374304"
+mali lošinj loop,1,Y,,,,,,,,,,,49206725
+malmö (loop),1,Y,,,,,,,,,,,49322998
+malmö (schleife),1,,,Y,Y,,,,,,,Y,53684518
+malmö - lund (loop),2,Y,,,,,,,,,,,"51000751,53399113"
+malmö - lund (schleife),2,,,Y,,,,,,,,,"53684515,53684516"
+mandre - rab,1,Y,,,,,,,,,,,55435761
+mandre-novalja-lun,1,Y,,,,,,,,,,,49954408
+marina capo d'orlando - gioioa marea,1,Y,Y,,,,,,,,,Y,53475988
+marktbreit - schweinfurt,1,Y,,,,,,,,,,,55848455
+marktbreit - würzburg,1,Y,,,,,,,,,,,49688759
+meaux - la ferté,2,Y,Y,,,,,,,,,Y,"44936799,53451895"
+meaux - lagny (gravel),1,Y,Y,,,,,,,,,Y,44937598
+meaux - lagny (tarmac),1,Y,Y,,,,,,,,,Y,44937599
+medemblik (loop),2,Y,Y,,,,,,,,,Y,"49428130,49463527"
+medemblik (rondrit) nld,2,,,,,,,,,Y,,,"54374291,54374292"
+medemblik (schleife),2,,,Y,,,,,,,,,"53683925,53683929"
+medemblik - enkhuizen (via coast),1,Y,Y,,,,,,,,,Y,53718253
+medemblik - enkhuizen (via hoorn ) (n),1,Y,Y,,,,,,,,,Y,32290027
+medemblik - enkhuizen (via hoorn ) nld,1,,,,,,,,,Y,,,54221090
+medemblik - enkhuizen (via kust) nld,1,,,,,,,,,Y,,,49803421
+medemblik - enkhuizen (via twisk),1,Y,Y,,,,,,,,,Y,38226611
+medemblik - enkhuizen (via twisk) (n),1,Y,Y,,,,,,,,,Y,26525248
+medemblik - enkhuizen (via twisk) nld,1,,,,,,,,,Y,,,54221095
+medemblik - enkhuizen (über die küste),2,,,Y,,,,,,,,,"32407360,53718278"
+medemblik - enkhuizen (über hoorn ) (n),1,,,Y,,,,,,,,,54551673
+medemblik - enkhuizen (über hoorn ) (n) q,1,Y,,,,,,,,,,,54393572
+medemblik - enkhuizen (über hoorn),1,,,Y,,,,,,,,,32407111
+medemblik - enkhuizen (über twisk),1,,,Y,,,,,,,,,53683930
+medemblik - enkhuizen (über twisk) (n),1,,,Y,,,,,,,,,54393569
+medemblik - enkhuizen loop (via wervershoof/stede broec),1,,,,,,,,,Y,,,54561043
+medemblik - hoorn - enkhuizen / mi (copy),1,Y,,,,,,,,,,,50942458
+melun (loop),5,Y,Y,Y,,,,,,,,Y,"48122195,55989735,55989829,56135832"
+melun (loop) (traced),1,Y,,,,,,,,,,,47177342
+melun - evry,2,Y,,Y,,,,,,,,,"30877904,55989349"
+melun - moret (via barbizon & fontainebleau),2,Y,Y,Y,,,,,,,,Y,"22953130,55989953"
+melun - moret (via barbizon),1,Y,,,,,,,,,,,51414792
+menen - lille,2,Y,Y,,,,,,,,,Y,"45443829,53899234"
+menen - lille (via tyne cot),2,Y,Y,,,,,,,,,Y,"49272396,53899235"
+merelbeke - evergem/lovendegem,1,,,,,,,,,Y,,,55884008
+merelbeke - gent city,1,,,,,,,,,Y,,,55363820
+middelburg (loop),1,Y,Y,,,,,,,,,Y,53837145
+middelburg - neeltje jans - kamperland,1,,,,,,,,,Y,Y,Y,53837359
+miltenberg – aschaffenburg,2,Y,,,,,,,,,,,"54368483,54368782"
+miltenberg – aschaffenburg (new start),1,Y,,,,,,,,,,,54368487
+moerbrugge - bruges,4,Y,Y,Y,,,,,,,,Y,"26848642,31566631,53677164,53677165"
+moerbrugge - deinze,4,Y,Y,,,,,,,,,Y,"49271812,49284930,53899230,53899231"
+mont-st-pierre - epernay (high),1,Y,Y,,,,,,,,,Y,43196120
+mont-st-pierre - epernay (low),1,Y,,,,,,,,,,,43199534
+montargis (loop),2,Y,Y,Y,,,,,,,,Y,"26664650,55988704"
+montereau - pont-sur-yonne (t),1,Y,,,,,,,,,,,55804391
+montereau - pont-sur-yonne (via misy-sur-yonne),2,Y,,,,,,,,,,,"34340215,51605671"
+montereau - pont-sur-yonne (via voulx),1,Y,,,,,,,,,,,34340228
+mook - arnhem nld,2,,,,,,,,,Y,,,"55025415,55204255"
+mook - grave - mook,2,Y,,Y,,,,,,,,,"54906754,54907440"
+mook - grave - mook nld,3,,,,,,,,,Y,,,"49296331,54906267,54906296"
+mook - groesbeek - arnhem,8,Y,,Y,,,,,,Y,,,"54873348,54906270,54906299,54906723"
+mook - groesbeek - arnhem nld,4,,,,,,,,,Y,,,"54410219,54906262,54906289,55204245"
+mook - groesbeek - nijmegen,2,Y,,Y,,,,,,,,,"55205804,55207121"
+mook - groesbeek - nijmegen - arnhem nld,4,,,,,,,,,Y,,,"54410206,54906263,54906290,55204244"
+mook - groesbeek - nijmegen nld,2,,,,,,,,,Y,,,"50376001,55204238"
+mook - kleve - mook,2,Y,,Y,,,,,,,,,"54906741,54907459"
+mook - kleve - mook nld,3,,,,,,,,,Y,,,"50395752,54906268,54906297"
+mook - kranenburg (d) - nijmegen - arnhem,4,Y,,Y,,,,,,,,,"54906798,54907390,55205937,55207111"
+mook - kranenburg (d) - nijmegen - arnhem nld,4,,,,,,,,,Y,,,"54410198,54906264,54906291,55204243"
+mook - kranenburg (d) - nijmegen vlak,3,Y,,Y,,,,,,,,,"55205788,55205819,55207132"
+mook - kranenburg (d) - nijmegen vlak nld,2,,,,,,,,,Y,,,"50376014,55204239"
+mook - venlo,2,Y,,Y,,,,,,,,,"54906615,54907325"
+mook - venlo nld,3,,,,,,,,,Y,,,"50390359,54906257,54906283"
+moret (loop flagy&gray),1,Y,,,,,,,,,,,56136096
+"moret (loop, gray)",1,Y,Y,,,,,,,,,Y,56136116
+moret - melun (via barbizon),2,Y,,Y,,,,,,,,,"53546106,55989290"
+moret - melun (via thomery),1,Y,,,,,,,,,,,55807194
+moret - nemours,4,Y,,Y,,,,,,,,,"26487399,31559274,55990247,55990346"
+moret - nemours (via darvault),2,Y,Y,,,,,,,,,Y,"49159315,49159316"
+"moret - nemours (via rochess, gravel)",2,Y,Y,Y,,,,,,,,Y,"55465649,55990468"
+mortagne-du-nord - bouchain (via lewarde),1,Y,,,,,,,,,,,55299828
+muiden - breukelen - ligplaats nieuwegein,1,,,,,,,,,Y,,,55884261
+muiden - breukelen - ligplaats vreeswijk,1,,,,,,,,,Y,,,55884072
+mölln - lauenburg,1,,,,,,,,,Y,,,54749894
+mölln - lübeck,1,,,,,,,,,Y,Y,Y,54738110
+naxos (sangri-beaches loop),1,,,,,,,,,Y,,,53959093
+naxos (town-chalki-kuros-eggares-town),1,,,,,,,,,Y,,,53958993
+nemours - moret,3,Y,,Y,,,,,,,,,"31575754,31575981,55989412"
+nemours - moret (via fontainebleau),4,Y,,Y,,,,,,,,,"53545709,53545710,55989120,55989185"
+nemours - neronville,4,Y,Y,Y,,,,,,,,Y,"31558384,31558812,55990560,55990610"
+neronville - montargis,6,Y,Y,Y,,,,,,,,Y,"28073200,31582387,49159317,55990827"
+neronville - nemours,4,Y,,Y,,,,,,,,,"18687306,31567695,55988959,55988993"
+new docking gent - to bootjes van gent,1,,,,,,,,,Y,,,54139578
+nierlahnstein - bad breisig,4,Y,,Y,,,,,,,,,"55107553,55192767,55487429,55567875"
+nierlahnstein - bad breisig (traced),1,Y,,,,,,,,,,,55924768
+nierlahnstein - bad breisig nld,1,,,,,,,,,Y,,,55568655
+nieuw df 6l. sneek-heeg-lemmer,1,,,,,,,,,Y,,,51721815
+nieuwpoort - gouda - utrecht nld,1,,,,,,,,,Y,,,54750247
+nieuwpoort - oudewater - utrecht / mi,2,Y,,Y,,,,,,,,,"54674978,54674985"
+nieuwpoort - utrecht,2,Y,,Y,,,,,,,,,"54591869,54591898"
+nijmegen - arnhem,1,,,,,Y,,,,,,,54413902
+nijmegen - doornenburg - arnhem,2,Y,,Y,,,,,,,,,"55205844,55207549"
+nijmegen - doornenburg - arnhem kort,2,,,,,Y,,,,,,,"51002058,55204241"
+nijmegen - tolkamer - arnhem,4,Y,,Y,,Y,,,,,,,"51001926,55204240,55205835,55207536"
+nijmegen - tolkamer - arnhem (copy),1,,,,,Y,,,,,,,54413819
+nijmegen-arnhem nassau,1,,,,,,,,,Y,,,55062001
+"nisyros singletrack ,",1,,,,,,,,,Y,,,53757416
+nisyros singletrack1,1,,,,,,,,,Y,,,53757417
+oberwesel - nierlahnstein,3,Y,Y,Y,,,,,,,,Y,"55191379,55487439,55567882"
+oberwesel - nierlahnstein (traced),1,Y,,,,,,,,,,,55924769
+oberwesel - nierlahnstein nld,1,,,,,,,,,Y,,,55568674
+oberwesel - rüdesheim,2,Y,,Y,Y,,,,,,,Y,"26525041,53814284"
+offenbach - aschaffenburg,2,Y,Y,Y,Y,,,,,,,Y,"19353573,53814296"
+oude schild - den oever (veerboot),1,,,,,,,,,Y,,,55555317
+oude wetering - amsterdam (nieuwe meer),2,Y,,Y,,,,,,,,,"30556112,53668177"
+oudenaarde - astene - ghent (city),2,Y,,Y,,,,,,,,,"41450686,41450692"
+oudenaarde - gavere - ghent (city),1,,,Y,,,,,,,,,32038058
+oudenaarde - ghent (city) (via deinze),1,Y,,,,,,,,,,,52867487
+oudenaarde - ghent (city) (via gavere),1,Y,,,,,,,,,,,31620689
+oudenaarde - tournai (flat),1,Y,Y,,,,,,,,,Y,26574872
+oudenaarde - tournai (hill),1,Y,Y,,,,,,,,,Y,26574883
+paal - terneuzen,1,,,,,,,,,Y,Y,Y,53837197
+paal - terneuzen kort,1,,,,,,,,,Y,Y,Y,53838021
+parijs - lagny (opt) langs seine/marne,1,,,,,,,,,Y,,,53900616
+paris (bougival) - auvers-sur-oise,1,Y,,,,,,,,,,,54165408
+paris (bougival) - auvers-sur-oise (via ax majeur) rain route,1,Y,,,,,,,,,,,55805083
+paris (bougival) - auvers-sur-oise (via ax majeure),1,Y,Y,,,,,,,,,Y,31596961
+paris (bougival) - l'isle-adam,1,Y,Y,,,,,,,,,Y,31612131
+paris (bougival) - paris (arsenal) (via la defense),1,Y,,,,,,,,,,,41461169
+paris (bougival) - paris (arsenal) (via versailles),1,,,,,,,,,Y,,,45918496
+paris (bougival) - paris (pont- -sevres) q,1,Y,,,,,,,,,,,54175698
+paris (bougival) - versailles (loop),1,Y,,,,,,,,,,,52088191
+paris (city) - paris (bougival) (via la défence),1,Y,,,,,,,,,,,52673440
+paris (city) - versailles - paris (bougival) alt,1,Y,,,,,,,,,,,52673298
+paris (pont- -sevres) - paris (bougival) q,1,Y,,,,,,,,,,,54165356
+patmos (beach hopping),1,,,,,,,,,Y,,,54833525
+patmos (skala-chora-grikos-skala),1,,,,,,,,,Y,,,54833140
+pelion (agia kyriaki-milina-platania),1,,,,,,,,,Y,,,55358902
+pont sur yonne - sens (parc du moulin a tan) (t),1,Y,,,,,,,,,,,55804344
+pont sur yonne - sens (t),1,Y,,,,,,,,,,,55804373
+pont-l'évêque - compiègne,1,Y,Y,,,,,,,,,Y,29269729
+pont-l'évêque - compiègne (via attichy),1,Y,Y,,,,,,,,,Y,26955070
+pont-l'évêque - péronne,1,Y,Y,,,,,,,,,Y,26933436
+pont-ste-maxence - chantilly - auvers-sur-oise,1,Y,Y,,,,,,,,,Y,49142143
+pont-ste-maxence - compiègne,2,Y,Y,,,,,,,,,Y,"29118252,53446538"
+pont-ste-maxence - compiègne (hills / pièrrefonds),1,Y,Y,,,,,,,,,Y,52741225
+pont-sur-yonne - moret (t),2,Y,,,,,,,,,,,"55804385,55804419"
+pont-sur-yonne - sens,2,Y,,,,,,,,,,,"34340195,41739356"
+purmerend - alkmaar (via egmond),1,Y,,,,,,,,,,,50273217
+purmerend - alkmaar (via egmond) (white label),1,Y,,,,,,,,,,,54360756
+purmerend - alkmaar (via heiloo),1,Y,Y,,,,,,,,,Y,50285202
+purmerend - alkmaar (via heiloo) (white label),1,Y,,,,,,,,,,,54360755
+purmerend - alkmaar (über egmond),1,,,Y,,,,,,,,,53665488
+purmerend - alkmaar (über heiloo),1,,,Y,,,,,,,,,53665486
+péronne - pont-l'évêque,1,Y,Y,,,,,,,,,Y,30195085
+péronne - pont-l'évêque (via ham),1,Y,,,,,,,,,,,31595457
+péronne - ytres,2,Y,Y,,,,,,,,,Y,"26617078,31600403"
+rab - mišnjak - rab,1,Y,,,,,,,,,,,49946894
+rabac-ripenda kras-labin-rabac (za gpx),1,,,,,,,,,Y,,,55377738
+relevante hvo poi's,3,,,,,,,,,Y,,,"55025314,55025678,55026520"
+remagen - koblenz,2,Y,,,,,,,,,,,"19353591,54768592"
+remich - saarburg (entlang fluss),1,,,Y,,,,,,,,,53805734
+remich - saarburg (via mannebach),1,Y,Y,,,,,,,,,Y,29333758
+remich - saarburg (via river),1,Y,Y,,,,,,,,,Y,26609452
+remich - saarburg (via saarschleife),1,Y,,,,,,,,,,,47397313
+remich - saarburg (über mannebach),1,,,Y,,,,,,,,,53805735
+remich - saarburg (über saarschleife),1,,,Y,,,,,,,,,53805737
+remich - thionville,2,Y,Y,Y,,,,,,,,Y,"50830650,53805796"
+richemont - remich,2,Y,Y,Y,,,,,,,,Y,"26609808,53805733"
+rijnkanaal (roosevelt) - keulsekade (docking),1,,,,,,,,,Y,,,55633391
+roermond - arcen,2,Y,,Y,,,,,,,,,"25307217,53668493"
+roermond - schipperskerk,2,Y,,Y,,,,,,,,,"25297716,53668537"
+roermond - venlo,2,Y,Y,,,,,,,,,Y,"54994676,55582957"
+rondje wageningen nld,1,,,,,,,,,Y,,,56162370
+rotterdam (boompjeskade) - gouda,1,Y,,,,,,,,,,,54647111
+"rotterdam (coolhaven) - waterbus ,",2,Y,,Y,,,,,,,,,"53330036,53665226"
+"rotterdam (oosterkade) - waterbus , / , mi",1,Y,,,,,,,,,,,49215022
+rotterdam - delft (loop) / mi,1,Y,Y,,,,,,,,,Y,26545114
+rotterdam - delft - leiden (coolhaven),1,,,Y,,,,,,,,,55895625
+rotterdam - delft - rotterdam,2,,,Y,,,,,,,,,"26920955,55696281"
+rotterdam - delft - rotterdam nld,1,,,,,,,,,Y,,,49523348
+rotterdam - kinderdijk - gouda - nieuwpoort,2,Y,,Y,,,,,,,,,"54647257,54647970"
+rotterdam - kinderdijk - nieuwpoort,1,,,Y,,,,,,,,,54646632
+rotterdam - kinderdijk - nieuwpoort / mi,1,Y,,,,,,,,,,,54646653
+rotterdam - kinderdijk - nieuwpoort nld,1,,,,,,,,,Y,,,54646664
+rotterdam - kinderdijk - schoonhoven,1,,,Y,,,,,,,,,26920967
+rotterdam - kinderdijk - schoonhoven - gouda,1,,,Y,,,,,,,,,26920964
+rotterdam - kinderdijk - schoonhoven - gouda / mi,1,Y,Y,,,,,,,,,Y,26917012
+rotterdam - kinderdijk - schoonhoven / mi,1,Y,Y,,,,,,,,,Y,26920283
+"rotterdam architecture tour , - extra",1,Y,,,,,,,,,,,50074263
+rotterdam big city skyline - extra,1,Y,,,,,,,,,,,50074131
+rs tulip day - alkmaar - beach - alkmaar,1,,,,,,,,,Y,,,53994427
+rs tulip day - alkmaar - rijp - wormerveer - amsterdam,1,,,Y,,,,,,,,,53994827
+rs tulip day - alkmaar- rijp - wormerveer - amsterdam,1,,,Y,,,,,,,,,53994412
+rs tulip day - alkmaar- rijp-wormerveer-amsterdam,1,,,Y,,,,,,,,,53994115
+rs tulip day - alkmaar-beach-alkmaar,1,,,,,,,,,Y,,,53994108
+rs tulip day - hoorn - volendam,1,,,,,,,,,Y,,,53994537
+rs tulip day - hoorn-volendam,1,,,,,,,,,Y,,,53994079
+rs tulip day - testride,2,,,,,,,,,Y,,,"53994091,53994553"
+rs tulip day haarlem - cruiquis - haarlem,2,,,,,,,,,Y,,,"53994118,53994474"
+rs tulip day haarlem - keukenhof - haarlem,2,,,,,,,,,Y,,,"53994436,53994448"
+rs tulip day haarlem-keukenhof-haarlem,1,,,,,,,,,Y,,,53994129
+rødvig - køge,2,Y,,Y,,,,,,,,,"49322980,53684520"
+rüdesheim - mainz,8,Y,Y,Y,Y,,,,,,,Y,"49424070,53564093,53657628,53657629"
+rüdesheim - mainz (entlang fluss),1,,,Y,Y,,,,,,,Y,53814287
+rüdesheim - mainz (traced),4,Y,,,,,,,,,,,"55924742,55924745,55924790,55924803"
+rüdesheim - mainz (via monastery),1,Y,Y,,,,,,,,,Y,19353581
+rüdesheim - mainz (via monastery) (traced),1,Y,,,,,,,,,,,55924805
+rüdesheim - mainz (via river),1,Y,,,,,,,,,,,26525090
+rüdesheim - mainz (via winelands),1,Y,,,,,,,,,,,53384736
+rüdesheim - mainz (über kloster),1,,,Y,Y,,,,,,,Y,53814292
+rüdesheim - mainz (über weinregionen),1,,,Y,,,,,,,,,53814285
+rüdesheim - mainz nld,3,,,,,,,,,Y,,,"49159685,55568290,55568295"
+rüdesheim - sankt goar,2,Y,,Y,,,,,,,,,"43310476,53814359"
+saarburg - remich (entlang fluss),1,,,Y,,,,,,,,,53805802
+saarburg - remich (via mannebach),1,Y,,,,,,,,,,,26606503
+saarburg - remich (via river),1,Y,Y,,,,,,,,,Y,26581619
+saarburg - remich (via saarschleife),1,Y,,,,,,,,,,,45154200
+saarburg - remich (über mannebach),1,,,Y,,,,,,,,,53805800
+saarburg - remich (üiber saarschleife),1,,,Y,,,,,,,,,53805797
+saarburg - trier (centre),1,Y,Y,,,,,,,,,Y,49101302
+saarburg - trier (centre) (via igel),1,Y,Y,,,,,,,,,Y,26609577
+saarburg - trier (pfalzel / ostkai),2,Y,Y,Y,,,,,,,,Y,"51444708,53805740"
+saarburg - trier (stadt),1,,,Y,,,,,,,,,53805738
+saarburg - trier (stadt) (über igel),1,,,Y,,,,,,,,,53805739
+saint etiennes des sorts - orange - roquemare,2,Y,Y,,,,,,,,,Y,"54691556,55616447"
+"salamis (big loop) ,",1,,,,,,,,,Y,,,53900066
+salamis (small loop),1,,,,,,,,,Y,,,53900115
+samara - amiens,2,Y,Y,,,,,,,,,Y,"50029821,53899209"
+samara - long,2,Y,Y,,,,,,,,,Y,"49295951,53899248"
+sambeek - cuijk,1,Y,,,,,,,,,,,55583899
+sankt goar - koblenz,2,Y,,Y,,,,,,,,,"43310464,53814362"
+sankt goar - rüdesheim (via bacharach & bingen),4,Y,,Y,Y,,,,,,,Y,"49159629,53576317,53657627,53657673"
+sankt goar - rüdesheim (via bacharach & bingen) (traced),2,Y,,,,,,,,,,,"55924740,55924810"
+sankt goar - rüdesheim (via bacharach & bingen) nld,1,,,,,,,,,Y,,,55568247
+sas van gent - gent (city),1,Y,,,,,,,,,,,44015628
+sas van gent - lovendegem,1,Y,,,,,,,,,,,43991468
+sas van gent - terneuzen,4,Y,,,,,,,,Y,,,"52043298,52043732,52043738,52043812"
+schengen - metz,2,Y,,Y,,,,,,,,,"26606580,53805793"
+schengen - thionville,2,Y,Y,Y,,,,,,,,Y,"29308350,53805795"
+schipperskerk - maastricht,2,Y,,Y,,,,,,,,,"43533455,53668539"
+schipperskerk - roermond,2,Y,Y,Y,,,,,,,,Y,"24420204,53668487"
+schlögen (loop) / mi,1,Y,,,,,,,,,,,50554509
+schlögen - passau / mi,1,Y,,,,,,,,,,,50554538
+schlögen - passau / mi (high water/ferry problem alternative),1,Y,,,,,,,,,,,50939341
+schokkerhaven - elburg (via kampen),1,Y,,,,,,,,,,,47295903
+schokkerhaven - elburg (über kampen),1,,,Y,,,,,,,,,53677311
+schokkerhaven - vollenhove (via kamperland),1,Y,,,,,,,,,,,31621127
+schokkerhaven - vollenhove (via schokland),1,Y,,,,,,,,,,,38340573
+schokkerhaven - vollenhove (über kamperland),1,,,Y,,,,,,,,,53677349
+schokkerhaven - vollenhove (über schokland),1,,,Y,,,,,,,,,53677353
+schoonhoven - alblasserdam (rs),2,Y,,,,,,,,,,,"44991960,48424065"
+schoonhoven - dordrecht (ferry alblasserdam),2,Y,,Y,,,,,,,,,"55451327,55679925"
+schoonhoven - kinderdijk - alblasserdam // dordrecht,2,Y,Y,Y,,,,,,,,Y,"31459911,53677025"
+schoonhoven - kinderdijk - dordrecht (ferry papendrecht),2,Y,,Y,,,,,,,,,"55451324,55679939"
+schoonhoven - kinderdijk - dordrecht (x),3,Y,,Y,,,,,,,,,"53518093,53844938,53851858"
+schoonhoven - kinderdijk - dordrecht (x) (aufgezeichnet),1,Y,,,,,,,,,,,55676774
+schoonhoven - kinderdijk - dordrecht - willemstad,1,,,,,,,,,Y,,,55884076
+schoonhoven - oudewater - utrecht / mi,3,Y,Y,Y,Y,,,,,,,Y,"26921017,53851711,55195305"
+schoonhoven - utrecht,4,Y,,Y,,,,,,Y,,,"26903097,54305485,54338009,55883664"
+"schoonhoven - utrecht (city centre, mill lunch)",1,Y,,,,,,,,,,,55724552
+schoonhoven - utrecht (lunch nieuw vogelenzang),1,Y,,,,,,,,,,,55452016
+schoonhoven - utrecht (lunch swimmingpool),1,Y,,,,,,,,,,,55376540
+schoonhoven - utrecht (mittagessen im nieuw vogelenzang),1,,,Y,,,,,,,,,55678212
+schoonhoven - utrecht (mittagessen schwimmbad),1,,,Y,Y,,,,,,,Y,55677880
+schoonhoven - utrecht (white label),1,Y,,,,,,,,,,,54360775
+schoonhoven - utrecht (zentrum),1,,,Y,Y,,,,,,,Y,55678224
+schoonhoven - utrecht city centre,1,Y,,,,,,,,,,,55601952
+schoonhoven - utrecht city centre (lunch at swimmingpool),1,Y,,,,,,,,,,,55929835
+schoonhoven - utrecht city centre (mill lunch),1,Y,,,,,,,,,,,55376534
+schoonhoven - utrecht nld,1,,,,,,,,,Y,,,49523366
+schoorl - alkmaar - volendam,1,,,Y,,,,,,,,,54660314
+schoorl -alkmaar - volendam,1,Y,,,,,,,,,,,54660306
+schweich - bernkastel-kues,2,Y,Y,Y,,,,,,,,Y,"26609643,53805742"
+schweinfurt - haßfurt - bamberg,1,Y,,,,,,,,,,,55859885
+schweinfurt – kitzingen,2,Y,,Y,,,,,,,,,"49689224,53806299"
+schweinfurt – marktbreit,1,Y,,,,,,,,,,,54401476
+sens - point sur yonne (t),1,Y,Y,,,,,,,,,Y,55804417
+sens - pont sur yonne (t),1,Y,Y,,,,,,,,,Y,55804426
+sens - pont-sur-yonne,2,Y,Y,,,,,,,,,Y,"32091005,51571621"
+sens - villeneuve sur yonne (t),1,Y,,,,,,,,,,,55804403
+sens - villeneuve-sur-yonne,3,Y,,,,,,,,,,,"34340189,39413121,51537811"
+short potsdam - oranianburg,1,,,,,,,,,Y,Y,Y,54563991
+sint maartensvlotbrug - alkmaar,7,Y,,Y,Y,,,,,,,Y,"53522805,53522839,53680653,53680654"
+sint maartensvlotbrug - den helder (via anna paulowna),1,Y,,,,,,,,,,,41612579
+sint maartensvlotbrug - den helder (via coast),1,Y,Y,,,,,,,,,Y,53475402
+sint maartensvlotbrug - den helder (über anna paulowna),1,,,Y,,,,,,,,,53680659
+sint maartensvlotbrug - den helder (über die küste),1,,,Y,,,,,,,,,53680661
+skopelos (neo klima-glossa-lighthouse-perivolio-neo klima),1,,,,,,,,,Y,,,55358512
+skopelos (neo klima-mamma mia chapel-neo klima),1,,,,,,,,,Y,,,55358572
+skopelos (neo klima-perivoliou beach-mamma mia chapel-neo klima),1,,,,,,,,,Y,,,55358685
+skopelos (town-neo klima),1,,,,,,,,,Y,,,55358666
+sneek - franeker,6,Y,,Y,Y,,,,,,,Y,"53520308,53684139,54993913,54993919"
+sneek - franeker (via grou),1,Y,,,,,,,,,,,53522513
+sneek - franeker (über grou),1,,,Y,Y,,,,,,,Y,53684140
+sneek - lemmer,2,Y,,Y,,,,,,,,,"53520465,53684159"
+sneek - lemmer (via heeg),2,Y,,,,,,,,Y,,,"53518625,53518628"
+sneek - lemmer (über heeg),1,,,Y,,,,,,,,,53684160
+sneek - stavoren,4,Y,,Y,,,,,,,,,"34632954,34640900,53684161,53684163"
+sneek - stavoren nld,2,,,,,,,,,Y,,,"38871296,38871299"
+soissons - champagne dom caudron,1,,,,,,,,,Y,,,55822015
+"soissons - château-thierry, france (option )",2,,,,,,,,,Y,,,"55821753,55883544"
+soissons - compiègne,1,Y,,,,,,,,,,,54175468
+spaarndam - haarlem (city),1,Y,Y,,,,,,,,,Y,28999000
+spaarndam - haarlem (city) (white label),1,Y,,,,,,,,,,,54360732
+"spaarndam - haarlem (city) ,",1,Y,Y,,,,,,,,,Y,19010888
+"spaarndam - haarlem (city) , (white label)",1,Y,,,,,,,,,,,54360731
+spaarndam - haarlem (spaarndamseweg),2,Y,,Y,,,,,,,,,"53331582,53668184"
+spaarndam - haarlem (spaarndamseweg) (white label),1,Y,,,,,,,,,,,54360768
+"spaarndam - haarlem (spaarndamseweg) ,",2,Y,Y,Y,,,,,,,,Y,"53331578,53668181"
+"spaarndam - haarlem (spaarndamseweg) , (white label)",1,Y,,,,,,,,,,,54360767
+spaarndam - haarlem (stadt),1,,,Y,,,,,,,,,53665433
+"spaarndam - haarlem (stadt) ,",1,,,Y,,,,,,,,,53665427
+spannenburg-lemmer,4,Y,,Y,,,,,,,,,"54074383,54074453,54074539,54074586"
+spannenburg-lemmer nld,2,,,,,,,,,Y,Y,Y,"54074508,54074595"
+spijkerboor - alkmaar,2,Y,,,,,,,,,,,"45160453,45160494"
+st. amands - antwerp,3,Y,Y,Y,Y,,,,,,,Y,"26816550,53677190,53851578"
+st. amands - antwerp (mit die waterbus) +,1,,,Y,,,,,,,,,53677191
+st. amands - antwerp (via waterbus),1,,,Y,Y,,,,,,,Y,53846282
+st. amands - antwerp (via waterbus) +,1,Y,Y,,,,,,,,,Y,31540472
+st. amands - antwerpen,3,Y,,Y,Y,,,,,Y,,Y,"55379089,55677791,55883669"
+st. amands - antwerpen (ferry kruibeke),2,Y,,Y,Y,,,,,,,Y,"55376560,55677783"
+st. amands - bazel - antwerp (via waterbus),1,Y,,,,,,,,,,,55941210
+st. amands - gent (city),1,Y,,,,,,,,,,,55695421
+st. amands - gent city,2,,,Y,,,,,,Y,,,"55451541,55680183"
+stammheim – marktbreit,1,Y,,,,,,,,,,,55930257
+stavoren (loop) (n),2,Y,Y,,,,,,,,,Y,"32289555,32289895"
+stavoren (rondrit),1,Y,,,,,,,,,,,54221108
+stavoren (rondrit) nld,1,,,,,,,,,Y,,,54221103
+stavoren (schleife) (n),2,,,Y,,,,,,,,,"54393553,54393556"
+stavoren - lemmer,3,Y,,Y,,,,,,,,,"38627338,53684119,53684122"
+stavoren - lemmer nld,3,,,,,,,,,Y,,,"43906255,54374305,54374306"
+stavoren - makkum,2,Y,Y,Y,,,,,,,,Y,"34640705,53684117"
+stavoren - makkum (via bolsward) self guided,1,Y,Y,,,,,,,,,Y,34640696
+stavoren - makkum (über bolsward) self guided,1,,,Y,,,,,,,,,53684118
+stavoren - makkum nld,2,,,,,,,,,Y,Y,Y,"38871267,38871271"
+stavoren loop (via rijs & bakhuzen),2,Y,Y,Y,,,,,,,,Y,"55103765,55103911"
+stavoren loop (via rijs & bakhuzen) nld,1,,,,,,,,,Y,,,55104277
+stavoren loop (via starnuman bossen),2,Y,,Y,,,,,,,,,"55103633,55103898"
+stavoren loop (via starnuman bossen) nld,1,,,,,,,,,Y,,,55104265
+syros (ermoupolis-ano syros-ag. michalis-ermoupolis),1,,,,,,,,,Y,,,55419254
+tarascon - arles,3,Y,,,,,,,,Y,,,"54691769,55505150,55616450"
+tarascon - chateau des baux - arles,2,,,,,,,,,Y,Y,Y,"55505411,55616463"
+tarascon - pont du gard loop,2,Y,,,,,,,,,,,"54691713,55616449"
+tarascon to arles via les baux and saint-remy track base,2,,,,,,,,,Y,,,"54752722,55616456"
+tarascon – pont du gard – avignon,2,Y,Y,,,,,,,,,Y,"55617063,55617525"
+terneuzen - antwerp,1,Y,,,,,,,,,,,53702374
+terneuzen - antwerp (waterbus),1,Y,,,,,,,,,,,53702377
+terneuzen - antwerpen,1,Y,,,,,,,,,,,53702361
+terneuzen - breskens,1,,,,,,,,,Y,Y,Y,53837268
+terneuzen - breskens kort,1,,,,,,,,,Y,,,53838051
+terneuzen - gent (city),1,Y,,,,,,,,,,,52280245
+terneuzen - sas van gent,2,Y,,,,,,,,,,,"36951022,36951031"
+terschelling (loop),2,Y,Y,,,,,,,,,Y,"28984563,41904110"
+terschelling (rondrit) nld,2,,,,,,,,,Y,,,"54374293,54374295"
+terschelling (schleife),2,,,Y,,,,,,,,,"53684030,53684034"
+terschelling nld,1,,,,,,,,,Y,,,38871241
+"test ride: alkmaar ,",1,Y,,,,,,,,,,,49067297
+test ride: amsterdam (minerva),2,Y,,Y,,,,,,,,,"54482861,54573959"
+test ride: amsterdam (minerva) nld,1,,,,,,,,,Y,,,54574078
+test ride: amsterdam (oosterdok),1,Y,,,,,,,,,,,50074408
+"test ride: amsterdam (oosterdok) ,",1,Y,,,,,,,,,,,31535161
+test ride: auxerre,1,Y,,,,,,,,,,,51552649
+test ride: auxerre (traced),1,Y,,,,,,,,,,,53497009
+"test ride: auxerre ,",1,Y,,,,,,,,,,,39498686
+test ride: bruges,2,Y,Y,,,,,,,,,Y,"26883959,53899228"
+test ride: brugge,1,,,,,,,,,Y,,,55883639
+test ride: haarlem,1,Y,,,,,,,,,,,53784063
+"test ride: haarlem ,",1,Y,,,,,,,,,,,53766337
+"test ride: hoorn ,",1,Y,,,,,,,,,,,49611999
+test ride: maastricht,1,Y,Y,,,,,,,,,Y,43160612
+"test ride: metz ,",1,Y,,,,,,,,,,,44222066
+test ride: moret,1,,,,,,,,,Y,,,39626632
+"test ride: utrecht ,",1,Y,,,,,,,,,,,50680179
+"test ride: vianen ,",1,Y,,,,,,,,,,,34823325
+"test ride: volendam ,",1,Y,,,,,,,,,,,31432238
+test ride: weesp,1,Y,,,,,,,,,,,24380905
+test ride: zaandam (westzaan),1,Y,,,,,,,,,,,35060542
+test ride: zaandam (zaanse schans),1,Y,,,,,,,,,,,53475086
+"test ride: zaanse schans ,",1,Y,Y,,,,,,,,,Y,31421432
+test rit: beverwijk,2,Y,,Y,,,,,,,,,"54536292,54536501"
+testfahrt: amsterdam (oosterdok),1,,,Y,,,,,,,,,53665195
+"testfahrt: amsterdam (oosterdok) ,",2,,,Y,,,,,,,,,"39644582,53665190"
+testfahrt: bruges,1,,,Y,,,,,,,,,53677215
+testfahrt: brügge,1,,,Y,,,,,,,,,26818222
+testfahrt: haarlem,1,,,Y,,,,,,,,,54102297
+"testfahrt: haarlem ,",1,,,Y,,,,,,,,,53774060
+testfahrt: maastricht,1,,,Y,,,,,,,,,53668484
+"testfahrt: metz ,",1,,,Y,,,,,,,,,44568420
+"testfahrt: utrecht ,",1,,,Y,,,,,,,,,53677022
+"testfahrt: vianen ,",2,,,Y,,,,,,,,,"34823332,53677019"
+"testfahrt: volendam ,",1,,,Y,,,,,,,,,53683944
+testfahrt: weesp,1,,,Y,,,,,,,,,53498159
+testfahrt: zaandam,1,,,Y,,,,,,,,,49894891
+testfahrt: zaandam (westzaan),1,,,Y,,,,,,,,,53668156
+testfahrt: zaandam (zaanse schans),1,,,Y,,,,,,,,,53680504
+"testfahrt: zaanse schans ,",2,,,Y,,,,,,,,,"31432360,53680489"
+testfahrthoorn,1,,,Y,,,,,,,,,49681201
+testride montargis (lac chalette),2,Y,,Y,,,,,,,,,"55776998,55989446"
+testride: moret (t),1,Y,,,,,,,,,,,55804406
+texel (horntje fähre vv),1,,,Y,,,,,,,,,32356030
+texel (loop ferry),3,Y,Y,,,,,,,,,Y,"32288316,32289138,38226608"
+texel (loop ferry) reverse,3,Y,,,,,,,,,,,"54420603,54420615,54420629"
+texel (loop oudeschild),2,Y,Y,,,,,,,,,Y,"50251014,50251054"
+texel (loop oudeschild) reverse,2,Y,Y,,,,,,,,,Y,"26528291,31093349"
+"texel (loop oudeschild, full circle)",1,Y,Y,,,,,,,,,Y,50251080
+texel (rondrit oudeschild) nld,2,,,,,,,,,Y,,,"54221077,54221082"
+texel (rondrit oudeschild) nld omgekeerd,2,,,,,,,,,Y,,,"54221075,54221080"
+"texel (rondrit oudeschild, eiland rond) nld",1,,,,,,,,,Y,,,54221066
+texel (rondrit veerboot) nld,3,,,,,,,,,Y,,,"54221110,54221118,54221121"
+texel (schleife fähre),3,,,Y,,,,,,,,,"53680638,53680640,53680641"
+texel (schleife fähre) reverse,3,,,Y,,,,,,,,,"54421208,54421223,54421229"
+texel (schleife oudeschild),2,,,Y,,,,,,,,,"53680628,53680633"
+texel (schleife oudeschild) reverse,2,,,Y,,,,,,,,,"53680631,53680635"
+"texel (schleife oudeschild, full circle)",1,,,Y,,,,,,,,,53680626
+thionville - remich,2,Y,Y,Y,,,,,,,,Y,"44568579,53805732"
+tholen - antwerpen,7,Y,,Y,Y,,,,,Y,,Y,"55326890,55554800,55680104,55694275"
+tholen - bergen op zoom - antwerpen,4,Y,,Y,Y,,,,,,,Y,"43051811,53844939,53851939,54130512"
+tholen - kreekrak,2,Y,,Y,,,,,,,,,"55326862,56023658"
+tholen - kreekrak (east),2,Y,Y,,,,,,,,,Y,"31460434,31460505"
+tholen - kreekrak (east) (x),1,Y,,,,,,,,,,,53491555
+tholen - kreekrak (ost),2,,,Y,,,,,,,,,"53677052,53677057"
+tholen - kreekrak (west),4,Y,Y,Y,,,,,,,,Y,"26848586,31566504,53677141,53677143"
+tholen - willemstad (via oud vossemeer),1,Y,Y,,,,,,,,,Y,26884027
+tholen - willemstad (via steenbergen),1,Y,Y,,,,,,,,,Y,26884038
+tholen - willemstad (über oud vossemeer),1,,,Y,,,,,,,,,53677239
+tholen - willemstad (über steenbergen),1,,,Y,,,,,,,,,53677241
+thorn - venlo,2,Y,,Y,,,,,,,,,"54906545,54907306"
+thorn - venlo (via roermond),2,Y,,Y,,,,,,,,,"54906381,54907226"
+thorn - venlo nld,3,,,,,,,,,Y,,,"49236778,54906255,54906282"
+thorn-venlo (via roermond) nld,3,,,,,,,,,Y,,,"44277919,54906249,54906277"
+tiel - geldermalsen - leerdam - gorinchem,2,Y,,Y,,,,,,,,,"55205490,55206912"
+tiel - geldermalsen - leerdam - gorinchem nld,2,,,,,,,,,Y,,,"34467534,55204229"
+tiel - langs waal - gorinchem,2,Y,,Y,,,,,,,,,"55205353,55206905"
+tiel - langs waal - gorinchem nld,2,,,Y,,,,,,,,,"34467647,55204228"
+tilos singletrack,3,,,,,,,,,Y,,,"53757418,53757419,53757420"
+tinos (kionia-kalloni-pyrgos-isternia-kionia-tinos),1,,,,,,,,,Y,,,53958757
+tinos (loop town-dio choria-monastery-tinos),1,,,,,,,,,Y,,,53958800
+tinos town church walk,1,,,,,,,,,Y,,,53958678
+tk grm lipsi,1,,,,,,,,,Y,,,54826045
+tk grm patmos,1,,,,,,,,,Y,,,54826046
+tournai - oudenaarde (flat),1,Y,Y,,,,,,,,,Y,31601289
+tournai - oudenaarde (hill),1,Y,Y,,,,,,,,,Y,26964754
+tournon - la voulte sur rhône,2,Y,Y,,,,,,,,,Y,"55380774,55616458"
+tournon - le pouzin ev17,2,Y,,,,,,,,,,,"54748930,55616446"
+tournon-sur-rhône – chavanay,1,Y,,,,,,,,,,,55617427
+travemünde - mölln - option,1,,,,,,,,,Y,Y,Y,54749423
+treis-karden - koblenz (via burg eltz),1,Y,Y,,,,,,,,,Y,55102427
+treis-karden - winningen (via burg eltz),1,Y,,,,,,,,,,,31320981
+treis-karden - winningen (über burg eltz),1,,,Y,Y,,,,,,,Y,53814282
+trier (centre) - saarburg,1,Y,Y,,,,,,,,,Y,26581606
+trier (centre) - saarburg (via igel),1,Y,,,,,,,,,,,50755585
+trier (ostkai / pfalzel) - saarburg,2,Y,,Y,,,,,,,,,"50755641,53805804"
+trier (stadt) - saarburg,1,,,Y,,,,,,,,,53805808
+trier (stadt) - saarburg (über igel),1,,,Y,,,,,,,,,53805806
+trier - pamplona,1,,,,,,,,,Y,,,56097941
+tulip day marc,1,,,,,,,,,Y,,,53424582
+tulln - krems / mi,1,Y,,,,,,,,,,,50554172
+uithoorn - royal flora (loop),1,Y,,,,,,,,,,,54153254
+uithoorn - royal flora (loop) (white label),1,Y,,,,,,,,,,,54360774
+uithoorn - royal flora (schleife),1,,,Y,,,,,,,,,54337815
+utrecht (neude) - keulsekade (docking),1,,,,,,,,,Y,,,55633267
+utrecht (neude) - rijnkanaal (roosevelt) (docking),1,,,,,,,,,Y,,,55633280
+utrecht - breukelen,1,Y,,,,,,,,,,,49761967
+utrecht - wageningen (via utrechtse hr),1,Y,,,,,,,,,,,56137918
+ven island,2,Y,,Y,,,,,,,,,"43756613,53684530"
+venlo - cuijk,2,Y,,,,,,,,,,,"54994964,55581405"
+venlo - roermond,1,Y,,,,,,,,,,,55216744
+venlo - sambeek,2,Y,,,,,,,,,,,"55583000,55585197"
+vianen - gorinchem,2,Y,,Y,,,,,,,,,"25208801,53668528"
+vianen - kinderdijk - alblasserdam // dordrecht,2,Y,Y,Y,,,,,,,,Y,"26848529,53677028"
+villeneuve-sur-yonne - joigny,1,Y,,,,,,,,,,,34340053
+villeneuve-sur-yonne - joigny (hilly),1,Y,,,,,,,,,,,53491986
+villeneuve-sur-yonne - joigny (t),1,Y,,,,,,,,,,,55804381
+villeneuve-sur-yonne - sens,2,Y,Y,,,,,,,,,Y,"32077524,45183015"
+villeneuve-sur-yonne - sens (t),2,Y,Y,,,,,,,,,Y,"55804358,55804377"
+vinneuf - moret,2,Y,Y,,,,,,,,,Y,"43627653,43627670"
+viviers - chateau neuf du pape,2,,,,,,,,,Y,Y,Y,"55504700,55616460"
+viviers – la voulte-sur-rhône – tournon-sur-rhône,1,Y,,,,,,,,,,,55617235
+volendam (loop),2,Y,Y,,,,,,,,,Y,"27138155,29122506"
+volendam (schleife),2,,,Y,,,,,,,,,"53677363,53677367"
+volendam - alkmaar,2,Y,,Y,,,,,,,,,"54646549,54800869"
+volendam - amsterdam (minerva) (n),2,Y,Y,Y,,,,,,,,Y,"32295850,54393584"
+volendam - amsterdam (minerva) (via marken) (n),1,Y,,,,,,,,,,,32295572
+volendam - amsterdam (minerva) (via marken) nld,1,,,,,,,,,Y,,,54221084
+volendam - amsterdam (minerva) (über marken),1,,,Y,,,,,,,,,32407489
+volendam - amsterdam (minerva) (über marken) (n),1,,,Y,,,,,,,,,54394016
+volendam - amsterdam (minerva) nld,1,,,,,,,,,Y,,,54221088
+volendam - amsterdam (oosterdok),2,Y,,Y,,,,,,,,,"38226614,53683950"
+volendam - amsterdam (oosterdok) (via marken),1,Y,Y,,,,,,,,,Y,38226613
+volendam - amsterdam (oosterdok) (über marken),1,,,Y,,,,,,,,,53683952
+volendam - hoorn,2,Y,,Y,,,,,,,,,"31427127,53683943"
+volendam - hoorn (via katwoude),1,Y,,,,,,,,,,,52061692
+volendam - hoorn (via katwoude) nld,1,,,,,,,,,Y,,,54221051
+volendam - hoorn (über katwoude),1,,,Y,,,,,,,,,54393688
+volendam - zaanse schans,2,Y,,Y,,,,,,,,,"49133045,49760598"
+volendam - zaanse schans - amsterdam (tolhuis),1,,,,,,,,,Y,,,54468464
+volendam - zaanse schans nld,2,,,,,,,,,Y,,,"49812033,54221048"
+volendam - zaanse schans q,1,,,Y,,,,,,,,,54393707
+volendam - zaanse schanse - amsterdam (minerva),3,Y,Y,Y,,,,,,,,Y,"54779001,54779295,54779450"
+volendam - zaanse schanse - amsterdam (minerva) nld,1,,,,,,,,,Y,,,54779426
+vollenhove - giethoorn,4,Y,Y,Y,,,,,,,,Y,"28984146,29126796,53677344,53677346"
+vollenhove - schokkerhaven (via kamperland),1,Y,,,,,,,,,,,48396638
+vollenhove - schokkerhaven (via schokland),1,Y,Y,,,,,,,,,Y,48396573
+vollenhove - schokkerhaven (über kamperland),1,,,Y,,,,,,,,,53677313
+vollenhove - schokkerhaven (über schokland),1,,,Y,,,,,,,,,53677314
+vreeswijk - gouda,1,,,Y,,,,,,,,,55865395
+vreeswijk - kinderdijk - alblasserdam // dordrecht,2,Y,Y,Y,,,,,,,,Y,"52207479,53677032"
+vreeswijk - kinderdijk - schoonhoven - dordrecht km,1,Y,,,,,,,,,,,53490842
+vrouwenakker - royal flora - loop,1,Y,,,,,,,,,,,19010881
+wageningen (loop),1,Y,,,,,,,,,,,56169267
+wageningen - amerongen - tiel,2,Y,,Y,,,,,,,,,"55205340,55206868"
+wageningen - amerongen - tiel nld,2,,,,,,,,,Y,,,"34467409,55204227"
+wageningen - arnhem,1,Y,,,,,,,,,,,54768516
+wageningen - arnhem (via heteren & airborne museum),1,Y,Y,,,,,,,,,Y,53384784
+wageningen - arnhem (via veluwe & airborne museum),1,Y,Y,,,,,,,,,Y,46008599
+wageningen - arnhem (via veluwe),2,Y,Y,Y,Y,,,,,,,Y,"28962807,53668708"
+wageningen - arnhem (über heteren & airborne museum),1,,,Y,,,,,,,,,53668742
+wageningen - arnhem (über veluwe & airborne museum),1,,,Y,,,,,,,,,53668704
+wageningen - arnhem wageningen ned,1,,,,,,,,,Y,,,56145712
+wageningen - tiel,2,Y,,Y,,,,,,,,,"55205316,55206881"
+wageningen - tiel nld,2,,,,,,,,,Y,,,"48847519,55204226"
+wageningen - wijk bij duurstede,1,Y,,,,,,,,,,,56137418
+wageningen - wijk bij duurstede (gravel/bospad)(via heuvelrug),1,Y,,,,,,,,,,,56137470
+wageningen-airborne- arnhem nld,1,,,,,,,,,Y,,,56161412
+wageningen-airborne- arnhem-doesburg nld,1,,,,,,,,,Y,,,49500024
+waregem - kortrijk - menen,2,Y,Y,,,,,,,,,Y,"49272340,53899233"
+waregem - kortrijk - menen (via flanders field),2,Y,Y,,,,,,,,,Y,"49290730,53899232"
+waterbus - rotterdam (coolhaven),1,,,Y,,,,,,,,,55879922
+"waterbus - rotterdam (ooster/boompjes kade) , / , mi",2,Y,,Y,,,,,,,,,"54796446,54797141"
+weesp - utrecht (keulsekade),2,Y,,Y,,,,,,,,,"24380902,53668524"
+werkendam - biesbosch - (following the dijk) heusden kort nld (alt),1,,,,,,,,,Y,,,55204242
+werkendam - biesbosch - heusden,3,Y,,Y,,,,,,,,,"55205395,55206924,55206936"
+werkendam - biesbosch - heusden kort,1,Y,,,,,,,,,,,55205386
+werkendam - biesbosch - heusden kort nld,2,,,,,,,,,Y,,,"34468017,55204231"
+werkendam - biesbosch - heusden nld,2,,,,,,,,,Y,,,"34467841,55204232"
+wertheim - freudenberg,2,Y,,Y,,,,,,,,,"49968024,53806305"
+wertheim - freudenberg - miltenberg,1,Y,,,,,,,,,,,54366999
+wertheim - lohr,2,Y,Y,Y,,,,,,,,Y,"26632225,53806296"
+wertheim - marktheidenfeld,1,Y,,,,,,,,,,,55925393
+wesel - duisburg,2,Y,,,,,,,,,,,"19355087,54768504"
+wesel - ruhrort/duisburg,1,Y,,,,,,,,,,,54768512
+wijhe - kampen (via hattem),1,Y,Y,,,,,,,,,Y,47787302
+wijhe - kampen (via heerde / hattem / zwolle),1,Y,,,,,,,,,,,29014327
+wijhe - kampen (via heerde / hattem),1,Y,,,,,,,,,,,32187675
+wijhe - kampen (über hattem / zwolle) hot wetter,1,,,,,,,,,Y,,,55319078
+wijhe - kampen (über hattem),1,,,Y,Y,,,,,,,Y,53668718
+wijhe - kampen (über heerde / hattem / zwolle),1,,,Y,Y,,,,,,,Y,53668724
+wijhe - kampen (über heerde / hattem),1,,,Y,Y,,,,,,,Y,53668720
+wijk bij duurstede - wageningen,1,Y,,,,,,,,,,,56138858
+wijk bij duurstede - wageningen (gravel/bospad)(via heuvelrug),1,Y,,,,,,,,,,,56140090
+willemstad - bergen op zoom (via steenbergen),1,Y,Y,,,,,,,,,Y,43208212
+willemstad - bergen op zoom (via tholen),1,Y,Y,,,,,,,,,Y,42684453
+willemstad - bergen op zoom (über steenbergen),3,,,Y,,,,,,,,,"53677041,53677100,53677104"
+willemstad - bergen op zoom (über tholen),1,,,Y,,,,,,,,,53677048
+willemstad - tholen (rs),1,Y,,,,,,,,,,,44992220
+willemstad - tholen (via oud vossemeer),1,Y,,,,,,,,,,,26533538
+willemstad - tholen (via steenbergen,1,Y,Y,,,,,,,,,Y,31460311
+willemstad - tholen (über oud vossemeer),1,,,Y,,,,,,,,,53677040
+willemstad - tholen (über steenbergen,1,,,Y,,,,,,,,,53677037
+winningen - koblenz,3,Y,,Y,,,,,,,,,"49428393,55487411,55567863"
+winningen - koblenz (traced),1,Y,,,,,,,,,,,55924765
+winningen - koblenz nld,1,,,,,,,,,Y,,,55568643
+wormerveer - zaanse schans - amsterdam,10,Y,,Y,Y,,,,,,,Y,"53518450,53518570,53782087,53782092"
+wormerveer - zaanse schans - amsterdam (buiksloot/tolhuis),2,Y,,,,,,,,,,,"55205179,55205213"
+wurzburg - karlstadt - lohr,2,Y,,,,,,,,Y,,,"54342927,54342956"
+würzburg - kitzingen,1,,,Y,Y,,,,,,,Y,53806294
+würzburg - marktbreit,1,Y,Y,,,,,,,,,Y,49991813
+ytres - péronne,4,Y,Y,,,,,,,,,Y,"26569443,31595351,55342262,55348481"
+ytres - péronne - cappy,2,Y,Y,,,,,,,,,Y,"49290474,53899241"
+zaandam - 't twiske (loop),1,Y,,,,,,,,,,,50087339
+zaandam - alkmaar,1,,,Y,,,,,,,,,54393473
+zaandam - alkmaar (n),1,Y,,,,,,,,,,,49227765
+zaandam - alkmaar nld,1,,,,,,,,,Y,,,54221154
+zaandam - amsterdam (minerva),2,,,Y,,,,,,,,,"26920863,26920979"
+zaandam - amsterdam (minerva) / mi,2,Y,Y,,,,,,,,,Y,"49223488,49223639"
+zaandam - assendelft (loop),1,Y,,,,,,,,,,,31572269
+zaandam - assendelft (rondrit) nld,1,,,,,,,,,Y,,,54221064
+zaandam - assendelft (schleife),1,,,Y,,,,,,,,,53668159
+zaandam - haarlem (spaarndamseweg),2,Y,,Y,,,,,,,,,"26772898,53668162"
+zaandam - hoorn,3,Y,Y,Y,Y,,,,,,,Y,"26853736,31572538,31572539"
+zaandam - hoorn (via neck),2,Y,,,,,,,,,,,"55498048,55498736"
+zaandam - hoorn nld,1,,,,,,,,,Y,,,42967645
+zaandam - purmerend - hoorn,2,Y,,Y,,,,,,,,,"42897235,42901540"
+zaandam - purmerend - hoorn nld,1,,,,,,,,,Y,,,42901644
+zaandam - twiske (loop) eng2026,1,,,,,,,,,Y,,,54087939
+zaandam - twiske (rondrit) nld,1,,,,,,,,,Y,,,54221056
+zaandam - twiske (schleife),1,,,Y,,,,,,,,,50095735
+zaandam - volendam,2,Y,Y,Y,,,,,,,,Y,"50924735,54393651"
+zaandam - waterland (loop),1,Y,,,,,,,,,,,27316581
+zaandam - waterland (rondrit) nld,1,,,,,,,,,Y,,,54221058
+zaandam - waterland (schleife),1,,,Y,,,,,,,,,54393638
+zaandam - zaanse schans - alkmaar (via egmond & bollen),1,Y,,,,,,,,,,,54500498
+zaandam - zaanse schans - alkmaar (via egmond),1,Y,Y,,,,,,,,,Y,19220574
+zaandam - zaanse schans - alkmaar (via egmond) (white label),1,Y,,,,,,,,,,,54360750
+zaandam - zaanse schans - alkmaar (via heiloo),1,Y,,,,,,,,,,,26537161
+zaandam - zaanse schans - alkmaar (via heiloo) (white label),1,Y,,,,,,,,,,,54360749
+zaandam - zaanse schans - alkmaar (via schermer),1,Y,Y,,,,,,,,,Y,32261520
+zaandam - zaanse schans - alkmaar (via schermer) (before april),1,Y,,,,,,,,,,,53536917
+zaandam - zaanse schans - alkmaar (via schermer) (before april) (white label),1,Y,,,,,,,,,,,54360751
+zaandam - zaanse schans - alkmaar (via schermer) (white label),1,Y,,,,,,,,,,,54360752
+zaandam - zaanse schans - alkmaar (über egmond),1,,,Y,,,,,,,,,53665613
+zaandam - zaanse schans - alkmaar (über heiloo),1,,,Y,,,,,,,,,53665617
+zaandam - zaanse schans - alkmaar (über schermer),1,,,Y,,,,,,,,,53665553
+zaandam - zaanse schans - alkmaar (über schermer) (vor dem . april),1,,,Y,,,,,,,,,53665606
+zaandam - zaanse schans - haarlem (city),1,Y,Y,,,,,,,,,Y,53704613
+zaandam - zaanse schans - haarlem (city) (via ijmuiden),1,Y,Y,,,,,,,,,Y,19579488
+zaandam - zaanse schans - haarlem (stadt),1,,,Y,,,,,,,,,26832055
+zaandam - zaanse schans - haarlem (stadt) (über ijmuiden),1,,,Y,,,,,,,,,53665211
+zaanse schans - alkmaar (via egmond),1,Y,,,,,,,,,,,53536593
+zaanse schans - alkmaar (via egmond) (white label),1,Y,,,,,,,,,,,54360754
+zaanse schans - alkmaar (via heiloo),1,Y,,,,,,,,,,,53536590
+zaanse schans - alkmaar (via heiloo) (white label),1,Y,,,,,,,,,,,54360753
+zaanse schans - alkmaar (über egmond),1,,,Y,,,,,,,,,53665482
+zaanse schans - alkmaar (über heiloo),1,,,Y,,,,,,,,,53665480
+zaanse schans - amsterdam (oosterdok),3,Y,,,,,,,,,,,"54564673,54564756,54564948"
+zaanse schans - minervahaven,2,Y,,,,,,,,Y,,,"54723047,54723050"
+zapuntel - molat,1,Y,,,,,,,,,,,49206713
+zell (loop via kinheim & traben-trarbach) (traced),1,Y,,,,,,,,,,,55924753
+zell (loop via kinheim & traben-trarbach) (traced) (traced),1,Y,,,,,,,,,,,55924822
+zell - bernkastel - kues,1,,,Y,Y,,,,,,,Y,53657841
+zell - bernkastel-kues,3,Y,Y,Y,,,,,,,,Y,"26613278,53805810,55992461"
+zell - bernkastel-kues (traced),1,Y,,,,,,,,,,,55924746
+zell - bernkastel-kues nld,1,,,,,,,,,Y,,,55568565
+zell - cochem,4,Y,Y,Y,Y,,,,,,,Y,"29339437,53805747,55568600,55992748"
+zell - cochem (traced),1,Y,,,,,,,,,,,55924748
+zell - cochem kopie marc,2,Y,,Y,Y,,,,,,,Y,"53657633,53657853"
+zell - cochem nld,1,,,,,,,,,Y,,,55568614
+zons - cologne,1,Y,,,,,,,,,,,35202201
+zuthpen - doesburg nld,1,,,,,,,,,Y,,,56021577
+zwanenburg - zaanse schans,1,Y,,,,,,,,,,,54727587
+zwolle - genemuiden - kampen,1,Y,,,,,,,,,,,55225396
+zwolle - genemuiden - kampen nld,1,,,,,,,,,Y,,,35486927
+zwolle - zwartsluis - kampen,1,Y,,,,,,,,,,,55226447
+zwolle - zwartsluis - kampen nld,1,,,,,,,,,Y,,,34434694
+épénancourt - pont-l'évêque (via ham),1,Y,,,,,,,,,,,55381711

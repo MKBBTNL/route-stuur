@@ -1,0 +1,128 @@
+ALPSVR 5. TRENTO-TORBOLE SUL GARDA    45.0 km    · signs & notes only ·
+
+DIRECTIONS
+  ★ 0.0 km  [dock/stay] Hotel America TN
+  ★ 0.1 km  [note] 0011
+  ★ 0.1 km  [note] 0021
+  ★ 0.1 km  [note] 0041
+  ★ 0.1 km  [note] 0051
+  ★ 0.1 km  [note] 0062
+  ★ 0.1 km  [note] 135
+  ★ 0.1 km  [note] 136
+  ★ 0.1 km  [note] 1402
+  ★ 0.1 km  [note] 1412
+  ★ 0.1 km  [note] 1432
+  ★ 0.1 km  [note] 1461
+  ★ 0.1 km  [note] 1482
+  ★ 0.1 km  [note] 1943
+  ★ 0.1 km  [note] 1983
+  ★ 0.1 km  [food] Bicigrill Faedo
+  ★ 0.1 km  [food] Bicigrill Ora
+  ★ 0.1 km  [note] Big Bench
+  ★ 0.1 km  [note] Café Terlano
+  ★ 0.1 km  [note] Castle Messner
+  ★ 0.1 km  [note] Castle Sigmundskron
+  ★ 0.1 km  [dock/stay] City Hotel Merano
+  ★ 0.1 km  [note] DeSpar BZ
+  ★ 0.1 km  [note] Detour to Strudel!
+  ★ 0.1 km  [note] EuroSpar BZ
+  ★ 0.1 km  [note] Grens Trentino/Alto Adige
+  ★ 0.1 km  [dock/stay] Hotel Scala BZ
+  ★ 0.1 km  [note] Kiosk Ora
+  ★ 0.1 km  [note] Nave San Felice
+  ★ 0.1 km  [note] Otzi
+  ★ 0.1 km  [bike_shop] Park Bikes Naturno
+  ★ 0.1 km  [note] Piazza del Teatro Merano
+  ★ 0.1 km  [note] Piazza Walther Bolzano
+  ★ 0.1 km  [food] Radbar Venosta — 07-MEI-13 16:03:24
+  ★ 0.1 km  [note] Radrest Vilpiano
+  ★ 0.1 km  [note] San Procolo Chapel
+  ★ 0.1 km  [note] Station Gargazzone
+  ★ 0.1 km  [note] Station Merano
+  ★ 0.1 km  [note] Station Ora
+  ★ 0.1 km  [note] Station Salorno
+  ★ 0.1 km  [note] Station San Michele a/a - Grumo
+  ★ 0.1 km  [food] Strudel!!! Maragno
+  ★ 0.1 km  [note] Waterdam Zoll
+  ★ 0.1 km  [note] WC Terlano
+  ★ 0.4 km  [dock/stay] Grand Hotel TN
+  ★ 0.4 km  [note] Station Trento
+  ★ 0.4 km  [note] Poli TN
+  ★ 0.6 km  [bike_shop] Bike Shop Cicli Moser Trento
+  ★ 1.3 km  [note] 1272
+  ★ 1.3 km  [note] 1283
+  ★ 1.3 km  [note] 1293
+  ★ 1.3 km  [note] 1302
+  ★ 1.3 km  [note] 1312
+  ★ 1.3 km  [note] 1323
+  ★ 1.3 km  [note] 1333
+  ★ 1.3 km  [note] 1492
+  ★ 1.3 km  [note] Bakery Lasa
+  ★ 1.3 km  [note] Glorenza
+  ★ 1.3 km  [dock/stay] Hotel Stocker S. Valentino Muta
+  ★ 1.3 km  [note] Kiosk Appels
+  ★ 1.3 km  [bike_shop] Park Bikes Glorenza
+  ★ 1.3 km  [bike_shop] Park Bikes Lasa — Bahnhofstrasse - Via Stazione
+  ★ 1.3 km  [dock/stay] Parkhotel Zur Linde Silandro
+  ★ 1.3 km  [note] Station Laas/Lasa
+  ★ 1.3 km  [note] Steep + Gravel
+  ★ 1.3 km  [note] Under the road
+  ★ 8.3 km  [note] 1502
+  ★ 15.9 km  [food] Nonna Giulia IJs!
+  ★ 18.7 km  [food] Bicigrill Nomi — 19-MEI-14 10:24:43
+  ★ 25.0 km  [note] Station Rovereto
+  ★ 27.0 km  [note] 1511
+  ★ 27.8 km  [food] Bicigrill Rovereto
+  ★ 28.3 km  [note] 1993
+  ★ 30.7 km  [note] Mori
+  ★ 33.3 km  [note] 024
+  ★ 33.6 km  [note] Piazza Bra Verona
+  ★ 33.6 km  [note] Station Verona Porta Nuova
+  ★ 35.2 km  [bike_shop] Bike Shop Mountain And Bike Mori
+  ★ 37.6 km  [food] Bicigrill Duchi
+  ★ 38.0 km  [note] 1581
+  ★ 38.0 km  [food] Papa's Café, Mantova
+  ★ 38.0 km  [bike_shop] Pick up Mantova
+  ★ 38.0 km  [note] 1572
+  ★ 38.0 km  [note] Station Mantova
+  ★ 38.3 km  [note] 137
+  ★ 43.0 km  [note] 0072
+  ★ 43.2 km  [note] Quick descent
+  ★ 43.3 km  [note] Uitzicht vanaf Nago
+  ★ 44.4 km  [note] Sharp turn (Left)
+  ★ 44.7 km  [note] Ferry Torbole
+  ★ 44.7 km  [note] 034
+  ★ 44.7 km  [note] 1532
+  ★ 44.7 km  [note] 1541
+  ★ 44.7 km  [note] 1552
+  ★ 44.7 km  [note] 2002
+  ★ 44.7 km  [note] 2012
+  ★ 44.7 km  [note] 2022
+  ★ 44.7 km  [note] 2042
+  ★ 44.7 km  [bike_shop] Bikepath of the Mincio
+  ★ 44.7 km  [note] Borghetto brug
+  ★ 44.7 km  [note] Castle Scaligero Valeggio
+  ★ 44.7 km  [bike_shop] Drop Off Garda
+  ★ 44.7 km  [note] Ferry Peschiera Del Garda
+  ★ 44.7 km  [note] Ferry Sirmione
+  ★ 44.7 km  [dock/stay] Hotel Puccini Peschiera — Puccini
+Via Puccini 2
+Peschiera Del Garda, Veneto, ITA
++39 0456401428
+  ★ 44.7 km  [note] Let op verkeer
+  ★ 44.7 km  [bike_shop] Park Bikes Garda
+  ★ 44.7 km  [bike_shop] Park Bikes Lazise
+  ★ 44.7 km  [bike_shop] Park Bikes Peschiera
+  ★ 44.7 km  [bike_shop] Park Bikes Sirmione
+  ★ 44.7 km  [note] Station Peschiera
+  ★ 44.7 km  [note] To Borghetto
+  ★ 44.7 km  [note] Walk1
+  ★ 44.7 km  [note] Walk2
+  ★ 44.7 km  [note] Walk3
+  ★ 44.7 km  [note] Walk4
+  ★ 44.7 km  [note] Walk5
+  ★ 44.7 km  [note] Walk6
+  ★ 44.7 km  [note] WC Borghetto
+  ★ 44.9 km  [bike_shop] Bike Shop Carpentari Torbole
+  ★ 44.9 km  [bike_shop] Bike Shop Velolake Torbole
+  ★ 45.0 km  [dock/stay] Hotel Caravel Torbole
